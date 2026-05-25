@@ -45,7 +45,7 @@ spine_mid,jardine_house,0.5,bridge,Bridge
 spine_mid,spine_south,1,bridge,Bridge over Connaught Road Central
 spine_south,world_wide_house,1,bridge,Bridge
 world_wide_house,1&2_exchange_square,2,bridge,Bridge over Connaught Road Central
-spine_south,chater_house,0,bridge,Grand Trunk Terminus
+spine_south,chater_house,0,bridge,Bridge
 chater_house,alexandra_house,1,bridge,Bridge over Chater Road
 hang_seng_hq,central_market,1,bridge,Bridge over Des Voeux Road Central
 central_market,100qrc,2,bridge,Bridge over Queen's Road Central
@@ -115,7 +115,8 @@ hong_kong_platform,hong_kong_concourse,1,fare_gate,Fare gates to HK Station Exit
 // --- SHEUNG WAN TO ADMIRALTY MTR PLATFORMS & FARE GATES ---
 sheung_wan_platform,sheung_wan_concourse_mid,1,fare_gate,Fare gates to Exits A-D
 sheung_wan_platform,sheung_wan_concourse_east,2,fare_gate,Fare gates to Exit E
-central_platform_island,central_concourse_west,2,fare_gate,Fare gates to Exits A-E
+central_platform_island,central_concourse_west,2,fare_gate,Fare gates to Exits A-D
+central_platform_island,central_concourse_mid,2,fare_gate,Fare gates to Exits E-H
 central_platform_island,central_concourse_east,3,fare_gate,Fare gates to Exits J-L
 admiralty_platform,admiralty_concourse,2,fare_gate,Fare gates to Admiralty Exits
 
