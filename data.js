@@ -109,7 +109,7 @@ pacific_place_l2,queensway_plaza,2,bridge,Bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,3,bridge,Bridge connection to Admiralty Exit E2
 
 // --- CENTRAL TO HONG KONG PAID TUNNEL ---
-central_platform_island,hong_kong_platform,3,paid_tunnel,Paid tunnel with moving walkways
+central_platform_island,hong_kong_platform,5,paid_tunnel,Paid tunnel with moving walkways
 hong_kong_platform,hong_kong_concourse,1,fare_gate,Fare gates to HK Station Exits
 
 // --- SHEUNG WAN TO ADMIRALTY MTR PLATFORMS & FARE GATES ---
