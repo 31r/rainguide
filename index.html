@@ -67,7 +67,7 @@
         </div>
 
         <div id="result" class="hidden bg-white p-6 rounded-2xl shadow-sm border border-slate-200 border-l-4 border-l-blue-500">
-            <div class="flex justify-between items-end mb-4 border-b pb-3">
+			<div class="mb-4 border-b pb-3">
                 <h3 class="font-bold text-lg text-slate-800">Route / 路徑指引</h3>
             </div>
             <ul id="routeList" class="space-y-4 text-slate-700 text-sm">
@@ -220,7 +220,6 @@
             initGraph(allowPaid);
             const resultDiv = document.getElementById('result');
             const routeList = document.getElementById('routeList');
-            const costDisplay = document.getElementById('totalCost');
 
             if (!start || !end) {
                 alert("Please select both a Start and Destination location.");
@@ -236,11 +235,8 @@
             routeList.innerHTML = ''; // Clear previous
 
             if (route.path.length === 0) {
-                costDisplay.textContent = 'No Route Found';
                 routeList.innerHTML = '<li class="text-red-500">Sorry, these locations are not connected without an umbrella yet.</li>';
-            } else {
-                costDisplay.textContent = `Cost: ${route.cost} Units`;
-                
+            } else {                
                 // Build the step-by-step UI
                 routeList.innerHTML += `<li class="font-bold text-blue-700">📍 Start at ${getNodeName(route.path[0])}</li>`;
                 
