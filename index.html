@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainGuide HK (Beta)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+	<script src="dictionary.js"></script>
+    <script src="data.js"></script>
+    <style>
+        /* Smooth fade-in for results */
+        #result { transition: opacity 0.3s ease-in-out; }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans antialiased min-h-screen flex flex-col">
+
+    <header class="p-6 bg-blue-800 text-white shadow-md">
+        <div class="max-w-md mx-auto">
+            <h1 class="text-2xl font-bold tracking-tight">RainGuide HK ☔</h1>
+            <p class="text-sm text-blue-200 mt-1">Hong Kong Dry Router (Beta)</p>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-md mx-auto w-full p-6 space-y-6">
+        
+		<div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5">            
+            <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+                <label class="block text-sm font-bold text-blue-800 mb-2">Start / 起點</label>
+                <select id="startRegion" onchange="updateLocations('start')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition">
+                    <option value="">1. Select Region / 選擇區域...</option>
+                </select>
+                <select id="startNode" class="w-full p-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition" disabled>
+                    <option value="">2. Select Location / 選擇地點...</option>
+                </select>
+            </div>
+
+            <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+                <label class="block text-sm font-bold text-blue-800 mb-2">Destination / 終點</label>
+                <select id="endRegion" onchange="updateLocations('end')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition">
+                    <option value="">1. Select Region / 選擇區域...</option>
+                </select>
+                <select id="endNode" class="w-full p-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition" disabled>
+                    <option value="">2. Select Location / 選擇地點...</option>
+                </select>
+            </div>
+
+            <div class="flex items-center mb-4 mt-2 px-2">
+                <input type="checkbox" id="allowPaid" checked class="w-4 h-4 text-blue-600 bg-slate-100 border-slate-300 rounded focus:ring-blue-500">
+                <label for="allowPaid" class="ml-2 text-sm font-semibold text-slate-600">
+                    Allow Paid MTR Rides / 允許付費港鐵路線
+                </label>
+            </div>
+
+            <button onclick="calculateRoute()" class="w-full py-4 mt-2 bg-blue-600 text-white font-bold rounded-xl shadow-md hover:bg-blue-700 active:scale-95 transition-all">
+                Find Dry Route / 搜尋室內路徑
+            </button>
+        </div>
+
+        <div id="result" class="hidden bg-white p-6 rounded-2xl shadow-sm border border-slate-200 border-l-4 border-l-blue-500">
+            <div class="flex justify-between items-end mb-4 border-b pb-3">
+                <h3 class="font-bold text-lg text-slate-800">Route / 路徑指引</h3>
+                <span id="totalCost" class="text-sm font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded-full"></span>
+            </div>
+            <ul id="routeList" class="space-y-4 text-slate-700 text-sm">
+                </ul>
+        </div>
+    </main>
+
+    <script>
+        // ==========================================
+        // 3. ENGINE: GRAPH BUILDER & ROUTER
+        // ==========================================
+        const graph = {};
+        const edgeDetails = {}; // Stores description of how they connect
+
+        function initGraph(allowPaid) {
+            // Reset the graph each time we calculate
+            for (let prop in graph) { delete graph[prop]; }
+            for (let prop in edgeDetails) { delete edgeDetails[prop]; }
+
+            const lines = csvData.trim().split('\n').slice(1);
+            lines.forEach(line => {
+                const [start, end, weightStr, type, desc] = line.split(',');
+                if(!start || !end) return;
+
+				// FILTER LOGIC: Skip paid routes if toggle is off
+				const edgeType = type ? type.trim() : '';
+				if (!allowPaid && (edgeType === 'paid_train' || edgeType === 'paid_tunnel' || edgeType === 'fare_gate' || edgeType === 'paid_transfer')) {
+				    return; 
+				}
+                
+                const u = start.trim();
+                const v = end.trim();
+                const w = parseInt(weightStr.trim());
+
+                if (!graph[u]) graph[u] = {};
+                if (!graph[v]) graph[v] = {};
+                
+                graph[u][v] = w;
+                graph[v][u] = w;
+
+                edgeDetails[`${u}-${v}`] = { desc: desc ? desc.trim() : 'Walkway', type: edgeType };
+                edgeDetails[`${v}-${u}`] = { desc: desc ? desc.trim() : 'Walkway', type: edgeType };
+            });
+        }
+
+        // Standard Dijkstra's Algorithm implementation
+        function findShortestPath(start, end) {
+            const distances = {};
+            const prev = {};
+            const queue = new Set(Object.keys(graph));
+
+            for (let node of Object.keys(graph)) {
+                distances[node] = Infinity;
+                prev[node] = null;
+            }
+            distances[start] = 0;
+
+            while (queue.size > 0) {
+                let curr = null;
+                for (let node of queue) {
+                    if (curr === null || distances[node] < distances[curr]) curr = node;
+                }
+
+                if (curr === end) break;
+                queue.delete(curr);
+
+                for (let neighbor in graph[curr]) {
+                    let alt = distances[curr] + graph[curr][neighbor];
+                    if (alt < distances[neighbor]) {
+                        distances[neighbor] = alt;
+                        prev[neighbor] = curr;
+                    }
+                }
+            }
+
+            let path = [];
+            let u = end;
+            while (u) {
+                path.unshift(u);
+                u = prev[u];
+            }
+            
+            return { path: distances[end] !== Infinity ? path : [], cost: distances[end] };
+        }
+
+		// ==========================================
+        // 4. UI CONTROLLERS (Cascading Dropdowns)
+        // ==========================================
+        function initDropdowns() {
+            const startRegion = document.getElementById('startRegion');
+            const endRegion = document.getElementById('endRegion');
+            
+            // Populate the primary Regions
+            for (const regionName in nodeDict) {
+                const opt1 = document.createElement('option');
+                const opt2 = document.createElement('option');
+                opt1.value = opt2.value = regionName;
+                opt1.textContent = opt2.textContent = regionName;
+                startRegion.appendChild(opt1);
+                endRegion.appendChild(opt2);
+            }
+        }
+
+        function updateLocations(type) {
+            const regionSelect = document.getElementById(type + 'Region');
+            const nodeSelect = document.getElementById(type + 'Node');
+            const selectedRegion = regionSelect.value;
+
+            // Reset and lock the location dropdown if no region is selected
+            nodeSelect.innerHTML = '<option value="">2. Select Location / 選擇地點...</option>';
+            if (!selectedRegion) {
+                nodeSelect.disabled = true;
+                return;
+            }
+
+            // Unlock and populate based on the selected region
+            nodeSelect.disabled = false;
+            const districts = nodeDict[selectedRegion];
+
+            for (const [districtName, nodes] of Object.entries(districts)) {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = districtName;
+                
+                for (const [nodeId, displayName] of Object.entries(nodes)) {
+                    const option = document.createElement('option');
+                    option.value = nodeId;
+                    option.textContent = displayName;
+                    optgroup.appendChild(option);
+                }
+                nodeSelect.appendChild(optgroup);
+            }
+        }
+
+        function getNodeName(id) {
+            // Updated search logic to handle the new nested dictionary
+            for (const region of Object.values(nodeDict)) {
+                for (const district of Object.values(region)) {
+                    if (district[id]) return district[id];
+                }
+            }
+            return id.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '); 
+        }
+
+        function getNodeName(id) {
+            // Search dictionary for friendly name, fallback to raw ID
+            for (const group of Object.values(nodeDict)) {
+                if (group[id]) return group[id];
+            }
+            // Format raw ID nicely if it's a hidden spine node
+            return id.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '); 
+        }
+
+       function calculateRoute() {
+            const start = document.getElementById('startNode').value;
+            const end = document.getElementById('endNode').value;
+            const allowPaid = document.getElementById('allowPaid').checked; // Read toggle state
+            
+            // Rebuild the graph based on user's paid preference
+            initGraph(allowPaid);
+            const resultDiv = document.getElementById('result');
+            const routeList = document.getElementById('routeList');
+            const costDisplay = document.getElementById('totalCost');
+
+            if (!start || !end) {
+                alert("Please select both a Start and Destination location.");
+                return;
+            }
+
+            if (start === end) {
+                alert("You are already there!");
+                return;
+            }
+
+            const route = findShortestPath(start, end);
+            routeList.innerHTML = ''; // Clear previous
+
+            if (route.path.length === 0) {
+                costDisplay.textContent = 'No Route Found';
+                routeList.innerHTML = '<li class="text-red-500">Sorry, these locations are not connected without an umbrella yet.</li>';
+            } else {
+                costDisplay.textContent = `Cost: ${route.cost} Units`;
+                
+                // Build the step-by-step UI
+                routeList.innerHTML += `<li class="font-bold text-blue-700">📍 Start at ${getNodeName(route.path[0])}</li>`;
+                
+                for (let i = 0; i < route.path.length - 1; i++) {
+                    const u = route.path[i];
+                    const v = route.path[i+1];
+                    const edge = edgeDetails[`${u}-${v}`];
+                    
+                    // 1. Hide abstract nodes entirely from the UI (Added 'junction')
+                    if (v.includes('spine') || v.includes('node') || v.includes('exit_e2') || v.includes('junction')) {
+                        continue;
+                    }
+                
+                    // 2. Handle MTR Train Rides
+                    if (edge.type === 'paid_train') {
+                        const nextNode = route.path[i+2];
+                        if (nextNode) {
+                            const nextEdge = edgeDetails[`${v}-${nextNode}`];
+                            if (nextEdge && nextEdge.type === 'paid_train' && nextEdge.desc === edge.desc) {
+                                continue; 
+                            }
+                        }
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-4 border-blue-600 ml-2 py-2">
+                            🚆 Ride train to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    } 
+                    // 3. Handle Fare Gates (Dynamic Enter vs Exit)
+                    else if (edge.type === 'fare_gate') {
+                        const isEnteringPaid = v.includes('platform');
+                        
+                        if (isEnteringPaid) {
+                            routeList.innerHTML += `
+                            <li class="pl-4 border-l-4 border-orange-400 ml-2 py-2 bg-orange-50/50 rounded-r-lg">
+                                🎫 Enter paid area at <span class="font-semibold">${getNodeName(v)}</span> 
+                                <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            </li>`;
+                        } else {
+                            routeList.innerHTML += `
+                            <li class="pl-4 border-l-4 border-orange-400 ml-2 py-2 bg-orange-50/50 rounded-r-lg">
+                                🎫 Exit paid area to <span class="font-semibold">${getNodeName(v)}</span> 
+                                <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            </li>`;
+                        }
+                    }
+                    // 4. Handle Paid Tunnels (e.g. Central to Hong Kong)
+                    else if (edge.type === 'paid_tunnel') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-4 border-blue-400 ml-2 py-2 bg-blue-50/50 rounded-r-lg">
+                            🚶 Walk through paid tunnel to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }
+					// 5. Handle Internal Station Transfers (e.g., Admiralty Island Line to East Rail Line)
+					else if (edge.type === 'paid_transfer') {
+						routeList.innerHTML += `
+						<li class="pl-4 border-l-4 border-purple-400 ml-2 py-2 bg-purple-50/50 rounded-r-lg">
+							🔄 Transfer within paid area to <span class="font-semibold">${getNodeName(v)}</span> 
+							<br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+						</li>`;
+					}
+                    // 6. Handle Normal Walking
+                    else {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-2 border-slate-300 ml-2 py-1">
+                            🚶 Walk to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }
+                }
+                routeList.innerHTML += `<li class="font-bold text-green-700 mt-2">🏁 Arrive at ${getNodeName(route.path[route.path.length - 1])}</li>`;
+            }
+
+            resultDiv.classList.remove('hidden');
+        }
+
+        // Initialize App
+		initGraph(document.getElementById('allowPaid').checked);
+        initDropdowns();
+    </script>
+</body>
+</html>
