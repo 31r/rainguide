@@ -202,16 +202,7 @@
             return id.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '); 
         }
 
-        function getNodeName(id) {
-            // Search dictionary for friendly name, fallback to raw ID
-            for (const group of Object.values(nodeDict)) {
-                if (group[id]) return group[id];
-            }
-            // Format raw ID nicely if it's a hidden spine node
-            return id.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '); 
-        }
-
-       function calculateRoute() {
+        function calculateRoute() {
             const start = document.getElementById('startNode').value;
             const end = document.getElementById('endNode').value;
             const allowPaid = document.getElementById('allowPaid').checked; // Read toggle state
