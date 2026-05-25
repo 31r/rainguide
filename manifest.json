@@ -1,0 +1,16 @@
+{
+  "name": "RainGuide HK",
+  "short_name": "RainGuide",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "description": "Dry pedestrian routing for Hong Kong.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
