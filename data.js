@@ -20,12 +20,12 @@ two_chinachem,west_spine_east,1,bridge,Bridge along Connaught Road Central
 one_ifc,west_spine_east,3,bridge,Bridge along Connaught Road Central
 west_spine_west,west_spine_central,3,bridge,Bridge along Connaught Road Central
 west_spine_central,west_spine_east,2,bridge,Bridge along Connaught Road Central
-one_ifc,ifc_mall,1,internal,Internal IFC Connection
-two_ifc,ifc_mall,1,internal,Internal IFC Connection
+one_ifc,ifc_mall,2,internal,Internal IFC Connection
+two_ifc,ifc_mall,2,internal,Internal IFC Connection
 one_ifc,3_exchange_square,1,bridge,Bridge
 hang_seng_hq,one_ifc,2,bridge,Bridge over Connaught Road Central
-hang_seng_hq,3_exchange_square,3,bridge,Bridge over Connaught Road Central
-3_exchange_square,1&2_exchange_square,2,bridge,Bridge
+hang_seng_hq,3_exchange_square,2,bridge,Bridge over Connaught Road Central
+3_exchange_square,1&2_exchange_square,3,bridge,Bridge
 ifc_mall,1&2_exchange_square,2,bridge,Bridge
 yue_thai_bldg,sheung_wan_concourse_mid,2,tunnel,Sheung Wan Exit C
 kam_sang_bldg,sheung_wan_concourse_mid,2,tunnel,Sheung Wan Exit B
