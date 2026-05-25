@@ -86,9 +86,9 @@ citic_tower,central_gov_offices,3,bridge,Bridge over Tim Mei Avenue
 united_centre,admiralty_exit_e2,3,bridge,Bridge to MTR
 high_court,lippo_centre,3,bridge,Bridge over Queensway
 high_court,queensway_gov_offices,1,bridge,Short Bridge
-one_ifc,hong_kong_concourse,1,escalator,Hong Kong Exit E
-two_ifc,hong_kong_concourse,1,escalator,Hong Kong Exit A
-ifc_mall,hong_kong_concourse,1,escalator,Hong Kong Exits A/E
+one_ifc,hong_kong_concourse,2,escalator,Hong Kong Exit E
+two_ifc,hong_kong_concourse,2,escalator,Hong Kong Exit A
+ifc_mall,hong_kong_concourse,2,escalator,Hong Kong Exits A/E/F
 world_wide_house,central_concourse_west,2,escalator,Central Exits A/B
 chater_house,central_concourse_mid,2,escalator,Central Exit E
 alexandra_house,central_concourse_mid,2,escalator,Central Exit H
@@ -139,9 +139,9 @@ st_regis,cr_bldg,1,internal,Podium
 cr_bldg,causeway_ctr,2,internal,Podium
 wan_chai_concourse,southorn_stadium,2,internal,Exit B2 to Southorn Stadium
 wan_chai_concourse,lee_tung_avenue,2,tunnel,Exit D to Lee Tung Avenue
-exhibition_centre_a3,wcn_junction,0.5,bridge,Escalator
-exhibition_centre_b3,great_eagle_ctr,1,bridge,Escalator
-exhibition_centre_b3,hkcec,2,bridge,Escalator and Bridge over Fleming Road
+exhibition_centre_a3,wcn_junction,1.5,bridge,Escalator
+exhibition_centre_b3,great_eagle_ctr,2,bridge,Escalator
+exhibition_centre_b3,hkcec,3,bridge,Escalator and Bridge over Fleming Road
 
 // --- CAUSEWAY BAY HUB ---
 causeway_bay_platform,causeway_bay_concourse_a,1,fare_gate,Fare gates to Exit A (Times Square)
