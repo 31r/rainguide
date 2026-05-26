@@ -103,8 +103,7 @@
 					"times_square": "Times Square / 時代廣場"
 				}
 			},
-
-    		"Eastern District (東區)": {
+    		"Island East (港島東)": {
 				"Fortress Hill (炮台山)": {
 					"fortress_metro_tower": "Fortress Metro Tower / 康澤花園",
 					"electric_road_msb": "Electric Rd Municipal Services Bldg / 電氣道市政大廈",
@@ -143,11 +142,14 @@
 					"youth_square": "Youth Square / 青年廣場"
 				}
 			},
-			"Kowloon (九龍)": {
-                "Yau Tsim Mong (油尖旺)": {
-                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心",
-                    "moko": "MOKO / MOKO 新世紀廣場"
+			
+			"Kowloon West (九龍西)": {
+                "Mong Kok (旺角)": {
+                    "moko": "MOKO / 新世紀廣場"
                 },
+                "Tsim Sha Tsui (尖沙咀)": {
+                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
+				}
                 "Hung Hom (紅磡)": {
                     "polyu": "PolyU / 理工大學",
 					"royal_peninsula": "Royal Peninsula / 半島豪庭",
@@ -161,8 +163,8 @@
                 }
             },
 
-            "New Territories (新界)": {
-                "Sha Tin (沙田)": {
+            "New Territories East (新界東)": {
+                "Tai Wai (大圍)": {
                     "the_wai": "The Wai / 圍方"
                 }
             },
@@ -173,7 +175,6 @@
 					"syp_concourse": "Sai Ying Pun / 西營盤站",
 					"sheung_wan_concourse_mid": "Sheung Wan (Exits A-D) / 上環站 (A-D出口)",
 					"sheung_wan_concourse_east": "Sheung Wan (Exit E) / 上環站 (E出口)",
-					"hong_kong_concourse": "Hong Kong / 香港站",
 					"central_concourse_west": "Central (Exits A-D) / 中環站 (A-D出口)",
 					"central_concourse_mid": "Central (Exits E-H) / 中環站 (E-H出口)",
 					"central_concourse_east": "Central (Exits J-L) / 中環站 (J-L出口)",
@@ -184,10 +185,15 @@
 					"causeway_bay_concourse_df": "Causeway Bay (Exits D-F) / 銅鑼灣站 (D-F出口)",
 					"fortress_hill_concourse": "Fortress Hill / 炮台山站",
 					"north_point_concourse": "North Point / 北角站",
+					"quarry_bay_concourse": "Quarry Bay / 鰂魚涌站",
 					"tai_koo_concourse": "Tai Koo / 太古站",
 					"sai_wan_ho_concourse": "Sai Wan Ho / 西灣河站",
+					"shau_kei_wan_concourse": "Shau Kei Wan / 筲箕灣站",
 					"heng_fa_chuen_concourse": "Heng Fa Chuen / 杏花邨站",
-					"chai_wan_concourse": "Chai Wan / 柴灣站",
+					"chai_wan_concourse": "Chai Wan / 柴灣站"
+				},
+				"Tung Chung Line (東涌綫)": {
+					"hong_kong_concourse": "Hong Kong / 香港站",
 				},
 				"East Rail Line (東鐵綫)": {
                     "admiralty_concourse": "Admiralty / 金鐘站",
@@ -215,8 +221,7 @@
 					"sai_ying_pun_platform": "Sai Ying Pun / 西營盤站",
 					"sheung_wan_platform": "Sheung Wan / 上環站",
 					"central_platform_island": "Central / 中環站",
-					"hong_kong_platform": "Hong Kong / 香港站",
-					"admiralty_platform": "Admiralty (Island and Tsuen Wan Lines) / 金鐘站(港島綫及荃灣綫)",
+					"admiralty_platform": "Admiralty / 金鐘站",
 					"wan_chai_platform": "Wan Chai / 灣仔站",
 					"causeway_bay_platform": "Causeway Bay / 銅鑼灣站",
 					"tin_hau_platform": "Tin Hau / 天后站",
@@ -229,8 +234,11 @@
 					"heng_fa_chuen_platform": "Heng Fa Chuen / 杏花邨站",
 					"chai_wan_platform": "Chai Wan / 柴灣站",
 				},
+				"Tung Chung Line (東涌綫)": {
+					"hong_kong_platform": "Hong Kong / 香港站",
+				},
 				"East Rail Line (東鐵綫)": {
-                    "admiralty_platform_erl": "Admiralty (East Rail) / 金鐘站(東鐵綫)",
+                    "admiralty_platform_erl": "Admiralty / 金鐘站",
                     "exhibition_centre_platform": "Exhibition Centre / 會展站",
                     "hung_hom_platform": "Hung Hom / 紅磡站",
                     "mong_kok_east_platform": "Mong Kok East / 旺角東站",
