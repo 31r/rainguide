@@ -226,6 +226,19 @@
 					"fanling_town_center": "Fanling Town Center / 粉嶺名都",
 					"ka_fuk_estate": "Ka Fuk Estate / 嘉福邨",
 					"ka_shing_court": "Ka Shing Court / 嘉盛苑"
+				},
+				"Sheung Shui (上水)": {
+					"choi_po_court": "Choi Po Court / 彩蒲苑",
+					"choi_yuen_estate": "Choi Yuen Estate / 彩園邨",
+					"landmark_north": "Landmark North / 上水廣場",
+					"lung_fung_garden": "Lung Fung Garden / 龍豐花園",
+					"metropolis_plaza": "Metropolis Plaza / 新都廣場",
+					"po_shek_wu_estate": "Po Shek Wu Estate / 寶石湖邨",
+					"shek_wu_hui_municipal_services_building": "Shek Wu Hui Municipal Services Building / 石湖墟市政大廈",
+					"sheung_shui_centre": "Sheung Shui Centre / 上水中心",
+					"sheung_shui_town_centre": "Sheung Shui Town Centre / 上水名都",
+					"sunningdale_garden": "Sunningdale Garden / 順欣花園",
+					"spot": "Spot / 上水匯"
 				}
 			},
 			"MTR Concourses (港鐵大堂)": {

@@ -335,12 +335,28 @@ fanling_town_center,cheung_wah_estate,3,bridge,Bridge
 fanling_concourse,ka_fuk_estate,8,bridge,Exit B and Covered Walkway
 ka_fuk_estate,ka_shing_court,2,bridge,Covered Walkway
 
+// --- SHEUNG SHUI HUB ---
+sheung_shui_platform,sheung_shui_concourse,2,fare_gate,Fare gates
+sheung_shui_concourse,landmark_north,2,bridge,Exit A4
+landmark_north,spot,2,bridge,Bridge
+landmark_north,metropolis_plaza,2,bridge,Bridge
+metropolis_plaza,lung_fung_garden,2,bridge,Bridge
+lung_fung_garden,shek_wu_hui_municipal_services_building,2,bridge,Bridge
+shek_wu_hui_municipal_services_building,sheung_shui_centre,2,bridge,Bridge
+sheung_shui_concourse,sheung_shui_centre,2,bridge,Exit B2
+sheung_shui_centre,sheung_shui_town_centre,2,bridge,Bridge
+sheung_shui_town_centre,sunningdale_garden,2,bridge,Bridge
+sheung_shui_concourse,choi_yuen_estate,4,bridge,Exit A1
+landmark_north,sheung_shui_junction,4,bridge,Bridge
+sheung_shui_junction,choi_yuen_estate,2,bridge,Bridge
+choi_yuen_estate,choi_po_court,2,bridge,Covered Walkway
+sheung_shui_junction,po_shek_wu_estate,2,bridge,Bridge
+
 // --- REMAINING EAST RAIL CONCOURSES (Stubs for future expansion) ---
 fo_tan_platform,fo_tan_concourse,2,fare_gate,Fare gates
 fo_tan_concourse,palazzo,4,bridge,Exit A and Bridge
 racecourse_platform,racecourse_concourse,2,fare_gate,Fare gates
 university_platform,university_concourse,2,fare_gate,Fare gates
 university_concourse,cyt_building,2,bridge,Exit B and Covered Walkway
-sheung_shui_platform,sheung_shui_concourse,2,fare_gate,Fare gates
 lo_wu_platform,lo_wu_concourse,2,fare_gate,Fare gates
 lok_ma_chau_platform,lok_ma_chau_concourse,2,fare_gate,Fare gates`;
