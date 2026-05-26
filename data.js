@@ -100,7 +100,7 @@ admiralty_centre,admiralty_concourse,2,escalator,Admiralty Exit A
 admiralty_exit_e2,admiralty_concourse,6,escalator,Admiralty Exit E2 Escalator
 central_concourse_west,central_concourse_mid,4,tunnel,Central MTR Unpaid Link
 central_concourse_mid,central_concourse_east,10,tunnel,Central MTR Unpaid Link
-pacific_place_lg1,pacific_place_l2,8,internal,Internal escalators (L1 to L2)
+pacific_place_lg1,pacific_place_l2,8,internal,Internal escalators (LG1 to L2)
 pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
 pacific_place_lg1,three_pacific_place,4,tunnel,Tunnel
 pacific_place_l2,queensway_gov_offices,2,bridge,Short Bridge
@@ -146,7 +146,7 @@ wan_chai_concourse,lee_tung_avenue,4,tunnel,Exit D to Lee Tung Avenue
 causeway_bay_platform,causeway_bay_concourse_a,2,fare_gate,Fare gates to Exit A (Times Square)
 causeway_bay_platform,causeway_bay_concourse_b_c,2,fare_gate,Fare gates to Exits B-C
 causeway_bay_platform,causeway_bay_concourse_d_f,2,fare_gate,Fare gates to Exits D-F
-causeway_bay_concourse_a,times_square,2,internal,Internal Walkway to Times Square
+causeway_bay_concourse_a,times_square,2,internal,Exit A to Times Square
 causeway_bay_concourse_b_c,cwb_plaza,2,internal,Exit B to Causeway Bay Plaza 1
 causeway_bay_concourse_d_f,hysan_place,2,internal,Exit F2 to Hysan Place
 causeway_bay_concourse_d_f,sogo_cwb,2,internal,Exit D2 to SOGO Basement
@@ -169,7 +169,7 @@ north_point_concourse,roca_centre,2,escalator,Exit B to Roca Centre
 tai_koo_platform,tai_koo_concourse,2,fare_gate,Fare gates
 tai_koo_concourse,cityplaza_gf,4,internal,Exit D2 to Cityplaza G/F
 tai_koo_concourse,cityplaza_2f,4,internal,Exit E1 to Cityplaza 2/F
-cityplaza_gf,cityplaza_1f,4,internal,Internal Cityplaza Escalators
+cityplaza_gf,cityplaza_1f,3,internal,Internal Cityplaza Escalators
 cityplaza_1f,cityplaza_2f,2,internal,Internal Cityplaza Escalators
 cityplaza_gf,horizon_gardens,2,internal,Covered Walkway
 cityplaza_1f,kam_din_terrace,2,bridge,Bridge over Tai Mou Avenue
@@ -192,7 +192,7 @@ sai_wan_ho_concourse,felicity_garden,2,escalator,Exit A to Felicity Garden
 
 // --- HENG FA CHUEN HUB ---
 heng_fa_chuen_platform,heng_fa_chuen_concourse,2,fare_gate,Fare gates
-heng_fa_chuen_concourse,paradise_mall,2,internal,MTR direct connection to Mall
+heng_fa_chuen_concourse,paradise_mall,2,internal,Exit A
 
 // --- CHAI WAN HUB ---
 chai_wan_platform,chai_wan_concourse,2,fare_gate,Fare gates to Exit A
