@@ -262,6 +262,7 @@ mong_kok_east_concourse,moko,1,internal,Exit D to MOKO
 // --- KOWLOON TONG HUB ---
 kowloon_tong_platform,kowloon_tong_concourse,1,fare_gate,Fare gates
 kowloon_tong_concourse,festival_walk,1,internal,Exit C2 to Festival Walk
+festival_walk,cityu,1,internal,Tunnel
 
 // --- TAI WAI HUB ---
 tai_wai_platform,tai_wai_concourse,1,fare_gate,Fare gates
