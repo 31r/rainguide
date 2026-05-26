@@ -232,10 +232,10 @@
 					"sai_wan_ho_platform": "Sai Wan Ho / 西灣河站",
 					"shau_kei_wan_platform": "Shau Kei Wan / 筲箕灣站",
 					"heng_fa_chuen_platform": "Heng Fa Chuen / 杏花邨站",
-					"chai_wan_platform": "Chai Wan / 柴灣站",
+					"chai_wan_platform": "Chai Wan / 柴灣站"
 				},
 				"Tung Chung Line (東涌綫)": {
-					"hong_kong_platform": "Hong Kong / 香港站",
+					"hong_kong_platform": "Hong Kong / 香港站"
 				},
 				"East Rail Line (東鐵綫)": {
                     "admiralty_platform_erl": "Admiralty / 金鐘站",
