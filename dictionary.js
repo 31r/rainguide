@@ -190,9 +190,23 @@
 					"chai_wan_concourse": "Chai Wan / 柴灣站",
 				},
 				"East Rail Line (東鐵綫)": {
-					"admiralty_concourse": "Admiralty / 金鐘站",
-					"exhibition_centre_concourse": "Exhibition Centre / 會展站"
-				}
+                    "admiralty_concourse": "Admiralty / 金鐘站",
+                    "exhibition_centre_concourse": "Exhibition Centre / 會展站",
+                    "hung_hom_concourse": "Hung Hom / 紅磡站",
+                    "mong_kok_east_concourse": "Mong Kok East / 旺角東站",
+                    "kowloon_tong_concourse": "Kowloon Tong / 九龍塘站",
+                    "tai_wai_concourse": "Tai Wai / 大圍站",
+                    "sha_tin_concourse": "Sha Tin / 沙田站",
+                    "fo_tan_concourse": "Fo Tan / 火炭站",
+                    "racecourse_concourse": "Racecourse / 馬場站",
+                    "university_concourse": "University / 大學站",
+                    "tai_po_market_concourse": "Tai Po Market / 大埔墟站",
+                    "tai_wo_concourse": "Tai Wo / 太和站",
+                    "fanling_concourse": "Fanling / 粉嶺站",
+                    "sheung_shui_concourse": "Sheung Shui / 上水站",
+                    "lo_wu_concourse": "Lo Wu / 羅湖站",
+                    "lok_ma_chau_concourse": "Lok Ma Chau / 落馬洲站"
+                }
 			},
 			"MTR Platforms (付費區)": {
 				"Island Line (港島綫)": {
@@ -216,9 +230,23 @@
 					"chai_wan_platform": "Chai Wan / 柴灣站",
 				},
 				"East Rail Line (東鐵綫)": {
-					"admiralty_platform_erl": "Admiralty (East Rail) / 金鐘站(東鐵綫)",
-					"exhibition_centre_platform": "Exhibition Centre / 會展站"
-				}
+                    "admiralty_platform_erl": "Admiralty (East Rail) / 金鐘站(東鐵綫)",
+                    "exhibition_centre_platform": "Exhibition Centre / 會展站",
+                    "hung_hom_platform": "Hung Hom / 紅磡站",
+                    "mong_kok_east_platform": "Mong Kok East / 旺角東站",
+                    "kowloon_tong_platform": "Kowloon Tong / 九龍塘站",
+                    "tai_wai_platform": "Tai Wai / 大圍站",
+                    "sha_tin_platform": "Sha Tin / 沙田站",
+                    "fo_tan_platform": "Fo Tan / 火炭站",
+                    "racecourse_platform": "Racecourse / 馬場站",
+                    "university_platform": "University / 大學站",
+                    "tai_po_market_platform": "Tai Po Market / 大埔墟站",
+                    "tai_wo_platform": "Tai Wo / 太和站",
+                    "fanling_platform": "Fanling / 粉嶺站",
+                    "sheung_shui_platform": "Sheung Shui / 上水站",
+                    "lo_wu_platform": "Lo Wu / 羅湖站",
+                    "lok_ma_chau_platform": "Lok Ma Chau / 落馬洲站"
+                }
 			}
         };
 
