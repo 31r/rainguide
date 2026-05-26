@@ -221,8 +221,7 @@
 					"sai_ying_pun_platform": "Sai Ying Pun / 西營盤站",
 					"sheung_wan_platform": "Sheung Wan / 上環站",
 					"central_platform_island": "Central / 中環站",
-					"admiralty_platform": "Admiralty / 金鐘站",
-					"wan_chai_platform": "Wan Chai / 灣仔站",
+					"admiralty_platform": "Admiralty (Island/Tsuen Wan Line) / 金鐘站 (港島/荃灣綫)",					"wan_chai_platform": "Wan Chai / 灣仔站",
 					"causeway_bay_platform": "Causeway Bay / 銅鑼灣站",
 					"tin_hau_platform": "Tin Hau / 天后站",
 					"fortress_hill_platform": "Fortress Hill / 炮台山站",
@@ -238,7 +237,7 @@
 					"hong_kong_platform": "Hong Kong / 香港站"
 				},
 				"East Rail Line (東鐵綫)": {
-                    "admiralty_platform_erl": "Admiralty / 金鐘站",
+                    "admiralty_platform_erl": "Admiralty (East Rail Line) / 金鐘站 (東鐵綫)",
                     "exhibition_centre_platform": "Exhibition Centre / 會展站",
                     "hung_hom_platform": "Hung Hom / 紅磡站",
                     "mong_kok_east_platform": "Mong Kok East / 旺角東站",
