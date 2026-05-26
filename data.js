@@ -141,9 +141,6 @@ st_regis,cr_bldg,1,internal,Podium
 cr_bldg,causeway_ctr,2,internal,Podium
 wan_chai_concourse,southorn_stadium,2,internal,Exit B2 to Southorn Stadium
 wan_chai_concourse,lee_tung_avenue,2,tunnel,Exit D to Lee Tung Avenue
-exhibition_centre_a3,wcn_junction,1.5,bridge,Escalator
-exhibition_centre_b3,great_eagle_ctr,2,bridge,Escalator
-exhibition_centre_b3,hkcec,3,bridge,Escalator and Bridge over Fleming Road
 
 // --- CAUSEWAY BAY HUB ---
 causeway_bay_platform,causeway_bay_concourse_a,1,fare_gate,Fare gates to Exit A (Times Square)
@@ -224,7 +221,7 @@ shau_kei_wan_platform,heng_fa_chuen_platform,2,paid_train,Island Line (MTR)
 heng_fa_chuen_platform,chai_wan_platform,2,paid_train,Island Line (MTR)
 
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
-admiralty_platform,admiralty_platform_erl,3,paid_transfer,Escalators to East Rail Line platforms
+admiralty_platform,admiralty_platform_erl,3,paid_transfer,Platform Level Transfer (Escalators)
 admiralty_platform_erl,exhibition_centre_platform,2,paid_train,East Rail Line (MTR)
 exhibition_centre_platform,hung_hom_platform,5,paid_train,East Rail Line (MTR)
 hung_hom_platform,mong_kok_east_platform,3,paid_train,East Rail Line (MTR)
@@ -246,6 +243,9 @@ sheung_shui_platform,lok_ma_chau_platform,12,paid_train,East Rail Line (MTR)
 exhibition_centre_platform,exhibition_centre_concourse,1,fare_gate,Fare gates
 exhibition_centre_concourse,exhibition_centre_a3,1,internal,Exit A3
 exhibition_centre_concourse,exhibition_centre_b3,1,internal,Exit B3
+exhibition_centre_a3,wcn_junction,1.5,bridge,Escalator
+exhibition_centre_b3,great_eagle_ctr,2,bridge,Escalator
+exhibition_centre_b3,hkcec,3,bridge,Escalator and Bridge
 
 // --- HUNG HOM HUB ---
 hung_hom_platform,hung_hom_concourse,1,fare_gate,Fare gates
