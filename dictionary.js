@@ -194,12 +194,40 @@
 					"wo_che_estate": "Wo Che Estate / 禾輋邨"
 				},
 				"Fo Tan (火炭)": {
-					"chun_yeung_estate": "Chun Yeung Estate / 駿洋邨"
+					"chun_yeung_estate": "Chun Yeung Estate / 駿洋邨",
+					"palazzo": "The Palazzo / 御龍山"
 				},
 				"Kau To Shan (九肚山)": {
 					"dragons_range": "Dragons Range / 玖瓏山"
+				},
+				"CUHK (中文大學)": {
+					"cyt_building": "Cheng Yu Tung Building / 鄭裕彤樓"
 				}
             },
+			"Tai Po District (大埔區)": {
+				"Tai Po Market (大埔墟)": {
+					"fu_shin_estate": "Fu Shin Estate / 富善邨",
+					"kwong_fuk_estate": "Kwong Fuk Estate / 廣福邨",
+					"tai_po_market_pti": "Tai Po Market PTI / 大埔墟站公共運輸交匯處",
+					"uptown_plaza": "Uptown Plaza / 新達廣場",
+					"wan_tau_tong_estate": "Wan Tau Tong Estate / 運頭塘邨"
+				},
+				"Tai Wo (太和)": {
+					"fu_tip_estate": "Fu Tip Estate / 富蝶邨",
+					"tai_wo_bus_terminus": "Tai Wo Bus Terminus / 太和巴士總站",
+					"tai_wo_plaza_east": "Tai Wo Plaza East / 太和廣場（東翼）",
+					"tai_wo_plaza_west": "Tai Wo Plaza West / 太和廣場（西翼）"
+				}
+			},
+			"North District (北區)": {
+				"Fanling (粉嶺)": {
+					"cheung_wah_estate": "Cheung Wah Estate / 祥華邨",
+					"fanling_centre": "Fanling Centre / 粉嶺中心",
+					"fanling_town_center": "Fanling Town Center / 粉嶺名都",
+					"ka_fuk_estate": "Ka Fuk Estate / 嘉福邨",
+					"ka_shing_court": "Ka Shing Court / 嘉盛苑"
+				}
+			},
 			"MTR Concourses (港鐵大堂)": {
 				"Island Line (港島綫)": {
 					"kennedy_town_concourse": "Kennedy Town / 堅尼地城站",

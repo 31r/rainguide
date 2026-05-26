@@ -309,13 +309,38 @@ lek_yuen_estate,wo_che_estate,8,bridge,Bridge
 wo_che_estate,fung_wo_estate,2,bridge,Bridge
 sha_tin_central_pti,chun_yeung_estate,20,paid_bus,KMB 285
 
+// --- TAI PO MARKET HUB ---
+tai_po_market_platform,tai_po_market_concourse,2,fare_gate,Fare gates
+tai_po_market_concourse,uptown_plaza,2,internal,Exit A1 to Uptown Plaza
+uptown_plaza,wan_tau_tong_estate,2,bridge,Footbridge to Wan Tau Tong Estate
+tai_po_market_concourse,tai_po_market_pti,2,internal,Exit A3 to Tai Po Market PTI
+tai_po_market_pti,fu_shin_estate,15,paid_bus,Bus K17
+tai_po_market_pti,kwong_fuk_estate,15,paid_bus,Bus K18
+fu_shin_estate,kwong_fuk_estate,10,paid_bus,KMB 71K to Tai Po Market,uni
+
+// --- TAI WO HUB ---
+tai_wo_platform,tai_wo_concourse,2,fare_gate,Fare gates
+tai_wo_concourse,tai_wo_exit_a,2,internal,Exit A
+tai_wo_exit_a,tai_wo_plaza_west,2,internal,Internal Mall Connection
+tai_wo_concourse,tai_wo_exit_b,2,internal,Exit B
+tai_wo_exit_b,tai_wo_plaza_east,2,internal,Internal Mall Connection
+tai_wo_plaza_west,tai_wo_bus_terminus,2,escalator,Escalator
+tai_wo_bus_terminus,fu_tip_estate,20,paid_bus,KMB 72K
+
+// --- FANLING HUB ---
+fanling_platform,fanling_concourse,2,fare_gate,Fare gates
+fanling_concourse,fanling_town_center,2,bridge,Exit A1
+fanling_town_center,fanling_centre,2,bridge,Bridge
+fanling_town_center,cheung_wah_estate,3,bridge,Bridge
+fanling_concourse,ka_fuk_estate,8,bridge,Exit B and Covered Walkway
+ka_fuk_estate,ka_shing_court,2,bridge,Covered Walkway
+
 // --- REMAINING EAST RAIL CONCOURSES (Stubs for future expansion) ---
 fo_tan_platform,fo_tan_concourse,2,fare_gate,Fare gates
+fo_tan_concourse,palazzo,4,bridge,Exit A and Bridge
 racecourse_platform,racecourse_concourse,2,fare_gate,Fare gates
 university_platform,university_concourse,2,fare_gate,Fare gates
-tai_po_market_platform,tai_po_market_concourse,2,fare_gate,Fare gates
-tai_wo_platform,tai_wo_concourse,2,fare_gate,Fare gates
-fanling_platform,fanling_concourse,2,fare_gate,Fare gates
+university_concourse,cyt_building,2,bridge,Exit B and Covered Walkway
 sheung_shui_platform,sheung_shui_concourse,2,fare_gate,Fare gates
 lo_wu_platform,lo_wu_concourse,2,fare_gate,Fare gates
 lok_ma_chau_platform,lok_ma_chau_concourse,2,fare_gate,Fare gates`;
