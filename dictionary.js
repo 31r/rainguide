@@ -164,10 +164,41 @@
                 }
             },
 
-            "New Territories East (新界東)": {
+            "Sha Tin District (沙田區)": {
                 "Tai Wai (大圍)": {
-                    "the_wai": "The Wai / 圍方"
-                }
+					"festival_city": "Festival City / 名城",
+					"grandway_garden": "Grandway Garden / 富嘉花園",
+					"the_pavilia_farm": "The Pavilia Farm / 柏傲莊",
+					"tai_wai_pti": "Tai Wai Station PTI / 大圍站公共運輸交匯處",
+					"the_wai": "The Wai / 圍方"
+                },
+				"Sha Tin (沙田)": {
+					"citylink_mall": "Citylink Mall / 連城廣場",
+					"fung_wo_estate": "Fung Wo Estate / 豐和邨",
+					"hilton_plaza": "Hilton Plaza / 希爾頓中心",
+					"lek_yuen_estate": "Lek Yuen Estate / 瀝源邨",
+					"lucky_plaza": "Lucky Plaza / 好運中心",
+					"new_town_plaza1": "New Town Plaza / 新城市廣場",
+					"new_town_plaza3": "New Town Plaza 3 / 新城市廣場三期",
+					"new_town_tower": "New Town Tower / 新城市商業大廈",
+					"royal_park_hotel": "Royal Park Hotel / 帝都酒店",
+					"scenery_court": "Scenery Court / 蔚景園",
+					"sha_tin_central_pti": "Sha Tin Central PTI / 沙田市中心巴士總站",
+					"shatin_centre": "Shatin Centre / 沙田中心",
+					"sha_tin_market": "Sha Tin Market / 沙田街市",
+					"sha_tin_marriage": "Sha Tin Marriage Registry / 沙田婚姻登記處",
+					"shatin_plaza": "Shatin Plaza / 沙田廣場",
+					"sha_tin_library": "Sha Tin Public Library / 沙田公共圖書館",
+					"sha_tin_town_hall": "Sha Tin Town Hall / 沙田大會堂",
+					"wai_wah_centre": "Wai Wah Centre / 偉華中心",
+					"wo_che_estate": "Wo Che Estate / 禾輋邨"
+				},
+				"Fo Tan (火炭)": {
+					"chun_yeung_estate": "Chun Yeung Estate / 駿洋邨"
+				},
+				"Kau To Shan (九肚山)": {
+					"dragons_range": "Dragons Range / 玖瓏山"
+				}
             },
 			"MTR Concourses (港鐵大堂)": {
 				"Island Line (港島綫)": {
@@ -184,6 +215,7 @@
 					"causeway_bay_concourse_a": "Causeway Bay (Exit A) / 銅鑼灣站 (A出口)",
 					"causeway_bay_concourse_bc": "Causeway Bay (Exits B-C) / 銅鑼灣站 (B-C出口)",
 					"causeway_bay_concourse_df": "Causeway Bay (Exits D-F) / 銅鑼灣站 (D-F出口)",
+					"tin_hau_concourse": "Tin Hau / 天后站",
 					"fortress_hill_concourse": "Fortress Hill / 炮台山站",
 					"north_point_concourse": "North Point / 北角站",
 					"quarry_bay_concourse": "Quarry Bay / 鰂魚涌站",

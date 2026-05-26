@@ -57,7 +57,7 @@
             <div class="flex items-center mb-4 mt-2 px-2">
                 <input type="checkbox" id="allowPaid" checked class="w-4 h-4 text-blue-600 bg-slate-100 border-slate-300 rounded focus:ring-blue-500">
                 <label for="allowPaid" class="ml-2 text-sm font-semibold text-slate-600">
-                    Allow Paid MTR Rides / 允許付費港鐵路線
+                    Allow Paid Rides / 允許付費公共交通
                 </label>
             </div>
 
@@ -89,14 +89,14 @@
 
             const lines = csvData.trim().split('\n').slice(1);
             lines.forEach(line => {
-                const [start, end, weightStr, type, desc] = line.split(',');
+                const [start, end, weightStr, type, desc, dir] = line.split(',');
                 if(!start || !end) return;
 
 				// FILTER LOGIC: Skip paid routes if toggle is off
 				const edgeType = type ? type.trim() : '';
-				if (!allowPaid && (edgeType === 'paid_train' || edgeType === 'paid_tunnel' || edgeType === 'fare_gate' || edgeType === 'paid_transfer')) {
-				    return; 
-				}
+				if (!allowPaid && (edgeType === 'paid_train' || edgeType === 'paid_tunnel' || edgeType === 'fare_gate' || edgeType === 'paid_transfer' || edgeType === 'paid_bus' || edgeType === 'residents_bus')) {
+                    return; 
+                }
                 
                 const u = start.trim();
                 const v = end.trim();
@@ -106,7 +106,9 @@
                 if (!graph[v]) graph[v] = {};
                 
                 graph[u][v] = w;
-                graph[v][u] = w;
+                if (dir !== 'uni') {
+                    graph[v][u] = w; // Only build the reverse route if it is NOT one-way
+                }
 
                 edgeDetails[`${u}-${v}`] = { desc: desc ? desc.trim() : 'Walkway', type: edgeType };
                 edgeDetails[`${v}-${u}`] = { desc: desc ? desc.trim() : 'Walkway', type: edgeType };
@@ -245,12 +247,12 @@
                     const v = route.path[i+1];
                     const edge = edgeDetails[`${u}-${v}`];
                     
-                    // 1. Hide abstract nodes entirely from the UI (Added 'junction')
+                    // Hide abstract nodes entirely from the UI (Added 'junction')
                     if (v.includes('spine') || v.includes('node') || v.includes('exit_e2') || v.includes('junction')) {
                         continue;
                     }
                 
-                    // 2. Handle MTR Train Rides
+                    // Handle MTR Train Rides
                     if (edge.type === 'paid_train') {
                         const nextNode = route.path[i+2];
                         if (nextNode) {
@@ -265,7 +267,7 @@
                             <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
                         </li>`;
                     } 
-                    // 3. Handle Fare Gates (Dynamic Enter vs Exit)
+                    // Handle Fare Gates (Dynamic Enter vs Exit)
                     else if (edge.type === 'fare_gate') {
                         const isEnteringPaid = v.includes('platform');
                         
@@ -283,7 +285,7 @@
                             </li>`;
                         }
                     }
-                    // 4. Handle Paid Tunnels (e.g. Central to Hong Kong)
+                    // Handle Paid Tunnels (e.g. Central to Hong Kong)
                     else if (edge.type === 'paid_tunnel') {
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-4 border-blue-400 ml-2 py-2 bg-blue-50/50 rounded-r-lg">
@@ -291,7 +293,7 @@
                             <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
                         </li>`;
                     }
-					// 5. Handle Internal Station Transfers (e.g., Admiralty Island Line to East Rail Line)
+					// Handle Internal Station Transfers (e.g., Admiralty Island Line to East Rail Line)
 					else if (edge.type === 'paid_transfer') {
 						routeList.innerHTML += `
 						<li class="pl-4 border-l-4 border-purple-400 ml-2 py-2 bg-purple-50/50 rounded-r-lg">
@@ -299,7 +301,31 @@
 							<br><span class="text-xs text-slate-500">via ${edge.desc}</span>
 						</li>`;
 					}
-                    // 6. Handle Normal Walking
+                    // Handle Franchised Buses & Minibuses
+                    else if (edge.type === 'paid_bus') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-4 border-green-500 ml-2 py-2">
+                            🚌 Board bus to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }
+                    // Handle Free Estate/Mall Shuttles
+                    else if (edge.type === 'free_shuttle') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-4 border-teal-500 ml-2 py-2">
+                            🚐 Take free shuttle to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }
+                    // Handle Paid Residents' Shuttles
+                    else if (edge.type === 'residents_bus') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-4 border-emerald-500 ml-2 py-2">
+                            🏘️ Board residents' bus to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }
+                    // Handle Normal Walking
                     else {
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-2 border-slate-300 ml-2 py-1">

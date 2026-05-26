@@ -219,6 +219,12 @@ sai_wan_ho_platform,shau_kei_wan_platform,4,paid_train,Island Line (MTR)
 shau_kei_wan_platform,heng_fa_chuen_platform,4,paid_train,Island Line (MTR)
 heng_fa_chuen_platform,chai_wan_platform,4,paid_train,Island Line (MTR)
 
+// --- REMAINING ISLAND LINE CONCOURSES ---
+kennedy_town_platform,kennedy_town_concourse,2,fare_gate,Fare gates
+tin_hau_platform,tin_hau_concourse,2,fare_gate,Fare gates
+quarry_bay_platform,quarry_bay_concourse,2,fare_gate,Fare gates
+shau_kei_wan_platform,shau_kei_wan_concourse,2,fare_gate,Fare gates
+
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
 admiralty_platform,admiralty_platform_erl,6,paid_transfer,Platform Level Transfer (Escalators)
 admiralty_platform_erl,exhibition_centre_platform,4,paid_train,East Rail Line (MTR)
@@ -250,9 +256,9 @@ exhibition_centre_b3,hkcec,6,bridge,Escalator and Bridge
 hung_hom_platform,hung_hom_concourse,2,fare_gate,Fare gates
 hung_hom_concourse,polyu,2,bridge,Exit A1 to PolyU
 hung_hom_concourse,royal_peninsula,4,bridge,Exit B1 Footbridge
-royal_peninsula,harbour_place,2,bridge,Walkway
-harbour_place,stars_by_the_harbour,2,bridge,Walkway
-stars_by_the_harbour,one_harbour_gate,2,bridge,Walkway
+royal_peninsula,harbour_place,2,bridge,Bridge
+harbour_place,stars_by_the_harbour,2,bridge,Bridge
+stars_by_the_harbour,one_harbour_gate,2,bridge,Bridge
 hung_hom_concourse,new_east_ocean_centre,4,bridge,Exit D1 Footbridge
 
 // --- MONG KOK EAST HUB ---
@@ -266,10 +272,44 @@ festival_walk,cityu,2,internal,Tunnel
 
 // --- TAI WAI HUB ---
 tai_wai_platform,tai_wai_concourse,2,fare_gate,Fare gates
-tai_wai_concourse,the_wai,2,internal,Exit B to The Wai
+tai_wai_concourse,the_wai,2,internal,Exits B/H to The Wai
+tai_wai_concourse,the_pavilia_farm,2,internal,Exit B to The Pavilia Farm
+tai_wai_concourse,tai_wai_pti,2,internal,Exit B to Public Transport Interchange
+tai_wai_pti,dragons_range,30,residents_bus,NR839 Residents' Bus
+tai_wai_concourse,grandway_garden,2,internal,Exit D to Grandway Garden
+the_pavilia_farm,the_wai,2,internal,Covered Walkway
+the_wai,festival_city,4,bridge,Bridge
+
+// --- SHA TIN HUB ---
+sha_tin_platform,sha_tin_concourse,2,fare_gate,Fare gates
+sha_tin_concourse,citylink_mall,2,internal,Exit A2 to Citylink Mall
+sha_tin_concourse,new_town_plaza1,2,internal,Exit A3 to New Town Plaza 1
+citylink_mall,new_town_plaza1,2,internal,Internal Mall Connection
+new_town_plaza1,sha_tin_central_pti,2,escalator,Escalator to PTI
+new_town_plaza1,new_town_plaza3,3,bridge,Bridge
+new_town_plaza1,wai_wah_centre,2,internal,Internal Mall Connection
+wai_wah_centre,hilton_plaza,2,bridge,Bridge
+hilton_plaza,scenery_court,2,bridge,Bridge
+hilton_plaza,new_town_plaza3,2,bridge,Bridge
+new_town_plaza3,royal_park_hotel,2,bridge,Bridge
+royal_park_hotel,new_town_tower,2,bridge,Bridge
+new_town_plaza1,new_town_tower,2,bridge,Bridge
+shatin_plaza,new_town_plaza1,2,internal,Internal Mall Connection
+new_town_plaza1,shatin_centre,2,bridge,Bridge
+new_town_plaza1,ntp_junction,1,bridge,Bridge
+sha_tin_town_hall,ntp_junction,1,bridge,Covered Walkway
+sha_tin_library,ntp_junction,1,bridge,Covered Walkway
+sha_tin_marriage,ntp_junction,1,bridge,Covered Walkway
+shatin_plaza,shatin_centre,2,bridge,Bridge
+shatin_centre,lucky_plaza,2,bridge,Bridge
+lucky_plaza,sha_tin_junction,1,bridge,Bridge
+sha_tin_market,sha_tin_junction,1,bridge,Bridge
+lek_yuen_estate,sha_tin_junction,3,bridge,Bridge
+lek_yuen_estate,wo_che_estate,8,bridge,Bridge
+wo_che_estate,fung_wo_estate,2,bridge,Bridge
+sha_tin_central_pti,chun_yeung_estate,20,paid_bus,KMB 285
 
 // --- REMAINING EAST RAIL CONCOURSES (Stubs for future expansion) ---
-sha_tin_platform,sha_tin_concourse,2,fare_gate,Fare gates
 fo_tan_platform,fo_tan_concourse,2,fare_gate,Fare gates
 racecourse_platform,racecourse_concourse,2,fare_gate,Fare gates
 university_platform,university_concourse,2,fare_gate,Fare gates
