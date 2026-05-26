@@ -91,6 +91,7 @@
 					"hkcec": "HKCEC / 香港會議展覽中心",
 					"immigration_tower": "Immigration Tower / 入境事務大樓",
 					"lee_tung_avenue": "Lee Tung Avenue / 利東街",
+					"revenue_tower": "Revenue Tower / 稅務大樓",
 					"southorn_stadium": "Southorn Stadium / 修頓體育館",
 					"st_regis": "St. Regis Hong Kong / 香港瑞吉酒店",
 					"shk_ctr": "Sun Hung Kai Centre / 新鴻基中心",
