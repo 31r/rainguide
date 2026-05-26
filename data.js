@@ -225,21 +225,21 @@ heng_fa_chuen_platform,chai_wan_platform,2,paid_train,Island Line (MTR)
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
 admiralty_platform,admiralty_platform_erl,3,paid_transfer,Escalators to East Rail Line platforms
 admiralty_platform_erl,exhibition_centre_platform,2,paid_train,East Rail Line (MTR)
-exhibition_centre_platform,hung_hom_platform,3,paid_train,East Rail Line (MTR)
-hung_hom_platform,mong_kok_east_platform,2,paid_train,East Rail Line (MTR)
-mong_kok_east_platform,kowloon_tong_platform,2,paid_train,East Rail Line (MTR)
-kowloon_tong_platform,tai_wai_platform,2,paid_train,East Rail Line (MTR)
+exhibition_centre_platform,hung_hom_platform,5,paid_train,East Rail Line (MTR)
+hung_hom_platform,mong_kok_east_platform,3,paid_train,East Rail Line (MTR)
+mong_kok_east_platform,kowloon_tong_platform,3,paid_train,East Rail Line (MTR)
+kowloon_tong_platform,tai_wai_platform,5,paid_train,East Rail Line (MTR)
 tai_wai_platform,sha_tin_platform,2,paid_train,East Rail Line (MTR)
-sha_tin_platform,fo_tan_platform,2,paid_train,East Rail Line (MTR)
-sha_tin_platform,racecourse_platform,2,paid_train,East Rail Line (MTR)
+sha_tin_platform,fo_tan_platform,3,paid_train,East Rail Line (MTR)
+sha_tin_platform,racecourse_platform,3,paid_train,East Rail Line (MTR)
 fo_tan_platform,university_platform,2,paid_train,East Rail Line (MTR)
 racecourse_platform,university_platform,2,paid_train,East Rail Line (MTR)
-university_platform,tai_po_market_platform,2,paid_train,East Rail Line (MTR)
+university_platform,tai_po_market_platform,5,paid_train,East Rail Line (MTR)
 tai_po_market_platform,tai_wo_platform,2,paid_train,East Rail Line (MTR)
-tai_wo_platform,fanling_platform,2,paid_train,East Rail Line (MTR)
+tai_wo_platform,fanling_platform,5,paid_train,East Rail Line (MTR)
 fanling_platform,sheung_shui_platform,2,paid_train,East Rail Line (MTR)
-sheung_shui_platform,lo_wu_platform,2,paid_train,East Rail Line (MTR)
-sheung_shui_platform,lok_ma_chau_platform,2,paid_train,East Rail Line (MTR)
+sheung_shui_platform,lo_wu_platform,6,paid_train,East Rail Line (MTR)
+sheung_shui_platform,lok_ma_chau_platform,12,paid_train,East Rail Line (MTR)
 
 // --- EXHIBITION CENTRE HUB ---
 exhibition_centre_platform,exhibition_centre_concourse,1,fare_gate,Fare gates
@@ -248,7 +248,7 @@ exhibition_centre_concourse,exhibition_centre_b3,1,internal,Exit B3
 
 // --- HUNG HOM HUB ---
 hung_hom_platform,hung_hom_concourse,1,fare_gate,Fare gates
-hung_hom_concourse,polyu,2,bridge,Exit A1 to PolyU
+hung_hom_concourse,polyu,1,bridge,Exit A1 to PolyU
 hung_hom_concourse,royal_peninsula,2,bridge,Exit B1 Footbridge
 royal_peninsula,harbour_place,1,bridge,Walkway
 harbour_place,stars_by_the_harbour,1,bridge,Walkway
