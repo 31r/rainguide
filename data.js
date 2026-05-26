@@ -118,7 +118,8 @@ sheung_wan_platform,sheung_wan_concourse_east,2,fare_gate,Fare gates to Exit E
 central_platform_island,central_concourse_west,2,fare_gate,Fare gates to Exits A-D
 central_platform_island,central_concourse_mid,2,fare_gate,Fare gates to Exits E-H
 central_platform_island,central_concourse_east,3,fare_gate,Fare gates to Exits J-L
-admiralty_platform,admiralty_concourse,2,fare_gate,Fare gates to Admiralty Exits
+admiralty_platform,admiralty_concourse,2,fare_gate,Fare gates
+admiralty_platform_erl,admiralty_concourse,3,fare_gate,Fare gates
 
 // --- WAN CHAI HUB ---
 wan_chai_platform,wan_chai_concourse,1,fare_gate,Fare gates
