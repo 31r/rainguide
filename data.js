@@ -100,7 +100,7 @@ admiralty_centre,admiralty_concourse,2,escalator,Admiralty Exit A
 admiralty_exit_e2,admiralty_concourse,6,escalator,Admiralty Exit E2 Escalator
 central_concourse_west,central_concourse_mid,4,tunnel,Central MTR Unpaid Link
 central_concourse_mid,central_concourse_east,10,tunnel,Central MTR Unpaid Link
-pacific_place_lg1,pacific_place_l2,8,internal,Internal escalators (LG1 to L2)
+pacific_place_lg1,pacific_place_l2,8,internal,Internal Escalators
 pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
 pacific_place_lg1,three_pacific_place,4,tunnel,Tunnel
 pacific_place_l2,queensway_gov_offices,2,bridge,Short Bridge
@@ -152,15 +152,14 @@ causeway_bay_concourse_d_f,hysan_place,2,internal,Exit F2 to Hysan Place
 causeway_bay_concourse_d_f,sogo_cwb,2,internal,Exit D2 to SOGO Basement
 
 // --- FORTRESS HILL HUB ---
-fortress_hill_platform,fortress_hill_concourse,2,fare_gate,Fare gates to Exit B
+fortress_hill_platform,fortress_hill_concourse,2,fare_gate,Fare gates
 fortress_hill_concourse,fortress_metro_tower,2,escalator,Exit B to Fortress Metro Tower
 fortress_metro_tower,fortress_hill_t_junction,4,bridge,Bridge
 electric_road_msb,fortress_hill_t_junction,2,bridge,Bridge
 harbour_glory,fortress_hill_t_junction,6,bridge,Bridge
 
 // --- NORTH POINT HUB ---
-north_point_platform,north_point_concourse,2,fare_gate,Fare gates to Exits A1-A4
-north_point_platform,north_point_concourse,2,fare_gate,Fare gates to Exit B
+north_point_platform,north_point_concourse,2,fare_gate,Fare gates
 north_point_concourse,odeon_building,2,escalator,Exits A1-A3 to Odeon Building
 north_point_concourse,china_united_centre,2,escalator,Exit A4 to China United Centre
 north_point_concourse,roca_centre,2,escalator,Exit B to Roca Centre
@@ -169,8 +168,8 @@ north_point_concourse,roca_centre,2,escalator,Exit B to Roca Centre
 tai_koo_platform,tai_koo_concourse,2,fare_gate,Fare gates
 tai_koo_concourse,cityplaza_gf,4,internal,Exit D2 to Cityplaza G/F
 tai_koo_concourse,cityplaza_2f,4,internal,Exit E1 to Cityplaza 2/F
-cityplaza_gf,cityplaza_1f,3,internal,Internal Cityplaza Escalators
-cityplaza_1f,cityplaza_2f,2,internal,Internal Cityplaza Escalators
+cityplaza_gf,cityplaza_1f,3,internal,Internal Escalators
+cityplaza_1f,cityplaza_2f,2,internal,Internal Escalators
 cityplaza_gf,horizon_gardens,2,internal,Covered Walkway
 cityplaza_1f,kam_din_terrace,2,bridge,Bridge over Tai Mou Avenue
 cityplaza_1f,sing_fai_terrace,2,bridge,Bridge over Tai Fung Avenue
@@ -178,7 +177,7 @@ cityplaza_2f,east_hk,2,bridge,Bridge
 cityplaza_2f,kao_shan_terrace,2,bridge,Bridge over Tai Fung Avenue
 cityplaza_2f,12_taikoo,2,bridge,Bridge over Taikoo Wan Road
 cityplaza_2f,14_taikoo,2,bridge,Bridge over Taikoo Wan Road
-cityplaza_2f,1111_kings,6,internal,Internal Cityplaza Escalators
+cityplaza_2f,1111_kings,6,internal,Internal Escalators
 tai_koo_concourse,kornhill_plaza_n,4,internal,Exit A2 to Kornhill Plaza (North)
 tai_koo_concourse,kornhill_plaza_s,4,internal,Exit C to Kornhill Plaza (South)
 kornhill_plaza_n,kornhill_plaza_s,2,bridge,Bridge over Kornhill Road
@@ -187,7 +186,7 @@ kornhill_plaza_s,kornhill_j-m,6,escalator,Escalator and Bridge
 kornhill_a-h,kornhill_j-m,4,staircase,Staircase
 
 // --- SAI WAN HO HUB ---
-sai_wan_ho_platform,sai_wan_ho_concourse,2,fare_gate,Fare gates to Exit A
+sai_wan_ho_platform,sai_wan_ho_concourse,2,fare_gate,Fare gates
 sai_wan_ho_concourse,felicity_garden,2,escalator,Exit A to Felicity Garden
 
 // --- HENG FA CHUEN HUB ---
@@ -195,7 +194,7 @@ heng_fa_chuen_platform,heng_fa_chuen_concourse,2,fare_gate,Fare gates
 heng_fa_chuen_concourse,paradise_mall,2,internal,Exit A
 
 // --- CHAI WAN HUB ---
-chai_wan_platform,chai_wan_concourse,2,fare_gate,Fare gates to Exit A
+chai_wan_platform,chai_wan_concourse,2,fare_gate,Fare gates
 chai_wan_concourse,new_jade_garden,2,internal,Exit A to New Jade Garden
 hing_wah_1_estate,new_jade_garden,4,bridge,Bridge
 new_jade_garden,chai_wan_y_junction,2,bridge,Bridge
