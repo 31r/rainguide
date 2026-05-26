@@ -145,6 +145,7 @@
 			},
 			"MTR Concourses (港鐵大堂)": {
 				"Island Line (港島綫)": {
+					"kennedy_town_concourse": "Kennedy Town / 堅尼地城站",
 					"hku_concourse": "HKU / 香港大學站",
 					"syp_concourse": "Sai Ying Pun / 西營盤站",
 					"sheung_wan_concourse_mid": "Sheung Wan (Exits A-D) / 上環站 (A-D出口)",
