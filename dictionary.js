@@ -132,7 +132,7 @@
 					"sing_fai_terrace": "Sing Fai Terrace / 星輝臺"
 				},
 				"Sai Wan Ho (西灣河)": {
-					"felicity_garden": "Felicity Garden / 欣景花園",
+					"felicity_garden": "Felicity Garden / 欣景花園"
 				},
 				"Chai Wan (柴灣)": {
 					"hing_wah_1_estate": "Hing Wah (I) Estate / 興華(一)邨",
@@ -149,7 +149,7 @@
                 },
                 "Tsim Sha Tsui (尖沙咀)": {
                     "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
-				}
+				},
                 "Hung Hom (紅磡)": {
                     "polyu": "PolyU / 理工大學",
 					"royal_peninsula": "Royal Peninsula / 半島豪庭",
