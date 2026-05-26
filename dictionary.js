@@ -143,6 +143,29 @@
 					"youth_square": "Youth Square / 青年廣場"
 				}
 			},
+			"Kowloon (九龍)": {
+                "Yau Tsim Mong (油尖旺)": {
+                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心",
+                    "moko": "MOKO / MOKO 新世紀廣場"
+                },
+                "Hung Hom (紅磡)": {
+                    "polyu": "PolyU / 理工大學",
+					"royal_peninsula": "Royal Peninsula / 半島豪庭",
+                    "harbour_place": "Harbour Place / 海濱南岸",
+                    "stars_by_the_harbour": "Stars by the Harbour / 維港·星岸",
+                    "one_harbour_gate": "One HarbourGate"
+                },
+                "Kowloon Tong (九龍塘)": {
+					"cityu": "CityU / 城市大學",
+                    "festival_walk": "Festival Walk / 又一城"
+                }
+            },
+
+            "New Territories (新界)": {
+                "Sha Tin (沙田)": {
+                    "the_wai": "The Wai / 圍方"
+                }
+            },
 			"MTR Concourses (港鐵大堂)": {
 				"Island Line (港島綫)": {
 					"kennedy_town_concourse": "Kennedy Town / 堅尼地城站",
