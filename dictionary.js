@@ -244,7 +244,7 @@
 					"futian_port": "Futian Port / 福田口岸",
 					"heung_yuen_wai_port": "Heung Yuen Wai Control Point / 香園圍口岸",
 					"liantang_port": "Liantang Port / 蓮塘口岸",
-					"lo_wu_port": "Lo Wu Port / 羅湖口岸"
+					"lo_wu_port": "Luohu Port / 羅湖口岸"
 				}
 			},
 			"MTR Concourses (港鐵大堂)": {
