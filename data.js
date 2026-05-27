@@ -99,7 +99,7 @@ queensway_plaza,admiralty_concourse,2,escalator,Admiralty Exits B/C
 admiralty_centre,admiralty_concourse,2,escalator,Admiralty Exit A
 admiralty_exit_e2,admiralty_concourse,6,escalator,Admiralty Exit E2 Escalator
 central_concourse_west,central_concourse_mid,4,tunnel,Central MTR Unpaid Link
-central_concourse_mid,central_concourse_east,10,tunnel,Central MTR Unpaid Link
+central_concourse_mid,central_concourse_east,4,tunnel,Central MTR Unpaid Link
 pacific_place_lg1,pacific_place_l2,8,internal,Internal Escalators
 pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
 pacific_place_lg1,three_pacific_place,4,tunnel,Tunnel
@@ -109,7 +109,7 @@ pacific_place_l2,queensway_plaza,4,bridge,Bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,Bridge connection to Admiralty Exit E2
 
 // --- CENTRAL TO HONG KONG PAID TUNNEL ---
-central_platform_island,hong_kong_platform,10,paid_tunnel,Paid tunnel with moving walkways
+central_platform_island,hong_kong_platform,11,paid_tunnel,Paid tunnel with moving walkways
 hong_kong_platform,hong_kong_concourse,2,fare_gate,Fare gates to HK Station Exits
 
 // --- SHEUNG WAN TO ADMIRALTY MTR PLATFORMS & FARE GATES ---
