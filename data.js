@@ -294,6 +294,7 @@ tai_wai_concourse,the_wai,2,internal,Exits B/H to The Wai
 tai_wai_concourse,the_pavilia_farm,2,internal,Exit B to The Pavilia Farm
 tai_wai_concourse,tai_wai_pti,2,internal,Exit B to Public Transport Interchange
 tai_wai_pti,dragons_range,30,residents_bus,NR839 Residents' Bus
+tai_wai_pti,heung_yuen_wai_port,50,paid_bus,Citybus B8
 tai_wai_concourse,grandway_garden,2,internal,Exit D to Grandway Garden
 the_pavilia_farm,the_wai,2,internal,Covered Walkway
 the_wai,festival_city,4,bridge,Bridge
@@ -332,8 +333,8 @@ tai_po_market_platform,tai_po_market_concourse,2,fare_gate,Fare gates
 tai_po_market_concourse,uptown_plaza,2,internal,Exit A1 to Uptown Plaza
 uptown_plaza,wan_tau_tong_estate,2,bridge,Footbridge to Wan Tau Tong Estate
 tai_po_market_concourse,tai_po_market_pti,2,internal,Exit A3 to Tai Po Market PTI
-tai_po_market_pti,fu_shin_estate,15,paid_bus,Bus K17
-tai_po_market_pti,kwong_fuk_estate,15,paid_bus,Bus K18
+tai_po_market_pti,fu_shin_estate,15,paid_bus,MTR Feeder Bus K17
+tai_po_market_pti,kwong_fuk_estate,15,paid_bus,MTR Feeder Bus K18
 fu_shin_estate,kwong_fuk_estate,10,paid_bus,KMB 71K to Tai Po Market,uni
 
 // --- TAI WO HUB ---
@@ -369,6 +370,11 @@ landmark_north,sheung_shui_junction,4,bridge,Bridge
 sheung_shui_junction,choi_yuen_estate,2,bridge,Bridge
 choi_yuen_estate,choi_po_court,2,bridge,Covered Walkway
 sheung_shui_junction,po_shek_wu_estate,2,bridge,Bridge
+
+// --- BORDER CROSSINGS ---
+heung_yuen_wai_port,liantang_port,5,bridge,Border Crossing
+lo_wu_concourse,lo_wu_port,5,bridge,Border Crossing
+lok_ma_chau_concourse,futian_port,5,bridge,Border Crossing
 
 // --- REMAINING EAST RAIL CONCOURSES (Stubs for future expansion) ---
 fo_tan_platform,fo_tan_concourse,2,fare_gate,Fare gates
