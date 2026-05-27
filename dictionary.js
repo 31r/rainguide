@@ -268,6 +268,13 @@
 				},
 				"Tung Chung Line (東涌綫)": {
 					"hong_kong_concourse": "Hong Kong / 香港站",
+					"kowloon_concourse": "Kowloon / 九龍站",
+					"olympic_concourse": "Olympic / 奧運站",
+					"nam_cheong_concourse": "Nam Cheong / 南昌站",
+					"lai_king_concourse": "Lai King / 荔景站",
+					"tsing_yi_concourse": "Tsing Yi / 青衣站",
+					"sunny_bay_concourse": "Sunny Bay / 欣澳站",
+					"tung_chung_concourse": "Tung Chung / 東涌站"
 				},
 				"East Rail Line (東鐵綫)": {
                     "admiralty_concourse": "Admiralty / 金鐘站",
@@ -309,7 +316,14 @@
 					"chai_wan_platform": "Chai Wan / 柴灣站"
 				},
 				"Tung Chung Line (東涌綫)": {
-					"hong_kong_platform": "Hong Kong / 香港站"
+					"hong_kong_platform": "Hong Kong / 香港站",
+					"kowloon_platform": "Kowloon / 九龍站",
+					"olympic_platform": "Olympic / 奧運站",
+					"nam_cheong_platform": "Nam Cheong / 南昌站",
+					"lai_king_platform": "Lai King / 荔景站",
+					"tsing_yi_platform": "Tsing Yi / 青衣站",
+					"sunny_bay_platform": "Sunny Bay / 欣澳站",
+					"tung_chung_platform": "Tung Chung / 東涌站"
 				},
 				"East Rail Line (東鐵綫)": {
                     "admiralty_platform_erl": "Admiralty (East Rail Line) / 金鐘站 (東鐵綫)",

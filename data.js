@@ -201,7 +201,7 @@ new_jade_garden,chai_wan_y_junction,2,bridge,Bridge
 wan_tsui_estate,chai_wan_y_junction,4,bridge,Bridge
 youth_square,chai_wan_y_junction,2,bridge,Bridge
 
-// --- THE ISLAND LINE (TRAIN TRACKS) ---
+// --- ISLAND LINE (TRAIN TRACKS) ---
 kennedy_town_platform,hku_platform,4,paid_train,Island Line (MTR)
 hku_platform,sai_ying_pun_platform,4,paid_train,Island Line (MTR)
 sai_ying_pun_platform,sheung_wan_platform,4,paid_train,Island Line (MTR)
@@ -224,6 +224,24 @@ kennedy_town_platform,kennedy_town_concourse,2,fare_gate,Fare gates
 tin_hau_platform,tin_hau_concourse,2,fare_gate,Fare gates
 quarry_bay_platform,quarry_bay_concourse,2,fare_gate,Fare gates
 shau_kei_wan_platform,shau_kei_wan_concourse,2,fare_gate,Fare gates
+
+// --- TUNG CHUNG LINE (TRAIN TRACKS) ---
+hong_kong_platform,kowloon_platform,10,paid_train,Tung Chung Line (MTR)
+kowloon_platform,olympic_platform,4,paid_train,Tung Chung Line (MTR)
+olympic_platform,nam_cheong_platform,4,paid_train,Tung Chung Line (MTR)
+nam_cheong_platform,lai_king_platform,6,paid_train,Tung Chung Line (MTR)
+lai_king_platform,tsing_yi_platform,6,paid_train,Tung Chung Line (MTR)
+tsing_yi_platform,sunny_bay_platform,8,paid_train,Tung Chung Line (MTR)
+sunny_bay_platform,tung_chung_platform,14,paid_train,Tung Chung Line (MTR)
+
+// --- TUNG CHUNG LINE CONCOURSES (Stubs for future expansion) ---
+kowloon_platform,kowloon_concourse,2,fare_gate,Fare gates
+olympic_platform,olympic_concourse,2,fare_gate,Fare gates
+nam_cheong_platform,nam_cheong_concourse,2,fare_gate,Fare gates
+lai_king_platform,lai_king_concourse,2,fare_gate,Fare gates
+tsing_yi_platform,tsing_yi_concourse,2,fare_gate,Fare gates
+sunny_bay_platform,sunny_bay_concourse,2,fare_gate,Fare gates
+tung_chung_platform,tung_chung_concourse,2,fare_gate,Fare gates
 
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
 admiralty_platform,admiralty_platform_erl,6,paid_transfer,Platform Level Transfer (Escalators)
@@ -360,3 +378,4 @@ university_platform,university_concourse,2,fare_gate,Fare gates
 university_concourse,cyt_building,2,bridge,Exit B and Covered Walkway
 lo_wu_platform,lo_wu_concourse,2,fare_gate,Fare gates
 lok_ma_chau_platform,lok_ma_chau_concourse,2,fare_gate,Fare gates`;
+
