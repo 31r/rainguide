@@ -124,7 +124,7 @@ admiralty_platform_erl,admiralty_concourse,6,fare_gate,Fare gates to/from East R
 // --- WAN CHAI HUB ---
 wan_chai_platform,wan_chai_concourse,2,fare_gate,Fare gates
 wan_chai_concourse,china_overseas_bldg,2,internal,Exit C
-wan_chai_concourse,immigration_tower,4,bridge,Exit A5 Footbridge
+wan_chai_concourse,immigration_tower,6,bridge,Exit A5 Footbridge
 immigration_tower,central_plaza,2,bridge,Bridge to Central Plaza
 immigration_tower,revenue_tower,2,escalator,Covered Walkway
 central_plaza,hkcec,2,bridge,Bridge to HKCEC
@@ -234,7 +234,7 @@ lai_king_platform,tsing_yi_platform,6,paid_train,Tung Chung Line (MTR)
 tsing_yi_platform,sunny_bay_platform,8,paid_train,Tung Chung Line (MTR)
 sunny_bay_platform,tung_chung_platform,14,paid_train,Tung Chung Line (MTR)
 
-// --- TUNG CHUNG LINE CONCOURSES (Stubs for future expansion) ---
+// --- TUNG CHUNG LINE CONCOURSES ---
 kowloon_platform,kowloon_concourse,2,fare_gate,Fare gates
 olympic_platform,olympic_concourse,2,fare_gate,Fare gates
 nam_cheong_platform,nam_cheong_concourse,2,fare_gate,Fare gates
@@ -243,8 +243,36 @@ tsing_yi_platform,tsing_yi_concourse,2,fare_gate,Fare gates
 sunny_bay_platform,sunny_bay_concourse,2,fare_gate,Fare gates
 tung_chung_platform,tung_chung_concourse,2,fare_gate,Fare gates
 
+// --- KOWLOON / AUSTIN HUB ---
+kowloon_concourse,elements_mall,2,internal,Internal Mall Connection
+elements_mall,austin_concourse,15,bridge,Exit B5
+elements_mall,west_kowloon_station,15,bridge,Exit M
+elements_mall,icc,2,internal,Internal Mall Entrance
+elements_mall,the_arch,4,internal,Mall to Residential Lobby
+elements_mall,sorrento,4,internal,Mall to Residential Lobby
+elements_mall,the_waterfront,4,internal,Mall to Residential Lobby
+elements_mall,the_harbourside,4,internal,Mall to Residential Lobby
+elements_mall,the_cullinan,4,internal,Mall to Residential Lobby
+
+// --- OLYMPIC HUB ---
+olympic_concourse,olympian_city_one,3,bridge,Exits A2 or E
+olympian_city_one,island_harbourview,2,bridge,Bridge
+olympian_city_one,bank_of_china_centre,2,internal,Internal Mall Connection
+olympic_concourse,hsbc_centre,3,bridge,Exits B or C
+hsbc_centre,harbour_green,4,bridge,Bridge
+olympian_city_one,harbour_green,5,bridge,Bridge
+olympic_concourse,west9zone,3,bridge,Exit C5
+west9zone,florient_rise,2,internal,Mall to Residential Lobby
+olympic_concourse,olympian_city_two,2,internal,Exit D3
+olympian_city_two,olympian_city_three,2,bridge,Bridge
+olympian_city_three,the_hermitage,2,internal,Mall to Residential Lobby
+olympian_city_two,central_park,2,internal,Mall to Residential Lobby
+olympian_city_two,hoi_fu_court,4,internal,Bridge
+olympian_city_two,park_avenue,3,internal,Mall to Residential Lobby
+central_park,park_avenue,2,internal,Covered Walkway
+
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
-admiralty_platform,admiralty_platform_erl,6,paid_transfer,Platform Level Transfer (Escalators)
+admiralty_platform,admiralty_platform_erl,4,paid_transfer,Platform Level Transfer (Escalators)
 admiralty_platform_erl,exhibition_centre_platform,4,paid_train,East Rail Line (MTR)
 exhibition_centre_platform,hung_hom_platform,10,paid_train,East Rail Line (MTR)
 hung_hom_platform,mong_kok_east_platform,6,paid_train,East Rail Line (MTR)

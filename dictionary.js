@@ -145,23 +145,47 @@
 			},
 			
 			"Kowloon West (九龍西)": {
-                "Mong Kok (旺角)": {
-                    "moko": "MOKO / 新世紀廣場"
-                },
-                "Tsim Sha Tsui (尖沙咀)": {
-                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
-				},
                 "Hung Hom (紅磡)": {
-                    "polyu": "PolyU / 理工大學",
-					"royal_peninsula": "Royal Peninsula / 半島豪庭",
                     "harbour_place": "Harbour Place / 海濱南岸",
-                    "stars_by_the_harbour": "Stars by the Harbour / 維港·星岸",
-                    "one_harbour_gate": "One HarbourGate"
+                    "one_harbour_gate": "One HarbourGate",
+                    "polyu": "PolyU / 理工大學",
+                    "royal_peninsula": "Royal Peninsula / 半島豪庭",
+                    "stars_by_the_harbour": "Stars by the Harbour / 維港·星岸"
                 },
+				"Kowloon Station (九龍站)": {
+					"elements_mall": "Elements / 圓方",
+					"the_arch": "The Arch / 凱旋門",
+					"the_cullinan": "The Cullinan / 天璽",
+					"the_harbourside": "The Harbourside / 君臨天下",
+					"icc": "ICC / 環球貿易廣場",
+					"sorrento": "Sorrento / 擎天半島",
+					"the_waterfront": "The Waterfront / 漾日居"
+				},
                 "Kowloon Tong (九龍塘)": {
 					"cityu": "CityU / 城市大學",
                     "festival_walk": "Festival Walk / 又一城"
-                }
+                },
+                "Mong Kok (旺角)": {
+                    "moko": "MOKO / 新世紀廣場"
+                },
+                "Olympic Station (奧運站)": {
+                    "bank_of_china_centre": "Bank of China Centre / 中銀中心",
+                    "central_park": "Central Park / 帝柏海灣",
+                    "florient_rise": "Florient Rise / 海桃灣",
+                    "harbour_green": "Harbour Green / 君匯港",
+                    "hoi_fu_court": "Hoi Fu Court / 海富苑",
+                    "hsbc_centre": "HSBC Centre / 滙豐中心",
+                    "island_harbourview": "Island Harbourview / 維港灣",
+                    "olympian_city_one": "Olympian City One / 奧海城一期",
+                    "olympian_city_two": "Olympian City Two / 奧海城二期",
+                    "olympian_city_three": "Olympian City Three / 奧海城三期",
+                    "park_avenue": "Park Avenue / 柏景灣",
+                    "the_hermitage": "The Hermitage / 帝峯‧皇殿",
+                    "west9zone": "West 9 Zone / 西九匯",
+				},
+                "Tsim Sha Tsui (尖沙咀)": {
+                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
+				}
             },
 
             "Sha Tin District (沙田區)": {
@@ -242,6 +266,9 @@
 				}
 			},
 			"Border Crossings (出入境管制站)": {
+				"High-Speed Rail (高速鐵路)": {
+					"west_kowloon_station": "Hong Kong West Kowloon Station / 香港西九龍站"
+				},
 				"Shenzhen (深圳)": {
 					"futian_port": "Futian Port / 福田口岸",
 					"heung_yuen_wai_port": "Heung Yuen Wai Control Point / 香園圍口岸",
