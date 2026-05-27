@@ -239,6 +239,12 @@
 					"sheung_shui_town_centre": "Sheung Shui Town Centre / 上水名都",
 					"sunningdale_garden": "Sunningdale Garden / 順欣花園",
 					"spot": "Spot / 上水匯"
+				},
+				"Border Crossings (出入境管制站)": {
+					"futian_port": "Futian Port / 福田口岸",
+					"heung_yuen_wai_port": "Heung Yuen Wai Control Point / 香園圍口岸",
+					"liantang_port": "Liantang Port / 蓮塘口岸",
+					"lo_wu_port": "Lo Wu Port / 羅湖口岸"
 				}
 			},
 			"MTR Concourses (港鐵大堂)": {
