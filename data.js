@@ -264,11 +264,9 @@ sheung_shui_platform,lok_ma_chau_platform,24,paid_train,East Rail Line (MTR)
 
 // --- EXHIBITION CENTRE HUB ---
 exhibition_centre_platform,exhibition_centre_concourse,2,fare_gate,Fare gates
-exhibition_centre_concourse,exhibition_centre_a3,2,internal,Exit A3
-exhibition_centre_concourse,exhibition_centre_b3,2,internal,Exit B3
-exhibition_centre_a3,wcn_junction,3,bridge,Escalator
-exhibition_centre_b3,great_eagle_ctr,4,bridge,Escalator
-exhibition_centre_b3,hkcec,6,bridge,Escalator and Bridge
+exhibition_centre_concourse,wcn_junction,3,bridge,Exit A3 Escalator
+exhibition_centre_concourse,great_eagle_ctr,4,bridge,Exit B3 Escalator
+exhibition_centre_concourse,hkcec,6,bridge,Exit B3 Escalator and Bridge
 
 // --- HUNG HOM HUB ---
 hung_hom_platform,hung_hom_concourse,2,fare_gate,Fare gates
@@ -339,10 +337,9 @@ fu_shin_estate,kwong_fuk_estate,10,paid_bus,KMB 71K to Tai Po Market,uni
 
 // --- TAI WO HUB ---
 tai_wo_platform,tai_wo_concourse,2,fare_gate,Fare gates
-tai_wo_concourse,tai_wo_exit_a,2,internal,Exit A
-tai_wo_exit_a,tai_wo_plaza_west,2,internal,Internal Mall Connection
-tai_wo_concourse,tai_wo_exit_b,2,internal,Exit B
-tai_wo_exit_b,tai_wo_plaza_east,2,internal,Internal Mall Connection
+tai_wo_concourse,tai_wo_plaza_west,2,internal,Exit A
+tai_wo_concourse,tai_wo_plaza_east,2,internal,Exit B
+tai_wo_plaza_west,tai_wo_plaza_east,2,internal,Internal Mall Connection
 tai_wo_plaza_west,tai_wo_bus_terminus,2,escalator,Escalator
 tai_wo_bus_terminus,fu_tip_estate,20,paid_bus,KMB 72K
 
