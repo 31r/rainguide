@@ -7,10 +7,10 @@
 tsuen_wan_platform,tai_wo_hau_platform,4,paid_train,Tsuen Wan Line (MTR)
 tai_wo_hau_platform,kwai_hing_platform,4,paid_train,Tsuen Wan Line (MTR)
 kwai_hing_platform,kwai_fong_platform,4,paid_train,Tsuen Wan Line (MTR)
-kwai_fong_platform,lai_king_twl_sb,4,paid_train,Tsuen Wan Line (MTR),uni
-lai_king_twl_sb,mei_foo_platform_tsw,4,paid_train,Tsuen Wan Line (MTR),uni
-mei_foo_platform_tsw,lai_king_twl_nb,4,paid_train,Tsuen Wan Line (MTR),uni
-lai_king_twl_nb,kwai_fong_platform,4,paid_train,Tsuen Wan Line (MTR),uni
+kwai_fong_platform,lai_king_platform_twl_sb,4,paid_train,Tsuen Wan Line (MTR),uni
+lai_king_platform_twl_sb,mei_foo_platform_tsw,4,paid_train,Tsuen Wan Line (MTR),uni
+mei_foo_platform_tsw,lai_king_platform_twl_nb,4,paid_train,Tsuen Wan Line (MTR),uni
+lai_king_platform_twl_nb,kwai_fong_platform,4,paid_train,Tsuen Wan Line (MTR),uni
 mei_foo_platform_tsw,lai_chi_kok_platform,4,paid_train,Tsuen Wan Line (MTR)
 lai_chi_kok_platform,cheung_sha_wan_platform,4,paid_train,Tsuen Wan Line (MTR)
 cheung_sha_wan_platform,sham_shui_po_platform,4,paid_train,Tsuen Wan Line (MTR)
@@ -28,8 +28,8 @@ tsuen_wan_platform,tsuen_wan_concourse,2,fare_gate,Fare gates
 tai_wo_hau_platform,tai_wo_hau_concourse,2,fare_gate,Fare gates
 kwai_hing_platform,kwai_hing_concourse,2,fare_gate,Fare gates
 kwai_fong_platform,kwai_fong_concourse,2,fare_gate,Fare gates
-lai_king_concourse,lai_king_twl_nb,2,fare_gate,Fare gates
-lai_king_concourse,lai_king_twl_sb,2,fare_gate,Fare gates
+lai_king_concourse,lai_king_platform_twl_nb,5,fare_gate,Fare gates
+lai_king_concourse,lai_king_platform_twl_sb,5,fare_gate,Fare gates
 mei_foo_platform_tsw,mei_foo_concourse_tsw,2,fare_gate,Fare gates
 lai_chi_kok_platform,lai_chi_kok_concourse,2,fare_gate,Fare gates
 cheung_sha_wan_platform,cheung_sha_wan_concourse,2,fare_gate,Fare gates
@@ -270,10 +270,10 @@ shau_kei_wan_platform,shau_kei_wan_concourse,2,fare_gate,Fare gates
 hong_kong_platform,kowloon_platform,14,paid_train,Tung Chung Line (MTR)
 kowloon_platform,olympic_platform,4,paid_train,Tung Chung Line (MTR)
 olympic_platform,nam_cheong_platform,4,paid_train,Tung Chung Line (MTR)
-nam_cheong_platform,lai_king_tcl_nb,10,paid_train,Tung Chung Line (MTR),uni
-lai_king_tcl_nb,tsing_yi_platform,8,paid_train,Tung Chung Line (MTR),uni
-tsing_yi_platform,lai_king_tcl_sb,8,paid_train,Tung Chung Line (MTR),uni
-lai_king_tcl_sb,nam_cheong_platform,10,paid_train,Tung Chung Line (MTR),uni
+nam_cheong_platform,lai_king_platform_tcl_nb,10,paid_train,Tung Chung Line (MTR),uni
+lai_king_platform_tcl_nb,tsing_yi_platform,8,paid_train,Tung Chung Line (MTR),uni
+tsing_yi_platform,lai_king_platform_tcl_sb,8,paid_train,Tung Chung Line (MTR),uni
+lai_king_platform_tcl_sb,nam_cheong_platform,10,paid_train,Tung Chung Line (MTR),uni
 tsing_yi_platform,sunny_bay_platform,8,paid_train,Tung Chung Line (MTR)
 sunny_bay_platform,tung_chung_platform,14,paid_train,Tung Chung Line (MTR)
 
@@ -281,8 +281,8 @@ sunny_bay_platform,tung_chung_platform,14,paid_train,Tung Chung Line (MTR)
 kowloon_platform,kowloon_concourse,2,fare_gate,Fare gates
 olympic_platform,olympic_concourse,2,fare_gate,Fare gates
 nam_cheong_platform,nam_cheong_concourse,2,fare_gate,Fare gates
-lai_king_concourse,lai_king_tcl_nb,2,fare_gate,Fare gates
-lai_king_concourse,lai_king_tcl_sb,2,fare_gate,Fare gates
+lai_king_concourse,lai_king_platform_tcl_nb,5,fare_gate,Fare gates
+lai_king_concourse,lai_king_platform_tcl_sb,5,fare_gate,Fare gates
 tsing_yi_platform,tsing_yi_concourse,2,fare_gate,Fare gates
 sunny_bay_platform,sunny_bay_concourse,2,fare_gate,Fare gates
 tung_chung_platform,tung_chung_concourse,2,fare_gate,Fare gates
@@ -325,10 +325,10 @@ sham_shui_po_lcst_building,hoi_ying_estate,3,bridge,Bridge
 sham_shui_po_lcst_building,aqua_marine,3,bridge,Bridge
 
 // --- LAI KING HUB ---
-lai_king_twl_nb,lai_king_tcl_nb,2,paid_transfer,Cross-Platform Transfer (Upper Level)
-lai_king_twl_sb,lai_king_tcl_sb,2,paid_transfer,Cross-Platform Transfer (Lower Level)
-lai_king_twl_nb,lai_king_tcl_sb,8,paid_transfer,Vertical Escalator Transfer
-lai_king_tcl_nb,lai_king_twl_sb,8,paid_transfer,Vertical Escalator Transfer
+lai_king_platform_twl_nb,lai_king_platform_tcl_nb,2,paid_transfer,Cross-Platform Transfer (Upper Level)
+lai_king_platform_twl_sb,lai_king_platform_tcl_sb,2,paid_transfer,Cross-Platform Transfer (Lower Level)
+lai_king_platform_twl_nb,lai_king_platform_tcl_sb,8,paid_transfer,Vertical Escalator Transfer
+lai_king_platform_tcl_nb,lai_king_platform_twl_sb,8,paid_transfer,Vertical Escalator Transfer
 lai_king_concourse,yin_lai_court,2,internal,Exit A2
 lai_king_concourse,lai_king_est_south,4,internal,Exit A3
 
