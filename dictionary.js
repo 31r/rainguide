@@ -168,6 +168,15 @@
                 "Mong Kok (旺角)": {
                     "moko": "MOKO / 新世紀廣場"
                 },
+				"Nam Cheong (南昌)": {
+					"aqua_marine": "Aqua Marine / 碧海藍天",
+					"cullinan_west": "Cullinan West / 匯璽",
+					"fu_cheong_estate": "Fu Cheong Estate / 富昌邨",
+					"hoi_tat_estate": "Hoi Tat Estate / 海達邨",
+					"hoi_ying_estate": "Hoi Ying Estate / 海盈邨",
+					"sham_shui_po_lcst_building": "Sham Shui Po Leisure and Cultural Building / 深水埗康樂文化大樓",
+					"v_walk": "V Walk"
+				},
                 "Olympic Station (奧運站)": {
                     "bank_of_china_centre": "Bank of China Centre / 中銀中心",
                     "central_park": "Central Park / 帝柏海灣",
@@ -187,7 +196,12 @@
                     "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
 				}
             },
-
+			"Kwai Tsing District (葵青區)": {
+				"Lai King (荔景)": {
+					"yin_lai_court": "Yin Lai Court / 賢麗苑",
+					"lai_king_est_south": "Lai King Estate (South) / 荔景邨（南）"
+				}
+			},
             "Sha Tin District (沙田區)": {
                 "Tai Wai (大圍)": {
 					"festival_city": "Festival City / 名城",
@@ -277,6 +291,26 @@
 				}
 			},
 			"MTR Concourses (港鐵大堂)": {
+				"Tsuen Wan Line (荃灣綫)": {
+					"central_concourse_west": "Central (Exits A-D) / 中環站 (A-D出口)",
+					"central_concourse_mid": "Central (Exits E-H) / 中環站 (E-H出口)",
+					"central_concourse_east": "Central (Exits J-L) / 中環站 (J-L出口)",
+					"admiralty_concourse": "Admiralty / 金鐘站",
+					"tsim_sha_tsui_concourse": "Tsim Sha Tsui / 尖沙咀站",
+					"jordan_concourse": "Jordan / 佐敦站",
+					"yaumatei_concourse": "Yau Ma Tei / 油麻地站",
+					"mong_kok_concourse": "Mong Kok / 旺角站",
+					"prince_edward_concourse": "Prince Edward / 太子站",
+					"sham_shui_po_concourse": "Sham Shui Po / 深水埗站",
+					"cheung_sha_wan_concourse": "Cheung Sha Wan / 長沙灣站",
+					"lai_chi_kok_concourse": "Lai Chi Kok / 荔枝角站",
+					"mei_foo_concourse_tsw": "Mei Foo (Exits A-E) / 美孚站 (A-E出口)",
+					"lai_king_concourse": "Lai King / 荔景站",
+					"kwai_fong_concourse": "Kwai Fong / 葵芳站",
+					"kwai_hing_concourse": "Kwai Hing / 葵興站",
+					"tai_wo_hau_concourse": "Tai Wo Hau / 大窩口站",
+					"tsuen_wan_concourse": "Tsuen Wan / 荃灣站"
+				},
 				"Island Line (港島綫)": {
 					"kennedy_town_concourse": "Kennedy Town / 堅尼地城站",
 					"hku_concourse": "HKU / 香港大學站",
@@ -331,13 +365,32 @@
                 }
 			},
 			"MTR Platforms (付費區)": {
+				"Tsuen Wan Line (荃灣綫)": {
+					"central_platform_tsw": "Central (Tsuen Wan Line) / 中環站 (荃灣綫)",
+					"admiralty_platform_tsw": "Admiralty (Tsuen Wan Line) / 金鐘站(荃灣綫)",
+					"tsim_sha_tsui_platform": "Tsim Sha Tsui / 尖沙咀站",
+					"jordan_platform": "Jordan / 佐敦站",
+					"yaumatei_platform": "Yau Ma Tei / 油麻地站",
+					"mong_kok_platform": "Mong Kok / 旺角站",
+					"prince_edward_platform": "Prince Edward / 太子站",
+					"sham_shui_po_platform": "Sham Shui Po / 深水埗站",
+					"cheung_sha_wan_platform": "Cheung Sha Wan / 長沙灣站",
+					"lai_chi_kok_platform": "Lai Chi Kok / 荔枝角站",
+					"mei_foo_platform_tsw": "Mei Foo (Tsuen Wan Line) / 美孚站 (荃灣綫)",
+					"lai_king_twl_nb": "Lai King (TWL to Tsuen Wan) / 荔景站 (荃灣綫往荃灣)",
+					"lai_king_twl_sb": "Lai King (TWL to Central) / 荔景站 (荃灣綫往中環)",
+					"kwai_fong_platform": "Kwai Fong / 葵芳站",
+					"kwai_hing_platform": "Kwai Hing / 葵興站",
+					"tai_wo_hau_platform": "Tai Wo Hau / 大窩口站",
+					"tsuen_wan_platform": "Tsuen Wan / 荃灣站"
+				},
 				"Island Line (港島綫)": {
 					"kennedy_town_platform": "Kennedy Town / 堅尼地城站",
 					"hku_platform": "HKU / 香港大學站",
 					"sai_ying_pun_platform": "Sai Ying Pun / 西營盤站",
 					"sheung_wan_platform": "Sheung Wan / 上環站",
-					"central_platform_island": "Central / 中環站",
-					"admiralty_platform": "Admiralty (Island/Tsuen Wan Line) / 金鐘站 (港島/荃灣綫)",
+					"central_platform_isl": "Central (Island Line) / 中環站 (港島綫)",
+					"admiralty_platform_isl": "Admiralty (Island Line) / 金鐘站(港島綫)",
 					"wan_chai_platform": "Wan Chai / 灣仔站",
 					"causeway_bay_platform": "Causeway Bay / 銅鑼灣站",
 					"tin_hau_platform": "Tin Hau / 天后站",
@@ -355,7 +408,8 @@
 					"kowloon_platform": "Kowloon / 九龍站",
 					"olympic_platform": "Olympic / 奧運站",
 					"nam_cheong_platform": "Nam Cheong / 南昌站",
-					"lai_king_platform": "Lai King / 荔景站",
+					"lai_king_tcl_nb": "Lai King (TCL to Tung Chung) / 荔景站 (東涌綫往東涌)",
+					"lai_king_tcl_sb": "Lai King (TCL to Hong Kong) / 荔景站 (東涌綫往香港)",
 					"tsing_yi_platform": "Tsing Yi / 青衣站",
 					"sunny_bay_platform": "Sunny Bay / 欣澳站",
 					"tung_chung_platform": "Tung Chung / 東涌站"
