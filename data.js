@@ -421,6 +421,7 @@ sha_tin_market,sha_tin_junction,1,bridge,Bridge
 lek_yuen_estate,sha_tin_junction,3,bridge,Bridge
 lek_yuen_estate,wo_che_estate,8,bridge,Bridge
 wo_che_estate,fung_wo_estate,2,bridge,Bridge
+sha_tin_central_pti,mei_tin_estate,20,paid_bus,KMB 283
 sha_tin_central_pti,chun_yeung_estate,20,paid_bus,KMB 285
 
 // --- TAI PO MARKET HUB ---

@@ -206,6 +206,7 @@
                 "Tai Wai (大圍)": {
 					"festival_city": "Festival City / 名城",
 					"grandway_garden": "Grandway Garden / 富嘉花園",
+					"mei_tin_estate": "Mei Tin Estate / 美田邨",
 					"the_pavilia_farm": "The Pavilia Farm / 柏傲莊",
 					"tai_wai_pti": "Tai Wai Station PTI / 大圍站公共運輸交匯處",
 					"the_wai": "The Wai / 圍方"
