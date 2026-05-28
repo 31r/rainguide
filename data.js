@@ -448,6 +448,8 @@ fanling_town_center,fanling_centre,2,bridge,Bridge
 fanling_town_center,cheung_wah_estate,3,bridge,Bridge
 fanling_concourse,ka_fuk_estate,8,bridge,Exit B and Covered Walkway
 ka_fuk_estate,ka_shing_court,2,bridge,Covered Walkway
+fanling_concourse,fanling_station_road,2,bridge,Exit A2 and Covered Walkway
+fanling_station_road,heung_yuen_wai_port,20,paid_bus,Citybus B7
 
 // --- SHEUNG SHUI HUB ---
 sheung_shui_concourse,landmark_north,2,bridge,Exit A4

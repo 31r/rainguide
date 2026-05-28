@@ -262,6 +262,7 @@
 				"Fanling (粉嶺)": {
 					"cheung_wah_estate": "Cheung Wah Estate / 祥華邨",
 					"fanling_centre": "Fanling Centre / 粉嶺中心",
+					"fanling_station_road": "Fanling Station Road / 粉嶺車站路",
 					"fanling_town_center": "Fanling Town Center / 粉嶺名都",
 					"ka_fuk_estate": "Ka Fuk Estate / 嘉福邨",
 					"ka_shing_court": "Ka Shing Court / 嘉盛苑"
