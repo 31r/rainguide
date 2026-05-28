@@ -367,7 +367,7 @@
 			"MTR Platforms (付費區)": {
 				"Tsuen Wan Line (荃灣綫)": {
 					"central_platform_tsw": "Central (Tsuen Wan Line) / 中環站 (荃灣綫)",
-					"admiralty_platform_tsw": "Admiralty (Tsuen Wan Line) / 金鐘站(荃灣綫)",
+					"admiralty_platform_tsw": "Admiralty (Tsuen Wan Line) / 金鐘站 (荃灣綫)",
 					"tsim_sha_tsui_platform": "Tsim Sha Tsui / 尖沙咀站",
 					"jordan_platform": "Jordan / 佐敦站",
 					"yaumatei_platform": "Yau Ma Tei / 油麻地站",
@@ -377,8 +377,8 @@
 					"cheung_sha_wan_platform": "Cheung Sha Wan / 長沙灣站",
 					"lai_chi_kok_platform": "Lai Chi Kok / 荔枝角站",
 					"mei_foo_platform_tsw": "Mei Foo (Tsuen Wan Line) / 美孚站 (荃灣綫)",
-					"lai_king_platform_twl_nb": "Lai King (TWL to Tsuen Wan) / 荔景站 (荃灣綫往荃灣)",
-					"lai_king_platform_twl_sb": "Lai King (TWL to Central) / 荔景站 (荃灣綫往中環)",
+					"lai_king_platform_twl_nb": "Lai King (Platform 1) / 荔景站 (1號月台)",
+					"lai_king_platform_twl_sb": "Lai King (Platform 2) / 荔景站 (2號月台)",
 					"kwai_fong_platform": "Kwai Fong / 葵芳站",
 					"kwai_hing_platform": "Kwai Hing / 葵興站",
 					"tai_wo_hau_platform": "Tai Wo Hau / 大窩口站",
@@ -390,7 +390,7 @@
 					"sai_ying_pun_platform": "Sai Ying Pun / 西營盤站",
 					"sheung_wan_platform": "Sheung Wan / 上環站",
 					"central_platform_isl": "Central (Island Line) / 中環站 (港島綫)",
-					"admiralty_platform_isl": "Admiralty (Island Line) / 金鐘站(港島綫)",
+					"admiralty_platform_isl": "Admiralty (Island Line) / 金鐘站 (港島綫)",
 					"wan_chai_platform": "Wan Chai / 灣仔站",
 					"causeway_bay_platform": "Causeway Bay / 銅鑼灣站",
 					"tin_hau_platform": "Tin Hau / 天后站",
@@ -408,8 +408,8 @@
 					"kowloon_platform": "Kowloon / 九龍站",
 					"olympic_platform": "Olympic / 奧運站",
 					"nam_cheong_platform": "Nam Cheong / 南昌站",
-					"lai_king_platform_tcl_nb": "Lai King (TCL to Tung Chung) / 荔景站 (東涌綫往東涌)",
-					"lai_king_platform_tcl_sb": "Lai King (TCL to Hong Kong) / 荔景站 (東涌綫往香港)",
+					"lai_king_platform_tcl_nb": "Lai King (Platform 3) / 荔景站 (3號月台)",
+					"lai_king_platform_tcl_sb": "Lai King (Platform 4) / 荔景站 (4號月台)",
 					"tsing_yi_platform": "Tsing Yi / 青衣站",
 					"sunny_bay_platform": "Sunny Bay / 欣澳站",
 					"tung_chung_platform": "Tung Chung / 東涌站"
@@ -428,7 +428,8 @@
                     "tai_po_market_platform": "Tai Po Market / 大埔墟站",
                     "tai_wo_platform": "Tai Wo / 太和站",
                     "fanling_platform": "Fanling / 粉嶺站",
-                    "sheung_shui_platform": "Sheung Shui / 上水站",
+                    "sheung_shui_platform_nb": "Sheung Shui (Platform 1) / 上水站 (1號月台)",
+					"sheung_shui_platform_sb": "Sheung Shui (Platform 2) / 上水站 (2號月台)",
                     "lo_wu_platform": "Lo Wu / 羅湖站",
                     "lok_ma_chau_platform": "Lok Ma Chau / 落馬洲站"
                 }

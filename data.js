@@ -349,9 +349,15 @@ racecourse_platform,university_platform,4,paid_train,East Rail Line (MTR)
 university_platform,tai_po_market_platform,10,paid_train,East Rail Line (MTR)
 tai_po_market_platform,tai_wo_platform,4,paid_train,East Rail Line (MTR)
 tai_wo_platform,fanling_platform,10,paid_train,East Rail Line (MTR)
-fanling_platform,sheung_shui_platform,4,paid_train,East Rail Line (MTR)
-sheung_shui_platform,lo_wu_platform,12,paid_train,East Rail Line (MTR)
-sheung_shui_platform,lok_ma_chau_platform,24,paid_train,East Rail Line (MTR)
+
+// --- THE EAST RAIL BRANCH ---
+fanling_platform,sheung_shui_platform_nb,4,paid_train,East Rail Line (MTR),uni
+sheung_shui_platform_nb,lo_wu_platform,12,paid_train,East Rail Line (MTR),uni
+sheung_shui_platform_nb,lok_ma_chau_platform,24,paid_train,East Rail Line (MTR),uni
+
+lo_wu_platform,sheung_shui_platform_sb,12,paid_train,East Rail Line (MTR),uni
+lok_ma_chau_platform,sheung_shui_platform_sb,24,paid_train,East Rail Line (MTR),uni
+sheung_shui_platform_sb,fanling_platform,4,paid_train,East Rail Line (MTR),uni
 
 // --- EXHIBITION CENTRE HUB ---
 exhibition_centre_platform,exhibition_centre_concourse,2,fare_gate,Fare gates
@@ -443,7 +449,6 @@ fanling_concourse,ka_fuk_estate,8,bridge,Exit B and Covered Walkway
 ka_fuk_estate,ka_shing_court,2,bridge,Covered Walkway
 
 // --- SHEUNG SHUI HUB ---
-sheung_shui_platform,sheung_shui_concourse,2,fare_gate,Fare gates
 sheung_shui_concourse,landmark_north,2,bridge,Exit A4
 landmark_north,spot,2,bridge,Bridge
 landmark_north,metropolis_plaza,2,bridge,Bridge
@@ -458,6 +463,11 @@ landmark_north,sheung_shui_junction,4,bridge,Bridge
 sheung_shui_junction,choi_yuen_estate,2,bridge,Bridge
 choi_yuen_estate,choi_po_court,2,bridge,Covered Walkway
 sheung_shui_junction,po_shek_wu_estate,2,bridge,Bridge
+
+// --- SHEUNG SHUI FARE GATES & TRANSFERS ---
+sheung_shui_concourse,sheung_shui_platform_nb,2,fare_gate,Fare gates
+sheung_shui_concourse,sheung_shui_platform_sb,2,fare_gate,Fare gates
+sheung_shui_platform_nb,sheung_shui_platform_sb,3,paid_transfer,Vertical Concourse Transfer
 
 // --- BORDER CROSSINGS ---
 heung_yuen_wai_port,liantang_port,5,bridge,Border Crossing
