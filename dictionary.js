@@ -211,7 +211,7 @@
 					"tai_wai_pti": "Tai Wai Station PTI / 大圍站公共運輸交匯處",
 					"the_wai": "The Wai / 圍方"
                 },
-				"Sha Tin (沙田)": {
+				"Sha Tin Central (沙田市中心)": {
 					"citylink_mall": "Citylink Mall / 連城廣場",
 					"fung_wo_estate": "Fung Wo Estate / 豐和邨",
 					"hilton_plaza": "Hilton Plaza / 希爾頓中心",
