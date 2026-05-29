@@ -105,7 +105,7 @@ heng_fa_chuen_platform,chai_wan_platform,4,paid_train,Island Line (MTR)
 
 // --- TRANSFERS (ISL <-> TKL) ---
 north_point_platform_isl,north_point_platform_tkl,2,paid_transfer,Cross-Platform Transfer
-quarry_bay_platform_isl,quarry_bay_platform_tkl,4,paid_transfer,Vertical Escalator Transfer
+quarry_bay_platform_isl,quarry_bay_platform_tkl,8,paid_tunnel,Vertical Escalator Transfer
 
 // --- SAI YING PUN / HKU ---
 sai_ying_pun_platform,syp_concourse,4,fare_gate,Fare gates
