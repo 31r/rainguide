@@ -8,37 +8,82 @@ tsuen_wan_platform,tai_wo_hau_platform,4,paid_train,Tsuen Wan Line (MTR)
 tai_wo_hau_platform,kwai_hing_platform,4,paid_train,Tsuen Wan Line (MTR)
 kwai_hing_platform,kwai_fong_platform,4,paid_train,Tsuen Wan Line (MTR)
 kwai_fong_platform,lai_king_platform_twl_sb,4,paid_train,Tsuen Wan Line (MTR),uni
-lai_king_platform_twl_sb,mei_foo_platform_tsw,4,paid_train,Tsuen Wan Line (MTR),uni
-mei_foo_platform_tsw,lai_king_platform_twl_nb,4,paid_train,Tsuen Wan Line (MTR),uni
+lai_king_platform_twl_sb,mei_foo_platform_twl,4,paid_train,Tsuen Wan Line (MTR),uni
+mei_foo_platform_twl,lai_king_platform_twl_nb,4,paid_train,Tsuen Wan Line (MTR),uni
 lai_king_platform_twl_nb,kwai_fong_platform,4,paid_train,Tsuen Wan Line (MTR),uni
-mei_foo_platform_tsw,lai_chi_kok_platform,4,paid_train,Tsuen Wan Line (MTR)
+mei_foo_platform_twl,lai_chi_kok_platform,4,paid_train,Tsuen Wan Line (MTR)
 lai_chi_kok_platform,cheung_sha_wan_platform,4,paid_train,Tsuen Wan Line (MTR)
 cheung_sha_wan_platform,sham_shui_po_platform,4,paid_train,Tsuen Wan Line (MTR)
-sham_shui_po_platform,prince_edward_platform,4,paid_train,Tsuen Wan Line (MTR)
-prince_edward_platform,mong_kok_platform,4,paid_train,Tsuen Wan Line (MTR)
-mong_kok_platform,yaumatei_platform,4,paid_train,Tsuen Wan Line (MTR)
-yaumatei_platform,jordan_platform,4,paid_train,Tsuen Wan Line (MTR)
+sham_shui_po_platform,prince_edward_platform_twl,4,paid_train,Tsuen Wan Line (MTR)
+prince_edward_platform_twl,mong_kok_platform_twl,4,paid_train,Tsuen Wan Line (MTR)
+mong_kok_platform_twl,yaumatei_platform_twl,4,paid_train,Tsuen Wan Line (MTR)
+yaumatei_platform_twl,jordan_platform,4,paid_train,Tsuen Wan Line (MTR)
 jordan_platform,tsim_sha_tsui_platform,4,paid_train,Tsuen Wan Line (MTR)
-tsim_sha_tsui_platform,admiralty_platform_tsw,12,paid_train,Tsuen Wan Line (MTR)
-admiralty_platform_tsw,central_platform_tsw,4,paid_train,Tsuen Wan Line (MTR)
-central_platform_isl,central_platform_tsw,2,paid_transfer,Platform Level Transfer
+tsim_sha_tsui_platform,admiralty_platform_twl,12,paid_train,Tsuen Wan Line (MTR)
+admiralty_platform_twl,central_platform_twl,4,paid_train,Tsuen Wan Line (MTR)
+central_platform_isl,central_platform_twl,2,paid_transfer,Platform Level Transfer
 
-// --- TSUEN WAN CONCOURSES ---
+// --- TRANSFERS (TWL <-> KTL) ---
+prince_edward_platform_twl,prince_edward_platform_ktl,3,paid_transfer,Cross-Platform Transfer
+mong_kok_platform_twl,mong_kok_platform_ktl,2,paid_transfer,Cross-Platform Transfer
+yaumatei_platform_twl,yaumatei_platform_ktl,3,paid_transfer,Vertical Escalator Transfer
+
+// --- TSUEN WAN LINE CONCOURSES ---
 tsuen_wan_platform,tsuen_wan_concourse,2,fare_gate,Fare gates
 tai_wo_hau_platform,tai_wo_hau_concourse,2,fare_gate,Fare gates
 kwai_hing_platform,kwai_hing_concourse,2,fare_gate,Fare gates
 kwai_fong_platform,kwai_fong_concourse,2,fare_gate,Fare gates
 lai_king_concourse,lai_king_platform_twl_nb,5,fare_gate,Fare gates
 lai_king_concourse,lai_king_platform_twl_sb,5,fare_gate,Fare gates
-mei_foo_platform_tsw,mei_foo_concourse_tsw,2,fare_gate,Fare gates
+mei_foo_platform_twl,mei_foo_concourse_twl,2,fare_gate,Fare gates
 lai_chi_kok_platform,lai_chi_kok_concourse,2,fare_gate,Fare gates
 cheung_sha_wan_platform,cheung_sha_wan_concourse,2,fare_gate,Fare gates
 sham_shui_po_platform,sham_shui_po_concourse,2,fare_gate,Fare gates
-prince_edward_platform,prince_edward_concourse,2,fare_gate,Fare gates
-mong_kok_platform,mong_kok_concourse,2,fare_gate,Fare gates
-yaumatei_platform,yaumatei_concourse,2,fare_gate,Fare gates
+prince_edward_platform_twl,prince_edward_concourse,2,fare_gate,Fare gates
+mong_kok_platform_twl,mong_kok_concourse,2,fare_gate,Fare gates
+yaumatei_platform_twl,yaumatei_concourse,2,fare_gate,Fare gates
 jordan_platform,jordan_concourse,2,fare_gate,Fare gates
 tsim_sha_tsui_platform,tsim_sha_tsui_concourse,2,fare_gate,Fare gates
+
+// --- KWUN TONG LINE (TRAIN TRACKS) ---
+whampoa_platform,ho_man_tin_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
+ho_man_tin_platform_ktl,yaumatei_platform_ktl,6,paid_train,Kwun Tong Line (MTR)
+yaumatei_platform_ktl,mong_kok_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
+mong_kok_platform_ktl,prince_edward_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
+prince_edward_platform_ktl,skm_platform,4,paid_train,Kwun Tong Line (MTR)
+skm_platform,kowloon_tong_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
+kowloon_tong_platform_ktl,lok_fu_platform,4,paid_train,Kwun Tong Line (MTR)
+lok_fu_platform,wong_tai_sin_platform,4,paid_train,Kwun Tong Line (MTR)
+wong_tai_sin_platform,diamond_hill_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
+diamond_hill_platform_ktl,choi_hung_platform,4,paid_train,Kwun Tong Line (MTR)
+choi_hung_platform,kowloon_bay_platform,4,paid_train,Kwun Tong Line (MTR)
+kowloon_bay_platform,ngau_tau_kok_platform,4,paid_train,Kwun Tong Line (MTR)
+ngau_tau_kok_platform,kwun_tong_platform,4,paid_train,Kwun Tong Line (MTR)
+kwun_tong_platform,lam_tin_platform,4,paid_train,Kwun Tong Line (MTR)
+lam_tin_platform,yau_tong_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
+yau_tong_platform_ktl,tiu_keng_leng_platform_ktl,8,paid_train,Kwun Tong Line (MTR)
+
+// --- TRANSFERS (KTL <-> TKL) ---
+yau_tong_platform_ktl,yau_tong_platform_tkl,3,paid_transfer,Cross-Platform Transfer
+tiu_keng_leng_platform_ktl,tiu_keng_leng_platform_tkl,2,paid_transfer,Cross-Platform Transfer
+
+// --- KWUN TONG LINE CONCOURSES ---
+whampoa_platform,whampoa_concourse,2,fare_gate,Fare gates
+ho_man_tin_platform_ktl,ho_man_tin_concourse,2,fare_gate,Fare gates
+yaumatei_platform_ktl,yau_ma_tei_concourse,2,fare_gate,Fare gates
+mong_kok_platform_ktl,mong_kok_concourse,2,fare_gate,Fare gates
+prince_edward_platform_ktl,prince_edward_concourse,2,fare_gate,Fare gates
+skm_platform,skm_concourse,2,fare_gate,Fare gates
+lok_fu_platform,lok_fu_concourse,2,fare_gate,Fare gates
+wong_tai_sin_platform,wong_tai_sin_concourse,2,fare_gate,Fare gates
+diamond_hill_platform_ktl,diamond_hill_concourse_ktl,2,fare_gate,Fare gates
+choi_hung_platform,choi_hung_concourse,2,fare_gate,Fare gates
+kowloon_bay_platform,kowloon_bay_concourse,2,fare_gate,Fare gates
+ngau_tau_kok_platform,ngau_tau_kok_concourse,2,fare_gate,Fare gates
+kwun_tong_platform,kwun_tong_concourse,2,fare_gate,Fare gates
+lam_tin_platform,lam_tin_concourse,2,fare_gate,Fare gates
+yau_tong_platform_ktl,yau_tong_concourse,2,fare_gate,Fare gates
+tiu_keng_leng_platform_ktl,tiu_keng_leng_concourse,2,fare_gate,Fare gates
 
 // --- ISLAND LINE (TRAIN TRACKS) ---
 kennedy_town_platform,hku_platform,4,paid_train,Island Line (MTR)
@@ -50,13 +95,17 @@ admiralty_platform_isl,wan_chai_platform,4,paid_train,Island Line (MTR)
 wan_chai_platform,causeway_bay_platform,4,paid_train,Island Line (MTR)
 causeway_bay_platform,tin_hau_platform,4,paid_train,Island Line (MTR)
 tin_hau_platform,fortress_hill_platform,4,paid_train,Island Line (MTR)
-fortress_hill_platform,north_point_platform,4,paid_train,Island Line (MTR)
-north_point_platform,quarry_bay_platform,4,paid_train,Island Line (MTR)
-quarry_bay_platform,tai_koo_platform,4,paid_train,Island Line (MTR)
+fortress_hill_platform,north_point_platform_isl,4,paid_train,Island Line (MTR)
+north_point_platform_isl,quarry_bay_platform_isl,4,paid_train,Island Line (MTR)
+quarry_bay_platform_isl,tai_koo_platform,4,paid_train,Island Line (MTR)
 tai_koo_platform,sai_wan_ho_platform,4,paid_train,Island Line (MTR)
 sai_wan_ho_platform,shau_kei_wan_platform,4,paid_train,Island Line (MTR)
 shau_kei_wan_platform,heng_fa_chuen_platform,4,paid_train,Island Line (MTR)
 heng_fa_chuen_platform,chai_wan_platform,4,paid_train,Island Line (MTR)
+
+// --- TRANSFERS (ISL <-> TKL) ---
+north_point_platform_isl,north_point_platform_tkl,2,paid_transfer,Cross-Platform Transfer
+quarry_bay_platform_isl,quarry_bay_platform_tkl,4,paid_transfer,Vertical Escalator Transfer
 
 // --- SAI YING PUN / HKU ---
 sai_ying_pun_platform,syp_concourse,4,fare_gate,Fare gates
@@ -173,11 +222,11 @@ sheung_wan_platform,sheung_wan_concourse_east,4,fare_gate,Fare gates to Exit E
 central_platform_isl,central_concourse_west,2,fare_gate,Fare gates to Exits A-D
 central_platform_isl,central_concourse_mid,2,fare_gate,Fare gates to Exits E-H
 central_platform_isl,central_concourse_east,4,fare_gate,Fare gates to Exits J-L
-central_platform_tsw,central_concourse_west,4,fare_gate,Fare gates to Exits A-D
-central_platform_tsw,central_concourse_mid,4,fare_gate,Fare gates to Exits E-H
-central_platform_tsw,central_concourse_east,2,fare_gate,Fare gates to Exits J-L
+central_platform_twl,central_concourse_west,4,fare_gate,Fare gates to Exits A-D
+central_platform_twl,central_concourse_mid,4,fare_gate,Fare gates to Exits E-H
+central_platform_twl,central_concourse_east,2,fare_gate,Fare gates to Exits J-L
 admiralty_platform_isl,admiralty_concourse,2,fare_gate,Fare gates to/from Island Line platforms
-admiralty_platform_tsw,admiralty_concourse,2,fare_gate,Fare gates to/from Tsuen Wan Line platforms
+admiralty_platform_twl,admiralty_concourse,2,fare_gate,Fare gates to/from Tsuen Wan Line platforms
 admiralty_platform_erl,admiralty_concourse,4,fare_gate,Fare gates to/from East Rail and South Island Line platforms
 
 // --- WAN CHAI HUB ---
@@ -218,7 +267,7 @@ electric_road_msb,fortress_hill_t_junction,2,bridge,Bridge
 harbour_glory,fortress_hill_t_junction,6,bridge,Bridge
 
 // --- NORTH POINT HUB ---
-north_point_platform,north_point_concourse,2,fare_gate,Fare gates
+north_point_platform_isl,north_point_concourse,2,fare_gate,Fare gates
 north_point_concourse,odeon_building,2,escalator,Exits A1-A3 to Odeon Building
 north_point_concourse,china_united_centre,2,escalator,Exit A4 to China United Centre
 north_point_concourse,roca_centre,2,escalator,Exit B to Roca Centre
@@ -263,7 +312,7 @@ youth_square,chai_wan_y_junction,2,bridge,Bridge
 // --- REMAINING ISLAND LINE CONCOURSES ---
 kennedy_town_platform,kennedy_town_concourse,2,fare_gate,Fare gates
 tin_hau_platform,tin_hau_concourse,2,fare_gate,Fare gates
-quarry_bay_platform,quarry_bay_concourse,2,fare_gate,Fare gates
+quarry_bay_platform_isl,quarry_bay_concourse,2,fare_gate,Fare gates
 shau_kei_wan_platform,shau_kei_wan_concourse,2,fare_gate,Fare gates
 
 // --- TUNG CHUNG LINE (TRAIN TRACKS) ---
@@ -332,16 +381,40 @@ lai_king_platform_tcl_nb,lai_king_platform_twl_sb,8,paid_transfer,Vertical Escal
 lai_king_concourse,yin_lai_court,2,internal,Exit A2
 lai_king_concourse,lai_king_est_south,4,internal,Exit A3
 
+// --- TSEUNG KWAN O LINE (TRAIN TRACKS) ---
+north_point_platform_tkl,quarry_bay_platform_tkl,4,paid_train,Tseung Kwan O Line (MTR)
+quarry_bay_platform_tkl,yau_tong_platform_tkl,14,paid_train,Tseung Kwan O Line (MTR)
+yau_tong_platform_tkl,tiu_keng_leng_platform_tkl,8,paid_train,Tseung Kwan O Line (MTR)
+tiu_keng_leng_platform_tkl,tseung_kwan_o_platform_eb,4,paid_train,Tseung Kwan O Line (MTR),uni
+tseung_kwan_o_platform_eb,hang_hau_platform,4,paid_train,Tseung Kwan O Line (MTR),uni
+hang_hau_platform,po_lam_platform,4,paid_train,Tseung Kwan O Line (MTR)
+tseung_kwan_o_platform_eb,lohas_park_platform,4,paid_train,Tseung Kwan O Line (MTR),uni
+hang_hau_platform,tseung_kwan_o_platform_wb,4,paid_train,Tseung Kwan O Line (MTR),uni
+lohas_park_platform,tseung_kwan_o_platform_wb,4,paid_train,Tseung Kwan O Line (MTR),uni
+tseung_kwan_o_platform_wb,tiu_keng_leng_platform_tkl,6,paid_train,Tseung Kwan O Line (MTR),uni
+tseung_kwan_o_platform_wb,tseung_kwan_o_platform_eb,2,paid_transfer,Cross-Platform Transfer
+
+// --- TSEUNG KWAN O LINE CONCOURSES ---
+north_point_platform_tkl,north_point_concourse,2,fare_gate,Fare gates
+quarry_bay_platform_tkl,quarry_bay_concourse,2,fare_gate,Fare gates
+yau_tong_platform_tkl,yau_tong_concourse,2,fare_gate,Fare gates
+tiu_keng_leng_platform_tkl,tiu_keng_leng_concourse,2,fare_gate,Fare gates
+tseung_kwan_o_platform_eb,tseung_kwan_o_concourse,2,fare_gate,Fare gates
+tseung_kwan_o_platform_wb,tseung_kwan_o_concourse,2,fare_gate,Fare gates
+hang_hau_platform,hang_hau_concourse,2,fare_gate,Fare gates
+po_lam_platform,po_lam_concourse,2,fare_gate,Fare gates
+lohas_park_platform,lohas_park_concourse,2,fare_gate,Fare gates
+
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
-admiralty_platform_isl,admiralty_platform_tsw,3,paid_transfer,Cross-Platform Transfer
+admiralty_platform_isl,admiralty_platform_twl,3,paid_transfer,Cross-Platform Transfer
 admiralty_platform_isl,admiralty_platform_erl,5,paid_transfer,Platform Level Transfer (Escalators)
-admiralty_platform_tsw,admiralty_platform_erl,5,paid_transfer,Platform Level Transfer (Escalators)
+admiralty_platform_twl,admiralty_platform_erl,5,paid_transfer,Platform Level Transfer (Escalators)
 admiralty_platform_erl,exhibition_centre_platform,4,paid_train,East Rail Line (MTR)
-exhibition_centre_platform,hung_hom_platform,10,paid_train,East Rail Line (MTR)
-hung_hom_platform,mong_kok_east_platform,6,paid_train,East Rail Line (MTR)
-mong_kok_east_platform,kowloon_tong_platform,6,paid_train,East Rail Line (MTR)
-kowloon_tong_platform,tai_wai_platform,10,paid_train,East Rail Line (MTR)
-tai_wai_platform,sha_tin_platform,4,paid_train,East Rail Line (MTR)
+exhibition_centre_platform,hung_hom_platform_erl,10,paid_train,East Rail Line (MTR)
+hung_hom_platform_erl,mong_kok_east_platform,6,paid_train,East Rail Line (MTR)
+mong_kok_east_platform,kowloon_tong_platform_erl,6,paid_train,East Rail Line (MTR)
+kowloon_tong_platform_erl,tai_wai_platform_erl,10,paid_train,East Rail Line (MTR)
+tai_wai_platform_erl,sha_tin_platform,4,paid_train,East Rail Line (MTR)
 sha_tin_platform,fo_tan_platform,6,paid_train,East Rail Line (MTR)
 sha_tin_platform,racecourse_platform,6,paid_train,East Rail Line (MTR)
 fo_tan_platform,university_platform,4,paid_train,East Rail Line (MTR)
@@ -349,12 +422,9 @@ racecourse_platform,university_platform,4,paid_train,East Rail Line (MTR)
 university_platform,tai_po_market_platform,10,paid_train,East Rail Line (MTR)
 tai_po_market_platform,tai_wo_platform,4,paid_train,East Rail Line (MTR)
 tai_wo_platform,fanling_platform,10,paid_train,East Rail Line (MTR)
-
-// --- THE EAST RAIL BRANCH ---
 fanling_platform,sheung_shui_platform_nb,4,paid_train,East Rail Line (MTR),uni
 sheung_shui_platform_nb,lo_wu_platform,12,paid_train,East Rail Line (MTR),uni
 sheung_shui_platform_nb,lok_ma_chau_platform,24,paid_train,East Rail Line (MTR),uni
-
 lo_wu_platform,sheung_shui_platform_sb,12,paid_train,East Rail Line (MTR),uni
 lok_ma_chau_platform,sheung_shui_platform_sb,24,paid_train,East Rail Line (MTR),uni
 sheung_shui_platform_sb,fanling_platform,4,paid_train,East Rail Line (MTR),uni
@@ -366,7 +436,7 @@ exhibition_centre_concourse,great_eagle_ctr,4,bridge,Exit B3 Escalator
 exhibition_centre_concourse,hkcec,6,bridge,Exit B3 Escalator and Bridge
 
 // --- HUNG HOM HUB ---
-hung_hom_platform,hung_hom_concourse,2,fare_gate,Fare gates
+hung_hom_platform_erl,hung_hom_concourse,2,fare_gate,Fare gates
 hung_hom_concourse,polyu,2,bridge,Exit A1 to PolyU
 hung_hom_concourse,royal_peninsula,4,bridge,Exit B1 Footbridge
 royal_peninsula,harbour_place,2,bridge,Bridge
@@ -379,8 +449,13 @@ mong_kok_east_platform,mong_kok_east_concourse,2,fare_gate,Fare gates
 mong_kok_east_concourse,moko,2,internal,Exit D to MOKO
 
 // --- KOWLOON TONG HUB ---
-kowloon_tong_platform,kowloon_tong_concourse,2,fare_gate,Fare gates
-kowloon_tong_concourse,festival_walk,2,internal,Exit C2 to Festival Walk
+kowloon_tong_platform_ktl,kowloon_tong_platform_erl,8,paid_tunnel,Underground Tunnel (Paid Area)
+kowloon_tong_concourse_ktl,kowloon_tong_concourse_erl,10,internal,Underground Tunnel (Free Area)
+kowloon_tong_platform_ktl,kowloon_tong_concourse_ktl,2,fare_gate,Fare gates
+kowloon_tong_platform_erl,kowloon_tong_concourse_erl,2,fare_gate,Fare gates
+kowloon_tong_concourse_ktl,festival_walk,6,internal,Exit C2
+kowloon_tong_concourse_ktl,kltesc,2,internal,Exit E
+kowloon_tong_concourse_erl,festival_walk,6,internal,Exit H
 festival_walk,cityu,2,internal,Tunnel
 
 // --- TAI WAI HUB ---
