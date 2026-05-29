@@ -420,6 +420,9 @@ tivoli_garden,tsing_yi_municipal_services_building,3,bridge,Bridge
 serene_garden,tsing_yi_municipal_services_building,3,bridge,Bridge
 tsing_yi_municipal_services_building,tsing_yi_garden,3,bridge,Bridge
 tsing_yi_garden,tsing_yi_estate,4,covered_walkway,Covered walkway to Tsing Yi Estate
+tsing_yi_concourse,tsing_yi_exit_c,2,internal,Exit C
+maritime_square_2,tsing_yi_pti,1,internal,Internal Mall Walkway
+tsing_yi_exit_c,park_island,30,residents_bus,NR330 Residents' Bus
 
 // --- TSEUNG KWAN O LINE (TRAIN TRACKS) ---
 north_point_platform_tkl,quarry_bay_platform_tkl,4,paid_train,Tseung Kwan O Line (MTR)

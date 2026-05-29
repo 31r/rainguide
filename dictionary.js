@@ -207,6 +207,11 @@
                     "festival_walk": "Festival Walk / 又一城"
                 },
             },
+			"Tsuen Wan District (荃灣區)": {
+				"Ma Wan (馬灣)": {
+					"park_island": "Park Island / 珀麗灣"
+				}
+			},
 			"North District (北區)": {
 				"Fanling (粉嶺)": {
 					"cheung_wah_estate": "Cheung Wah Estate / 祥華邨",
@@ -306,6 +311,8 @@
 					"tsing_yi_estate": "Tsing Yi Estate / 青衣邨",
 					"tsing_yi_garden": "Tsing Yi Garden / 青怡花園",
 					"tsing_yi_municipal_services_building": "Tsing Yi Municipal Services Building / 青衣市政大廈",
+					"tsing_yi_pti": "Tsing Yi PTI (Maritime Square 1/F) / 青衣站公共運輸交匯處 (青衣城1樓)",
+					"tsing_yi_exit_c": "Tsing Yi PTI (Exit C) / 青衣站公共運輸交匯處 (C出口)",
 					"villa_esplanada": "Villa Esplanada / 灝景灣"
 				}
 			},
