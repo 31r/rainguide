@@ -246,7 +246,7 @@ const reverseDict = {}; // Maps "🚆 Hong Kong..." -> { id: "hong_kong_platform
                         // Dynamically assign an emoji prefix based on the Region name
                         let prefix = "🏢 "; // Default for malls and buildings
                         if (regionName === "MTR Platforms (付費區)") prefix = "🚆 ";
-                        else if (regionName === "MTR Concourses (港鐵大堂)") prefix = "🎫 ";
+                        else if (regionName === "MTR Concourses (港鐵大堂)") prefix = "Ⓜ️ ";
                         else if (regionName === "Border Crossings (出入境管制站)") prefix = "🛂 ";
                         
                         const searchName = prefix + rawDisplayName;
