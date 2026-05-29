@@ -155,7 +155,7 @@ central_yards,central_pier_7,6,bridge,Bridge
 central_pier_3,central_pier_7,6,internal,Covered Walkway
 spine_north,central_yards,1,bridge,Bridge
 spine_north,ifc_mall,1,bridge,Bridge
-spine_north,spine_mid,5,bridge,Bridge
+spine_north,spine_mid,3,bridge,Bridge
 spine_mid,gpo,1,bridge,Bridge
 spine_mid,1&2_exchange_square,1,bridge,Bridge
 spine_mid,jardine_house,1,bridge,Bridge
