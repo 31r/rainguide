@@ -622,7 +622,7 @@ ho_man_tin_platform_tml,ho_man_tin_concourse,2,fare_gate,Fare gates
 to_kwa_wan_platform,to_kwa_wan_concourse,2,fare_gate,Fare gates
 sung_wong_toi_platform,sung_wong_toi_concourse,2,fare_gate,Fare gates
 kai_tak_platform,kai_tak_concourse,2,fare_gate,Fare gates
-diamond_hill_platform_tml,diamond_hill_concourse_tml,2,fare_gate,Fare gates
+diamond_hill_platform_tml,diamond_hill_concourse,2,fare_gate,Fare gates
 hin_keng_platform,hin_keng_concourse,2,fare_gate,Fare gates
 tai_wai_platform_tml,tai_wai_concourse,2,fare_gate,Fare gates
 che_kung_temple_platform,che_kung_temple_concourse,2,fare_gate,Fare gates
