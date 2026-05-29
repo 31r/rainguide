@@ -227,14 +227,21 @@
 const reverseDict = {}; // Maps "🚆 Hong Kong..." -> { id: "hong_kong_platform", region: "..." }
         const nodeToSearchString = {}; // Helper to map "hong_kong_platform" -> "🚆 Hong Kong..."
 
-        function initSearchBox() {
+		function initSearchBox() {
             const dataList = document.getElementById('allLocations');
             const locationsArray = [];
+            const seenNodes = new Set(); // Tracks unique Node IDs to prevent duplicates
             
-            // 1. Gather all locations and inject emojis
+            // 1. Gather all locations, deduplicate, and inject emojis
             for (const [regionName, regionData] of Object.entries(nodeDict)) {
                 for (const districtData of Object.values(regionData)) {
                     for (const [nodeId, rawDisplayName] of Object.entries(districtData)) {
+                        
+                        // Check if we've already added this specific node ID
+                        if (seenNodes.has(nodeId)) {
+                            continue; // Skip the duplicate!
+                        }
+                        seenNodes.add(nodeId); // Mark it as seen
                         
                         // Dynamically assign an emoji prefix based on the Region name
                         let prefix = "🏢 "; // Default for malls and buildings
@@ -264,7 +271,7 @@ const reverseDict = {}; // Maps "🚆 Hong Kong..." -> { id: "hong_kong_platform
                 nodeToSearchString[loc.nodeId] = loc.searchName; 
             });
         }
-
+		
         // Triggered when user types in the search box
         function syncFromSearch(type) {
             const searchInput = document.getElementById(type + 'Search');
