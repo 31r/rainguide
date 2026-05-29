@@ -463,7 +463,7 @@
 					"hong_kong_platform": "Hong Kong / 香港站",
 					"kowloon_platform": "Kowloon / 九龍站",
 					"olympic_platform": "Olympic / 奧運站",
-					"nam_cheong_platform": "Nam Cheong / 南昌站",
+					"nam_cheong_platform_tcl": "Nam Cheong (Tung Chung Line) / 南昌站 (東涌綫)",
 					"lai_king_platform_tcl_nb": "Lai King (Platform 3) / 荔景站 (3號月台)",
 					"lai_king_platform_tcl_sb": "Lai King (Platform 4) / 荔景站 (4號月台)",
 					"tsing_yi_platform": "Tsing Yi / 青衣站",

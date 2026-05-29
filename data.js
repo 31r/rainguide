@@ -318,18 +318,18 @@ shau_kei_wan_platform,shau_kei_wan_concourse,2,fare_gate,Fare gates
 // --- TUNG CHUNG LINE (TRAIN TRACKS) ---
 hong_kong_platform,kowloon_platform,6,paid_train,Tung Chung Line (MTR)
 kowloon_platform,olympic_platform,4,paid_train,Tung Chung Line (MTR)
-olympic_platform,nam_cheong_platform,4,paid_train,Tung Chung Line (MTR)
-nam_cheong_platform,lai_king_platform_tcl_nb,10,paid_train,Tung Chung Line (MTR),uni
+olympic_platform,nam_cheong_platform_tcl,4,paid_train,Tung Chung Line (MTR)
+nam_cheong_platform_tcl,lai_king_platform_tcl_nb,10,paid_train,Tung Chung Line (MTR),uni
 lai_king_platform_tcl_nb,tsing_yi_platform,8,paid_train,Tung Chung Line (MTR),uni
 tsing_yi_platform,lai_king_platform_tcl_sb,8,paid_train,Tung Chung Line (MTR),uni
-lai_king_platform_tcl_sb,nam_cheong_platform,10,paid_train,Tung Chung Line (MTR),uni
+lai_king_platform_tcl_sb,nam_cheong_platform_tcl,10,paid_train,Tung Chung Line (MTR),uni
 tsing_yi_platform,sunny_bay_platform,14,paid_train,Tung Chung Line (MTR)
 sunny_bay_platform,tung_chung_platform,18,paid_train,Tung Chung Line (MTR)
 
 // --- TUNG CHUNG LINE CONCOURSES ---
 kowloon_platform,kowloon_concourse,2,fare_gate,Fare gates
 olympic_platform,olympic_concourse,2,fare_gate,Fare gates
-nam_cheong_platform,nam_cheong_concourse,2,fare_gate,Fare gates
+nam_cheong_platform_tcl,nam_cheong_concourse,2,fare_gate,Fare gates
 lai_king_concourse,lai_king_platform_tcl_nb,5,fare_gate,Fare gates
 lai_king_concourse,lai_king_platform_tcl_sb,5,fare_gate,Fare gates
 tsing_yi_platform,tsing_yi_concourse,2,fare_gate,Fare gates
@@ -566,5 +566,71 @@ racecourse_platform,racecourse_concourse,2,fare_gate,Fare gates
 university_platform,university_concourse,2,fare_gate,Fare gates
 university_concourse,cyt_building,2,bridge,Exit B and Covered Walkway
 lo_wu_platform,lo_wu_concourse,2,fare_gate,Fare gates
-lok_ma_chau_platform,lok_ma_chau_concourse,2,fare_gate,Fare gates`;
+lok_ma_chau_platform,lok_ma_chau_concourse,2,fare_gate,Fare gates
+
+// --- TUEN MA LINE (TRAIN TRACKS) ---
+tuen_mun_platform,siu_hong_platform,5,paid_train,Tuen Ma Line (MTR)
+siu_hong_platform,tin_shui_wai_platform,10,paid_train,Tuen Ma Line (MTR)
+tin_shui_wai_platform,long_ping_platform,9,paid_train,Tuen Ma Line (MTR)
+long_ping_platform,yuen_long_platform,4,paid_train,Tuen Ma Line (MTR)
+yuen_long_platform,kam_sheung_road_platform,7,paid_train,Tuen Ma Line (MTR)
+kam_sheung_road_platform,tsuen_wan_west_platform,13,paid_train,Tuen Ma Line (MTR)
+tsuen_wan_west_platform,mei_foo_platform_tml,8,paid_train,Tuen Ma Line (MTR)
+mei_foo_platform_tml,nam_cheong_platform_tml,7,paid_train,Tuen Ma Line (MTR)
+nam_cheong_platform_tml,austin_platform,6,paid_train,Tuen Ma Line (MTR)
+austin_platform,east_tst_platform,6,paid_train,Tuen Ma Line (MTR)
+east_tst_platform,hung_hom_platform_tml,5,paid_train,Tuen Ma Line (MTR)
+hung_hom_platform_tml,ho_man_tin_platform_tml,4,paid_train,Tuen Ma Line (MTR)
+ho_man_tin_platform_tml,to_kwa_wan_platform,4,paid_train,Tuen Ma Line (MTR)
+to_kwa_wan_platform,sung_wong_toi_platform,4,paid_train,Tuen Ma Line (MTR)
+sung_wong_toi_platform,kai_tak_platform,4,paid_train,Tuen Ma Line (MTR)
+kai_tak_platform,diamond_hill_platform_tml,5,paid_train,Tuen Ma Line (MTR)
+diamond_hill_platform_tml,hin_keng_platform,9,paid_train,Tuen Ma Line (MTR)
+hin_keng_platform,tai_wai_platform_tml,5,paid_train,Tuen Ma Line (MTR)
+tai_wai_platform_tml,che_kung_temple_platform,4,paid_train,Tuen Ma Line (MTR)
+che_kung_temple_platform,sha_tin_wai_platform,3,paid_train,Tuen Ma Line (MTR)
+sha_tin_wai_platform,city_one_platform,4,paid_train,Tuen Ma Line (MTR)
+city_one_platform,shek_mun_platform,3,paid_train,Tuen Ma Line (MTR)
+shek_mun_platform,tai_shui_hang_platform,6,paid_train,Tuen Ma Line (MTR)
+tai_shui_hang_platform,heng_on_platform,3,paid_train,Tuen Ma Line (MTR)
+heng_on_platform,ma_on_shan_platform,4,paid_train,Tuen Ma Line (MTR)
+ma_on_shan_platform,wu_kai_sha_platform,5,paid_train,Tuen Ma Line (MTR)
+
+// --- TUEN MA LINE TRANSFERS ---
+mei_foo_platform_tml,mei_foo_platform_twl,15,paid_tunnel,Pedestrian Subway to Tsuen Wan Line
+nam_cheong_platform_tml,nam_cheong_platform_tcl,4,paid_transfer,Vertical Concourse Transfer
+east_tst_platform,tsim_sha_tsui_platform,18,paid_tunnel,Subway to Tsuen Wan Line
+hung_hom_platform_tml,hung_hom_platform_erl,4,paid_transfer,Escalator Transfer
+ho_man_tin_platform_tml,ho_man_tin_platform_ktl,8,paid_transfer,Escalator Transfer
+diamond_hill_platform_tml,diamond_hill_platform_ktl,7,paid_transfer,Vertical Concourse Transfer
+tai_wai_platform_tml,tai_wai_platform_erl,4,paid_transfer,Platform Transfer
+
+// --- TUEN MA LINE CONCOURSES ---
+tuen_mun_platform,tuen_mun_concourse,2,fare_gate,Fare gates
+siu_hong_platform,siu_hong_concourse,2,fare_gate,Fare gates
+tin_shui_wai_platform,tin_shui_wai_concourse,2,fare_gate,Fare gates
+long_ping_platform,long_ping_concourse,2,fare_gate,Fare gates
+yuen_long_platform,yuen_long_concourse,2,fare_gate,Fare gates
+kam_sheung_road_platform,kam_sheung_road_concourse,2,fare_gate,Fare gates
+tsuen_wan_west_platform,tsuen_wan_west_concourse,2,fare_gate,Fare gates
+mei_foo_platform_tml,mei_foo_concourse_tml,2,fare_gate,Fare gates
+nam_cheong_platform_tml,nam_cheong_concourse,2,fare_gate,Fare gates
+austin_platform,austin_concourse,2,fare_gate,Fare gates
+east_tst_platform,east_tst_concourse,2,fare_gate,Fare gates
+hung_hom_platform_tml,hung_hom_concourse,2,fare_gate,Fare gates
+ho_man_tin_platform_tml,ho_man_tin_concourse,2,fare_gate,Fare gates
+to_kwa_wan_platform,to_kwa_wan_concourse,2,fare_gate,Fare gates
+sung_wong_toi_platform,sung_wong_toi_concourse,2,fare_gate,Fare gates
+kai_tak_platform,kai_tak_concourse,2,fare_gate,Fare gates
+diamond_hill_platform_tml,diamond_hill_concourse_tml,2,fare_gate,Fare gates
+hin_keng_platform,hin_keng_concourse,2,fare_gate,Fare gates
+tai_wai_platform_tml,tai_wai_concourse,2,fare_gate,Fare gates
+che_kung_temple_platform,che_kung_temple_concourse,2,fare_gate,Fare gates
+sha_tin_wai_platform,sha_tin_wai_concourse,2,fare_gate,Fare gates
+city_one_platform,city_one_concourse,2,fare_gate,Fare gates
+shek_mun_platform,shek_mun_concourse,2,fare_gate,Fare gates
+tai_shui_hang_platform,tai_shui_hang_concourse,2,fare_gate,Fare gates
+heng_on_platform,heng_on_concourse,2,fare_gate,Fare gates
+ma_on_shan_platform,ma_on_shan_concourse,2,fare_gate,Fare gates
+wu_kai_sha_platform,wu_kai_sha_concourse,2,fare_gate,Fare gates`;
 
