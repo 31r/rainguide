@@ -3,6 +3,19 @@
         // ==========================================
         const csvData = `Start_Node,End_Node,Weight,Type,Description
 
+// --- AIRPORT EXPRESS (TRAIN TRACKS) ---
+hong_kong_platform_ael,airport_platform,48,premium_train,Airport Express (MTR)
+kowloon_platform_ael,airport_platform,44,premium_train,Airport Express (MTR)
+tsing_yi_platform_ael,airport_platform,28,premium_train,Airport Express (MTR)
+tsing_yi_platform_ael,hong_kong_platform_ael,30,premium_train,Airport Express (MTR) Express Service
+airport_platform,expo_platform,4,paid_train,Airport Express (MTR)
+
+// --- AIRPORT EXPRESS CONCOURSES ---
+hong_kong_platform_ael,hong_kong_concourse,2,fare_gate,Airport Express fare gates
+kowloon_platform_ael,kowloon_concourse,2,fare_gate,Airport Express fare gates
+tsing_yi_platform_ael,tsing_yi_concourse,2,fare_gate,Airport Express fare gates
+expo_platform,expo_concourse,2,fare_gate,Airport Express fare gates
+
 // --- TSUEN WAN LINE (TRAIN TRACKS) ---
 tsuen_wan_platform,tai_wo_hau_platform,4,paid_train,Tsuen Wan Line (MTR)
 tai_wo_hau_platform,kwai_hing_platform,4,paid_train,Tsuen Wan Line (MTR)
@@ -148,11 +161,13 @@ spine_mid,1&2_exchange_square,1,bridge,Bridge
 spine_mid,jardine_house,1,bridge,Bridge
 spine_mid,spine_south,5,bridge,Bridge over Connaught Road Central
 spine_south,world_wide_house,5,bridge,Bridge
-world_wide_house,1&2_exchange_square,4,bridge,Bridge over Connaught Road Central
+world_wide_house,1&2_exchange_square,6,bridge,Bridge over Connaught Road Central
 spine_south,chater_house,0,bridge,Bridge
 chater_house,alexandra_house,2,bridge,Bridge over Chater Road
 hang_seng_hq,central_market,2,bridge,Bridge over Des Voeux Road Central
 central_market,100qrc,4,bridge,Bridge over Queen's Road Central
+central_market,mid_levels_escalator,4,bridge,Bridge over Queen's Road Central
+100qrc,mid_levels_escalator,2,bridge,Bridge
 hang_seng_hq,nexxus_bldg,2,bridge,Bridge over Queen Victoria Street
 landmark_gloucester,alexandra_house,2,bridge,Bridge over Des Voeux Road Central
 landmark_mall,alexandra_house,2,bridge,Bridge over Des Voeux Road Central
@@ -193,7 +208,7 @@ high_court,queensway_gov_offices,2,bridge,Short Bridge
 one_ifc,hong_kong_concourse,4,escalator,Hong Kong Exit E
 two_ifc,hong_kong_concourse,4,escalator,Hong Kong Exit A
 ifc_mall,hong_kong_concourse,4,escalator,Hong Kong Exits A/E/F
-world_wide_house,central_concourse_west,4,escalator,Central Exits A/B
+world_wide_house,central_concourse_west,5,escalator,Central Exits A/B
 chater_house,central_concourse_mid,4,escalator,Central Exit E
 alexandra_house,central_concourse_mid,4,escalator,Central Exit H
 landmark_mall,central_concourse_mid,4,escalator,Central Exit G
@@ -320,10 +335,10 @@ hong_kong_platform,kowloon_platform,6,paid_train,Tung Chung Line (MTR)
 kowloon_platform,olympic_platform,4,paid_train,Tung Chung Line (MTR)
 olympic_platform,nam_cheong_platform_tcl,4,paid_train,Tung Chung Line (MTR)
 nam_cheong_platform_tcl,lai_king_platform_tcl_nb,10,paid_train,Tung Chung Line (MTR),uni
-lai_king_platform_tcl_nb,tsing_yi_platform,8,paid_train,Tung Chung Line (MTR),uni
-tsing_yi_platform,lai_king_platform_tcl_sb,8,paid_train,Tung Chung Line (MTR),uni
+lai_king_platform_tcl_nb,tsing_yi_platform_tcl,8,paid_train,Tung Chung Line (MTR),uni
+tsing_yi_platform_tcl,lai_king_platform_tcl_sb,8,paid_train,Tung Chung Line (MTR),uni
 lai_king_platform_tcl_sb,nam_cheong_platform_tcl,10,paid_train,Tung Chung Line (MTR),uni
-tsing_yi_platform,sunny_bay_platform,14,paid_train,Tung Chung Line (MTR)
+tsing_yi_platform_tcl,sunny_bay_platform,14,paid_train,Tung Chung Line (MTR)
 sunny_bay_platform,tung_chung_platform,18,paid_train,Tung Chung Line (MTR)
 
 // --- TUNG CHUNG LINE CONCOURSES ---
@@ -332,7 +347,7 @@ olympic_platform,olympic_concourse,2,fare_gate,Fare gates
 nam_cheong_platform_tcl,nam_cheong_concourse,2,fare_gate,Fare gates
 lai_king_concourse,lai_king_platform_tcl_nb,5,fare_gate,Fare gates
 lai_king_concourse,lai_king_platform_tcl_sb,5,fare_gate,Fare gates
-tsing_yi_platform,tsing_yi_concourse,2,fare_gate,Fare gates
+tsing_yi_platform_tcl,tsing_yi_concourse,2,fare_gate,Fare gates
 sunny_bay_platform,sunny_bay_concourse,2,fare_gate,Fare gates
 tung_chung_platform,tung_chung_concourse,2,fare_gate,Fare gates
 
@@ -383,6 +398,29 @@ lai_king_platform_tcl_nb,lai_king_platform_twl_sb,8,paid_transfer,Vertical Escal
 lai_king_concourse,yin_lai_court,2,internal,Exit A2
 lai_king_concourse,lai_king_est_south,4,internal,Exit A3
 
+// --- TSING YI HUB ---
+tsing_yi_concourse,maritime_square_1,2,internal,Exits A2, B, F or G
+maritime_square_1,tierra_verde,2,internal,Mall to Residential Lobby
+maritime_square_1,villa_esplanada,4,bridge,Bridges
+tsing_yi_concourse,maritime_square_2,2,bridge,Exit A1
+maritime_square_1,maritime_square_2,2,bridge,Bridge
+maritime_square_2,cheung_on_estate,4,bridge,Bridge
+cheung_on_estate,cheung_fat_estate,5,bridge,Bridge
+cheung_on_estate,cheung_on_bus_terminus,5,bridge,Bridge
+cheung_on_bus_terminus,cheung_fat_estate,3,covered_walkway,Covered walkway
+cheung_on_bus_terminus,sha_tin_central_pti,65,paid_bus,KMB 49X
+cheung_fat_estate,cheung_fat_plaza,2,covered_walkway,Covered walkway
+cheung_fat_plaza,cheung_on_bus_terminus,2,covered_walkway,Covered walkway
+cheung_fat_estate,ching_tai_court,4,covered_walkway,Covered walkway
+tsing_yi_concourse,tivoli_garden,9,covered_walkway,Exit B and covered walkway
+maritime_square_1,tivoli_garden,8,covered_walkway,Covered walkway
+tivoli_garden,serene_garden,4,bridge,Bridge
+serene_garden,greenfield_garden,5,bridge,Bridge
+tivoli_garden,tsing_yi_municipal_services_building,3,bridge,Bridge
+serene_garden,tsing_yi_municipal_services_building,3,bridge,Bridge
+tsing_yi_municipal_services_building,tsing_yi_garden,3,bridge,Bridge
+tsing_yi_garden,tsing_yi_estate,4,covered_walkway,Covered walkway to Tsing Yi Estate
+
 // --- TSEUNG KWAN O LINE (TRAIN TRACKS) ---
 north_point_platform_tkl,quarry_bay_platform_tkl,4,paid_train,Tseung Kwan O Line (MTR)
 quarry_bay_platform_tkl,yau_tong_platform_tkl,8,paid_train,Tseung Kwan O Line (MTR)
@@ -411,6 +449,9 @@ lohas_park_platform,lohas_park_concourse,2,fare_gate,Fare gates
 admiralty_platform_isl,admiralty_platform_twl,3,paid_transfer,Cross-Platform Transfer
 admiralty_platform_isl,admiralty_platform_erl,5,paid_transfer,Platform Level Transfer (Escalators)
 admiralty_platform_twl,admiralty_platform_erl,5,paid_transfer,Platform Level Transfer (Escalators)
+admiralty_platform_sil,admiralty_platform_twl,7,paid_transfer,Platform Level Transfer (Escalators)
+admiralty_platform_sil,admiralty_platform_isl,7,paid_transfer,Platform Level Transfer (Escalators)
+admiralty_platform_erl,admiralty_platform_sil,2,paid_transfer,Platform Level Transfer (Escalators)
 admiralty_platform_erl,exhibition_centre_platform,4,paid_train,East Rail Line (MTR)
 exhibition_centre_platform,hung_hom_platform_erl,6,paid_train,East Rail Line (MTR)
 hung_hom_platform_erl,mong_kok_east_platform,6,paid_train,East Rail Line (MTR)
@@ -561,7 +602,7 @@ heung_yuen_wai_port,liantang_port,5,bridge,Border Crossing
 lo_wu_concourse,lo_wu_port,5,bridge,Border Crossing
 lok_ma_chau_concourse,futian_port,5,bridge,Border Crossing
 
-// --- REMAINING EAST RAIL CONCOURSES ---
+// --- REMAINING EAST RAIL LINE CONCOURSES ---
 fo_tan_platform,fo_tan_concourse,2,fare_gate,Fare gates
 fo_tan_concourse,palazzo,4,bridge,Exit A and Bridge
 racecourse_platform,racecourse_concourse,2,fare_gate,Fare gates
@@ -569,6 +610,18 @@ university_platform,university_concourse,2,fare_gate,Fare gates
 university_concourse,cyt_building,2,bridge,Exit B and Covered Walkway
 lo_wu_platform,lo_wu_concourse,2,fare_gate,Fare gates
 lok_ma_chau_platform,lok_ma_chau_concourse,2,fare_gate,Fare gates
+
+// --- SOUTH ISLAND LINE (TRAIN TRACKS) ---
+admiralty_platform_sil,ocean_park_platform,12,paid_train,South Island Line (MTR)
+ocean_park_platform,wong_chuk_hang_platform,3,paid_train,South Island Line (MTR)
+wong_chuk_hang_platform,lei_tung_platform,5,paid_train,South Island Line (MTR)
+lei_tung_platform,south_horizons_platform,4,paid_train,South Island Line (MTR)
+
+// --- SOUTH ISLAND LINE CONCOURSES ---
+ocean_park_platform,ocean_park_concourse,2,fare_gate,Fare gates
+wong_chuk_hang_platform,wong_chuk_hang_concourse,2,fare_gate,Fare gates
+lei_tung_platform,lei_tung_concourse,2,fare_gate,Fare gates
+south_horizons_platform,south_horizons_concourse,2,fare_gate,Fare gates
 
 // --- TUEN MA LINE (TRAIN TRACKS) ---
 tuen_mun_platform,siu_hong_platform,5,paid_train,Tuen Ma Line (MTR)

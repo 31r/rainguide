@@ -68,10 +68,17 @@
                 </select>
             </div>
 
-            <div class="flex items-center mb-4 mt-2 px-2">
-                <input type="checkbox" id="allowPaid" checked class="w-4 h-4 text-blue-600 bg-slate-100 border-slate-300 rounded focus:ring-blue-500">
-                <label for="allowPaid" class="ml-2 text-sm font-semibold text-slate-600">
+            <div class="flex items-center mb-2 mt-2 px-2">
+                <input type="checkbox" id="allowPaid" checked onchange="togglePremiumVisibility()" class="w-4 h-4 text-blue-600 bg-slate-100 border-slate-300 rounded focus:ring-blue-500 transition">
+                <label for="allowPaid" class="ml-2 text-sm font-semibold text-slate-600 cursor-pointer">
                     Allow Paid Rides / 允許付費公共交通
+                </label>
+            </div>
+
+            <div id="premiumToggleContainer" class="flex items-center mb-4 px-2 transition-all duration-300 ease-in-out opacity-100 max-h-10 overflow-hidden">
+                <input type="checkbox" id="allowPremium" checked class="w-4 h-4 text-teal-600 bg-slate-100 border-slate-300 rounded focus:ring-teal-500 transition">
+                <label for="allowPremium" class="ml-2 text-sm font-semibold text-slate-600 cursor-pointer">
+                    Allow Airport Express / 允許機場快綫
                 </label>
             </div>
 
@@ -99,85 +106,115 @@
         const graph = {};
         const edgeDetails = {}; // Stores description of how they connect
 
-        function initGraph(allowPaid) {
-            // Reset the graph each time we calculate
+        function initGraph(allowPaid, allowPremium) {
             for (let prop in graph) { delete graph[prop]; }
-            for (let prop in edgeDetails) { delete edgeDetails[prop]; }
 
             const lines = csvData.trim().split('\n').slice(1);
             lines.forEach(line => {
                 const parts = line.split(',');
-                if (parts.length < 5) {
-                    console.warn("⚠️ Skipping broken CSV line:", line);
-                    return; // Skip this specific line and keep loading the rest of the map
-                }
+                if (parts.length < 5) return;
                 const [start, end, weightStr, type, desc, dir] = parts;
                 const u = start ? start.trim() : '';
                 const v = end ? end.trim() : '';
-                if (!u || !v) {
-                    console.warn("⚠️ Skipping malformed CSV line with missing node id:", line);
-                    return;
-                }
+                if (!u || !v) return;
 
-				// FILTER LOGIC: Skip paid routes if toggle is off
-				const edgeType = type ? type.trim() : '';
-				if (!allowPaid && (edgeType === 'paid_train' || edgeType === 'paid_tunnel' || edgeType === 'fare_gate' || edgeType === 'paid_transfer' || edgeType === 'paid_bus' || edgeType === 'residents_bus')) {
+                const edgeType = type ? type.trim() : '';
+                
+                // 1. Core check: If no paid rides allowed, kill everything paid
+                if (!allowPaid && (edgeType.includes('paid') || edgeType === 'premium_train' || edgeType === 'fare_gate' || edgeType === 'residents_bus')) {
                     return; 
+                }
+                
+                // 2. Premium check: If paid is allowed but premium is unchecked, kill premium trains
+                if (!allowPremium && edgeType === 'premium_train') {
+                    return;
                 }
                 
                 const w = parseInt(weightStr.trim());
 
-                if (!graph[u]) graph[u] = {};
-                if (!graph[v]) graph[v] = {};
+                if (!graph[u]) graph[u] = [];
+                if (!graph[v]) graph[v] = [];
                 
-                graph[u][v] = w;
+                graph[u].push({ node: v, weight: w, type: edgeType, desc: desc ? desc.trim() : 'Walkway' });
                 if (dir !== 'uni') {
-                    graph[v][u] = w; // Only build the reverse route if it is NOT one-way
+                    graph[v].push({ node: u, weight: w, type: edgeType, desc: desc ? desc.trim() : 'Walkway' });
                 }
-
-                edgeDetails[`${u}-${v}`] = { desc: desc ? desc.trim() : 'Walkway', type: edgeType };
-                edgeDetails[`${v}-${u}`] = { desc: desc ? desc.trim() : 'Walkway', type: edgeType };
             });
         }
 
-        // Standard Dijkstra's Algorithm implementation
+        // Dijkstra's Algorithm implementation with route churn penalized
         function findShortestPath(start, end) {
             const distances = {};
             const prev = {};
-            const queue = new Set(Object.keys(graph));
+            const queue = new Set();
+            const TRANSFER_PENALTY = 1; // The mathematical weight added for changing routes
 
-            for (let node of Object.keys(graph)) {
-                distances[node] = Infinity;
-                prev[node] = null;
-            }
-            distances[start] = 0;
+            // State is stored as "NodeID|VehicleDescription"
+            distances[`${start}|`] = 0;
+            queue.add(`${start}|`);
+
+            let bestEndState = null;
+            let minEndDist = Infinity;
 
             while (queue.size > 0) {
-                let curr = null;
-                for (let node of queue) {
-                    if (curr === null || distances[node] < distances[curr]) curr = node;
+                let currState = null;
+                for (let state of queue) {
+                    if (currState === null || distances[state] < distances[currState]) currState = state;
+                }
+                queue.delete(currState);
+
+                let currDist = distances[currState];
+                let [currNode, currLine] = currState.split('|');
+
+                // If we reach the end, log it, but keep checking in case a faster route exists
+                if (currNode === end) {
+                    if (currDist < minEndDist) {
+                        minEndDist = currDist;
+                        bestEndState = currState;
+                    }
+                    continue; 
                 }
 
-                if (curr === end) break;
-                queue.delete(curr);
+                if (!graph[currNode]) continue;
 
-                for (let neighbor in graph[curr]) {
-                    let alt = distances[curr] + graph[curr][neighbor];
-                    if (alt < distances[neighbor]) {
-                        distances[neighbor] = alt;
-                        prev[neighbor] = curr;
+                for (let edge of graph[currNode]) {
+                    // Identify if the next edge is a vehicle ride
+                    const isVehicle = edge.type.includes('train') || edge.type.includes('bus') || edge.type.includes('rail');
+                    const nextLine = isVehicle ? edge.desc : '';
+
+                    // APPLY THE PENALTY: If we are on a vehicle, jump to a new vehicle, and the descriptions don't match
+                    let penalty = 0;
+                    if (currLine !== '' && nextLine !== '' && currLine !== nextLine) {
+                        penalty = TRANSFER_PENALTY; 
+                    }
+
+                    let alt = currDist + edge.weight + penalty;
+                    let nextState = `${edge.node}|${nextLine}`;
+
+                    if (distances[nextState] === undefined || alt < distances[nextState]) {
+                        distances[nextState] = alt;
+                        prev[nextState] = { state: currState, node: currNode, edge: edge };
+                        queue.add(nextState);
                     }
                 }
             }
 
+            // Reconstruct the path and the specific edges taken
             let path = [];
-            let u = end;
-            while (u) {
-                path.unshift(u);
-                u = prev[u];
+            let routeEdges = [];
+            let u = bestEndState;
+
+            if (!u) return { path: [], edges: [] };
+
+            while (u && prev[u]) {
+                let p = prev[u];
+                path.unshift(p.edge.node); 
+                routeEdges.unshift(p.edge);
+                u = p.state;
             }
-            
-            return { path: distances[end] !== Infinity ? path : [], cost: distances[end] };
+            path.unshift(start);
+
+            return { path: path, edges: routeEdges };
         }
 
 		// ==========================================
@@ -230,7 +267,7 @@
 
         const reverseDict = {}; // Maps "🚆 Hong Kong..." -> { id: "hong_kong_platform", region: "..." }
         const nodeToSearchString = {}; // Helper to map "hong_kong_platform" -> "🚆 Hong Kong..."
-let allLocationsArray = []; // Stores our dictionary for the custom search filter
+        let allLocationsArray = []; // Stores our dictionary for the custom search filter
 
         function initSearchBox() {
             const seenNodes = new Set();
@@ -311,6 +348,36 @@ let allLocationsArray = []; // Stores our dictionary for the custom search filte
             });
         }
 
+        // UI Controller: Hides and deselects Premium toggle if Paid is disabled
+        function togglePremiumVisibility() {
+            const allowPaid = document.getElementById('allowPaid').checked;
+            const premiumContainer = document.getElementById('premiumToggleContainer');
+            const premiumCheckbox = document.getElementById('allowPremium');
+
+            if (!allowPaid) {
+                premiumCheckbox.checked = false; // Deselect
+                premiumContainer.classList.replace('opacity-100', 'opacity-0');
+                premiumContainer.classList.replace('max-h-10', 'max-h-0'); // Smooth collapse
+            } else {
+                premiumCheckbox.checked = true; // Auto-reselect when paid is toggled back on
+                premiumContainer.classList.replace('opacity-0', 'opacity-100');
+                premiumContainer.classList.replace('max-h-0', 'max-h-10');
+            }
+        }
+        
+        // Triggered when user manually uses the dropdowns
+        function syncFromDropdown(type) {
+            const nodeSelect = document.getElementById(type + 'Node');
+            const searchInput = document.getElementById(type + 'Search');
+            
+            if (nodeSelect.value) {
+                // Update the search box text to match the emoji version!
+                searchInput.value = nodeToSearchString[nodeSelect.value];
+            } else {
+                searchInput.value = ''; 
+            }
+        }
+
         function syncFromSearch(type) {
             const searchInput = document.getElementById(type + 'Search');
             const selected = reverseDict[searchInput.value];
@@ -333,25 +400,53 @@ let allLocationsArray = []; // Stores our dictionary for the custom search filte
         }
 
         function calculateRoute() {
-            const start = document.getElementById('startNode').value;
-            const end = document.getElementById('endNode').value;
-            const allowPaid = document.getElementById('allowPaid').checked; // Read toggle state
+            const startText = document.getElementById('startSearch').value;
+            const endText = document.getElementById('endSearch').value;
             
-            // Rebuild the graph based on user's paid preference
-            initGraph(allowPaid);
+            let start = null;
+            let end = null;
+
+            // First, try an exact match (if they used the dropdowns or autocomplete properly)
+            if (reverseDict[startText]) start = reverseDict[startText].id;
+            if (reverseDict[endText]) end = reverseDict[endText].id;
+
+            // Fallback: If they just typed text and hit enter, try to find a partial match
+            if (!start && startText) {
+                const match = allLocationsArray.find(loc => loc.searchName.toLowerCase().includes(startText.toLowerCase()));
+                if (match) {
+                    start = match.nodeId;
+                    document.getElementById('startSearch').value = match.searchName; // Auto-correct the input box
+                }
+            }
+            if (!end && endText) {
+                const match = allLocationsArray.find(loc => loc.searchName.toLowerCase().includes(endText.toLowerCase()));
+                if (match) {
+                    end = match.nodeId;
+                    document.getElementById('endSearch').value = match.searchName; // Auto-correct the input box
+                }
+            }
+            
+            // Read both checkbox states
+            const allowPaid = document.getElementById('allowPaid').checked; 
+            const allowPremium = document.getElementById('allowPremium').checked; 
+            
             const resultDiv = document.getElementById('result');
             const routeList = document.getElementById('routeList');
 
             if (!start || !end) {
-                alert("Please select both a Start and Destination location.");
+                alert("Please select a valid location from the dropdown list.");
+                resultDiv.classList.add('hidden');
                 return;
             }
-
             if (start === end) {
                 alert("You are already there!");
+                resultDiv.classList.add('hidden');
                 return;
             }
-
+            
+            // Pass BOTH parameters into the graph builder
+            initGraph(allowPaid, allowPremium);
+            
             const route = findShortestPath(start, end);
             routeList.innerHTML = ''; // Clear previous
 
@@ -361,31 +456,44 @@ let allLocationsArray = []; // Stores our dictionary for the custom search filte
                 // Build the step-by-step UI
                 routeList.innerHTML += `<li class="font-bold text-blue-700">📍 Start at ${getNodeName(route.path[0])}</li>`;
                 
-                for (let i = 0; i < route.path.length - 1; i++) {
-                    const u = route.path[i];
-                    const v = route.path[i+1];
-                    const edge = edgeDetails[`${u}-${v}`];
+                for (let i = 0; i < route.edges.length; i++) {
+                    const v = route.edges[i].node;
+                    const edge = route.edges[i];
                     
-                    // Hide abstract nodes entirely from the UI (Added 'junction')
                     if (v.includes('spine') || v.includes('node') || v.includes('exit_e2') || v.includes('junction')) {
                         continue;
                     }
-                
-                    // Handle MTR Train Rides
-                    if (edge.type === 'paid_train') {
-                        const nextNode = route.path[i+2];
-                        if (nextNode) {
-                            const nextEdge = edgeDetails[`${v}-${nextNode}`];
-                            if (nextEdge && nextEdge.type === 'paid_train' && nextEdge.desc === edge.desc) {
-                                continue; 
-                            }
+
+                    // Handle Continuous Rides (Paid Trains, Premium Trains, and Paid Buses)
+                    const isRide = (edge.type === 'paid_train' || edge.type === 'premium_train' || edge.type === 'paid_bus');
+                    
+                    if (isRide) {
+                        const nextEdge = route.edges[i+1]; // Simply grab the next edge directly!
+                        
+                        const isNextRide = (nextEdge && (nextEdge.type === 'paid_train' || nextEdge.type === 'premium_train' || nextEdge.type === 'paid_bus'));
+                        
+                        if (isNextRide && nextEdge.desc === edge.desc) {
+                            continue; 
                         }
+                        
+                        let rideLabel = '🚆 Ride train to';
+                        let borderClass = 'border-blue-600';
+                        
+                        if (edge.type === 'premium_train') {
+                            rideLabel = '✈️ Board premium train to';
+                            borderClass = 'border-teal-500 bg-teal-50/50 rounded-r-lg';
+                        } else if (edge.type === 'paid_bus') {
+                            rideLabel = '🚌 Board bus to';
+                            borderClass = 'border-green-500';
+                        }
+
                         routeList.innerHTML += `
-                        <li class="pl-4 border-l-4 border-blue-600 ml-2 py-2">
-                            🚆 Ride train to <span class="font-semibold">${getNodeName(v)}</span> 
+                        <li class="pl-4 border-l-4 ${borderClass} ml-2 py-2">
+                            ${rideLabel} <span class="font-semibold">${getNodeName(v)}</span> 
                             <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
                         </li>`;
-                    } 
+                    }
+
                     // Handle Fare Gates (Dynamic Enter vs Exit)
                     else if (edge.type === 'fare_gate') {
                         const isEnteringPaid = v.includes('platform');
@@ -460,8 +568,11 @@ let allLocationsArray = []; // Stores our dictionary for the custom search filte
         }
 
         // Initialize App
-		initGraph(document.getElementById('allowPaid').checked);
-	initSearchBox();
+		const initialPaidState = document.getElementById('allowPaid').checked;
+        const initialPremiumState = document.getElementById('allowPremium').checked;
+        
+		initGraph(initialPaidState, initialPremiumState);
+	    initSearchBox();
         initDropdowns();
     </script>
 </body>

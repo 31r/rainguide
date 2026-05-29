@@ -17,16 +17,17 @@
 					"shun_tak_centre": "Shun Tak Centre / 信德中心",
 					"tung_hip_bldg": "Tung Hip Commercial Bldg / 東協商業大廈",
 					"two_chinachem": "Two Chinachem Plaza / 華懋廣場II期",
-					"yue_thai_bldg": "Yue Thai Commercial Bldg / 裕泰商業大廈"
+					"yue_thai_bldg": "Yue Thai Commercial Bldg / 豫泰商業大廈"
 				},
 				"Hong Kong Station (香港站)": {
 					"100qrc": "100 QRC / 皇后大道中100號",
 					"central_market": "Central Market / 中環街市",
+					"mid_levels_escalator": "Central-Mid-Levels Escalator / 中環至半山自動扶手電梯系統",
 					"central_pier_3": "Central Pier No. 3 / 中環3號碼頭",
 					"central_pier_7": "Central Pier No. 7 (Star Ferry) / 中環7號碼頭",
 					"central_yards": "Central Yards / 中環新海濱",
-					"1&2_exchange_square": "One & Two Exchange Sq / 交易廣場一及二期",
-					"3_exchange_square": "Three Exchange Sq / 交易廣場三期",
+					"1&2_exchange_square": "One & Two Exchange Square / 交易廣場一及二期",
+					"3_exchange_square": "Three Exchange Square / 交易廣場三期",
 					"gpo": "General Post Office / 郵政總局",
 					"hang_seng_hq": "Hang Seng HQ / 恒生銀行總行",
 					"ifc_mall": "IFC Mall / 國際金融中心商場",
@@ -78,7 +79,7 @@
 				}
 			},
     
-    		"Wan Chai & Causeway Bay (灣仔及銅鑼灣)": {				
+    		"Wan Chai District (灣仔區)": {				
 				"Wan Chai (灣仔)": {
 					"capital_ctr": "Capital Centre / 資本中心",
 					"causeway_ctr": "Causeway Centre / 灣景中心大廈",
@@ -104,7 +105,7 @@
 					"times_square": "Times Square / 時代廣場"
 				}
 			},
-    		"Island East (港島東)": {
+    		"Eastern District (東區)": {
 				"Fortress Hill (炮台山)": {
 					"fortress_metro_tower": "Fortress Metro Tower / 康澤花園",
 					"electric_road_msb": "Electric Rd Municipal Services Bldg / 電氣道市政大廈",
@@ -144,13 +145,17 @@
 				}
 			},
 			
-			"Kowloon West (九龍西)": {
-                "Hung Hom (紅磡)": {
-                    "harbour_place": "Harbour Place / 海濱南岸",
-                    "one_harbour_gate": "One HarbourGate",
-                    "polyu": "PolyU / 理工大學",
-                    "royal_peninsula": "Royal Peninsula / 半島豪庭",
-                    "stars_by_the_harbour": "Stars by the Harbour / 維港·星岸"
+			"Yau Tsim Mong District (油尖旺區)": {
+                "Tsim Sha Tsui (尖沙咀)": {
+                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
+				},
+                "Mong Kok (旺角)": {
+                    "700_nathan_road": "700 Nathan Road / 彌敦道700號",
+					"argyle_centre": "Argyle Centre / 旺角中心",
+					"cordis_hotel": "Cordis Hotel / 康得思酒店",
+					"langham_place": "Langham Place / 朗豪坊",
+					"moko": "MOKO / 新世紀廣場",
+					"top_mall": "T.O.P This is Our Place"
                 },
 				"Kowloon Station (九龍站)": {
 					"elements_mall": "Elements / 圓方",
@@ -160,28 +165,6 @@
 					"icc": "ICC / 環球貿易廣場",
 					"sorrento": "Sorrento / 擎天半島",
 					"the_waterfront": "The Waterfront / 漾日居"
-				},
-                "Kowloon Tong (九龍塘)": {
-					"cityu": "CityU / 城市大學",
-					"kltesc": "EDB Kowloon Tong Education Services Centre / 教育局九龍塘教育服務中心",
-                    "festival_walk": "Festival Walk / 又一城"
-                },
-                "Mong Kok (旺角)": {
-                    "700_nathan_road": "700 Nathan Road / 彌敦道700號",
-					"argyle_centre": "Argyle Centre / 旺角中心",
-					"cordis_hotel": "Cordis Hotel / 康得思酒店",
-					"langham_place": "Langham Place / 朗豪坊",
-					"moko": "MOKO / 新世紀廣場",
-					"top_mall": "T.O.P This is Our Place"
-                },
-				"Nam Cheong (南昌)": {
-					"aqua_marine": "Aqua Marine / 碧海藍天",
-					"cullinan_west": "Cullinan West / 匯璽",
-					"fu_cheong_estate": "Fu Cheong Estate / 富昌邨",
-					"hoi_tat_estate": "Hoi Tat Estate / 海達邨",
-					"hoi_ying_estate": "Hoi Ying Estate / 海盈邨",
-					"sham_shui_po_lcst_building": "Sham Shui Po Leisure and Cultural Building / 深水埗康樂文化大樓",
-					"v_walk": "V Walk"
 				},
                 "Olympic Station (奧運站)": {
                     "bank_of_china_centre": "Bank of China Centre / 中銀中心",
@@ -198,14 +181,68 @@
                     "the_hermitage": "The Hermitage / 帝峯‧皇殿",
                     "west9zone": "West 9 Zone / 西九匯",
 				},
-                "Tsim Sha Tsui (尖沙咀)": {
-                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
-				}
+			},
+			"Sham Shui Po District (深水埗區)": {
+				"Nam Cheong (南昌)": {
+					"aqua_marine": "Aqua Marine / 碧海藍天",
+					"cullinan_west": "Cullinan West / 匯璽",
+					"fu_cheong_estate": "Fu Cheong Estate / 富昌邨",
+					"hoi_tat_estate": "Hoi Tat Estate / 海達邨",
+					"hoi_ying_estate": "Hoi Ying Estate / 海盈邨",
+					"sham_shui_po_lcst_building": "Sham Shui Po Leisure and Cultural Building / 深水埗康樂文化大樓",
+					"v_walk": "V Walk"
+				},
+			},
+			"Kowloon City District (九龍城區)": {
+                "Hung Hom (紅磡)": {
+                    "harbour_place": "Harbour Place / 海濱南岸",
+                    "one_harbour_gate": "One HarbourGate",
+                    "polyu": "PolyU / 理工大學",
+                    "royal_peninsula": "Royal Peninsula / 半島豪庭",
+                    "stars_by_the_harbour": "Stars by the Harbour / 維港·星岸"
+                },
+                "Kowloon Tong (九龍塘)": {
+					"cityu": "CityU / 城市大學",
+					"kltesc": "EDB Kowloon Tong Education Services Centre / 教育局九龍塘教育服務中心",
+                    "festival_walk": "Festival Walk / 又一城"
+                },
             },
-			"Kwai Tsing District (葵青區)": {
-				"Lai King (荔景)": {
-					"yin_lai_court": "Yin Lai Court / 賢麗苑",
-					"lai_king_est_south": "Lai King Estate (South) / 荔景邨（南）"
+			"North District (北區)": {
+				"Fanling (粉嶺)": {
+					"cheung_wah_estate": "Cheung Wah Estate / 祥華邨",
+					"fanling_centre": "Fanling Centre / 粉嶺中心",
+					"fanling_station_road": "Fanling Station Road / 粉嶺車站路",
+					"fanling_town_center": "Fanling Town Center / 粉嶺名都",
+					"ka_fuk_estate": "Ka Fuk Estate / 嘉福邨",
+					"ka_shing_court": "Ka Shing Court / 嘉盛苑"
+				},
+				"Sheung Shui (上水)": {
+					"choi_po_court": "Choi Po Court / 彩蒲苑",
+					"choi_yuen_estate": "Choi Yuen Estate / 彩園邨",
+					"landmark_north": "Landmark North / 上水廣場",
+					"lung_fung_garden": "Lung Fung Garden / 龍豐花園",
+					"metropolis_plaza": "Metropolis Plaza / 新都廣場",
+					"po_shek_wu_estate": "Po Shek Wu Estate / 寶石湖邨",
+					"shek_wu_hui_municipal_services_building": "Shek Wu Hui Municipal Services Building / 石湖墟市政大廈",
+					"sheung_shui_centre": "Sheung Shui Centre / 上水中心",
+					"sheung_shui_town_centre": "Sheung Shui Town Centre / 上水名都",
+					"sunningdale_garden": "Sunningdale Garden / 順欣花園",
+					"spot": "Spot / 上水匯"
+				}
+			},
+			"Tai Po District (大埔區)": {
+				"Tai Po Market (大埔墟)": {
+					"fu_shin_estate": "Fu Shin Estate / 富善邨",
+					"kwong_fuk_estate": "Kwong Fuk Estate / 廣福邨",
+					"tai_po_market_pti": "Tai Po Market PTI / 大埔墟站公共運輸交匯處",
+					"uptown_plaza": "Uptown Plaza / 新達廣場",
+					"wan_tau_tong_estate": "Wan Tau Tong Estate / 運頭塘邨"
+				},
+				"Tai Wo (太和)": {
+					"fu_tip_estate": "Fu Tip Estate / 富蝶邨",
+					"tai_wo_bus_terminus": "Tai Wo Bus Terminus / 太和巴士總站",
+					"tai_wo_plaza_east": "Tai Wo Plaza East / 太和廣場（東翼）",
+					"tai_wo_plaza_west": "Tai Wo Plaza West / 太和廣場（西翼）"
 				}
 			},
             "Sha Tin District (沙田區)": {
@@ -249,42 +286,27 @@
 					"cyt_building": "Cheng Yu Tung Building / 鄭裕彤樓"
 				}
             },
-			"Tai Po District (大埔區)": {
-				"Tai Po Market (大埔墟)": {
-					"fu_shin_estate": "Fu Shin Estate / 富善邨",
-					"kwong_fuk_estate": "Kwong Fuk Estate / 廣福邨",
-					"tai_po_market_pti": "Tai Po Market PTI / 大埔墟站公共運輸交匯處",
-					"uptown_plaza": "Uptown Plaza / 新達廣場",
-					"wan_tau_tong_estate": "Wan Tau Tong Estate / 運頭塘邨"
+			"Kwai Tsing District (葵青區)": {
+				"Lai King (荔景)": {
+					"yin_lai_court": "Yin Lai Court / 賢麗苑",
+					"lai_king_est_south": "Lai King Estate (South) / 荔景邨（南）"
 				},
-				"Tai Wo (太和)": {
-					"fu_tip_estate": "Fu Tip Estate / 富蝶邨",
-					"tai_wo_bus_terminus": "Tai Wo Bus Terminus / 太和巴士總站",
-					"tai_wo_plaza_east": "Tai Wo Plaza East / 太和廣場（東翼）",
-					"tai_wo_plaza_west": "Tai Wo Plaza West / 太和廣場（西翼）"
-				}
-			},
-			"North District (北區)": {
-				"Fanling (粉嶺)": {
-					"cheung_wah_estate": "Cheung Wah Estate / 祥華邨",
-					"fanling_centre": "Fanling Centre / 粉嶺中心",
-					"fanling_station_road": "Fanling Station Road / 粉嶺車站路",
-					"fanling_town_center": "Fanling Town Center / 粉嶺名都",
-					"ka_fuk_estate": "Ka Fuk Estate / 嘉福邨",
-					"ka_shing_court": "Ka Shing Court / 嘉盛苑"
-				},
-				"Sheung Shui (上水)": {
-					"choi_po_court": "Choi Po Court / 彩蒲苑",
-					"choi_yuen_estate": "Choi Yuen Estate / 彩園邨",
-					"landmark_north": "Landmark North / 上水廣場",
-					"lung_fung_garden": "Lung Fung Garden / 龍豐花園",
-					"metropolis_plaza": "Metropolis Plaza / 新都廣場",
-					"po_shek_wu_estate": "Po Shek Wu Estate / 寶石湖邨",
-					"shek_wu_hui_municipal_services_building": "Shek Wu Hui Municipal Services Building / 石湖墟市政大廈",
-					"sheung_shui_centre": "Sheung Shui Centre / 上水中心",
-					"sheung_shui_town_centre": "Sheung Shui Town Centre / 上水名都",
-					"sunningdale_garden": "Sunningdale Garden / 順欣花園",
-					"spot": "Spot / 上水匯"
+				"Tsing Yi (青衣)": {
+					"cheung_fat_estate": "Cheung Fat Estate / 長發邨",
+					"cheung_fat_plaza": "Cheung Fat Plaza / 長發廣場",
+					"cheung_on_bus_terminus": "Cheung On Bus Terminus / 長安巴士總站",
+					"cheung_on_estate": "Cheung On Estate / 長安邨",
+					"ching_tai_court": "Ching Tai Court / 青泰苑",
+					"greenfield_garden": "Greenfield Garden / 翠怡花園",
+					"maritime_square_1": "Maritime Square 1 / 青衣城1期",
+					"maritime_square_2": "Maritime Square 2 / 青衣城2期",
+					"serene_garden": "Serene Garden / 海悅花園",
+					"tierra_verde": "Tierra Verde / 盈翠半島",
+					"tivoli_garden": "Tivoli Garden / 宏福花園",
+					"tsing_yi_estate": "Tsing Yi Estate / 青衣邨",
+					"tsing_yi_garden": "Tsing Yi Garden / 青怡花園",
+					"tsing_yi_municipal_services_building": "Tsing Yi Municipal Services Building / 青衣市政大廈",
+					"villa_esplanada": "Villa Esplanada / 灝景灣"
 				}
 			},
 			"Border Crossings (出入境管制站)": {
@@ -299,6 +321,13 @@
 				}
 			},
 			"MTR Concourses (港鐵大堂)": {
+				"Airport Express (機場快綫)": {
+					"hong_kong_concourse": "Hong Kong / 香港站",
+					"kowloon_concourse": "Kowloon / 九龍站",
+					"tsing_yi_concourse": "Tsing Yi / 青衣站",
+					"airport_platform": "Airport / 機場站",
+					"expo_concourse": "AsiaWorld-Expo / 博覽館站"
+				},
 				"Tsuen Wan Line (荃灣綫)": {
 					"central_concourse_west": "Central (Exits A-D) / 中環站 (A-D出口)",
 					"central_concourse_mid": "Central (Exits E-H) / 中環站 (E-H出口)",
@@ -400,6 +429,13 @@
                     "lo_wu_concourse": "Lo Wu / 羅湖站",
                     "lok_ma_chau_concourse": "Lok Ma Chau / 落馬洲站"
                 },
+				"South Island Line (南港島綫)": {
+					"admiralty_concourse": "Admiralty / 金鐘站",
+					"ocean_park_concourse": "Ocean Park / 海洋公園站",
+					"wong_chuk_hang_concourse": "Wong Chuk Hang / 黃竹坑站",
+					"lei_tung_concourse": "Lei Tung / 利東站",
+					"south_horizons_concourse": "South Horizons / 海怡半島站"
+				},
 				"Tuen Ma Line (屯馬綫)": {
 					"tuen_mun_concourse": "Tuen Mun / 屯門站",
 					"siu_hong_concourse": "Siu Hong / 兆康站",
@@ -408,7 +444,7 @@
 					"yuen_long_concourse": "Yuen Long / 元朗站",
 					"kam_sheung_road_concourse": "Kam Sheung Road / 錦上路站",
 					"tsuen_wan_west_concourse": "Tsuen Wan West / 荃灣西站",
-					"mei_foo_concourse_tml": "Mei Foo (TML Concourse) / 美孚站 (屯馬綫大堂)",
+					"mei_foo_concourse_tml": "Mei Foo (Exits F-G) / 美孚站 (F-G出口)",
 					"nam_cheong_concourse": "Nam Cheong / 南昌站",
 					"austin_concourse": "Austin / 柯士甸站",
 					"east_tst_concourse": "East Tsim Sha Tsui / 尖東站",
@@ -430,6 +466,13 @@
 				}
 			},
 			"MTR Platforms (付費區)": {
+				"Airport Express (機場快綫)": {
+					"hong_kong_platform_ael": "Hong Kong (Airport Express) / 香港站 (機場快綫)",
+					"kowloon_platform_ael": "Kowloon (Airport Express) / 九龍站 (機場快綫)",
+					"tsing_yi_platform_ael": "Tsing Yi (Airport Express) / 青衣站 (機場快綫)",
+					"airport_platform": "Airport (Airport Express) / 機場站 (機場快綫)",
+					"expo_platform": "AsiaWorld-Expo (Airport Express) / 博覽館站 (機場快綫)"
+				},
 				"Tsuen Wan Line (荃灣綫)": {
 					"central_platform_twl": "Central (Tsuen Wan Line) / 中環站 (荃灣綫)",
 					"admiralty_platform_twl": "Admiralty (Tsuen Wan Line) / 金鐘站 (荃灣綫)",
@@ -494,7 +537,7 @@
 					"nam_cheong_platform_tcl": "Nam Cheong (Tung Chung Line) / 南昌站 (東涌綫)",
 					"lai_king_platform_tcl_nb": "Lai King (Platform 3) / 荔景站 (3號月台)",
 					"lai_king_platform_tcl_sb": "Lai King (Platform 4) / 荔景站 (4號月台)",
-					"tsing_yi_platform": "Tsing Yi / 青衣站",
+					"tsing_yi_platform_tcl": "Tsing Yi (Tung Chung Line) / 青衣站 (東涌綫)",
 					"sunny_bay_platform": "Sunny Bay / 欣澳站",
 					"tung_chung_platform": "Tung Chung / 東涌站"
 				},
@@ -528,6 +571,13 @@
                     "lo_wu_platform": "Lo Wu / 羅湖站",
                     "lok_ma_chau_platform": "Lok Ma Chau / 落馬洲站"
                 },
+				"South Island Line (南港島綫)": {
+					"admiralty_platform_sil": "Admiralty (South Island Line) / 金鐘站 (南港島綫)",
+					"ocean_park_platform": "Ocean Park / 海洋公園站",
+					"wong_chuk_hang_platform": "Wong Chuk Hang / 黃竹坑站",
+					"lei_tung_platform": "Lei Tung / 利東站",
+					"south_horizons_platform": "South Horizons / 海怡半島站"
+				},
 				"Tuen Ma Line (屯馬綫)": {
 					"tuen_mun_platform": "Tuen Mun / 屯門站",
 					"siu_hong_platform": "Siu Hong / 兆康站",
