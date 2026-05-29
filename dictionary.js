@@ -167,7 +167,12 @@
                     "festival_walk": "Festival Walk / 又一城"
                 },
                 "Mong Kok (旺角)": {
-                    "moko": "MOKO / 新世紀廣場"
+                    "700_nathan_road": "700 Nathan Road / 彌敦道700號",
+					"argyle_centre": "Argyle Centre / 旺角中心",
+					"cordis_hotel": "Cordis Hotel / 康得思酒店",
+					"langham_place": "Langham Place / 朗豪坊",
+					"moko": "MOKO / 新世紀廣場",
+					"top_mall": "T.O.P This is Our Place"
                 },
 				"Nam Cheong (南昌)": {
 					"aqua_marine": "Aqua Marine / 碧海藍天",
