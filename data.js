@@ -456,8 +456,8 @@ top_mall,argyle_centre,3,bridge,Bridge
 top_mall,700_nathan_road,1,internal,Escalators
 
 // --- KOWLOON TONG HUB ---
-kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_tunnel,Underground Tunnel (Paid Area)
-kowloon_tong_concourse_ktl,kowloon_tong_concourse_erl,10,internal,Underground Tunnel (Free Area)
+kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_tunnel,Pedestrian Subway (Paid Area)
+kowloon_tong_concourse_ktl,kowloon_tong_concourse_erl,10,internal,Pedestrian Subway (Free Area)
 kowloon_tong_platform_ktl,kowloon_tong_concourse_ktl,2,fare_gate,Fare gates
 kowloon_tong_platform_erl,kowloon_tong_concourse_erl,2,fare_gate,Fare gates
 kowloon_tong_concourse_ktl,festival_walk,6,internal,Exit C2
@@ -597,9 +597,9 @@ heng_on_platform,ma_on_shan_platform,4,paid_train,Tuen Ma Line (MTR)
 ma_on_shan_platform,wu_kai_sha_platform,5,paid_train,Tuen Ma Line (MTR)
 
 // --- TUEN MA LINE TRANSFERS ---
-mei_foo_platform_tml,mei_foo_platform_twl,15,paid_tunnel,Pedestrian Subway
+mei_foo_platform_tml,mei_foo_platform_twl,15,paid_tunnel,Walkways and Escalators
 nam_cheong_platform_tml,nam_cheong_platform_tcl,4,paid_transfer,Platform Transfer
-east_tst_platform,tsim_sha_tsui_platform,18,paid_tunnel,Subway
+east_tst_concourse,tsim_sha_tsui_concourse,14,internal,Pedestrian Subway
 hung_hom_platform_tml,hung_hom_platform_erl,4,paid_transfer,Escalator Transfer
 ho_man_tin_platform_tml,ho_man_tin_platform_ktl,8,paid_transfer,Escalator Transfer
 diamond_hill_platform_tml,diamond_hill_platform_ktl,7,paid_transfer,Vertical Concourse Transfer
