@@ -597,9 +597,9 @@ heng_on_platform,ma_on_shan_platform,4,paid_train,Tuen Ma Line (MTR)
 ma_on_shan_platform,wu_kai_sha_platform,5,paid_train,Tuen Ma Line (MTR)
 
 // --- TUEN MA LINE TRANSFERS ---
-mei_foo_platform_tml,mei_foo_platform_twl,15,paid_tunnel,Pedestrian Subway to Tsuen Wan Line
+mei_foo_platform_tml,mei_foo_platform_twl,15,paid_tunnel,Pedestrian Subway
 nam_cheong_platform_tml,nam_cheong_platform_tcl,4,paid_transfer,Platform Transfer
-east_tst_platform,tsim_sha_tsui_platform,18,paid_tunnel,Subway to Tsuen Wan Line
+east_tst_platform,tsim_sha_tsui_platform,18,paid_tunnel,Subway
 hung_hom_platform_tml,hung_hom_platform_erl,4,paid_transfer,Escalator Transfer
 ho_man_tin_platform_tml,ho_man_tin_platform_ktl,8,paid_transfer,Escalator Transfer
 diamond_hill_platform_tml,diamond_hill_platform_ktl,7,paid_transfer,Vertical Concourse Transfer
