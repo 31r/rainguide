@@ -224,37 +224,55 @@
             }
         }
 
-	const reverseDict = {}; // Maps "DisplayName" -> { id: "nodeId", region: "RegionName" }
+const reverseDict = {}; // Maps "🚆 Hong Kong..." -> { id: "hong_kong_platform", region: "..." }
+        const nodeToSearchString = {}; // Helper to map "hong_kong_platform" -> "🚆 Hong Kong..."
 
         function initSearchBox() {
             const dataList = document.getElementById('allLocations');
+            const locationsArray = [];
             
+            // 1. Gather all locations and inject emojis
             for (const [regionName, regionData] of Object.entries(nodeDict)) {
                 for (const districtData of Object.values(regionData)) {
-                    for (const [nodeId, displayName] of Object.entries(districtData)) {
-                        // 1. Populate the hidden Datalist for autocomplete
-                        const option = document.createElement('option');
-                        option.value = displayName;
-                        dataList.appendChild(option);
+                    for (const [nodeId, rawDisplayName] of Object.entries(districtData)) {
                         
-                        // 2. Map the display text back to the engine's required data
-                        reverseDict[displayName] = { id: nodeId, region: regionName };
+                        // Dynamically assign an emoji prefix based on the Region name
+                        let prefix = "🏢 "; // Default for malls and buildings
+                        if (regionName === "MTR Platforms (付費區)") prefix = "🚆 ";
+                        else if (regionName === "MTR Concourses (港鐵大堂)") prefix = "🎫 ";
+                        else if (regionName === "Border Crossings (出入境管制站)") prefix = "🛂 ";
+                        
+                        const searchName = prefix + rawDisplayName;
+                        
+                        locationsArray.push({ searchName, nodeId, regionName });
                     }
                 }
             }
+            
+            // 2. Sort the array alphabetically (handles both English and Chinese)
+            locationsArray.sort((a, b) => a.searchName.localeCompare(b.searchName));
+            
+            // 3. Build the Datalist and the reverse-lookup dictionaries
+            locationsArray.forEach(loc => {
+                const option = document.createElement('option');
+                option.value = loc.searchName;
+                dataList.appendChild(option);
+                
+                // Map the emoji string back to the engine's required data
+                reverseDict[loc.searchName] = { id: loc.nodeId, region: loc.regionName };
+                // Keep a reverse helper for when the user clicks the dropdown directly
+                nodeToSearchString[loc.nodeId] = loc.searchName; 
+            });
         }
 
-        // Triggered when user types in the search box and selects a valid option
+        // Triggered when user types in the search box
         function syncFromSearch(type) {
             const searchInput = document.getElementById(type + 'Search');
             const selected = reverseDict[searchInput.value];
             
             if (selected) {
-                // Change the Region dropdown
                 document.getElementById(type + 'Region').value = selected.region;
-                // Force the Node dropdown to populate its options based on the new Region
-                updateLocations(type);
-                // Select the actual Node in the dropdown
+                updateLocations(type); // Repopulate the second dropdown
                 document.getElementById(type + 'Node').value = selected.id;
             }
         }
@@ -265,13 +283,13 @@
             const searchInput = document.getElementById(type + 'Search');
             
             if (nodeSelect.value) {
-                // Update the search box text to match the dropdown selection
-                searchInput.value = nodeSelect.options[nodeSelect.selectedIndex].text;
+                // Update the search box text to match the emoji version!
+                searchInput.value = nodeToSearchString[nodeSelect.value];
             } else {
-                searchInput.value = ''; // Clear if they selected the placeholder
+                searchInput.value = ''; 
             }
         }
-
+		
         function getNodeName(id) {
             // Updated search logic to handle the new nested dictionary
             for (const region of Object.values(nodeDict)) {
