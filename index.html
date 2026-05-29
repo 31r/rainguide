@@ -34,25 +34,35 @@
     <main class="flex-grow max-w-md mx-auto w-full p-6 space-y-6">
         
 		<div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5">            
-            <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+			<div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
                 <label class="block text-sm font-bold text-blue-800 mb-2">Start / 起點</label>
-                <select id="startRegion" onchange="updateLocations('start')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition">
+                
+                <input list="allLocations" id="startSearch" oninput="syncFromSearch('start')" placeholder="🔍 Search (e.g. Central Market)..." 
+                       class="w-full p-3 mb-3 border border-blue-200 rounded-lg bg-blue-50 focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
+                
+                <select id="startRegion" onchange="updateLocations('start')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
                     <option value="">1. Select Region / 選擇區域...</option>
                 </select>
-                <select id="startNode" class="w-full p-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition" disabled>
+                <select id="startNode" onchange="syncFromDropdown('start')" class="w-full p-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition text-sm" disabled>
                     <option value="">2. Select Location / 選擇地點...</option>
                 </select>
             </div>
 
             <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
                 <label class="block text-sm font-bold text-blue-800 mb-2">Destination / 終點</label>
-                <select id="endRegion" onchange="updateLocations('end')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition">
+                
+                <input list="allLocations" id="endSearch" oninput="syncFromSearch('end')" placeholder="🔍 Search (e.g. Pacific Place)..." 
+                       class="w-full p-3 mb-3 border border-blue-200 rounded-lg bg-blue-50 focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
+                
+                <select id="endRegion" onchange="updateLocations('end')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
                     <option value="">1. Select Region / 選擇區域...</option>
                 </select>
-                <select id="endNode" class="w-full p-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition" disabled>
+                <select id="endNode" onchange="syncFromDropdown('end')" class="w-full p-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition text-sm" disabled>
                     <option value="">2. Select Location / 選擇地點...</option>
                 </select>
             </div>
+
+            <datalist id="allLocations"></datalist>
 
             <div class="flex items-center mb-4 mt-2 px-2">
                 <input type="checkbox" id="allowPaid" checked class="w-4 h-4 text-blue-600 bg-slate-100 border-slate-300 rounded focus:ring-blue-500">
@@ -214,6 +224,54 @@
             }
         }
 
+	const reverseDict = {}; // Maps "DisplayName" -> { id: "nodeId", region: "RegionName" }
+
+        function initSearchBox() {
+            const dataList = document.getElementById('allLocations');
+            
+            for (const [regionName, regionData] of Object.entries(nodeDict)) {
+                for (const districtData of Object.values(regionData)) {
+                    for (const [nodeId, displayName] of Object.entries(districtData)) {
+                        // 1. Populate the hidden Datalist for autocomplete
+                        const option = document.createElement('option');
+                        option.value = displayName;
+                        dataList.appendChild(option);
+                        
+                        // 2. Map the display text back to the engine's required data
+                        reverseDict[displayName] = { id: nodeId, region: regionName };
+                    }
+                }
+            }
+        }
+
+        // Triggered when user types in the search box and selects a valid option
+        function syncFromSearch(type) {
+            const searchInput = document.getElementById(type + 'Search');
+            const selected = reverseDict[searchInput.value];
+            
+            if (selected) {
+                // Change the Region dropdown
+                document.getElementById(type + 'Region').value = selected.region;
+                // Force the Node dropdown to populate its options based on the new Region
+                updateLocations(type);
+                // Select the actual Node in the dropdown
+                document.getElementById(type + 'Node').value = selected.id;
+            }
+        }
+
+        // Triggered when user manually uses the dropdowns
+        function syncFromDropdown(type) {
+            const nodeSelect = document.getElementById(type + 'Node');
+            const searchInput = document.getElementById(type + 'Search');
+            
+            if (nodeSelect.value) {
+                // Update the search box text to match the dropdown selection
+                searchInput.value = nodeSelect.options[nodeSelect.selectedIndex].text;
+            } else {
+                searchInput.value = ''; // Clear if they selected the placeholder
+            }
+        }
+
         function getNodeName(id) {
             // Updated search logic to handle the new nested dictionary
             for (const region of Object.values(nodeDict)) {
@@ -353,6 +411,7 @@
 
         // Initialize App
 		initGraph(document.getElementById('allowPaid').checked);
+	initSearchBox();
         initDropdowns();
     </script>
 </body>
