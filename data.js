@@ -346,6 +346,8 @@ elements_mall,sorrento,4,internal,Mall to Residential Lobby
 elements_mall,the_waterfront,4,internal,Mall to Residential Lobby
 elements_mall,the_harbourside,4,internal,Mall to Residential Lobby
 elements_mall,the_cullinan,4,internal,Mall to Residential Lobby
+austin_concourse,west_kowloon_station,2,internal,Exit C to Hong Kong West Kowloon Station,uni
+west_kowloon_station,austin_concourse,2,internal,Exit A to Austin Station,uni
 
 // --- OLYMPIC HUB ---
 olympic_concourse,olympian_city_one,3,bridge,Exits A2 or E
