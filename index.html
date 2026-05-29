@@ -37,9 +37,12 @@
 			<div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
                 <label class="block text-sm font-bold text-blue-800 mb-2">Start / 起點</label>
                 
-                <input list="allLocations" id="startSearch" oninput="syncFromSearch('start')" placeholder="🔍 Search (e.g. Central Market)..." 
-                       class="w-full p-3 mb-3 border border-blue-200 rounded-lg bg-blue-50 focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
-                
+                <div class="relative mb-3">
+                    <input type="text" id="startSearch" placeholder="🔍 Search (e.g. Central Market)..." autocomplete="off"
+                        class="w-full p-3 border border-blue-200 rounded-lg bg-blue-50 focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
+                    <ul id="startDropdown" class="absolute z-50 w-full bg-white border border-slate-200 rounded-lg shadow-xl max-h-60 overflow-y-auto hidden"></ul>
+                </div>
+
                 <select id="startRegion" onchange="updateLocations('start')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
                     <option value="">1. Select Region / 選擇區域...</option>
                 </select>
@@ -51,9 +54,12 @@
             <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
                 <label class="block text-sm font-bold text-blue-800 mb-2">Destination / 終點</label>
                 
-                <input list="allLocations" id="endSearch" oninput="syncFromSearch('end')" placeholder="🔍 Search (e.g. Pacific Place)..." 
-                       class="w-full p-3 mb-3 border border-blue-200 rounded-lg bg-blue-50 focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
-                
+                <div class="relative mb-3">
+                    <input type="text" id="endSearch" placeholder="🔍 Search (e.g. Pacific Place)..." autocomplete="off"
+                        class="w-full p-3 border border-blue-200 rounded-lg bg-blue-50 focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
+                    <ul id="endDropdown" class="absolute z-50 w-full bg-white border border-slate-200 rounded-lg shadow-xl max-h-60 overflow-y-auto hidden"></ul>
+                </div>
+
                 <select id="endRegion" onchange="updateLocations('end')" class="w-full p-3 mb-3 border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-500 outline-none transition text-sm">
                     <option value="">1. Select Region / 選擇區域...</option>
                 </select>
@@ -61,8 +67,6 @@
                     <option value="">2. Select Location / 選擇地點...</option>
                 </select>
             </div>
-
-            <datalist id="allLocations"></datalist>
 
             <div class="flex items-center mb-4 mt-2 px-2">
                 <input type="checkbox" id="allowPaid" checked class="w-4 h-4 text-blue-600 bg-slate-100 border-slate-300 rounded focus:ring-blue-500">
@@ -224,79 +228,100 @@
             }
         }
 
-const reverseDict = {}; // Maps "🚆 Hong Kong..." -> { id: "hong_kong_platform", region: "..." }
+        const reverseDict = {}; // Maps "🚆 Hong Kong..." -> { id: "hong_kong_platform", region: "..." }
         const nodeToSearchString = {}; // Helper to map "hong_kong_platform" -> "🚆 Hong Kong..."
+let allLocationsArray = []; // Stores our dictionary for the custom search filter
 
-		function initSearchBox() {
-            const dataList = document.getElementById('allLocations');
-            const locationsArray = [];
-            const seenNodes = new Set(); // Tracks unique Node IDs to prevent duplicates
+        function initSearchBox() {
+            const seenNodes = new Set();
             
-            // 1. Gather all locations, deduplicate, and inject emojis
             for (const [regionName, regionData] of Object.entries(nodeDict)) {
                 for (const districtData of Object.values(regionData)) {
                     for (const [nodeId, rawDisplayName] of Object.entries(districtData)) {
                         
-                        // Check if we've already added this specific node ID
-                        if (seenNodes.has(nodeId)) {
-                            continue; // Skip the duplicate!
-                        }
-                        seenNodes.add(nodeId); // Mark it as seen
+                        if (seenNodes.has(nodeId)) continue; 
+                        seenNodes.add(nodeId); 
                         
-                        // Dynamically assign an emoji prefix based on the Region name
-                        let prefix = "🏢 "; // Default for malls and buildings
+                        let prefix = "🏢 "; 
                         if (regionName === "MTR Platforms (付費區)") prefix = "🚆 ";
-                        else if (regionName === "MTR Concourses (港鐵大堂)") prefix = "Ⓜ️ ";
+                        else if (regionName === "MTR Concourses (港鐵大堂)") prefix = "🎫 ";
                         else if (regionName === "Border Crossings (出入境管制站)") prefix = "🛂 ";
                         
-                        const searchName = prefix + rawDisplayName;
-                        
-                        locationsArray.push({ searchName, nodeId, regionName });
+                        allLocationsArray.push({ searchName: prefix + rawDisplayName, nodeId, regionName });
                     }
                 }
             }
             
-            // 2. Sort the array alphabetically (handles both English and Chinese)
-            locationsArray.sort((a, b) => a.searchName.localeCompare(b.searchName));
+            allLocationsArray.sort((a, b) => a.searchName.localeCompare(b.searchName));
             
-            // 3. Build the Datalist and the reverse-lookup dictionaries
-            locationsArray.forEach(loc => {
-                const option = document.createElement('option');
-                option.value = loc.searchName;
-                dataList.appendChild(option);
-                
-                // Map the emoji string back to the engine's required data
+            allLocationsArray.forEach(loc => {
                 reverseDict[loc.searchName] = { id: loc.nodeId, region: loc.regionName };
-                // Keep a reverse helper for when the user clicks the dropdown directly
                 nodeToSearchString[loc.nodeId] = loc.searchName; 
             });
+
+            // Initialize the custom autocomplete event listeners
+            setupAutocomplete('start');
+            setupAutocomplete('end');
         }
-		
-        // Triggered when user types in the search box
+
+        function setupAutocomplete(type) {
+            const input = document.getElementById(type + 'Search');
+            const dropdown = document.getElementById(type + 'Dropdown');
+
+            // Listen for user typing
+            input.addEventListener('input', function() {
+                const val = this.value.toLowerCase();
+                dropdown.innerHTML = ''; // Clear previous results
+                
+                if (!val) {
+                    dropdown.classList.add('hidden');
+                    return;
+                }
+                
+                // Filter the dictionary based on input
+                const matches = allLocationsArray.filter(loc => loc.searchName.toLowerCase().includes(val));
+                
+                if (matches.length > 0) {
+                    dropdown.classList.remove('hidden');
+                    
+                    // Build the dropdown list visually
+                    matches.forEach(match => {
+                        const li = document.createElement('li');
+                        li.className = 'p-3 hover:bg-blue-50 cursor-pointer border-b border-slate-100 text-sm text-slate-700';
+                        li.textContent = match.searchName;
+                        
+                        // When a user clicks a dropdown item
+                        li.onclick = () => {
+                            input.value = match.searchName;
+                            dropdown.classList.add('hidden');
+                            syncFromSearch(type); // Pivot the cascade dropdowns
+                        };
+                        dropdown.appendChild(li);
+                    });
+                } else {
+                    dropdown.classList.add('hidden');
+                }
+            });
+
+            // Hide the dropdown if the user taps anywhere else on the screen
+            document.addEventListener('click', (e) => {
+                if (e.target !== input && e.target !== dropdown) {
+                    dropdown.classList.add('hidden');
+                }
+            });
+        }
+
         function syncFromSearch(type) {
             const searchInput = document.getElementById(type + 'Search');
             const selected = reverseDict[searchInput.value];
             
             if (selected) {
                 document.getElementById(type + 'Region').value = selected.region;
-                updateLocations(type); // Repopulate the second dropdown
+                updateLocations(type); 
                 document.getElementById(type + 'Node').value = selected.id;
             }
         }
 
-        // Triggered when user manually uses the dropdowns
-        function syncFromDropdown(type) {
-            const nodeSelect = document.getElementById(type + 'Node');
-            const searchInput = document.getElementById(type + 'Search');
-            
-            if (nodeSelect.value) {
-                // Update the search box text to match the emoji version!
-                searchInput.value = nodeToSearchString[nodeSelect.value];
-            } else {
-                searchInput.value = ''; 
-            }
-        }
-		
         function getNodeName(id) {
             // Updated search logic to handle the new nested dictionary
             for (const region of Object.values(nodeDict)) {
