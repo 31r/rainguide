@@ -399,7 +399,32 @@
                     "sheung_shui_concourse": "Sheung Shui / 上水站",
                     "lo_wu_concourse": "Lo Wu / 羅湖站",
                     "lok_ma_chau_concourse": "Lok Ma Chau / 落馬洲站"
-                }
+                },
+				"Tuen Ma Line (屯馬綫)": {
+					"tuen_mun_concourse": "Tuen Mun / 屯門站",
+					"siu_hong_concourse": "Siu Hong / 兆康站",
+					"tin_shui_wai_concourse": "Tin Shui Wai / 天水圍站",
+					"long_ping_concourse": "Long Ping / 朗屏站",
+					"yuen_long_concourse": "Yuen Long / 元朗站",
+					"kam_sheung_road_concourse": "Kam Sheung Road / 錦上路站",
+					"tsuen_wan_west_concourse": "Tsuen Wan West / 荃灣西站",
+					"mei_foo_concourse_tml": "Mei Foo (TML Concourse) / 美孚站 (屯馬綫大堂)",
+					"austin_concourse": "Austin / 柯士甸站",
+					"east_tst_concourse": "East Tsim Sha Tsui / 尖東站",
+					"to_kwa_wan_concourse": "To Kwa Wan / 土瓜灣站",
+					"sung_wong_toi_concourse": "Sung Wong Toi / 宋皇臺站",
+					"kai_tak_concourse": "Kai Tak / 啟德站",
+					"diamond_hill_concourse_tml": "Diamond Hill (TML Concourse) / 鑽石山站 (屯馬綫大堂)",
+					"hin_keng_concourse": "Hin Keng / 顯徑站",
+					"che_kung_temple_concourse": "Che Kung Temple / 車公廟站",
+					"sha_tin_wai_concourse": "Sha Tin Wai / 沙田圍站",
+					"city_one_concourse": "City One / 第一城站",
+					"shek_mun_concourse": "Shek Mun / 石門站",
+					"tai_shui_hang_concourse": "Tai Shui Hang / 大水坑站",
+					"heng_on_concourse": "Heng On / 恆安站",
+					"ma_on_shan_concourse": "Ma On Shan / 馬鞍山站",
+					"wu_kai_sha_concourse": "Wu Kai Sha / 烏溪沙站"
+				}
 			},
 			"MTR Platforms (付費區)": {
 				"Tsuen Wan Line (荃灣綫)": {
@@ -499,7 +524,36 @@
 					"sheung_shui_platform_sb": "Sheung Shui (Platform 2) / 上水站 (2號月台)",
                     "lo_wu_platform": "Lo Wu / 羅湖站",
                     "lok_ma_chau_platform": "Lok Ma Chau / 落馬洲站"
-                }
+                },
+				"Tuen Ma Line (屯馬綫)": {
+					"tuen_mun_platform": "Tuen Mun / 屯門站",
+					"siu_hong_platform": "Siu Hong / 兆康站",
+					"tin_shui_wai_platform": "Tin Shui Wai / 天水圍站",
+					"long_ping_platform": "Long Ping / 朗屏站",
+					"yuen_long_platform": "Yuen Long / 元朗站",
+					"kam_sheung_road_platform": "Kam Sheung Road / 錦上路站",
+					"tsuen_wan_west_platform": "Tsuen Wan West / 荃灣西站",
+					"mei_foo_platform_tml": "Mei Foo (Tuen Ma Line) / 美孚站 (屯馬綫)",
+					"nam_cheong_platform_tml": "Nam Cheong (Tuen Ma Line) / 南昌站 (屯馬綫)",
+					"austin_platform": "Austin / 柯士甸站",
+					"east_tst_platform": "East Tsim Sha Tsui / 尖東站",
+					"hung_hom_platform_tml": "Hung Hom (Tuen Ma Line) / 紅磡站 (屯馬綫)",
+					"ho_man_tin_platform_tml": "Ho Man Tin (Tuen Ma Line) / 何文田站 (屯馬綫)",
+					"to_kwa_wan_platform": "To Kwa Wan / 土瓜灣站",
+					"sung_wong_toi_platform": "Sung Wong Toi / 宋皇臺站",
+					"kai_tak_platform": "Kai Tak / 啟德站",
+					"diamond_hill_platform_tml": "Diamond Hill (Tuen Ma Line) / 鑽石山站 (屯馬綫)",
+					"hin_keng_platform": "Hin Keng / 顯徑站",
+					"tai_wai_platform_tml": "Tai Wai (Tuen Ma Line) / 大圍站 (屯馬綫)",
+					"che_kung_temple_platform": "Che Kung Temple / 車公廟站",
+					"sha_tin_wai_platform": "Sha Tin Wai / 沙田圍站",
+					"city_one_platform": "City One / 第一城站",
+					"shek_mun_platform": "Shek Mun / 石門站",
+					"tai_shui_hang_platform": "Tai Shui Hang / 大水坑站",
+					"heng_on_platform": "Heng On / 恆安站",
+					"ma_on_shan_platform": "Ma On Shan / 馬鞍山站",
+					"wu_kai_sha_platform": "Wu Kai Sha / 烏溪沙站"
+				}
 			}
         };
 
