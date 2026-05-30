@@ -234,12 +234,12 @@ hong_kong_platform,hong_kong_concourse,2,fare_gate,Fare gates to HK Station Exit
 // --- SHEUNG WAN TO ADMIRALTY MTR PLATFORMS & FARE GATES ---
 sheung_wan_platform,sheung_wan_concourse_mid,2,fare_gate,Fare gates to Exits A-D
 sheung_wan_platform,sheung_wan_concourse_east,4,fare_gate,Fare gates to Exit E
-central_platform_isl,central_concourse_west,2,fare_gate,Fare gates to Exits A-D
-central_platform_isl,central_concourse_mid,2,fare_gate,Fare gates to Exits E-H
-central_platform_isl,central_concourse_east,4,fare_gate,Fare gates to Exits J-L
-central_platform_twl,central_concourse_west,4,fare_gate,Fare gates to Exits A-D
-central_platform_twl,central_concourse_mid,4,fare_gate,Fare gates to Exits E-H
-central_platform_twl,central_concourse_east,2,fare_gate,Fare gates to Exits J-L
+central_platform_isl,central_concourse_west,6,fare_gate,Fare gates to Exits A-D
+central_platform_isl,central_concourse_mid,6,fare_gate,Fare gates to Exits E-H
+central_platform_isl,central_concourse_east,7,fare_gate,Fare gates to Exits J-L
+central_platform_twl,central_concourse_west,7,fare_gate,Fare gates to Exits A-D
+central_platform_twl,central_concourse_mid,7,fare_gate,Fare gates to Exits E-H
+central_platform_twl,central_concourse_east,6,fare_gate,Fare gates to Exits J-L
 admiralty_platform_isl,admiralty_concourse,2,fare_gate,Fare gates to/from Island Line platforms
 admiralty_platform_twl,admiralty_concourse,2,fare_gate,Fare gates to/from Tsuen Wan Line platforms
 admiralty_platform_erl,admiralty_concourse,4,fare_gate,Fare gates to/from East Rail and South Island Line platforms
