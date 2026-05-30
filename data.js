@@ -58,6 +58,31 @@ yaumatei_platform_twl,yaumatei_concourse,2,fare_gate,Fare gates
 jordan_platform,jordan_concourse,2,fare_gate,Fare gates
 tsim_sha_tsui_platform,tsim_sha_tsui_concourse,2,fare_gate,Fare gates
 
+// --- LAI KING HUB ---
+lai_king_platform_twl_nb,lai_king_platform_tcl_nb,2,paid_transfer,Cross-Platform Transfer (Upper Level)
+lai_king_platform_twl_sb,lai_king_platform_tcl_sb,2,paid_transfer,Cross-Platform Transfer (Lower Level)
+lai_king_platform_twl_nb,lai_king_platform_tcl_sb,8,paid_transfer,Vertical Escalator Transfer
+lai_king_platform_tcl_nb,lai_king_platform_twl_sb,8,paid_transfer,Vertical Escalator Transfer
+lai_king_concourse,yin_lai_court,2,internal,Exit A2
+lai_king_concourse,lai_king_est_south,4,internal,Exit A3
+
+// --- KWAI FONG HUB ---
+kwai_fong_concourse,metroplaza,2,bridge,Exit E
+metroplaza,kwai_chung_plaza,2,bridge,Bridge over Hing Ning Road
+kwai_chung_plaza,kwai_fong_estate,3,bridge,Bridge over Kwai Foo Road
+kwai_fong_concourse,new_kwai_fong_gardens,2,covered_walkway,Covered Walkway
+new_kwai_fong_gardens,kwai_fong_estate,3,bridge,Bridge over Kwai Foo Road
+kwai_fong_concourse,kwai_fong_station_bus_terminus,2,covered_walkway,Covered Walkway
+kwai_fong_station_bus_terminus,new_kwai_fong_gardens,2,internal,Lifts
+new_kwai_fong_gardens,kwai_fong_multi_storey_car_park,2,bridge,Bridge over Kwai Yi Road
+kwai_fong_station_bus_terminus,lei_muk_shue_estate,22,paid_bus,KMB 36M
+kwai_fong_station_bus_terminus,shek_lei_tai_loong_street_bus_terminus,26,paid_bus,KMB 31M,uni
+kwai_fong_station_bus_terminus,tmtplaza,80,paid_bus,KMB 58M,uni
+tmtplaza,leung_king_estate_bus_terminus,30,paid_bus,KMB 58M,uni
+leung_king_estate_bus_terminus,kwai_fong_station_bus_terminus,100,paid_bus,KMB 58M,uni
+kwai_fong_station_bus_terminus,tin_shui_wai_town_centre_pti,110,paid_bus,KMB 69M
+kwai_fong_station_bus_terminus,sha_tin_central_pti,52,paid_bus,KMB 47X,uni
+
 // --- KWUN TONG LINE (TRAIN TRACKS) ---
 whampoa_platform,ho_man_tin_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
 ho_man_tin_platform_ktl,yaumatei_platform_ktl,6,paid_train,Kwun Tong Line (MTR)
@@ -118,7 +143,7 @@ heng_fa_chuen_platform,chai_wan_platform,4,paid_train,Island Line (MTR)
 
 // --- TRANSFERS (ISL <-> TKL) ---
 north_point_platform_isl,north_point_platform_tkl,2,paid_transfer,Cross-Platform Transfer
-quarry_bay_platform_isl,quarry_bay_platform_tkl,8,paid_tunnel,Vertical Escalator Transfer
+quarry_bay_platform_isl,quarry_bay_platform_tkl,8,paid_transfer,Vertical Escalator Transfer
 
 // --- SAI YING PUN / HKU ---
 sai_ying_pun_platform,syp_concourse,4,fare_gate,Fare gates
@@ -390,16 +415,8 @@ hoi_tat_estate,sham_shui_po_lcst_building,2,internal,Podium
 sham_shui_po_lcst_building,hoi_ying_estate,3,bridge,Bridge
 sham_shui_po_lcst_building,aqua_marine,3,bridge,Bridge
 
-// --- LAI KING HUB ---
-lai_king_platform_twl_nb,lai_king_platform_tcl_nb,2,paid_transfer,Cross-Platform Transfer (Upper Level)
-lai_king_platform_twl_sb,lai_king_platform_tcl_sb,2,paid_transfer,Cross-Platform Transfer (Lower Level)
-lai_king_platform_twl_nb,lai_king_platform_tcl_sb,8,paid_transfer,Vertical Escalator Transfer
-lai_king_platform_tcl_nb,lai_king_platform_twl_sb,8,paid_transfer,Vertical Escalator Transfer
-lai_king_concourse,yin_lai_court,2,internal,Exit A2
-lai_king_concourse,lai_king_est_south,4,internal,Exit A3
-
 // --- TSING YI HUB ---
-tsing_yi_concourse,maritime_square_1,2,internal,Exits A2, B, F or G
+tsing_yi_concourse,maritime_square_1,2,internal,Exits A2, B (both 1/F), F (3/F) or G (2/F)
 maritime_square_1,tierra_verde,2,internal,Mall to Residential Lobby
 maritime_square_1,villa_esplanada,4,bridge,Bridges
 tsing_yi_concourse,maritime_square_2,2,bridge,Exit A1
@@ -502,7 +519,7 @@ top_mall,argyle_centre,3,bridge,Bridge
 top_mall,700_nathan_road,1,internal,Escalators
 
 // --- KOWLOON TONG HUB ---
-kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_tunnel,Pedestrian Subway (Paid Area)
+kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_transfer,Pedestrian Subway (Paid Area)
 kowloon_tong_concourse_ktl,kowloon_tong_concourse_erl,10,internal,Pedestrian Subway (Free Area)
 kowloon_tong_platform_ktl,kowloon_tong_concourse_ktl,2,fare_gate,Fare gates
 kowloon_tong_platform_erl,kowloon_tong_concourse_erl,2,fare_gate,Fare gates

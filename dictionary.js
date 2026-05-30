@@ -296,6 +296,14 @@
 					"yin_lai_court": "Yin Lai Court / 賢麗苑",
 					"lai_king_est_south": "Lai King Estate (South) / 荔景邨（南）"
 				},
+				"Kwai Fong (葵芳)": {
+					"kwai_chung_plaza": "Kwai Chung Plaza / 葵涌廣場",
+					"kwai_fong_estate": "Kwai Fong Estate / 葵芳邨",
+					"kwai_fong_multi_storey_car_park": "Kwai Fong Multi-storey Car Park / 葵芳多層停車場",
+					"kwai_fong_station_bus_terminus": "Kwai Fong Station Bus Terminus / 葵芳站巴士總站",
+					"metroplaza": "Metroplaza / 新都會廣場",
+					"new_kwai_fong_gardens": "New Kwai Fong Gardens / 新葵芳花園"
+				},
 				"Tsing Yi (青衣)": {
 					"cheung_fat_estate": "Cheung Fat Estate / 長發邨",
 					"cheung_fat_plaza": "Cheung Fat Plaza / 長發廣場",
