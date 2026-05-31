@@ -177,6 +177,7 @@
                     "olympian_city_one": "Olympian City One / 奧海城一期",
                     "olympian_city_two": "Olympian City Two / 奧海城二期",
                     "olympian_city_three": "Olympian City Three / 奧海城三期",
+					"olympic_pti": "Olympic Station Bus Terminus / 奧運站巴士總站",
                     "park_avenue": "Park Avenue / 柏景灣",
                     "the_hermitage": "The Hermitage / 帝峯‧皇殿",
                     "west9zone": "West 9 Zone / 西九匯",
@@ -210,7 +211,46 @@
 			"Tsuen Wan District (荃灣區)": {
 				"Ma Wan (馬灣)": {
 					"park_island": "Park Island / 珀麗灣"
-				}
+				},
+				"Tsuen Wan (荃灣)": {
+                    "aurora": "Aurora / 映日灣 / Plaza 88",
+                    "cdw_building": "CDW Building (8½) / 中染大廈 (8咪半)",
+                    "chelsea_court": "Chelsea Court / 爵悅庭",
+                    "citywalk_1": "Citywalk 1 / 荃新天地1期",
+                    "citywalk_2": "Citywalk 2 / 荃新天地2期",
+                    "clague_garden_estate": "Clague Garden Estate / 祈德尊新邨",
+                    "discovery_park": "Discovery Park / 愉景新城 (D·PARK)",
+                    "fou_wah_centre": "Fou Wah Centre / 富華中心",
+                    "grand_city_plaza": "Grand City Plaza / 新領域廣場",
+                    "h_cube": "H Cube / 立坊",
+                    "ho_fai_commercial_centre": "Ho Fai Commercial Centre / 豪輝商業中心",
+                    "indi_home": "Indi Home / 樂悠居",
+                    "kolour_tsuen_wan_1": "Kolour Tsuen Wan 1 / 荃灣千色匯 I",
+                    "kolour_tsuen_wan_2": "Kolour Tsuen Wan 2 / 荃灣千色匯 II",
+                    "luk_yeung_galleria": "Luk Yeung Galleria / 綠楊坊",
+                    "nan_fung_centre": "Nan Fung Centre / 南豐中心",
+                    "nina_mall_1": "Nina Mall 1 / 如心廣場一期",
+                    "nina_mall_2": "Nina Mall 2 / 如心廣場二期",
+                    "nina_tower": "Nina Tower / 如心廣場",
+                    "nina_tower_bus_terminus": "Nina Tower Bus Terminus / 如心廣場巴士總站",
+                    "op_mall": "OP Mall / 海之戀商場",
+                    "panda_hotel": "Panda Hotel / 悅來酒店",
+                    "panda_place": "Panda Place / 悅來坊",
+                    "parc_city": "Parc City / 全·城滙",
+                    "sai_lau_kok_garden": "Sai Lau Kok Garden / 西樓角花園",
+                    "skyline_plaza": "Skyline Plaza / 灣景廣場",
+                    "tsuen_cheong_centre": "Tsuen Cheong Centre / 荃昌中心",
+                    "tsuen_fung_centre": "Tsuen Fung Centre / 荃豐中心",
+                    "tsuen_kam_centre": "Tsuen Kam Centre / 荃錦中心",
+                    "tsuen_wan_government_offices": "Tsuen Wan Government Offices / 荃灣政府合署",
+                    "tsuen_wan_plaza": "Tsuen Wan Plaza / 荃灣廣場",
+                    "tsuen_wan_public_library": "Tsuen Wan Public Library / 荃灣公共圖書館",
+                    "tsuen_wan_town_hall": "Tsuen Wan Town Hall / 荃灣大會堂",
+                    "tsuen_wan_west_station_pti": "Tsuen Wan West Station PTI / 荃灣西站公共運輸交匯處",
+                    "tw_carpark_building": "Tsuen Wan Multi-storey Carpark Building / 荃灣多層停車場大廈",
+                    "vision_city": "Vision City / 萬景峯",
+                    "waldorf_centre": "Waldorf Centre / 華都中心"
+                }
 			},
 			"North District (北區)": {
 				"Fanling (粉嶺)": {
@@ -303,6 +343,30 @@
 					"kwai_fong_station_bus_terminus": "Kwai Fong Station Bus Terminus / 葵芳站巴士總站",
 					"metroplaza": "Metroplaza / 新都會廣場",
 					"new_kwai_fong_gardens": "New Kwai Fong Gardens / 新葵芳花園"
+				},
+				"Kwai Hing (葵興)": {
+					"kowloon_commerce_centre": "Kowloon Commerce Centre / 九龍貿易中心",
+					"kwai_hing_concourse": "Kwai Hing Station Concourse / 葵興站大堂",
+					"kwai_hing_government_offices": "Kwai Hing Government Offices / 葵興政府合署",
+					"kwai_hing_station_bus_terminus": "Kwai Hing Station Bus Terminus / 葵興站巴士總站",
+					"sun_kwai_hing_gardens": "Sun Kwai Hing Gardens / 新葵興花園",
+					"sun_kwai_hing_plaza": "Sun Kwai Hing Plaza / 新葵興廣場"
+				},
+				"Kwai Shing (葵盛)": {
+					"kwai_luen_estate": "Kwai Luen Estate / 葵聯邨",
+					"kwai_shing_central_bus_terminus": "Kwai Shing Central Bus Terminus / 葵盛中巴士總站",
+					"kwai_shing_east_bus_terminus": "Kwai Shing East Bus Terminus / 葵盛東巴士總站",
+					"kwai_shing_east_estate": "Kwai Shing East Estate / 葵盛東邨",
+					"kwai_shing_east_shopping_centre": "Kwai Shing East Shopping Centre / 葵盛東商場",
+					"kwai_shing_west_estate": "Kwai Shing West Estate / 葵盛西邨"
+				},
+				"North Kwai Chung (北葵涌)": {
+					"on_yam_estate": "On Yam Estate / 安蔭邨",
+					"shek_lei_i_estate": "Shek Lei (I) Estate / 石籬(一)邨",
+					"shek_lei_ii_estate": "Shek Lei (II) Estate / 石籬(二)邨",
+					"shek_lei_shopping_centre": "Shek Lei Shopping Centre / 石籬商場",
+					"shek_lei_tai_loong_street_bus_terminus": "Shek Lei (Tai Loong Street) Bus Terminus / 石籬(大隴街)總站",
+					"yi_fung_court": "Yi Fung Court / 怡峰苑"
 				},
 				"Tsing Yi (青衣)": {
 					"cheung_fat_estate": "Cheung Fat Estate / 長發邨",

@@ -81,7 +81,113 @@ kwai_fong_station_bus_terminus,tmtplaza,80,paid_bus,KMB 58M,uni
 tmtplaza,leung_king_estate_bus_terminus,30,paid_bus,KMB 58M,uni
 leung_king_estate_bus_terminus,kwai_fong_station_bus_terminus,100,paid_bus,KMB 58M,uni
 kwai_fong_station_bus_terminus,tin_shui_wai_town_centre_pti,110,paid_bus,KMB 69M
-kwai_fong_station_bus_terminus,sha_tin_central_pti,52,paid_bus,KMB 47X,uni
+kwai_fong_station_bus_terminus,sha_tin_central_pti,45,paid_bus,KMB 47X,uni
+
+// --- KWAI HING HUB ---
+kwai_hing_concourse,kwai_hing_station_bus_terminus,2,internal,Exit B
+kwai_hing_station_bus_terminus,sun_kwai_hing_plaza,3,escalator,Escalator
+sun_kwai_hing_plaza,kwai_hing_government_offices,2,lift,Internal Lift Lobby
+sun_kwai_hing_plaza,kwai_chung_centre,2,bridge,Bridge
+sun_kwai_hing_plaza,sun_kwai_hing_gardens,3,bridge,Bridge and Lift
+kwai_hing_concourse,kowloon_commerce_centre,3,bridge,Exit E
+kwai_hing_station_bus_terminus,shek_lei_tai_loong_street_bus_terminus,23,paid_bus,KMB 43A,uni
+
+// --- KWAI SHING ---
+kwai_hing_station_bus_terminus,kwai_shing_east_bus_terminus,15,paid_bus,KMB 37M,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 37M,uni
+kwai_shing_central_bus_terminus,kwai_hing_station_bus_terminus,17,paid_bus,KMB 37M,uni
+kwai_shing_east_bus_terminus,kwai_shing_east_shopping_centre,2,internal,Covered Walkway
+kwai_shing_east_shopping_centre,kwai_shing_east_estate,2,lift,Lifts and Walkways
+kwai_shing_east_bus_terminus,kwai_luen_estate,6,covered_walkway,Covered Walkway
+kwai_shing_central_bus_terminus,kwai_shing_west_estate,2,covered_walkway,Covered Walkway
+kwai_shing_central_bus_terminus,tsuen_wan_west_station_pti,65,paid_bus,KMB 34,uni
+tsuen_wan_west_station_pti,kwai_shing_east_bus_terminus,67,paid_bus,KMB 34,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 34,uni
+kwai_shing_central_bus_terminus,olympic_pti,84,paid_bus,KMB 37,uni
+olympic_pti,kwai_shing_east_bus_terminus,88,paid_bus,KMB 37,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 37,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X,uni
+kwai_shing_central_bus_terminus,kwai_fong_station_bus_terminus,16,paid_bus,KMB 47X,uni
+sha_tin_central_pti,kwai_shing_east_bus_terminus,64,paid_bus,KMB 47X,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X,uni
+kwai_shing_central_bus_terminus,kwai_shing_east_bus_terminus,10,paid_bus,KMB 47X,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 38,uni
+kwai_shing_central_bus_terminus,lam_tin_station_bus_terminus,95,paid_bus,KMB 38,uni
+lam_tin_station_bus_terminus,ping_tin_bus_terminus,20,paid_bus,KMB 38,uni
+ping_tin_bus_terminus,kwai_shing_east_bus_terminus,118,paid_bus,KMB 38,uni
+
+// --- SHEK LEI HUB ---
+shek_lei_tai_loong_street_bus_terminus,olympic_pti,60,paid_bus,KMB 31B/32,uni
+olympic_pti,shek_lei_tai_loong_street_bus_terminus,60,paid_bus,KMB 31B,uni
+shek_lei_tai_loong_street_bus_terminus,nina_tower_bus_terminus,50,paid_bus,KMB 40P,uni
+shek_lei_tai_loong_street_bus_terminus,shek_lei_shopping_centre,2,internal,Escalators
+shek_lei_shopping_centre,shek_lei_ii_estate,2,bridge,Bridge
+shek_lei_ii_estate,on_yam_estate,3,bridge,Bridge across Shek Pai Street and lift
+shek_lei_shopping_centre,shek_lei_i_estate,2,bridge,Bridge
+shek_lei_i_estate,yi_fung_court,2,bridge,Bridge and Lift
+
+// --- TSUEN WAN HUB (TWL) ---
+tsuen_wan_concourse,nan_fung_centre,2,bridge,Exit A
+tsuen_wan_concourse,tsuen_wan_public_library,2,bridge,Exit A3
+nan_fung_centre,tsuen_wan_public_library,2,bridge,Bridge
+tsuen_wan_public_library,tsuen_wan_government_offices,2,bridge,Bridge
+tsuen_wan_government_offices,cdw_building,8,bridge,Bridge
+tsuen_wan_government_offices,tsuen_kam_centre,4,bridge,Bridge
+tsuen_kam_centre,grand_city_plaza,2,bridge,Bridge over Sai Lau Kok Road
+tsuen_wan_concourse,fou_wah_centre,2,bridge,Exit B2
+tsuen_wan_concourse,tw_carpark_building,2,bridge,Exit B2
+tsuen_wan_concourse,luk_yeung_galleria,2,internal,Exit C
+tsuen_wan_concourse,tai_ho_road_junction,2,bridge,Exit D
+
+// --- TSUEN WAN HUB (TML / WEST) ---
+tsuen_wan_west_concourse,tsuen_wan_west_station_pti,2,internal,Exit A1 or E1
+tsuen_wan_west_concourse,op_mall,2,internal,Exit C2 (G/F) or C4 (1/F)
+tsuen_wan_west_concourse,nina_mall_2,3,bridge,Exit C3
+
+// --- THE TAI HO ROAD X-JUNCTION ---
+tai_ho_road_junction,nan_fung_centre,2,bridge,Bridge
+tai_ho_road_junction,sai_lau_kok_garden,2,bridge,Bridge
+tai_ho_road_junction,citywalk_1,10,bridge,Bridge
+tai_ho_road_junction,tsuen_wan_town_hall,12,bridge,Bridge
+
+// --- NORTH & WEST EXTENSIONS (D-PARK CORRIDOR) ---
+nan_fung_centre,tsuen_kam_centre,3,bridge,Footbridge
+tsuen_wan_concourse,cdw_building,10,bridge,Exit A3
+cdw_building,discovery_park,4,bridge,Bridge
+
+// --- EAST EXTENSIONS (KOLOUR CORRIDOR) ---
+fou_wah_centre,tw_carpark_building,2,bridge,Bridge
+tw_carpark_building,tsuen_wan_east_junction,2,bridge,Bridge
+tsuen_wan_east_junction,kolour_tsuen_wan_1,3,bridge,Bridge over Castle Peak Road
+kolour_tsuen_wan_1,kolour_tsuen_wan_2,2,bridge,Bridge over Tsuen Wan Market Street
+tsuen_wan_east_junction,tsuen_fung_centre,0,bridge,Bridge
+tsuen_fung_centre,waldorf_centre,2,bridge,Bridge
+waldorf_centre,tsuen_cheong_centre,2,bridge,Bridge
+tsuen_cheong_centre,ho_fai_commercial_centre,2,bridge,Bridge
+ho_fai_commercial_centre,panda_hotel,2,bridge,Bridge
+panda_hotel,panda_place,1,internal,Escalator
+
+// --- SOUTH EXTENSIONS ---
+citywalk_1,vision_city,2,internal,Mall to Residential Lobby
+citywalk_1,nina_mall_1,2,bridge,Bridge over Yeung Uk Road
+nina_mall_1,citywalk_2,2,bridge,Bridge
+nina_mall_1,nina_tower,2,internal,Lifts
+nina_mall_1,nina_tower_bus_terminus,2,internal,Escalator
+nina_tower,nina_tower_bus_terminus,2,internal,Covered Walkway
+citywalk_2,aurora,2,bridge,Bridge
+aurora,chelsea_court,3,bridge,Bridge over Ma Tau Pa Road
+chelsea_court,h_cube,3,bridge,Bridge
+h_cube,indi_home,3,bridge,Bridge
+nina_mall_2,nina_mall_1,2,bridge,Bridge over Tai Ho Road
+nina_mall_2,op_mall,2,bridge,Bridge under Tsuen Wan Road
+nina_mall_2,parc_city,2,internal,Mall to Residential Lobby
+nina_mall_2,skyline_plaza,2,bridge,Bridge over Tai Ho Road
+tsuen_wan_plaza,skyline_plaza,2,bridge,Bridge over Hoi Shing Road and Yuen Tun Circuit
+nina_mall_2,clague_garden_estate,3,bridge,Bridge over Hoi Kwai Road
+clague_garden_estate,tsuen_wan_plaza,3,bridge,Bridge over Hoi Shing Road
+tsuen_wan_plaza,tsuen_wan_town_hall,3,bridge,Bridge
+tsuen_wan_town_hall,citywalk_1,2,bridge,Bridge
+tsuen_wan_plaza,citywalk_1,4,bridge,Bridge
 
 // --- KWUN TONG LINE (TRAIN TRACKS) ---
 whampoa_platform,ho_man_tin_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
@@ -149,8 +255,8 @@ quarry_bay_platform_isl,quarry_bay_platform_tkl,8,paid_transfer,Vertical Escalat
 sai_ying_pun_platform,syp_concourse,4,fare_gate,Fare gates
 syp_concourse,eco_tree_hotel,2,internal,Exit A2 to Eco Tree Hotel
 hku_platform,hku_concourse,4,fare_gate,Fare gates
-hku_concourse,hku_campus,4,elevator,Exit A2 Elevators to HKU Main Campus
-hku_concourse,hku_campus_c,4,elevator,Exit C1 Elevators to HKU Centennial Campus
+hku_concourse,hku_campus,4,lift,Exit A2 Lifts to HKU Main Campus
+hku_concourse,hku_campus_c,4,lift,Exit C1 Lifts to HKU Centennial Campus
 hku_campus,hku_campus_c,4,internal,HKU Internal Walkway
 
 // --- CENTRAL & ADMIRALTY ---
@@ -394,6 +500,7 @@ olympic_concourse,olympian_city_one,3,bridge,Exits A2 or E
 olympian_city_one,island_harbourview,2,bridge,Bridge
 olympian_city_one,bank_of_china_centre,2,internal,Internal Mall Connection
 olympic_concourse,hsbc_centre,3,bridge,Exits B or C
+hsbc_centre,olympic_pti,2,internal,Escalator
 hsbc_centre,harbour_green,4,bridge,Bridge
 olympian_city_one,harbour_green,5,bridge,Bridge
 olympic_concourse,west9zone,3,bridge,Exit C5
@@ -529,7 +636,8 @@ kowloon_tong_concourse_erl,festival_walk,6,internal,Exit H
 festival_walk,cityu,2,internal,Tunnel
 
 // --- TAI WAI HUB ---
-tai_wai_platform,tai_wai_concourse,2,fare_gate,Fare gates
+tai_wai_platform_erl,tai_wai_concourse,2,fare_gate,Fare gates
+tai_wai_platform_tml,tai_wai_concourse,2,fare_gate,Fare gates
 tai_wai_concourse,the_wai,2,internal,Exits B/H to The Wai
 tai_wai_concourse,the_pavilia_farm,2,internal,Exit B to The Pavilia Farm
 tai_wai_concourse,tai_wai_pti,2,internal,Exit B to Public Transport Interchange
@@ -699,7 +807,6 @@ sung_wong_toi_platform,sung_wong_toi_concourse,2,fare_gate,Fare gates
 kai_tak_platform,kai_tak_concourse,2,fare_gate,Fare gates
 diamond_hill_platform_tml,diamond_hill_concourse,2,fare_gate,Fare gates
 hin_keng_platform,hin_keng_concourse,2,fare_gate,Fare gates
-tai_wai_platform_tml,tai_wai_concourse,2,fare_gate,Fare gates
 che_kung_temple_platform,che_kung_temple_concourse,2,fare_gate,Fare gates
 sha_tin_wai_platform,sha_tin_wai_concourse,2,fare_gate,Fare gates
 city_one_platform,city_one_concourse,2,fare_gate,Fare gates

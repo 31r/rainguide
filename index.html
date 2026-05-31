@@ -468,14 +468,15 @@
                     const isRide = (edge.type === 'paid_train' || edge.type === 'premium_train' || edge.type === 'paid_bus');
                     
                     if (isRide) {
-                        const nextEdge = route.edges[i+1]; // Simply grab the next edge directly!
-                        
+                        const nextEdge = route.edges[i+1]; // Look ahead
                         const isNextRide = (nextEdge && (nextEdge.type === 'paid_train' || nextEdge.type === 'premium_train' || nextEdge.type === 'paid_bus'));
                         
+                        // 1. Collapse the UI if staying on the exact same route
                         if (isNextRide && nextEdge.desc === edge.desc) {
                             continue; 
                         }
                         
+                        // 2. Render the ride instruction
                         let rideLabel = '🚆 Ride train to';
                         let borderClass = 'border-blue-600';
                         
@@ -483,7 +484,7 @@
                             rideLabel = '✈️ Board premium train to';
                             borderClass = 'border-teal-500 bg-teal-50/50 rounded-r-lg';
                         } else if (edge.type === 'paid_bus') {
-                            rideLabel = '🚌 Board bus to';
+                            rideLabel = '🚌 Ride bus to'; // Changed to "Ride" for better flow
                             borderClass = 'border-green-500';
                         }
 
@@ -492,6 +493,15 @@
                             ${rideLabel} <span class="font-semibold">${getNodeName(v)}</span> 
                             <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
                         </li>`;
+
+                        // 3. INJECT THE TRANSFER: If changing to a different route at the same node
+                        if (isNextRide && nextEdge.desc !== edge.desc) {
+                            routeList.innerHTML += `
+                            <li class="pl-4 border-l-4 border-purple-400 ml-2 py-2 bg-purple-50/50 rounded-r-lg">
+                                🔄 Transfer at <span class="font-semibold">${getNodeName(v)}</span> 
+                                <br><span class="text-xs text-slate-500">Wait for ${nextEdge.desc}</span>
+                            </li>`;
+                        }
                     }
 
                     // Handle Fare Gates (Dynamic Enter vs Exit)
