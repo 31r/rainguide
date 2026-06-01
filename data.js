@@ -143,7 +143,9 @@ tsuen_wan_concourse,tai_ho_road_junction,2,bridge,Exit D
 // --- TSUEN WAN HUB (TML / WEST) ---
 tsuen_wan_west_concourse,tsuen_wan_west_station_pti,2,internal,Exit A1 or E1
 tsuen_wan_west_concourse,op_mall,2,internal,Exit C2 (G/F) or C4 (1/F)
+tsuen_wan_west_station_pti,op_mall,2,internal,Escalator
 tsuen_wan_west_concourse,nina_mall_2,3,bridge,Exit C3
+tsuen_wan_west_station_pti,nina_mall_2,3,bridge,Escalator and Bridge
 tsuen_wan_west_station_pti,bayview_garden,28,paid_bus,KMB 34
 
 // --- THE TAI HO ROAD X-JUNCTION ---
