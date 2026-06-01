@@ -215,6 +215,9 @@
                 },
             },
 			"Tsuen Wan District (荃灣區)": {
+				"Lei Muk Shue (梨木樹)": {
+					"lei_muk_shue_estate": "Lei Muk Shue Estate / 梨木樹邨"
+				},
 				"Ma Wan (馬灣)": {
 					"park_island": "Park Island / 珀麗灣"
 				},
@@ -256,6 +259,7 @@
                     "tsuen_wan_public_library": "Tsuen Wan Public Library / 荃灣公共圖書館",
 					"tsuen_wan_station_pti": "Tsuen Wan Station PTI / 荃灣站公共運輸交匯處",
                     "tsuen_wan_town_hall": "Tsuen Wan Town Hall / 荃灣大會堂",
+					"tsuen_wan_station_bus_stop": "Tsuen Wan Station (Sai Lau Kok Road) / 荃灣站 (西樓角路)",
                     "tsuen_wan_west_station_pti": "Tsuen Wan West Station PTI / 荃灣西站公共運輸交匯處",
                     "tw_carpark_building": "Tsuen Wan Multi-storey Carpark Building / 荃灣多層停車場大廈",
                     "vision_city": "Vision City / 萬景峯",
@@ -371,6 +375,9 @@
 					"kwai_shing_east_shopping_centre": "Kwai Shing East Shopping Centre / 葵盛東商場",
 					"kwai_shing_west_estate": "Kwai Shing West Estate / 葵盛西邨"
 				},
+				"Kwai Chung Estate (葵涌邨)": {
+					"kwai_chung_estate": "Kwai Chung Estate / 葵涌邨"
+				},
 				"North Kwai Chung (北葵涌)": {
 					"on_yam_estate": "On Yam Estate / 安蔭邨",
 					"shek_lei_i_estate": "Shek Lei (I) Estate / 石籬(一)邨",
@@ -382,6 +389,7 @@
 				"Tsing Yi (青衣)": {
 					"cheung_fat_estate": "Cheung Fat Estate / 長發邨",
 					"cheung_fat_plaza": "Cheung Fat Plaza / 長發廣場",
+					"cheung_hong_estate": "Cheung Hong Estate / 長康邨",
 					"cheung_on_bus_terminus": "Cheung On Bus Terminus / 長安巴士總站",
 					"cheung_on_estate": "Cheung On Estate / 長安邨",
 					"ching_tai_court": "Ching Tai Court / 青泰苑",

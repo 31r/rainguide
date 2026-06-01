@@ -91,6 +91,15 @@ sun_kwai_hing_plaza,kwai_chung_centre,2,bridge,Bridge
 sun_kwai_hing_plaza,sun_kwai_hing_gardens,3,bridge,Bridge and Lift
 kwai_hing_concourse,kowloon_commerce_centre,3,bridge,Exit E
 kwai_hing_station_bus_terminus,shek_lei_tai_loong_street_bus_terminus,23,paid_bus,KMB 43A,uni
+cheung_hong_estate,kwai_hing_station_bus_terminus,30,paid_bus,KMB 43,uni
+kwai_hing_station_bus_terminus,tsuen_wan_west_station_pti,40,paid_bus,KMB 43,uni
+
+// --- KWAI CHUNG ESTATE ---
+kwai_chung_estate,cheung_on_bus_terminus,48,paid_bus,KMB 44M
+kwai_chung_estate,kwai_hing_station_bus_terminus,10,paid_bus,KMB 40X,uni
+kwai_hing_station_bus_terminus,kwai_chung_estate,10,paid_bus,KMB 44M,uni
+tsuen_wan_west_station_pti,kwai_chung_estate,33,paid_bus,KMB 43,uni
+kwai_chung_estate,cheung_hong_estate,33,paid_bus,KMB 43,uni
 
 // --- KWAI SHING ---
 kwai_hing_station_bus_terminus,kwai_shing_east_bus_terminus,15,paid_bus,KMB 37M,uni
@@ -126,10 +135,13 @@ shek_lei_ii_estate,on_yam_estate,3,bridge,Bridge across Shek Pai Street and lift
 shek_lei_shopping_centre,shek_lei_i_estate,2,bridge,Bridge
 shek_lei_i_estate,yi_fung_court,2,bridge,Bridge and Lift
 
+// --- TAI WO HAU HUB ---
+
 // --- TSUEN WAN HUB (TWL) ---
 tsuen_wan_concourse,nan_fung_centre,2,bridge,Exit A
 nan_fung_centre,tsuen_wan_station_pti,2,internal,Stairs
 tsuen_wan_concourse,tsuen_wan_public_library,2,bridge,Exit A3
+tsuen_wan_concourse,tsuen_wan_station_bus_stop,2,internal,Exit A4
 nan_fung_centre,tsuen_wan_public_library,2,bridge,Bridge
 tsuen_wan_public_library,tsuen_wan_government_offices,2,bridge,Bridge
 tsuen_wan_government_offices,cdw_building,8,bridge,Bridge
@@ -139,6 +151,8 @@ tsuen_wan_concourse,fou_wah_centre,2,bridge,Exit B2
 tsuen_wan_concourse,tw_carpark_building,2,bridge,Exit B2
 tsuen_wan_concourse,luk_yeung_galleria,2,internal,Exit C
 tsuen_wan_concourse,tai_ho_road_junction,2,bridge,Exit D
+tsuen_wan_station_bus_stop,bayview_garden,20,paid_bus,KMB 34M
+tsuen_wan_west_station_pti,bayview_garden,28,paid_bus,KMB 34
 
 // --- TSUEN WAN HUB (TML / WEST) ---
 tsuen_wan_west_concourse,tsuen_wan_west_station_pti,2,internal,Exit A1 or E1
@@ -147,8 +161,10 @@ tsuen_wan_west_station_pti,op_mall,2,internal,Escalator
 tsuen_wan_west_concourse,nina_mall_2,3,bridge,Exit C3
 tsuen_wan_west_station_pti,nina_mall_2,3,bridge,Escalator and Bridge
 tsuen_wan_west_station_pti,bayview_garden,28,paid_bus,KMB 34
+tsuen_wan_west_station_pti,lei_muk_shue_estate,56,paid_bus,KMB 36,uni
+lei_muk_shue_estate,tsuen_wan_west_station_pti,38,paid_bus,KMB 36,uni
 
-// --- THE TAI HO ROAD X-JUNCTION ---
+// --- TAI HO ROAD JUNCTION ---
 tai_ho_road_junction,nan_fung_centre,2,bridge,Bridge
 tai_ho_road_junction,sai_lau_kok_garden,2,bridge,Bridge
 tai_ho_road_junction,citywalk_1,10,bridge,Bridge
