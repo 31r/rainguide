@@ -182,6 +182,12 @@
                     "the_hermitage": "The Hermitage / 帝峯‧皇殿",
                     "west9zone": "West 9 Zone / 西九匯",
 				},
+				"Austin Station (柯士甸站)": {
+                    "the_austin": "The Austin",
+                    "grand_austin": "Grand Austin",
+					"igc": "International Gateway Centre (IGC)",
+					"west_kowloon_station": "Hong Kong West Kowloon Station / 香港西九龍站"
+				},
 			},
 			"Sham Shui Po District (深水埗區)": {
 				"Nam Cheong (南昌)": {
@@ -214,12 +220,14 @@
 				},
 				"Tsuen Wan (荃灣)": {
                     "aurora": "Aurora / 映日灣 / Plaza 88",
+					"bayview_garden": "Bayview Garden / 灣景花園",
                     "cdw_building": "CDW Building (8½) / 中染大廈 (8咪半)",
                     "chelsea_court": "Chelsea Court / 爵悅庭",
                     "citywalk_1": "Citywalk 1 / 荃新天地1期",
                     "citywalk_2": "Citywalk 2 / 荃新天地2期",
                     "clague_garden_estate": "Clague Garden Estate / 祈德尊新邨",
                     "discovery_park": "Discovery Park / 愉景新城 (D·PARK)",
+					"discovery_park_pti": "Discovery Park PTI / 愉景新城交通交匯處",
                     "fou_wah_centre": "Fou Wah Centre / 富華中心",
                     "grand_city_plaza": "Grand City Plaza / 新領域廣場",
                     "h_cube": "H Cube / 立坊",
@@ -242,14 +250,17 @@
                     "tsuen_cheong_centre": "Tsuen Cheong Centre / 荃昌中心",
                     "tsuen_fung_centre": "Tsuen Fung Centre / 荃豐中心",
                     "tsuen_kam_centre": "Tsuen Kam Centre / 荃錦中心",
+					"tkc_sports_centre": "Tsuen King Circuit Indoor Recreation Centre / 荃景圍體育館",
                     "tsuen_wan_government_offices": "Tsuen Wan Government Offices / 荃灣政府合署",
                     "tsuen_wan_plaza": "Tsuen Wan Plaza / 荃灣廣場",
                     "tsuen_wan_public_library": "Tsuen Wan Public Library / 荃灣公共圖書館",
+					"tsuen_wan_station_pti": "Tsuen Wan Station PTI / 荃灣站公共運輸交匯處",
                     "tsuen_wan_town_hall": "Tsuen Wan Town Hall / 荃灣大會堂",
                     "tsuen_wan_west_station_pti": "Tsuen Wan West Station PTI / 荃灣西站公共運輸交匯處",
                     "tw_carpark_building": "Tsuen Wan Multi-storey Carpark Building / 荃灣多層停車場大廈",
                     "vision_city": "Vision City / 萬景峯",
-                    "waldorf_centre": "Waldorf Centre / 華都中心"
+                    "waldorf_centre": "Waldorf Centre / 華都中心",
+					"yurmsb": "Yeung Uk Road Municipal Services Building / 楊屋道市政大廈"
                 }
 			},
 			"North District (北區)": {

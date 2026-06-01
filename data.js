@@ -128,6 +128,7 @@ shek_lei_i_estate,yi_fung_court,2,bridge,Bridge and Lift
 
 // --- TSUEN WAN HUB (TWL) ---
 tsuen_wan_concourse,nan_fung_centre,2,bridge,Exit A
+nan_fung_centre,tsuen_wan_station_pti,2,internal,Stairs
 tsuen_wan_concourse,tsuen_wan_public_library,2,bridge,Exit A3
 nan_fung_centre,tsuen_wan_public_library,2,bridge,Bridge
 tsuen_wan_public_library,tsuen_wan_government_offices,2,bridge,Bridge
@@ -143,6 +144,7 @@ tsuen_wan_concourse,tai_ho_road_junction,2,bridge,Exit D
 tsuen_wan_west_concourse,tsuen_wan_west_station_pti,2,internal,Exit A1 or E1
 tsuen_wan_west_concourse,op_mall,2,internal,Exit C2 (G/F) or C4 (1/F)
 tsuen_wan_west_concourse,nina_mall_2,3,bridge,Exit C3
+tsuen_wan_west_station_pti,bayview_garden,28,paid_bus,KMB 34
 
 // --- THE TAI HO ROAD X-JUNCTION ---
 tai_ho_road_junction,nan_fung_centre,2,bridge,Bridge
@@ -154,6 +156,9 @@ tai_ho_road_junction,tsuen_wan_town_hall,12,bridge,Bridge
 nan_fung_centre,tsuen_kam_centre,3,bridge,Footbridge
 tsuen_wan_concourse,cdw_building,10,bridge,Exit A3
 cdw_building,discovery_park,4,bridge,Bridge
+discovery_park,tkc_sports_centre,2,bridge,Bridge
+discovery_park,discovery_park_pti,2,internal,Escalator
+tkc_sports_centre,discovery_park_pti,2,internal,Escalator
 
 // --- EAST EXTENSIONS (KOLOUR CORRIDOR) ---
 fou_wah_centre,tw_carpark_building,2,bridge,Bridge
@@ -174,6 +179,8 @@ nina_mall_1,citywalk_2,2,bridge,Bridge
 nina_mall_1,nina_tower,2,internal,Lifts
 nina_mall_1,nina_tower_bus_terminus,2,internal,Escalator
 nina_tower,nina_tower_bus_terminus,2,internal,Covered Walkway
+nina_mall_1,yurmsb,2,bridge,Bridge
+citywalk_2,yurmsb,2,bridge,Bridge
 citywalk_2,aurora,2,bridge,Bridge
 aurora,chelsea_court,3,bridge,Bridge over Ma Tau Pa Road
 chelsea_court,h_cube,3,bridge,Bridge
@@ -494,6 +501,9 @@ elements_mall,the_harbourside,4,internal,Mall to Residential Lobby
 elements_mall,the_cullinan,4,internal,Mall to Residential Lobby
 austin_concourse,west_kowloon_station,2,internal,Exit C to Hong Kong West Kowloon Station,uni
 west_kowloon_station,austin_concourse,2,internal,Exit A to Austin Station,uni
+west_kowloon_station,igc,2,internal,Exit L
+austin_concourse,the_austin,2,internal,Exit B3
+austin_concourse,grand_austin,2,internal,Exit D3
 
 // --- OLYMPIC HUB ---
 olympic_concourse,olympian_city_one,3,bridge,Exits A2 or E
@@ -532,6 +542,9 @@ maritime_square_2,cheung_on_estate,4,bridge,Bridge
 cheung_on_estate,cheung_fat_estate,5,bridge,Bridge
 cheung_on_estate,cheung_on_bus_terminus,5,bridge,Bridge
 cheung_on_bus_terminus,cheung_fat_estate,3,covered_walkway,Covered walkway
+cheung_on_bus_terminus,tsuen_wan_station_pti,25,paid_bus,KMB 41M
+cheung_on_bus_terminus,discovery_park_pti,30,paid_bus,KMB 42M/243M
+cheung_on_bus_terminus,tsuen_wan_west_station_pti,25,paid_bus,KMB 43B
 cheung_on_bus_terminus,sha_tin_central_pti,65,paid_bus,KMB 49X
 cheung_fat_estate,cheung_fat_plaza,2,covered_walkway,Covered walkway
 cheung_fat_plaza,cheung_on_bus_terminus,2,covered_walkway,Covered walkway
@@ -544,6 +557,9 @@ tivoli_garden,tsing_yi_municipal_services_building,3,bridge,Bridge
 serene_garden,tsing_yi_municipal_services_building,3,bridge,Bridge
 tsing_yi_municipal_services_building,tsing_yi_garden,3,bridge,Bridge
 tsing_yi_garden,tsing_yi_estate,4,covered_walkway,Covered walkway to Tsing Yi Estate
+tsing_yi_estate,cheung_on_bus_terminus,20,paid_bus,KMB 41M/44,uni
+tsing_yi_estate,tsuen_wan_station_pti,35,paid_bus,KMB 41M
+cheung_on_bus_terminus,tsing_yi_estate,20,paid_bus,KMB 44,uni
 tsing_yi_concourse,tsing_yi_exit_c,2,internal,Exit C
 maritime_square_2,tsing_yi_pti,1,internal,Internal Mall Walkway
 tsing_yi_exit_c,park_island,30,residents_bus,NR330 Residents' Bus
