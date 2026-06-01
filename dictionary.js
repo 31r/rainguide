@@ -386,6 +386,13 @@
 					"shek_lei_tai_loong_street_bus_terminus": "Shek Lei (Tai Loong Street) Bus Terminus / 石籬(大隴街)總站",
 					"yi_fung_court": "Yi Fung Court / 怡峰苑"
 				},
+				"Tai Wo Hau (大窩口)": {
+					"tai_wo_hau_estate": "Tai Wo Hau Estate / 大窩口邨",
+					"tai_wo_hau_sports_centre": "Tai Wo Hau Sports Centre / 大窩口體育館",
+					"tai_wo_hau_shopping_centre": "Tai Wo Hau Shopping Centre / 大窩口商場",
+					"kwai_yin_court": "Kwai Yin Court / 葵賢苑",
+					"kwai_yung_court": "Kwai Yung Court / 葵蓉苑"
+				},
 				"Tsing Yi (青衣)": {
 					"cheung_fat_estate": "Cheung Fat Estate / 長發邨",
 					"cheung_fat_plaza": "Cheung Fat Plaza / 長發廣場",

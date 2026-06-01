@@ -136,6 +136,12 @@ shek_lei_shopping_centre,shek_lei_i_estate,2,bridge,Bridge
 shek_lei_i_estate,yi_fung_court,2,bridge,Bridge and Lift
 
 // --- TAI WO HAU HUB ---
+tai_wo_hau_concourse,tai_wo_hau_sports_centre,2,bridge,Bridge across Castle Peak Road - Kwai Chung
+tai_wo_hau_sports_centre,kwai_yin_court,3,internal,Walkway
+tai_wo_hau_concourse,tai_wo_hau_estate,3,internal,Bridge across Castle Peak Road - Kwai Chung
+tai_wo_hau_estate,kwai_yung_court,3,internal,Walkway
+tai_wo_hau_sports_centre,tai_wo_hau_estate,1,internal,Walkway
+tai_wo_hau_estate,tai_wo_hau_shopping_centre,2,internal,Walkway
 
 // --- TSUEN WAN HUB (TWL) ---
 tsuen_wan_concourse,nan_fung_centre,2,bridge,Exit A
