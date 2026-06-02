@@ -101,7 +101,7 @@
 				"Causeway Bay (銅鑼灣)": {
 					"cwb_plaza": "Causeway Bay Plaza 1 / 銅鑼灣廣場一期",
 					"hysan_place": "Hysan Place / 希慎廣場",
-					"sogo_cwb": "SOGO / 崇光百貨",
+					"sogo_cwb": "SOGO (Causeway Bay) / 崇光百貨 (銅鑼灣)",
 					"times_square": "Times Square / 時代廣場"
 				}
 			},
@@ -147,7 +147,27 @@
 			
 			"Yau Tsim Mong District (油尖旺區)": {
                 "Tsim Sha Tsui (尖沙咀)": {
-                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心"
+					"hong_kong_cultural_centre": "Hong Kong Cultural Centre / 香港文化中心",
+					"hong_kong_space_museum": "Hong Kong Space Museum / 香港太空館",
+					"isquare": "iSQUARE / 國際廣場",
+					"k11_art_mall": "K11 Art Mall / K11購物藝術館",
+					"k11_atelier": "K11 Atelier / K11辦公大樓",
+					"k11_musea": "K11 MUSEA / K11人文購物藝術館",
+					"kowloon_hotel": "Kowloon Hotel / 九龍酒店",
+					"langham_hotel": "The Langham Hong Kong / 香港朗廷酒店",
+					"lippo_sun_plaza": "Lippo Sun Plaza / 力寶太陽廣場",
+                    "new_east_ocean_centre": "New East Ocean Centre / 新東海商業中心",
+					"one_peking": "One Peking / 北京道一號",
+					"regent_hotel": "Regent Hong Kong / 香港麗晶酒店",
+					"rosewood_hotel": "Rosewood Hong Kong / 香港瑰麗酒店",
+					"sheraton_hotel": "Sheraton Hong Kong Hotel & Towers / 香港喜來登酒店"
+				},
+				"Jordan (佐敦)": {
+					"champion_building": "Champion Building / 嘉賓商業大廈",
+					"yue_hwa": "Yue Hwa Chinese Products / 裕華國貨",
+					"fourseas_building": "Fourseas Building / 四海大廈",
+					"far_east_consortium_building_jordan": "Far East Consortium Building (Jordan) / 遠東發展大廈 (佐敦)",
+					"prudential_centre": "Prudential Centre / 恆豐中心"
 				},
                 "Mong Kok (旺角)": {
                     "700_nathan_road": "700 Nathan Road / 彌敦道700號",
@@ -190,8 +210,28 @@
 				},
 			},
 			"Sham Shui Po District (深水埗區)": {
-				"Nam Cheong (南昌)": {
+				"Cheung Sha Wan (長沙灣)": {
+					"lai_kok_estate": "Lai Kok Estate / 麗閣邨",
+					"un_chau_estate_1": "Un Chau Estate Phases 1-4 / 元州邨（第1-4期）",
+					"un_chau_estate_5": "Un Chau Estate Phase 5 / 元州邨（第5期）",
+					"un_chau_shopping_centre": "Un Chau Shopping Centre / 元州商場",
+					"yee_kok_court": "Yee Kok Court / 怡閣苑"
+				},
+				"Lai Chi Kok (荔枝角)": {
 					"aqua_marine": "Aqua Marine / 碧海藍天",
+					"banyan_garden": "Banyan Garden / 泓景臺",
+					"cheung_sha_wan_plaza": "Cheung Sha Wan Plaza / 長沙灣廣場",
+					"hoi_lai_estate": "Hoi Lai Estate / 海麗邨",
+					"liberte": "Liberté / 昇悅居",
+					"the_pacifica": "The Pacifica / 宇晴軒"
+				},
+				"Mei Foo (美孚)": {
+					"ching_lai_court": "Ching Lai Court / 慶荔苑",
+					"mei_foo_sun_chuen_stages_1_4_8": "Mei Foo Sun Chuen Stages 1-4 and 8 / 美孚新邨第1-4及8期",
+					"mei_foo_sun_chuen_stages_5_7": "Mei Foo Sun Chuen Stages 5 and 7 / 美孚新邨第5及7期",
+					"mei_foo_sun_chuen_stage_6": "Mei Foo Sun Chuen Stage 6 / 美孚新邨第6期"
+				},
+				"Nam Cheong (南昌)": {
 					"cullinan_west": "Cullinan West / 匯璽",
 					"fu_cheong_estate": "Fu Cheong Estate / 富昌邨",
 					"hoi_tat_estate": "Hoi Tat Estate / 海達邨",
@@ -235,6 +275,7 @@
                     "grand_city_plaza": "Grand City Plaza / 新領域廣場",
                     "h_cube": "H Cube / 立坊",
                     "ho_fai_commercial_centre": "Ho Fai Commercial Centre / 豪輝商業中心",
+					"hoi_kwai_road_pti": "Hoi Kwai Road PTI / 海貴路公共運輸交匯處",
                     "indi_home": "Indi Home / 樂悠居",
                     "kolour_tsuen_wan_1": "Kolour Tsuen Wan 1 / 荃灣千色匯 I",
                     "kolour_tsuen_wan_2": "Kolour Tsuen Wan 2 / 荃灣千色匯 II",
@@ -248,6 +289,7 @@
                     "panda_hotel": "Panda Hotel / 悅來酒店",
                     "panda_place": "Panda Place / 悅來坊",
                     "parc_city": "Parc City / 全·城滙",
+					"riviera_gardens": "Riviera Gardens / 海濱花園",
                     "sai_lau_kok_garden": "Sai Lau Kok Garden / 西樓角花園",
                     "skyline_plaza": "Skyline Plaza / 灣景廣場",
                     "tsuen_cheong_centre": "Tsuen Cheong Centre / 荃昌中心",
