@@ -1,7 +1,7 @@
         // ==========================================
         // 1. data.js
         // ==========================================
-        const csvData = `Start_Node,End_Node,Weight,Type,Description
+        const csvData = `Start_Node,End_Node,Weight,Type,Description,Direction
 
 // --- AIRPORT EXPRESS (TRAIN TRACKS) ---
 hong_kong_platform_ael,airport_platform,48,premium_train,Airport Express (MTR)
