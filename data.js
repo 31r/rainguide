@@ -61,17 +61,17 @@ tsim_sha_tsui_platform,tsim_sha_tsui_concourse,2,fare_gate,fare gates
 // --- TSIM SHA TSUI HUB ---
 tsim_sha_tsui_concourse,isquare,6,internal,Exits H/R
 tsim_sha_tsui_concourse,k11_art_mall,8,internal,Exit D3
-east_tsim_sha_tsui_concourse,k11_art_mall,5,internal,Exits N3/N4
-east_tsim_sha_tsui_concourse,k11_musea,10,internal,Exit J
+east_tst_concourse,k11_art_mall,5,internal,Exits N3/N4
+east_tst_concourse,k11_musea,10,internal,Exit J
 k11_musea,k11_atelier,3,internal,Lifts
 k11_musea,regent_hotel,2,internal,Internal Walkway
 k11_musea,rosewood_hotel,2,internal,covered walkway
-east_tsim_sha_tsui_concourse,sheraton_hotel,3,internal,Exit J
-east_tsim_sha_tsui_concourse,kowloon_hotel,3,internal,Exit L4
-east_tsim_sha_tsui_concourse,one_peking,4,internal,Exit L5
-east_tsim_sha_tsui_concourse,langham_hotel,4,internal,Exit L5
-east_tsim_sha_tsui_concourse,lippo_sun_plaza,4,internal,Exit L5
-east_tsim_sha_tsui_concourse,hong_kong_cultural_centre,5,internal,Exit L6
+east_tst_concourse,sheraton_hotel,3,internal,Exit J
+east_tst_concourse,kowloon_hotel,3,internal,Exit L4
+east_tst_concourse,one_peking,4,internal,Exit L5
+east_tst_concourse,langham_hotel,4,internal,Exit L5
+east_tst_concourse,lippo_sun_plaza,4,internal,Exit L5
+east_tst_concourse,hong_kong_cultural_centre,5,internal,Exit L6
 hong_kong_cultural_centre,hong_kong_space_museum,2,covered_walkway,covered walkway
 
 // --- JORDAN ---
