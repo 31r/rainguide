@@ -455,6 +455,22 @@
 					"villa_esplanada": "Villa Esplanada / 灝景灣"
 				}
 			},
+			"Islands District (離島區)": {
+				"Tung Chung (東涌)": {
+					"caribbean_coast": "Caribbean Coast / 映灣園",
+					"citygate_outlets": "Citygate Outlets / 東薈城名店倉",
+					"coastal_skyline": "Coastal Skyline / 藍天海岸",
+					"fu_tung_estate": "Fu Tung Estate / 富東邨",
+					"fu_tung_plaza": "Fu Tung Plaza / 富東廣場",
+					"le_bleu_deux": "Le Bleu Deux / 水藍天岸",
+					"seaview_crescent": "Seaview Crescent / 藍天海岸",
+					"the_visionary": "The Visionary / 昇薈",
+					"tung_chung_health_centre": "Tung Chung Health Centre / 東涌健康中心",
+					"tung_chung_station_bus_terminus": "Tung Chung Station Bus Terminus / 東涌站巴士總站",
+					"yat_tung_estate": "Yat Tung Estate / 逸東邨",
+					"yu_tung_court": "Yu Tung Court / 裕東苑"
+				}
+			},
 			"Border Crossings (出入境管制站)": {
 				"High-Speed Rail (高速鐵路)": {
 					"west_kowloon_station": "Hong Kong West Kowloon Station / 香港西九龍站"

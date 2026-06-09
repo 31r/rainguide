@@ -647,6 +647,21 @@ maritime_square_2,tsing_yi_pti,1,internal,internal mall walkway
 tsing_yi_exit_c,park_island,30,residents_bus,NR330 Residents' Bus
 cheung_hong_estate,cheung_on_bus_terminus,24,paid_bus,KMB 43B/243M,uni
 
+// --- TUNG CHUNG HUB ---
+tung_chung_concourse,fu_tung_plaza,2,internal,Exit A
+fu_tung_plaza,fu_tung_estate,2,internal,covered walkway
+fu_tung_plaza,yu_tung_court,2,internal,covered walkway
+fu_tung_plaza,tung_chung_health_centre,2,bridge,bridge
+tung_chung_concourse,citygate_outlets,2,internal,Exit C
+citygate_outlets,tung_chung_junction,2,bridge,bridge
+tung_chung_junction,seaview_crescent,2,bridge,bridge
+tung_chung_junction,le_bleu_deux,2,bridge,bridge
+tung_chung_junction,coastal_skyline,2,bridge,bridge
+coastal_skyline,caribbean_coast,8,covered_walkway,covered walkway
+caribbean_coast,the_visionary,6,bridge,bridge
+citygate_outlets,tung_chung_station_bus_terminus,2,internal,internal walkway
+tung_chung_station_bus_terminus,yat_tung_estate,15,paid_bus,NLB 38
+
 // --- TSEUNG KWAN O LINE (TRAIN TRACKS) ---
 north_point_platform_tkl,quarry_bay_platform_tkl,4,paid_train,Tseung Kwan O Line (MTR)
 quarry_bay_platform_tkl,yau_tong_platform_tkl,8,paid_train,Tseung Kwan O Line (MTR)
