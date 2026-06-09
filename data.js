@@ -54,7 +54,7 @@ cheung_sha_wan_platform,cheung_sha_wan_concourse,2,fare_gate,fare gates
 sham_shui_po_platform,sham_shui_po_concourse,2,fare_gate,fare gates
 prince_edward_platform_twl,prince_edward_concourse,2,fare_gate,fare gates
 mong_kok_platform_twl,mong_kok_concourse,2,fare_gate,fare gates
-yaumatei_platform_twl,yaumatei_concourse,2,fare_gate,fare gates
+yaumatei_platform_twl,yau_ma_tei_concourse,2,fare_gate,fare gates
 jordan_platform,jordan_concourse,2,fare_gate,fare gates
 tsim_sha_tsui_platform,tsim_sha_tsui_concourse,2,fare_gate,fare gates
 
@@ -103,6 +103,7 @@ cheung_sha_wan_concourse,un_chau_estate_5,3,internal,Exit A lift
 lai_chi_kok_concourse,cheung_sha_wan_plaza,3,internal,Exit A
 lai_chi_kok_concourse,liberte,3,internal,Exit D3
 liberte,banyan_garden,2,bridge,bridge
+liberte,the_pacifica,2,bridge,bridge
 banyan_garden,hoi_lai_estate,3,bridge,bridges and covered walkway
 lai_chi_kok_concourse,the_pacifica,3,internal,Exit D4
 
@@ -867,13 +868,13 @@ heng_on_platform,ma_on_shan_platform,4,paid_train,Tuen Ma Line (MTR)
 ma_on_shan_platform,wu_kai_sha_platform,5,paid_train,Tuen Ma Line (MTR)
 
 // --- TUEN MA LINE TRANSFERS ---
-mei_foo_platform_tml,mei_foo_platform_twl,15,tunnel,Walkways and Escalators
-nam_cheong_platform_tml,nam_cheong_platform_tcl,4,paid_transfer,Platform Transfer
+mei_foo_platform_tml,mei_foo_platform_twl,15,paid_tunnel,Walkways and Escalators
+nam_cheong_platform_tml,nam_cheong_platform_tcl,4,paid_transfer,platform transfer
 east_tst_concourse,tsim_sha_tsui_concourse,14,internal,Pedestrian Subway
-hung_hom_platform_tml,hung_hom_platform_erl,4,paid_transfer,Escalator Transfer
-ho_man_tin_platform_tml,ho_man_tin_platform_ktl,8,paid_transfer,Escalator Transfer
-diamond_hill_platform_tml,diamond_hill_platform_ktl,7,paid_transfer,Vertical Concourse Transfer
-tai_wai_platform_tml,tai_wai_platform_erl,4,paid_transfer,Platform Transfer
+hung_hom_platform_tml,hung_hom_platform_erl,4,paid_transfer,escalator transfer
+ho_man_tin_platform_tml,ho_man_tin_platform_ktl,8,paid_transfer,escalator transfer
+diamond_hill_platform_tml,diamond_hill_platform_ktl,7,paid_transfer,vertical concourse transfer
+tai_wai_platform_tml,tai_wai_platform_erl,4,paid_transfer,platform transfer
 
 // --- TUEN MA LINE CONCOURSES ---
 tuen_mun_platform,tuen_mun_concourse,2,fare_gate,fare gates

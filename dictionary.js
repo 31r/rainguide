@@ -482,7 +482,7 @@
 					"admiralty_concourse": "Admiralty / 金鐘站",
 					"tsim_sha_tsui_concourse": "Tsim Sha Tsui / 尖沙咀站",
 					"jordan_concourse": "Jordan / 佐敦站",
-					"yaumatei_concourse": "Yau Ma Tei / 油麻地站",
+					"yau_ma_tei_concourse": "Yau Ma Tei / 油麻地站",
 					"mong_kok_concourse": "Mong Kok / 旺角站",
 					"prince_edward_concourse": "Prince Edward / 太子站",
 					"sham_shui_po_concourse": "Sham Shui Po / 深水埗站",
