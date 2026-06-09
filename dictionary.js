@@ -403,7 +403,6 @@
 				},
 				"Kwai Hing (葵興)": {
 					"kowloon_commerce_centre": "Kowloon Commerce Centre / 九龍貿易中心",
-					"kwai_hing_concourse": "Kwai Hing Station Concourse / 葵興站大堂",
 					"kwai_hing_government_offices": "Kwai Hing Government Offices / 葵興政府合署",
 					"kwai_hing_station_bus_terminus": "Kwai Hing Station Bus Terminus / 葵興站巴士總站",
 					"sun_kwai_hing_gardens": "Sun Kwai Hing Gardens / 新葵興花園",
