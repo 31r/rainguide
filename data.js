@@ -396,6 +396,17 @@ choi_hung_concourse,ngau_chi_wan_civic_centre,2,internal,Exit B
 choi_hung_concourse,infinity_8,2,internal,Exit A3
 infinity_8,8_clear_water_bay_road,2,internal,residential lift lobby
 
+// --- KOWLOON BAY HUB ---
+kowloon_bay_concourse,telford_plaza,2,internal,Exits A or C
+telford_plaza,megabox,10,free_shuttle,free shuttle
+kowloon_bay_concourse,east_kowloon_cultural_centre,4,internal,Exit B
+east_kowloon_cultural_centre,amoy_plaza,5,bridge,bridge over Ngau Tau Kok Road
+kowloon_bay_concourse,choi_ying_estate,8,bridge,Exit B and bridge
+
+// --- KWUN TONG HUB ---
+kwun_tong_concourse,apm,2,internal,Exit A2
+kwun_tong_concourse,kwun_tong_plaza,2,internal,Exit B2
+
 // --- ISLAND LINE (TRAIN TRACKS) ---
 kennedy_town_platform,hku_platform,4,paid_train,Island Line (MTR)
 hku_platform,sai_ying_pun_platform,4,paid_train,Island Line (MTR)

@@ -303,6 +303,19 @@
 					"ngau_chi_wan_civic_centre": "Ngau Chi Wan Civic Centre / 牛池灣文娛中心"
 				},
 			},
+			"Kwun Tong District (觀塘區)": {
+				"Kowloon Bay (九龍灣)": {
+					"amoy_plaza": "Amoy Plaza / 淘大商場",
+					"choi_ying_estate": "Choi Ying Estate / 彩盈邨",
+					"east_kowloon_cultural_centre": "East Kowloon Cultural Centre / 東九文化中心",
+					"megabox": "MegaBox / 企業廣場5期",
+					"telford_plaza": "Telford Plaza / 德福廣場"
+				},
+				"Kwun Tong (觀塘)": {
+					"apm": "apm / apm",
+					"kwun_tong_plaza": "Kwun Tong Plaza / 觀塘廣場"
+				},
+			},
 			"Tsuen Wan District (荃灣區)": {
 				"Lei Muk Shue (梨木樹)": {
 					"lei_muk_shue_estate": "Lei Muk Shue Estate / 梨木樹邨"
