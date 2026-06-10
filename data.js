@@ -245,7 +245,7 @@ tkc_sports_centre,discovery_park_pti,2,internal,escalator
 // --- EAST EXTENSIONS (SAI LAU KOK ROAD) ---
 fou_wah_centre,tw_carpark_building,2,bridge,bridge
 tw_carpark_building,tsuen_wan_east_junction,2,bridge,bridge
-tsuen_wan_east_junction,kolour_tsuen_wan_1,3,bridge,bridge over Castle Peak Road
+tsuen_wan_east_junction,kolour_tsuen_wan_2,3,bridge,bridge over Castle Peak Road
 kolour_tsuen_wan_1,kolour_tsuen_wan_2,2,bridge,bridge over Tsuen Wan Market Street
 tsuen_wan_east_junction,tsuen_fung_centre,0,bridge,bridge
 tsuen_fung_centre,waldorf_centre,2,bridge,bridge
