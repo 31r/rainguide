@@ -318,6 +318,84 @@ lam_tin_platform,lam_tin_concourse,2,fare_gate,fare gates
 yau_tong_platform_ktl,yau_tong_concourse,2,fare_gate,fare gates
 tiu_keng_leng_platform_ktl,tiu_keng_leng_concourse,2,fare_gate,fare gates
 
+// --- WHAMPOA ---
+whampoa_concourse,fashion_world,2,internal,Exit C1
+whampoa_concourse,aeon_style_whampoa,2,internal,Exit D1
+
+// --- HO MAN TIN ---
+ho_man_tin_concourse,onmantin,2,internal,Exit A4
+ho_man_tin_concourse,in_one,2,internal,Exit C
+
+// --- SHEK KIP MEI ---
+shek_kip_mei_concourse,shek_kip_mei_estate_phase_1,2,covered_walkway,Exit C
+
+// --- KOWLOON TONG HUB ---
+kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_transfer,pedestrian subway (paid area)
+kowloon_tong_concourse_ktl,kowloon_tong_concourse_erl,10,internal,pedestrian subway (free area)
+kowloon_tong_platform_ktl,kowloon_tong_concourse_ktl,2,fare_gate,fare gates
+kowloon_tong_platform_erl,kowloon_tong_concourse_erl,2,fare_gate,fare gates
+kowloon_tong_concourse_ktl,festival_walk,6,internal,Exit C2
+kowloon_tong_concourse_ktl,kltesc,2,internal,Exit E
+kowloon_tong_concourse_erl,festival_walk,6,internal,Exit H
+festival_walk,cityu,2,tunnel,tunnel
+
+// --- LOK FU HUB ---
+lok_fu_concourse,lok_fu_place_zone_a,2,internal,Exit A
+lok_fu_concourse,lok_fu_place_zone_b,2,internal,Exit B
+lok_fu_concourse,lok_fu_bus_terminus,2,internal,Exit A and bridge over Wang Tau Hom South Road
+lok_fu_concourse,foodplus,2,internal,Exit A and bridge over Wang Tau Hom East Road
+
+// --- LOK FU PLACE ZONE A CONNECTIONS ---
+lok_fu_place_zone_a,lok_fu_bus_terminus,2,bridge,bridge
+lok_fu_place_zone_a,foodplus,2,bridge,bridge over Wang Tau Hom East Road
+lok_fu_bus_terminus,foodplus,2,bridge,bridge
+lok_fu_place_zone_a,wang_tau_hom_estate,5,bridge,bridge over Wang Tau Hom Central Road
+wang_tau_hom_estate,tin_ma_court,5,bridge,bridge over Lung Cheung Road
+tin_ma_court,tin_wang_court,2,bridge,bridge
+lok_fu_place_zone_a,housing_authority_csc,2,bridge,bridge
+housing_authority_csc,fu_keung_court,3,bridge,bridge over Fu Keung Street
+housing_authority_csc,tak_keung_court,2,internal,residential lift lobby
+
+// --- LOK FU PLACE ZONE B CONNECTIONS ---
+lok_fu_place_zone_a,lok_fu_place_zone_b,2,internal,internal mall connection
+lok_fu_place_zone_b,lok_fu_estate_south,2,tunnel,tunnel
+
+// --- WONG TAI SIN HUB ---
+wong_tai_sin_concourse,temple_mall_north,2,internal,Exit B3
+temple_mall_north,upper_wong_tai_sin_estate,2,internal,covered walkway
+wong_tai_sin_concourse,temple_mall_south,2,internal,Exit D3
+temple_mall_south,lower_wong_tai_sin_estate,2,internal,covered walkway (some blocks only)
+temple_mall_south,wong_tai_sin_bus_terminus,2,bridge,bridge
+temple_mall_north,temple_mall_south,2,bridge,bridge
+
+// --- DIAMOND HILL HUB ---
+diamond_hill_concourse,plaza_hollywood,2,internal,Exit C2
+plaza_hollywood,galaxia,2,internal,residential lift lobby
+plaza_hollywood,fung_tak_estate,8,bridge,bridge over Lung Poon Street and Fung Tak Road
+fung_tak_estate,fung_lai_court,2,covered_walkway,covered walkway
+fung_tak_estate,tsz_lok_estate_phase_3,8,bridge,bridge over Po Kong Village Road
+tsz_lok_estate_phase_3,tsz_wan_shan_shopping_centre,2,bridge,bridge over Yuk Wah Street
+tsz_wan_shan_shopping_centre,tsz_hong_estate,2,bridge,bridge
+tsz_wan_shan_shopping_centre,tsz_on_court,2,covered_walkway,covered walkway
+tsz_on_court,tsz_man_estate,2,covered_walkway,covered walkway
+tsz_man_estate,tsz_ching_estate,2,bridge,bridge over Tsz Wan Shan Road
+tsz_hong_estate,tsz_man_estate,2,covered_walkway,covered walkway
+tsz_lok_estate_phase_3,tsz_lok_estate_phase_2,2,bridge,bridge over Yuk Wah Street
+tsz_lok_estate_phase_2,tsz_lok_estate_phase_1,2,bridge,bridge over Sheung Fung Street
+tsz_lok_estate_phase_1,tsz_oi_court_stage_1_2,2,bridge,bridge
+tsz_oi_court_stage_1_2,tsz_oi_court_stage_3,2,bridge,bridge over Tsz Wan Shan Road
+tsz_oi_court_stage_1_2,tsz_ching_estate,2,bridge,bridge over Tsz Wan Shan Road
+tsz_oi_court_stage_3,tsz_ching_estate,2,bridge,bridge over Fung Wah Street
+tsz_wan_shan_shopping_centre,tsz_lok_estate_phase_2,2,covered_walkway,covered walkway
+tsz_wan_shan_shopping_centre,tsz_lok_estate_phase_1,2,bridge,bridge over Wan Wah Street
+diamond_hill_concourse,kai_chuen_court,2,internal,Exit A2
+
+// --- CHOI HUNG HUB ---
+choi_hung_concourse,choi_hung_estate,2,internal,Exit C4
+choi_hung_concourse,ngau_chi_wan_civic_centre,2,internal,Exit B
+choi_hung_concourse,infinity_8,2,internal,Exit A3
+infinity_8,8_clear_water_bay_road,2,internal,residential lift lobby
+
 // --- ISLAND LINE (TRAIN TRACKS) ---
 kennedy_town_platform,hku_platform,4,paid_train,Island Line (MTR)
 hku_platform,sai_ying_pun_platform,4,paid_train,Island Line (MTR)
@@ -727,16 +805,6 @@ royal_peninsula,harbour_place,2,bridge,bridge
 harbour_place,stars_by_the_harbour,2,bridge,bridge
 stars_by_the_harbour,one_harbour_gate,2,bridge,bridge
 hung_hom_concourse,new_east_ocean_centre,4,bridge,Exit D1 Footbridge
-
-// --- KOWLOON TONG HUB ---
-kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_transfer,pedestrian subway (paid area)
-kowloon_tong_concourse_ktl,kowloon_tong_concourse_erl,10,internal,pedestrian subway (free area)
-kowloon_tong_platform_ktl,kowloon_tong_concourse_ktl,2,fare_gate,fare gates
-kowloon_tong_platform_erl,kowloon_tong_concourse_erl,2,fare_gate,fare gates
-kowloon_tong_concourse_ktl,festival_walk,6,internal,Exit C2
-kowloon_tong_concourse_ktl,kltesc,2,internal,Exit E
-kowloon_tong_concourse_erl,festival_walk,6,internal,Exit H
-festival_walk,cityu,2,tunnel,tunnel
 
 // --- TAI WAI HUB ---
 tai_wai_platform_erl,tai_wai_concourse,2,fare_gate,fare gates

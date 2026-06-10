@@ -242,6 +242,8 @@
 			},
 			"Kowloon City District (九龍城區)": {
                 "Hung Hom (紅磡)": {
+                    "aeon_style_whampoa": "Aeon Style Whampoa / 永旺百貨 (黃埔)",
+                    "fashion_world": "Fashion World (Whampoa) / 黃埔天地時尚坊",
                     "harbour_place": "Harbour Place / 海濱南岸",
                     "one_harbour_gate": "One HarbourGate",
                     "polyu": "PolyU / 理工大學",
@@ -254,6 +256,53 @@
                     "festival_walk": "Festival Walk / 又一城"
                 },
             },
+			"Wong Tai Sin District (黃大仙區)": {
+				"Lok Fu (樂富)": {
+					"foodplus": "Food+ / 滙富坊",
+					"fu_keung_court": "Fu Keung Court / 富強苑",
+					"housing_authority_csc": "Housing Authority Customer Service Centre / 香港房屋委員會客務中心",
+					"lok_fu_bus_terminus": "Lok Fu Bus Terminus / 樂富巴士總站",
+					"lok_fu_estate_south": "Lok Fu Estate (South) / 樂富邨 (樂民/謙/翠/泰樓)",
+					"lok_fu_place_zone_a": "Lok Fu Place Zone A / 樂富廣場A區",
+					"lok_fu_place_zone_b": "Lok Fu Place Zone B / 樂富廣場B區",
+					"tak_keung_court": "Tak Keung Court / 德強苑",
+					"tin_ma_court": "Tin Ma Court / 天馬苑",
+					"tin_wang_court": "Tin Wang Court / 天宏苑",
+					"wang_tau_hom_estate": "Wang Tau Hom Estate / 橫頭磡邨"
+				},
+				"Wong Tai Sin (黃大仙)": {
+					"lower_wong_tai_sin_estate": "Lower Wong Tai Sin Estate / 黃大仙下邨",
+					"temple_mall_north": "Temple Mall North / 黃大仙中心北館",
+					"temple_mall_south": "Temple Mall South / 黃大仙中心南館",
+					"upper_wong_tai_sin_estate": "Upper Wong Tai Sin Estate / 黃大仙上邨",
+					"wong_tai_sin_bus_terminus": "Wong Tai Sin Bus Terminus / 黃大仙巴士總站",
+				},
+				"Diamond Hill (鑽石山)": {
+					"fung_lai_court": "Fung Lai Court / 鳳禮苑",
+					"fung_tak_estate": "Fung Tak Estate / 鳳德邨",
+					"galaxia": "Galaxia / 星河明居",
+					"kai_chuen_court": "Kai Chuen Court / 啟鑽苑",
+					"plaza_hollywood": "Plaza Hollywood / 荷里活廣場"
+				},
+				"Tsz Wan Shan (慈雲山)": {
+					"tsz_ching_estate": "Tsz Ching Estate / 慈正邨",
+					"tsz_hong_estate": "Tsz Hong Estate / 慈康邨",
+					"tsz_lok_estate_phase_1": "Tsz Lok Estate Phase 1 / 慈樂邨一期",
+					"tsz_lok_estate_phase_2": "Tsz Lok Estate Phase 2 / 慈樂邨二期",
+					"tsz_lok_estate_phase_3": "Tsz Lok Estate Phase 3 / 慈樂邨三期",
+					"tsz_man_estate": "Tsz Man Estate / 慈民邨",
+					"tsz_oi_court_stage_1_2": "Tsz Oi Court Stage 1 & 2 / 慈愛苑一、二期",
+					"tsz_oi_court_stage_3": "Tsz Oi Court Stage 3 / 慈愛苑三期",
+					"tsz_on_court": "Tsz On Court / 慈安苑",
+					"tsz_wan_shan_shopping_centre": "Tsz Wan Shan Shopping Centre / 慈雲山中心"
+				},
+				"Choi Hung (彩虹)": {
+					"8_clear_water_bay_road": "8 Clear Water Bay Road / 清水灣道8號",
+					"choi_hung_estate": "Choi Hung Estate / 彩虹邨",
+					"infinity_8": "Infinity 8 / 匯八坊",
+					"ngau_chi_wan_civic_centre": "Ngau Chi Wan Civic Centre / 牛池灣文娛中心"
+				},
+			},
 			"Tsuen Wan District (荃灣區)": {
 				"Lei Muk Shue (梨木樹)": {
 					"lei_muk_shue_estate": "Lei Muk Shue Estate / 梨木樹邨"
