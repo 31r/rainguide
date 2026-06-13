@@ -205,14 +205,22 @@ nan_fung_centre,tsuen_wan_station_pti,2,internal,Stairs
 tsuen_wan_concourse,tsuen_wan_public_library,2,bridge,Exit A3
 tsuen_wan_concourse,tsuen_wan_station_bus_stop,2,internal,Exit A4
 nan_fung_centre,tsuen_wan_public_library,2,bridge,bridge
+nan_fung_centre,lik_sang_plaza,2,bridge,bridge over Castle Peak Road - Tsuen Wan
+lik_sang_plaza,foo_yu_building,2,internal,resident lift lobby
 tsuen_wan_public_library,tsuen_wan_government_offices,2,bridge,bridge
 tsuen_wan_government_offices,cdw_building,8,bridge,bridge
 tsuen_wan_government_offices,tsuen_kam_centre,4,bridge,bridge
 tsuen_kam_centre,grand_city_plaza,2,bridge,bridge over Sai Lau Kok Road
-tsuen_wan_concourse,fou_wah_centre,2,bridge,Exit B2
+tsuen_kam_centre,fuk_loi_estate,3,bridge,bridge over Castle Peak Road - Tsuen Wan
+tsuen_wan_concourse,sai_lau_kok_garden,2,bridge,Exit B1
+sai_lau_kok_garden,fou_wah_centre,2,covered_walkway,ground-level covered walkway
+sai_lau_kok_garden,tw_carpark_building,2,bridge,bridge
+sai_lau_kok_garden,victory_court,2,bridge,bridge over Castle Peak Road - Tsuen Wan and lift
+victory_court,park_tsuen,2,covered_walkway,covered walkway
+park_tsuen,sin_ching_building,2,covered_walkway,covered walkway
 tsuen_wan_concourse,tw_carpark_building,2,bridge,Exit B2
 tsuen_wan_concourse,luk_yeung_galleria,2,internal,Exit C
-tsuen_wan_concourse,tai_ho_road_junction,2,bridge,Exit D
+tsuen_wan_concourse,tai_ho_road_junction,3,bridge,Exit D
 tsuen_wan_station_bus_stop,bayview_garden,20,paid_bus,KMB 34M
 tsuen_wan_station_pti,riviera_gardens,27,paid_bus,KMB 238M
 
@@ -220,6 +228,7 @@ tsuen_wan_station_pti,riviera_gardens,27,paid_bus,KMB 238M
 tsuen_wan_west_concourse,tsuen_wan_west_station_pti,2,internal,Exit A1 or E1
 tsuen_wan_west_concourse,op_mall,2,internal,Exit C2 (G/F) or C4 (1/F)
 tsuen_wan_west_station_pti,op_mall,2,internal,escalator
+op_mall,ocean_pride,2,internal,resident lift lobby
 tsuen_wan_west_concourse,nina_mall_2,3,bridge,Exit C3
 tsuen_wan_west_concourse,hoi_kwai_road_pti,2,covered_walkway,Exit E2
 tsuen_wan_west_station_pti,nina_mall_2,3,bridge,Escalator and Bridge
@@ -245,20 +254,23 @@ tkc_sports_centre,discovery_park_pti,2,internal,escalator
 // --- EAST EXTENSIONS (SAI LAU KOK ROAD) ---
 fou_wah_centre,tw_carpark_building,2,bridge,bridge
 tw_carpark_building,tsuen_wan_east_junction,2,bridge,bridge
-tsuen_wan_east_junction,kolour_tsuen_wan_2,3,bridge,bridge over Castle Peak Road
+tsuen_wan_east_junction,kolour_tsuen_wan_2,3,bridge,bridge over Castle Peak Road - Tsuen Wan
 kolour_tsuen_wan_1,kolour_tsuen_wan_2,2,bridge,bridge over Tsuen Wan Market Street
 tsuen_wan_east_junction,tsuen_fung_centre,0,bridge,bridge
 tsuen_fung_centre,waldorf_centre,2,bridge,bridge
 waldorf_centre,tsuen_cheong_centre,2,bridge,bridge
-tsuen_cheong_centre,ho_fai_commercial_centre,2,bridge,bridge
-ho_fai_commercial_centre,panda_hotel,2,bridge,bridge
+tsuen_cheong_centre,ho_fai_commercial_centre_1,2,bridge,bridge
+ho_fai_commercial_centre_1,ho_fai_commercial_centre_2,2,bridge,bridge
+ho_fai_commercial_centre_1,panda_hotel,4,bridge,bridge
+ho_fai_commercial_centre_2,panda_hotel,4,bridge,bridge
 panda_hotel,panda_place,1,internal,escalator
 
 // --- SOUTH EXTENSIONS ---
 citywalk_1,vision_city,2,internal,resident lift lobby
 citywalk_1,nina_mall_1,2,bridge,bridge over Yeung Uk Road
 nina_mall_1,citywalk_2,2,bridge,bridge
-nina_mall_1,nina_tower,2,internal,Lifts
+nina_mall_1,nina_tower,2,internal,office lift lobby
+nina_mall_1,nina_hotel,2,internal,hotel lobby
 nina_mall_1,nina_tower_bus_terminus,2,internal,escalator
 nina_tower,nina_tower_bus_terminus,2,internal,covered walkway
 nina_mall_1,yurmsb,2,bridge,bridge
@@ -273,7 +285,7 @@ nina_mall_2,parc_city,2,internal,resident lift lobby
 nina_mall_2,skyline_plaza,2,bridge,bridge over Tai Ho Road
 tsuen_wan_plaza,skyline_plaza,2,bridge,bridge over Hoi Shing Road and Yuen Tun Circuit
 nina_mall_2,clague_garden_estate,3,bridge,bridge over Hoi Kwai Road
-clague_garden_estate,tsuen_wan_plaza,3,bridge,bridge over Hoi Shing Road
+clague_garden_estate,tsuen_wan_plaza,2,bridge,bridge over Hoi Shing Road
 tsuen_wan_plaza,tsuen_wan_town_hall,3,bridge,bridge
 tsuen_wan_town_hall,citywalk_1,2,bridge,bridge
 tsuen_wan_plaza,citywalk_1,4,bridge,bridge
@@ -354,7 +366,7 @@ wang_tau_hom_estate,tin_ma_court,5,bridge,bridge over Lung Cheung Road
 tin_ma_court,tin_wang_court,2,bridge,bridge
 lok_fu_place_zone_a,housing_authority_csc,2,bridge,bridge
 housing_authority_csc,fu_keung_court,3,bridge,bridge over Fu Keung Street
-housing_authority_csc,tak_keung_court,2,internal,residential lift lobby
+housing_authority_csc,tak_keung_court,2,internal,resident lift lobby
 
 // --- LOK FU PLACE ZONE B CONNECTIONS ---
 lok_fu_place_zone_a,lok_fu_place_zone_b,2,internal,internal mall connection
@@ -370,7 +382,7 @@ temple_mall_north,temple_mall_south,2,bridge,bridge
 
 // --- DIAMOND HILL HUB ---
 diamond_hill_concourse,plaza_hollywood,2,internal,Exit C2
-plaza_hollywood,galaxia,2,internal,residential lift lobby
+plaza_hollywood,galaxia,2,internal,resident lift lobby
 plaza_hollywood,fung_tak_estate,8,bridge,bridge over Lung Poon Street and Fung Tak Road
 fung_tak_estate,fung_lai_court,2,covered_walkway,covered walkway
 fung_tak_estate,tsz_lok_estate_phase_3,8,bridge,bridge over Po Kong Village Road
@@ -394,7 +406,7 @@ diamond_hill_concourse,kai_chuen_court,2,internal,Exit A2
 choi_hung_concourse,choi_hung_estate,2,internal,Exit C4
 choi_hung_concourse,ngau_chi_wan_civic_centre,2,internal,Exit B
 choi_hung_concourse,infinity_8,2,internal,Exit A3
-infinity_8,8_clear_water_bay_road,2,internal,residential lift lobby
+infinity_8,8_clear_water_bay_road,2,internal,resident lift lobby
 
 // --- KOWLOON BAY HUB ---
 kowloon_bay_concourse,telford_plaza,2,internal,Exits A or C
