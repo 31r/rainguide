@@ -419,6 +419,26 @@ kowloon_bay_concourse,choi_ying_estate,8,bridge,Exit B and bridge
 kwun_tong_concourse,apm,2,internal,Exit A2
 kwun_tong_concourse,kwun_tong_plaza,2,internal,Exit B2
 
+// --- LAM TIN HUB ---
+lam_tin_concourse,sceneway_plaza,2,internal,Exit B
+lam_tin_concourse,laguna_city,6,covered_walkway,Exit D1
+lam_tin_concourse,sceneway_garden,3,covered_walkway,Exit D2
+sceneway_plaza,sceneway_garden,2,internal,resident lift lobby
+lam_tin_concourse,lam_tin_pti,2,internal,Exit B
+lam_tin_concourse,kai_tin_shopping_centre,6,escalator,Exit A and bridge
+sceneway_plaza,kai_tin_shopping_centre,5,escalator,Exit A and bridge
+sceneway_plaza,lam_tin_pti,2,internal,internal mall connection
+kai_tin_shopping_centre,kai_tin_estate,2,covered_walkway,covered walkway
+kai_tin_estate,hong_yat_court,2,bridge,bridge over Tak Tin Street
+kai_tin_shopping_centre,lam_tin_estate,4,covered_walkway,bridge over Tak Tin Street and covered walkway
+kai_tin_shopping_centre,on_tin_estate,2,internal,residential lift lobby
+kai_tin_shopping_centre,ping_tin_estate,2,covered_walkway,covered walkway
+ping_tin_estate,ping_tin_shopping_centre,2,covered_walkway,covered walkway
+ping_tin_shopping_centre,hong_nga_court,2,bridge,bridge
+hong_nga_court,tak_tin_estate,2,covered_walkway,covered walkway
+hong_nga_court,kwong_tin_estate,2,covered_walkway,covered walkway
+kwong_tin_estate,hong_pak_court,2,bridge,bridge or underpass
+
 // --- ISLAND LINE (TRAIN TRACKS) ---
 kennedy_town_platform,hku_platform,4,paid_train,Island Line (MTR)
 hku_platform,sai_ying_pun_platform,4,paid_train,Island Line (MTR)
@@ -713,7 +733,7 @@ v_walk,cullinan_west,2,internal,resident lift lobby
 v_walk,hoi_tat_estate,6,bridge,bridge
 hoi_tat_estate,sham_shui_po_lcst_building,2,internal,podium
 sham_shui_po_lcst_building,hoi_ying_estate,3,bridge,bridge
-sham_shui_po_lcst_building,aqua_marine,3,bridge,bridge
+sham_shui_po_lcst_building,aqua_marine,3,bridge,bridge through Aeon (accessible 08:30 - 22:30 only)
 
 // --- TSING YI HUB ---
 tsing_yi_concourse,maritime_square_1,2,internal,Exits A2, B (both 1/F), F (3/F) or G (2/F)
@@ -898,10 +918,29 @@ ka_fuk_estate,ka_shing_court,2,bridge,covered walkway
 fanling_concourse,fanling_station_road,2,bridge,Exit A2 and covered walkway
 fanling_station_road,heung_yuen_wai_port,20,paid_bus,Citybus B7
 
+// --- LUEN WO HUI ---
+fanling_station_road,luen_wo_hui_pti,15,paid_bus,KMB 278K
+apm,luen_wo_hui_pti,95,paid_bus,KMB 277X,uni
+lam_tin_pti,luen_wo_hui_pti,105,paid_bus,KMB 277X
+tsing_yi_pti,luen_wo_hui_pti,100,paid_bus,KMB 279X
+luen_wo_hui_pti,regentville,2,internal,escalator
+regentville,grand_regentville,2,bridge,bridge over Wo Mun Street
+regentville,wing_fai_centre,2,bridge,bridge over Wo Tai Street
+regentville,belair_monte,2,bridge,bridge over Wo Mun Street
+wing_fok_centre,wing_fai_centre,2,bridge,bridge over Luen Chit Street
+wing_fai_centre,belair_monte,2,bridge,bridge over Wo Tai Street
+grand_regentville,belair_monte,2,bridge,bridge
+grand_regentville,green_code,2,bridge,bridge
+wing_fai_centre,green_code,2,bridge,bridge
+one_innovale,wing_fai_centre,2,bridge,bridge over Ma Sik Road
+one_innovale,belair_monte,2,bridge,bridge over Ma Sik Road
+
 // --- SHEUNG SHUI HUB ---
 sheung_shui_concourse,landmark_north,2,bridge,Exit A4
 landmark_north,spot,2,bridge,bridge
 landmark_north,metropolis_plaza,2,bridge,bridge
+sheung_shui_bus_terminus,landmark_north,2,internal,escalator
+nina_tower_bus_terminus,sheung_shui_bus_terminus,100,paid_bus,KMB 278X
 metropolis_plaza,lung_fung_garden,2,bridge,bridge
 lung_fung_garden,shek_wu_hui_municipal_services_building,2,bridge,bridge
 shek_wu_hui_municipal_services_building,sheung_shui_centre,2,bridge,bridge

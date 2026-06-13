@@ -315,6 +315,23 @@
 					"apm": "apm / apm",
 					"kwun_tong_plaza": "Kwun Tong Plaza / 觀塘廣場"
 				},
+				"Lam Tin (藍田)": {
+					"hong_nga_court": "Hong Nga Court / 康雅苑",
+					"hong_pak_court": "Hong Pak Court / 康柏苑",
+					"hong_yat_court": "Hong Yat Court / 康逸苑",
+					"kai_tin_estate": "Kai Tin Estate / 啟田邨",
+					"kai_tin_shopping_centre": "Kai Tin Shopping Centre / 啟田商場",
+					"kwong_tin_estate": "Kwong Tin Estate / 廣田邨",
+					"laguna_city": "Laguna City / 麗港城",
+					"lam_tin_estate": "Lam Tin Estate / 藍田邨",
+					"lam_tin_pti": "Lam Tin PTI / 藍田公共運輸交匯處",
+					"on_tin_estate": "On Tin Estate / 安田邨",
+					"ping_tin_estate": "Ping Tin Estate / 平田邨",
+					"ping_tin_shopping_centre": "Ping Tin Shopping Centre / 平田商場",
+					"sceneway_garden": "Sceneway Garden / 匯景花園",
+					"sceneway_plaza": "Sceneway Plaza / 匯景廣場",
+					"tak_tin_estate": "Tak Tin Estate / 德田邨"
+				},
 			},
 			"Tsuen Wan District (荃灣區)": {
 				"Lei Muk Shue (梨木樹)": {
@@ -389,6 +406,16 @@
 					"ka_fuk_estate": "Ka Fuk Estate / 嘉福邨",
 					"ka_shing_court": "Ka Shing Court / 嘉盛苑"
 				},
+				"Luen Wo Hui (聯和墟)": {
+					"belair_monte": "Belair Monte / 綠悠軒",
+					"grand_regentville": "Grand Regentville / 御庭軒",
+					"green_code": "Green Code / 逸峯",
+					"luen_wo_hui_pti": "Luen Wo Hui Terminus / 聯和墟總站",
+					"one_innovale": "One Innovale",
+					"regentville": "Regentville / 帝庭軒",
+					"wing_fai_centre": "Wing Fai Centre / 榮輝中心",
+					"wing_fok_centre": "Wing Fok Centre / 榮福中心"
+				},
 				"Sheung Shui (上水)": {
 					"choi_po_court": "Choi Po Court / 彩蒲苑",
 					"choi_yuen_estate": "Choi Yuen Estate / 彩園邨",
@@ -397,6 +424,7 @@
 					"metropolis_plaza": "Metropolis Plaza / 新都廣場",
 					"po_shek_wu_estate": "Po Shek Wu Estate / 寶石湖邨",
 					"shek_wu_hui_municipal_services_building": "Shek Wu Hui Municipal Services Building / 石湖墟市政大廈",
+					"sheung_shui_bus_terminus": "Sheung Shui Station Bus Terminus / 上水站巴士總站",
 					"sheung_shui_centre": "Sheung Shui Centre / 上水中心",
 					"sheung_shui_town_centre": "Sheung Shui Town Centre / 上水名都",
 					"sunningdale_garden": "Sunningdale Garden / 順欣花園",
