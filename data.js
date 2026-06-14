@@ -7,8 +7,9 @@
 hong_kong_platform_ael,airport_platform,48,premium_train,Airport Express (MTR)
 kowloon_platform_ael,airport_platform,44,premium_train,Airport Express (MTR)
 tsing_yi_platform_ael,airport_platform,28,premium_train,Airport Express (MTR)
-tsing_yi_platform_ael,hong_kong_platform_ael,30,premium_train,Airport Express (MTR) Express Service
-airport_platform,expo_platform,4,paid_train,Airport Express (MTR)
+tsing_yi_platform_ael,hong_kong_platform_ael,30,premium_train,Airport Express (MTR)
+airport_platform,expo_platform,4,premium_train,Airport Express (MTR)
+airport_platform,expo_platform,5,paid_train,Airport Express (MTR)
 
 // --- AIRPORT EXPRESS CONCOURSES ---
 hong_kong_platform_ael,hong_kong_concourse,2,fare_gate,Airport Express fare gates
@@ -88,9 +89,8 @@ mong_kok_concourse,moko,16,bridge,Exit B3 and Footbridge
 mong_kok_concourse,top_mall,2,internal,Exit B4
 mong_kok_concourse,langham_place,4,internal,Exit C3
 langham_place,cordis_hotel,6,bridge,bridge
-mong_kok_concourse,argyle_centre,2,internal,Exit D2
 top_mall,argyle_centre,3,bridge,bridge
-top_mall,700_nathan_road,1,escalator,escalators
+top_mall,700_nathan_road,1,lift,office lift lobby
 
 // --- CHEUNG SHA WAN HUB ---
 cheung_sha_wan_concourse,lai_kok_estate,3,internal,Exit A1
