@@ -19,40 +19,38 @@
 					"two_chinachem": "Two Chinachem Plaza / 華懋廣場II期",
 					"yue_thai_bldg": "Yue Thai Commercial Bldg / 豫泰商業大廈"
 				},
-				"Hong Kong Station (香港站)": {
+				"Central (中環)": {
 					"100qrc": "100 QRC / 皇后大道中100號",
-					"central_market": "Central Market / 中環街市",
-					"mid_levels_escalator": "Central-Mid-Levels Escalator / 中環至半山自動扶手電梯系統",
-					"central_pier_3": "Central Pier No. 3 / 中環3號碼頭",
-					"central_pier_7": "Central Pier No. 7 (Star Ferry) / 中環7號碼頭",
-					"central_yards": "Central Yards / 中環新海濱",
-					"1&2_exchange_square": "One & Two Exchange Square / 交易廣場一及二期",
-					"3_exchange_square": "Three Exchange Square / 交易廣場三期",
-					"gpo": "General Post Office / 郵政總局",
-					"hang_seng_hq": "Hang Seng HQ / 恒生銀行總行",
-					"ifc_mall": "IFC Mall / 國際金融中心商場",
-					"one_ifc": "One IFC / 國際金融中心一期",
-					"two_ifc": "Two IFC / 國際金融中心二期",
-					"jardine_house": "Jardine House / 怡和大廈",
-					"nexxus_bldg": "Nexxus Building / 盈置大廈"
-				},
-				"Central Core (中環核心)": {
 					"9qrc": "9 Queen's Road Central / 皇后大道中九號",
 					"aia_central": "AIA Central / 友邦金融中心",
 					"alexandra_house": "Alexandra House / 歷山大廈",
 					"bea_bldg": "Bank of East Asia Building / 東亞銀行大廈",
 					"ccb_tower": "CCB Tower / 中國建設銀行大廈",
 					"central_bldg": "Central Building / 中建大廈",
+					"central_market": "Central Market / 中環街市",
+					"mid_levels_escalator": "Central-Mid-Levels Escalator / 中環至半山自動扶手電梯系統",
+					"central_pier_3": "Central Pier No. 3 / 中環3號碼頭",
+					"central_pier_7": "Central Pier No. 7 (Star Ferry) / 中環7號碼頭",
 					"central_tower": "Central Tower / 中匯大廈",
+					"central_yards": "Central Yards / 中環新海濱",
 					"chater_garden": "Chater Garden / 遮打花園",
 					"chater_house": "Chater House / 遮打大廈",
 					"cheung_kong_centre": "Cheung Kong Center / 長江集團中心",
 					"landmark_edinburgh": "Edinburgh Tower / 公爵大廈",
 					"entertainment_bldg": "Entertainment Building / 娛樂行",
+					"1&2_exchange_square": "One & Two Exchange Square / 交易廣場一及二期",
+					"3_exchange_square": "Three Exchange Square / 交易廣場三期",
+					"gpo": "General Post Office / 郵政總局",
 					"landmark_gloucester": "Gloucester Tower / 告羅士打大廈",
+					"hang_seng_hq": "Hang Seng HQ / 恒生銀行總行",
 					"hsbc_bldg": "HSBC Main Building / 滙豐總行大廈",
+					"ifc_mall": "IFC Mall / 國際金融中心商場",
+					"one_ifc": "One IFC / 國際金融中心一期",
+					"two_ifc": "Two IFC / 國際金融中心二期",
+					"jardine_house": "Jardine House / 怡和大廈",
 					"landmark_mall": "The Landmark (Mall) / 置地廣場",
 					"mandarin_oriental": "Mandarin Oriental / 文華東方酒店",
+					"nexxus_bldg": "Nexxus Building / 盈置大廈",
 					"princes_bldg": "Prince's Building / 太子大廈",
 					"scb_bldg": "Standard Chartered Bank / 渣打銀行大廈",
 					"the_henderson": "The Henderson",
@@ -78,7 +76,6 @@
 					"united_centre": "United Centre / 統一中心"
 				}
 			},
-    
     		"Wan Chai District (灣仔區)": {				
 				"Wan Chai (灣仔)": {
 					"capital_ctr": "Capital Centre / 資本中心",
@@ -183,6 +180,7 @@
 					"the_cullinan": "The Cullinan / 天璽",
 					"the_harbourside": "The Harbourside / 君臨天下",
 					"icc": "ICC / 環球貿易廣場",
+					"ritz_carlton": "Ritz-Carlton Hotel / 香港麗思卡爾頓酒店",
 					"sorrento": "Sorrento / 擎天半島",
 					"the_waterfront": "The Waterfront / 漾日居"
 				},
@@ -300,7 +298,10 @@
 					"8_clear_water_bay_road": "8 Clear Water Bay Road / 清水灣道8號",
 					"choi_hung_estate": "Choi Hung Estate / 彩虹邨",
 					"infinity_8": "Infinity 8 / 匯八坊",
-					"ngau_chi_wan_civic_centre": "Ngau Chi Wan Civic Centre / 牛池灣文娛中心"
+					"ngau_chi_wan_civic_centre": "Ngau Chi Wan Civic Centre / 牛池灣文娛中心",
+					"ngau_chi_wan_market": "Ngau Chi Wan Market / 牛池灣街市",
+					"ping_shek_estate": "Ping Shek Estate / 坪石邨",
+					"ping_shek_pti": "Ping Shek PTI / 坪石公共運輸交匯處"
 				},
 			},
 			"Kwun Tong District (觀塘區)": {
@@ -313,7 +314,15 @@
 				},
 				"Kwun Tong (觀塘)": {
 					"apm": "apm / apm",
-					"kwun_tong_plaza": "Kwun Tong Plaza / 觀塘廣場"
+					"kwun_tong_plaza": "Kwun Tong Plaza / 觀塘廣場",
+					"po_tat_estate": "Po Tat Estate / 寶達邨",
+					"sau_mau_ping_estate": "Sau Mau Ping Estate / 秀茂坪邨",
+					"sau_mau_ping_shopping_centre": "Sau Mau Ping Shopping Centre / 秀茂坪商場",
+					"sau_mau_ping_south_estate": "Sau Mau Ping South Estate / 秀茂坪南邨",
+					"shun_chi_court": "Shun Chi Court / 順緻苑",
+					"shun_lee_estate": "Shun Lee Estate / 順利邨",
+					"shun_on_estate": "Shun On Estate / 順安邨",
+					"shun_tin_estate": "Shun Tin Estate / 順天邨"
 				},
 				"Lam Tin (藍田)": {
 					"hong_nga_court": "Hong Nga Court / 康雅苑",
@@ -341,7 +350,7 @@
 					"park_island": "Park Island / 珀麗灣"
 				},
 				"Tsuen Wan (荃灣)": {
-                    "aurora": "Aurora / 映日灣 / Plaza 88",
+                    "aurora": "Aurora / 映日灣",
 					"bayview_garden": "Bayview Garden / 灣景花園",
                     "cdw_building": "CDW Building (8½) / 中染大廈 (8咪半)",
                     "chelsea_court": "Chelsea Court / 爵悅庭",
@@ -375,6 +384,7 @@
                     "panda_place": "Panda Place / 悅來坊",
                     "parc_city": "Parc City / 全·城滙",
 					"park_tsuen": "Park Tsuen Commercial Building / 百萬行",
+					"plaza_88": "Plaza 88 / 荃灣88",
 					"riviera_gardens": "Riviera Gardens / 海濱花園",
                     "sai_lau_kok_garden": "Sai Lau Kok Garden / 西樓角花園",
 					"sin_ching_building": "Sin Ching Building / 新青大廈",

@@ -562,6 +562,29 @@
                             <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
                         </li>`;
                     }
+                    // Handle Lifts
+                    else if (edge.type === 'lift') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-2 border-blue-300 ml-2 py-1">
+                            🛗 Take lift to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }
+                    // Handle Escalators
+                    else if (edge.type === 'escalator') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-2 border-silver-300 ml-2 py-1">
+                            🚶 Take escalator to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }// Handle Free Tunnels
+                    else if (edge.type === 'tunnel') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-2 border-blue-300 ml-2 py-1">
+                            🚶 Walk through pedestrian tunnel to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                        </li>`;
+                    }
                     // Handle Normal Walking
                     else {
                         routeList.innerHTML += `

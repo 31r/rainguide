@@ -90,7 +90,7 @@ mong_kok_concourse,langham_place,4,internal,Exit C3
 langham_place,cordis_hotel,6,bridge,bridge
 mong_kok_concourse,argyle_centre,2,internal,Exit D2
 top_mall,argyle_centre,3,bridge,bridge
-top_mall,700_nathan_road,1,internal,escalators
+top_mall,700_nathan_road,1,escalator,escalators
 
 // --- CHEUNG SHA WAN HUB ---
 cheung_sha_wan_concourse,lai_kok_estate,3,internal,Exit A1
@@ -142,9 +142,9 @@ kwai_fong_station_bus_terminus,sha_tin_central_pti,45,paid_bus,KMB 47X,uni
 // --- KWAI HING HUB ---
 kwai_hing_concourse,kwai_hing_station_bus_terminus,2,internal,Exit B
 kwai_hing_station_bus_terminus,sun_kwai_hing_plaza,3,escalator,Escalator
-sun_kwai_hing_plaza,kwai_hing_government_offices,2,lift,Internal Lift Lobby
+sun_kwai_hing_plaza,kwai_hing_government_offices,2,lift,internal lift lobby
 sun_kwai_hing_plaza,kwai_chung_centre,2,bridge,bridge
-sun_kwai_hing_plaza,sun_kwai_hing_gardens,3,bridge,bridge and Lift
+sun_kwai_hing_plaza,sun_kwai_hing_gardens,3,bridge,bridge and lift
 kwai_hing_concourse,kowloon_commerce_centre,3,bridge,Exit E
 kwai_hing_station_bus_terminus,shek_lei_tai_loong_street_bus_terminus,23,paid_bus,KMB 43A,uni
 cheung_hong_estate,kwai_hing_station_bus_terminus,30,paid_bus,KMB 43,uni
@@ -162,7 +162,7 @@ kwai_hing_station_bus_terminus,kwai_shing_east_bus_terminus,15,paid_bus,KMB 37M,
 kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 37M,uni
 kwai_shing_central_bus_terminus,kwai_hing_station_bus_terminus,17,paid_bus,KMB 37M,uni
 kwai_shing_east_bus_terminus,kwai_shing_east_shopping_centre,2,internal,covered walkway
-kwai_shing_east_shopping_centre,kwai_shing_east_estate,2,lift,Lifts and Walkways
+kwai_shing_east_shopping_centre,kwai_shing_east_estate,2,lift,lifts and walkways
 kwai_shing_east_bus_terminus,kwai_luen_estate,6,covered_walkway,covered walkway
 kwai_shing_central_bus_terminus,kwai_shing_west_estate,2,covered_walkway,covered walkway
 kwai_shing_central_bus_terminus,tsuen_wan_west_station_pti,65,paid_bus,KMB 34,uni
@@ -185,11 +185,11 @@ ping_tin_bus_terminus,kwai_shing_east_bus_terminus,118,paid_bus,KMB 38,uni
 shek_lei_tai_loong_street_bus_terminus,olympic_pti,60,paid_bus,KMB 31B/32,uni
 olympic_pti,shek_lei_tai_loong_street_bus_terminus,60,paid_bus,KMB 31B,uni
 shek_lei_tai_loong_street_bus_terminus,nina_tower_bus_terminus,50,paid_bus,KMB 40P,uni
-shek_lei_tai_loong_street_bus_terminus,shek_lei_shopping_centre,2,internal,escalators
+shek_lei_tai_loong_street_bus_terminus,shek_lei_shopping_centre,2,escalator,escalators
 shek_lei_shopping_centre,shek_lei_ii_estate,2,bridge,bridge
-shek_lei_ii_estate,on_yam_estate,3,bridge,bridge across Shek Pai Street and lift
+shek_lei_ii_estate,on_yam_estate,3,lift,bridge across Shek Pai Street and lift
 shek_lei_shopping_centre,shek_lei_i_estate,2,bridge,bridge
-shek_lei_i_estate,yi_fung_court,2,bridge,bridge and lift
+shek_lei_i_estate,yi_fung_court,2,lift,bridge and lift
 
 // --- TAI WO HAU HUB ---
 tai_wo_hau_concourse,tai_wo_hau_sports_centre,2,bridge,bridge across Castle Peak Road - Kwai Chung
@@ -206,7 +206,7 @@ tsuen_wan_concourse,tsuen_wan_public_library,2,bridge,Exit A3
 tsuen_wan_concourse,tsuen_wan_station_bus_stop,2,internal,Exit A4
 nan_fung_centre,tsuen_wan_public_library,2,bridge,bridge
 nan_fung_centre,lik_sang_plaza,2,bridge,bridge over Castle Peak Road - Tsuen Wan
-lik_sang_plaza,foo_yu_building,2,internal,resident lift lobby
+lik_sang_plaza,foo_yu_building,2,lift,resident lift lobby
 tsuen_wan_public_library,tsuen_wan_government_offices,2,bridge,bridge
 tsuen_wan_government_offices,cdw_building,8,bridge,bridge
 tsuen_wan_government_offices,tsuen_kam_centre,4,bridge,bridge
@@ -227,11 +227,11 @@ tsuen_wan_station_pti,riviera_gardens,27,paid_bus,KMB 238M
 // --- TSUEN WAN HUB (TML / WEST) ---
 tsuen_wan_west_concourse,tsuen_wan_west_station_pti,2,internal,Exit A1 or E1
 tsuen_wan_west_concourse,op_mall,2,internal,Exit C2 (G/F) or C4 (1/F)
-tsuen_wan_west_station_pti,op_mall,2,internal,escalator
-op_mall,ocean_pride,2,internal,resident lift lobby
-tsuen_wan_west_concourse,nina_mall_2,3,bridge,Exit C3
+tsuen_wan_west_station_pti,op_mall,2,escalator,escalator
+op_mall,ocean_pride,2,lift,resident lift lobby
+tsuen_wan_west_concourse,nina_mall_2,3,escalator,Exit C3
 tsuen_wan_west_concourse,hoi_kwai_road_pti,2,covered_walkway,Exit E2
-tsuen_wan_west_station_pti,nina_mall_2,3,bridge,Escalator and Bridge
+tsuen_wan_west_station_pti,nina_mall_2,3,bridge,escalator and bridge
 tsuen_wan_west_station_pti,bayview_garden,28,paid_bus,KMB 34
 tsuen_wan_west_station_pti,lei_muk_shue_estate,56,paid_bus,KMB 36,uni
 hoi_kwai_road_pti,riviera_gardens,20,paid_bus,Green Minibus 99
@@ -248,8 +248,8 @@ nan_fung_centre,tsuen_kam_centre,3,bridge,Footbridge
 tsuen_wan_concourse,cdw_building,10,bridge,Exit A3
 cdw_building,discovery_park,4,bridge,bridge
 discovery_park,tkc_sports_centre,2,bridge,bridge
-discovery_park,discovery_park_pti,2,internal,escalator
-tkc_sports_centre,discovery_park_pti,2,internal,escalator
+discovery_park,discovery_park_pti,2,escalator,escalator
+tkc_sports_centre,discovery_park_pti,2,escalator,escalator
 
 // --- EAST EXTENSIONS (SAI LAU KOK ROAD) ---
 fou_wah_centre,tw_carpark_building,2,bridge,bridge
@@ -263,25 +263,26 @@ tsuen_cheong_centre,ho_fai_commercial_centre_1,2,bridge,bridge
 ho_fai_commercial_centre_1,ho_fai_commercial_centre_2,2,bridge,bridge
 ho_fai_commercial_centre_1,panda_hotel,4,bridge,bridge
 ho_fai_commercial_centre_2,panda_hotel,4,bridge,bridge
-panda_hotel,panda_place,1,internal,escalator
+panda_hotel,panda_place,1,escalator,escalator
 
 // --- SOUTH EXTENSIONS ---
-citywalk_1,vision_city,2,internal,resident lift lobby
+citywalk_1,vision_city,2,lift,resident lift lobby
 citywalk_1,nina_mall_1,2,bridge,bridge over Yeung Uk Road
 nina_mall_1,citywalk_2,2,bridge,bridge
-nina_mall_1,nina_tower,2,internal,office lift lobby
-nina_mall_1,nina_hotel,2,internal,hotel lobby
-nina_mall_1,nina_tower_bus_terminus,2,internal,escalator
+nina_mall_1,nina_tower,2,lift,office lift lobby
+nina_mall_1,nina_hotel,2,lift,hotel lobby
+nina_mall_1,nina_tower_bus_terminus,2,escalator,escalator
 nina_tower,nina_tower_bus_terminus,2,internal,covered walkway
 nina_mall_1,yurmsb,2,bridge,bridge
 citywalk_2,yurmsb,2,bridge,bridge
 citywalk_2,aurora,2,bridge,bridge
-aurora,chelsea_court,3,bridge,bridge over Ma Tau Pa Road
+aurora,plaza_88,1,bridge,bridge
+plaza_88,chelsea_court,2,bridge,bridge over Ma Tau Pa Road
 chelsea_court,h_cube,3,bridge,bridge
 h_cube,indi_home,3,bridge,bridge
 nina_mall_2,nina_mall_1,2,bridge,bridge over Tai Ho Road
 nina_mall_2,op_mall,2,bridge,bridge under Tsuen Wan Road
-nina_mall_2,parc_city,2,internal,resident lift lobby
+nina_mall_2,parc_city,2,lift,resident lift lobby
 nina_mall_2,skyline_plaza,2,bridge,bridge over Tai Ho Road
 tsuen_wan_plaza,skyline_plaza,2,bridge,bridge over Hoi Shing Road and Yuen Tun Circuit
 nina_mall_2,clague_garden_estate,3,bridge,bridge over Hoi Kwai Road
@@ -366,7 +367,7 @@ wang_tau_hom_estate,tin_ma_court,5,bridge,bridge over Lung Cheung Road
 tin_ma_court,tin_wang_court,2,bridge,bridge
 lok_fu_place_zone_a,housing_authority_csc,2,bridge,bridge
 housing_authority_csc,fu_keung_court,3,bridge,bridge over Fu Keung Street
-housing_authority_csc,tak_keung_court,2,internal,resident lift lobby
+housing_authority_csc,tak_keung_court,2,lift,resident lift lobby
 
 // --- LOK FU PLACE ZONE B CONNECTIONS ---
 lok_fu_place_zone_a,lok_fu_place_zone_b,2,internal,internal mall connection
@@ -381,12 +382,12 @@ temple_mall_south,wong_tai_sin_bus_terminus,2,bridge,bridge
 temple_mall_north,temple_mall_south,2,bridge,bridge
 
 // --- DIAMOND HILL HUB ---
-diamond_hill_concourse,plaza_hollywood,2,internal,Exit C2
-plaza_hollywood,galaxia,2,internal,resident lift lobby
+diamond_hill_concourse,plaza_hollywood,2,escalator,Exit C2
+plaza_hollywood,galaxia,2,lift,resident lift lobby
 plaza_hollywood,fung_tak_estate,8,bridge,bridge over Lung Poon Street and Fung Tak Road
 fung_tak_estate,fung_lai_court,2,covered_walkway,covered walkway
-fung_tak_estate,tsz_lok_estate_phase_3,8,bridge,bridge over Po Kong Village Road
-tsz_lok_estate_phase_3,tsz_wan_shan_shopping_centre,2,bridge,bridge over Yuk Wah Street
+fung_tak_estate,tsz_lok_estate_phase_3,8,lift,lifts and bridge over Po Kong Village Road
+tsz_lok_estate_phase_3,tsz_wan_shan_shopping_centre,2,lift,lifts and bridge over Yuk Wah Street
 tsz_wan_shan_shopping_centre,tsz_hong_estate,2,bridge,bridge
 tsz_wan_shan_shopping_centre,tsz_on_court,2,covered_walkway,covered walkway
 tsz_on_court,tsz_man_estate,2,covered_walkway,covered walkway
@@ -404,13 +405,19 @@ diamond_hill_concourse,kai_chuen_court,2,internal,Exit A2
 
 // --- CHOI HUNG HUB ---
 choi_hung_concourse,choi_hung_estate,2,internal,Exit C4
-choi_hung_concourse,ngau_chi_wan_civic_centre,2,internal,Exit B
+choi_hung_concourse,ngau_chi_wan_market,2,internal,Exit B
 choi_hung_concourse,infinity_8,2,internal,Exit A3
-infinity_8,8_clear_water_bay_road,2,internal,resident lift lobby
+infinity_8,8_clear_water_bay_road,2,lift,resident lift lobby
+infinity_8,ping_shek_pti,2,escalator,escalator
+ngau_chi_wan_market,ngau_chi_wan_civic_centre,2,lift,lift lobby
+ngau_chi_wan_market,ping_shek_estate,4,bridge,bridge over Clear Water Bay Road
+choi_hung_concourse,ping_shek_estate,2,internal,Exit A2
+ping_shek_pti,ping_shek_estate,2,covered_walkway,covered walkway
+infinity_8,ping_shek_estate,2,bridge,bridge
 
 // --- KOWLOON BAY HUB ---
 kowloon_bay_concourse,telford_plaza,2,internal,Exits A or C
-telford_plaza,megabox,10,free_shuttle,free shuttle
+telford_plaza,megabox,15,free_shuttle,free shuttle
 kowloon_bay_concourse,east_kowloon_cultural_centre,4,internal,Exit B
 east_kowloon_cultural_centre,amoy_plaza,5,bridge,bridge over Ngau Tau Kok Road
 kowloon_bay_concourse,choi_ying_estate,8,bridge,Exit B and bridge
@@ -419,11 +426,27 @@ kowloon_bay_concourse,choi_ying_estate,8,bridge,Exit B and bridge
 kwun_tong_concourse,apm,2,internal,Exit A2
 kwun_tong_concourse,kwun_tong_plaza,2,internal,Exit B2
 
+// --- SAU MAU PING ---
+lam_tin_pti,po_tat_estate,15,paid_bus,Green Minibus 71A
+lam_tin_pti,sau_mau_ping_estate,16,paid_bus,Green Minibus 71B
+po_tat_estate,sau_mau_ping_south_estate,4,bridge,bridge over Sau Mau Ping Road
+po_tat_estate,sau_mau_ping_estate,2,bridge,bridge over Sau Mau Ping Road
+sau_mau_ping_estate,sau_mau_ping_south_estate,4,covered_walkway,covered walkway
+sau_mau_ping_estate,sau_mau_ping_shopping_centre,2,covered_walkway,covered walkway
+sau_mau_ping_shopping_centre,hiu_lai_court,2,bridge,bridge
+
+// --- SHUN LEE ---
+shun_lee_estate,ping_shek_pti,15,paid_bus,KMB 29M,uni
+ping_shek_pti,shun_lee_estate,50,paid_bus,KMB 29M,uni
+shun_lee_estate,shun_chi_court,2,bridge,bridge over Lee On Road
+shun_lee_estate,shun_on_estate,6,bridge,bridge
+shun_on_estate,shun_tin_estate,6,bridge,bridge
+
 // --- LAM TIN HUB ---
 lam_tin_concourse,sceneway_plaza,2,internal,Exit B
 lam_tin_concourse,laguna_city,6,covered_walkway,Exit D1
 lam_tin_concourse,sceneway_garden,3,covered_walkway,Exit D2
-sceneway_plaza,sceneway_garden,2,internal,resident lift lobby
+sceneway_plaza,sceneway_garden,2,lift,resident lift lobby
 lam_tin_concourse,lam_tin_pti,2,internal,Exit B
 lam_tin_concourse,kai_tin_shopping_centre,6,escalator,Exit A and bridge
 sceneway_plaza,kai_tin_shopping_centre,5,escalator,Exit A and bridge
@@ -431,7 +454,7 @@ sceneway_plaza,lam_tin_pti,2,internal,internal mall connection
 kai_tin_shopping_centre,kai_tin_estate,2,covered_walkway,covered walkway
 kai_tin_estate,hong_yat_court,2,bridge,bridge over Tak Tin Street
 kai_tin_shopping_centre,lam_tin_estate,4,covered_walkway,bridge over Tak Tin Street and covered walkway
-kai_tin_shopping_centre,on_tin_estate,2,internal,residential lift lobby
+kai_tin_shopping_centre,on_tin_estate,2,lift,resident lift lobby
 kai_tin_shopping_centre,ping_tin_estate,2,covered_walkway,covered walkway
 ping_tin_estate,ping_tin_shopping_centre,2,covered_walkway,covered walkway
 ping_tin_shopping_centre,hong_nga_court,2,bridge,bridge
@@ -485,12 +508,12 @@ hang_seng_hq,one_ifc,4,bridge,bridge over Connaught Road Central
 hang_seng_hq,3_exchange_square,4,bridge,bridge over Connaught Road Central
 3_exchange_square,1&2_exchange_square,6,bridge,bridge
 ifc_mall,1&2_exchange_square,4,bridge,bridge
-yue_thai_bldg,sheung_wan_concourse_mid,4,tunnel,Sheung Wan Exit C
-kam_sang_bldg,sheung_wan_concourse_mid,4,tunnel,Sheung Wan Exit B
-tung_hip_bldg,sheung_wan_concourse_mid,4,tunnel,Sheung Wan Exit A1
-shun_tak_centre,sheung_wan_concourse_mid,6,tunnel,Sheung Wan Exit D
-infinitus_plaza,sheung_wan_concourse_east,4,tunnel,Sheung Wan Exit E5
-golden_centre,sheung_wan_concourse_east,4,tunnel,Sheung Wan Exit E1
+yue_thai_bldg,sheung_wan_concourse_mid,4,internal,Sheung Wan Exit C
+kam_sang_bldg,sheung_wan_concourse_mid,4,internal,Sheung Wan Exit B
+tung_hip_bldg,sheung_wan_concourse_mid,4,internal,Sheung Wan Exit A1
+shun_tak_centre,sheung_wan_concourse_mid,6,internal,Sheung Wan Exit D
+infinitus_plaza,sheung_wan_concourse_east,4,internal,Sheung Wan Exit E5
+golden_centre,sheung_wan_concourse_east,4,internal,Sheung Wan Exit E1
 ifc_mall,central_pier_3,6,bridge,bridge
 central_yards,central_pier_7,6,bridge,bridge
 central_pier_3,central_pier_7,6,internal,covered walkway
@@ -512,14 +535,14 @@ central_market,mid_levels_escalator,4,bridge,bridge over Queen's Road Central
 hang_seng_hq,nexxus_bldg,2,bridge,bridge over Queen Victoria Street
 landmark_gloucester,alexandra_house,2,bridge,bridge over Des Voeux Road Central
 landmark_mall,alexandra_house,2,bridge,bridge over Des Voeux Road Central
-landmark_mall,bea_bldg,2,internal,Internal Landmark Connection
-landmark_mall,central_bldg,2,internal,Internal Landmark Connection
+landmark_mall,bea_bldg,2,internal,internal Landmark connection
+landmark_mall,central_bldg,2,internal,internal Landmark connection
 central_bldg,central_tower,2,bridge,bridge over Queen's Road Central
 central_tower,entertainment_bldg,2,bridge,bridge over Wyndham Street
 landmark_mall,9qrc,6,bridge,bridge over Ice House Street
-landmark_gloucester,landmark_mall,2,internal,Internal Landmark Connection
-landmark_edinburgh,landmark_mall,2,internal,Internal Landmark Connection
-landmark_york,landmark_mall,2,internal,Internal Landmark Connection
+landmark_gloucester,landmark_mall,2,lift,office lift lobby
+landmark_edinburgh,landmark_mall,2,lift,office lift lobby
+landmark_york,landmark_mall,2,lift,office lift lobby
 alexandra_house,princes_bldg,2,bridge,bridge over Ice House Street
 princes_bldg,mandarin_oriental,2,bridge,bridge over Chater Road
 princes_bldg,9qrc,4,bridge,bridge over Des Voeux Road Central
@@ -550,20 +573,20 @@ one_ifc,hong_kong_concourse,4,escalator,Hong Kong Exit E
 two_ifc,hong_kong_concourse,4,escalator,Hong Kong Exit A
 ifc_mall,hong_kong_concourse,4,escalator,Hong Kong Exits A/E/F
 world_wide_house,central_concourse_west,5,escalator,Central Exits A/B
-chater_house,central_concourse_mid,4,escalator,Central Exit E
-alexandra_house,central_concourse_mid,4,escalator,Central Exit H
-landmark_mall,central_concourse_mid,4,escalator,Central Exit G
-chater_garden,central_concourse_east,4,escalator,Central Exit J2
+chater_house,central_concourse_mid,4,staircase,Central Exit E
+alexandra_house,central_concourse_mid,4,internal,Central Exit H
+landmark_mall,central_concourse_mid,4,internal,Central Exit G
+chater_garden,central_concourse_east,4,internal,Central Exit J2
 ccb_tower,central_concourse_east,4,escalator,Central Exit L
-queensway_plaza,admiralty_concourse,2,escalator,Admiralty Exits B/C
-admiralty_centre,admiralty_concourse,2,escalator,Admiralty Exit A
-admiralty_exit_e2,admiralty_concourse,6,escalator,Admiralty Exit E2 Escalator
-central_concourse_west,central_concourse_mid,4,tunnel,Central MTR Unpaid Link
-central_concourse_mid,central_concourse_east,4,tunnel,Central MTR Unpaid Link
-pacific_place_lg1,pacific_place_l2,8,internal,internal escalators
+queensway_plaza,admiralty_concourse,2,internal,Admiralty Exits B/C
+admiralty_centre,admiralty_concourse,2,internal,Admiralty Exit A
+admiralty_exit_e2,admiralty_concourse,6,escalator,Admiralty Exit E2 escalator
+central_concourse_west,central_concourse_mid,4,tunnel,Central MTR unpaid link
+central_concourse_mid,central_concourse_east,4,tunnel,Central MTR unpaid link
+pacific_place_lg1,pacific_place_l2,8,escalator,internal escalators
 pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
 pacific_place_lg1,three_pacific_place,4,tunnel,tunnel
-pacific_place_l2,queensway_gov_offices,2,bridge,Short Bridge
+pacific_place_l2,queensway_gov_offices,2,bridge,short bridge
 pacific_place_l2,united_centre,6,bridge,bridge over Queensway
 pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
@@ -624,16 +647,16 @@ harbour_glory,fortress_hill_t_junction,6,bridge,bridge
 
 // --- NORTH POINT HUB ---
 north_point_platform_isl,north_point_concourse,2,fare_gate,fare gates
-north_point_concourse,odeon_building,2,escalator,Exits A1-A3 to Odeon Building
-north_point_concourse,china_united_centre,2,escalator,Exit A4 to China United Centre
-north_point_concourse,roca_centre,2,escalator,Exit B to Roca Centre
+north_point_concourse,odeon_building,2,internal,Exits A1-A3 to Odeon Building
+north_point_concourse,china_united_centre,2,internal,Exit A4 to China United Centre
+north_point_concourse,roca_centre,2,internal,Exit B to Roca Centre
 
 // --- TAI KOO HUB ---
 tai_koo_platform,tai_koo_concourse,2,fare_gate,fare gates
 tai_koo_concourse,cityplaza_gf,4,internal,Exit D2 to Cityplaza G/F
 tai_koo_concourse,cityplaza_2f,4,internal,Exit E1 to Cityplaza 2/F
-cityplaza_gf,cityplaza_1f,3,internal,internal escalators
-cityplaza_1f,cityplaza_2f,2,internal,internal escalators
+cityplaza_gf,cityplaza_1f,3,escalator,internal escalators
+cityplaza_1f,cityplaza_2f,2,escalator,internal escalators
 cityplaza_gf,horizon_gardens,2,internal,covered walkway
 cityplaza_1f,kam_din_terrace,2,bridge,bridge over Tai Mou Avenue
 cityplaza_1f,sing_fai_terrace,2,bridge,bridge over Tai Fung Avenue
@@ -641,17 +664,17 @@ cityplaza_2f,east_hk,2,bridge,bridge
 cityplaza_2f,kao_shan_terrace,2,bridge,bridge over Tai Fung Avenue
 cityplaza_2f,12_taikoo,2,bridge,bridge over Taikoo Wan Road
 cityplaza_2f,14_taikoo,2,bridge,bridge over Taikoo Wan Road
-cityplaza_2f,1111_kings,6,internal,internal escalators
+cityplaza_2f,1111_kings,6,escalator,internal escalators
 tai_koo_concourse,kornhill_plaza_n,4,internal,Exit A2 to Kornhill Plaza (North)
 tai_koo_concourse,kornhill_plaza_s,4,internal,Exit C to Kornhill Plaza (South)
 kornhill_plaza_n,kornhill_plaza_s,2,bridge,bridge over Kornhill Road
-kornhill_plaza_s,kornhill_a-h,8,escalator,Escalator and Bridge
-kornhill_plaza_s,kornhill_j-m,6,escalator,Escalator and Bridge
+kornhill_plaza_s,kornhill_a-h,8,escalator,escalator and bridge
+kornhill_plaza_s,kornhill_j-m,6,escalator,escalator and bridge
 kornhill_a-h,kornhill_j-m,4,staircase,Staircase
 
 // --- SAI WAN HO HUB ---
 sai_wan_ho_platform,sai_wan_ho_concourse,2,fare_gate,fare gates
-sai_wan_ho_concourse,felicity_garden,2,escalator,Exit A to Felicity Garden
+sai_wan_ho_concourse,felicity_garden,2,internal,Exit A to Felicity Garden
 
 // --- HENG FA CHUEN HUB ---
 heng_fa_chuen_platform,heng_fa_chuen_concourse,2,fare_gate,fare gates
@@ -696,12 +719,13 @@ tung_chung_platform,tung_chung_concourse,2,fare_gate,fare gates
 kowloon_concourse,elements_mall,2,internal,internal mall connection
 elements_mall,austin_concourse,15,bridge,Exit B5
 elements_mall,west_kowloon_station,15,bridge,Exit M
-elements_mall,icc,2,internal,internal mall entrance
-elements_mall,the_arch,4,internal,resident lift lobby
-elements_mall,sorrento,4,internal,resident lift lobby
-elements_mall,the_waterfront,4,internal,resident lift lobby
-elements_mall,the_harbourside,4,internal,resident lift lobby
-elements_mall,the_cullinan,4,internal,resident lift lobby
+elements_mall,icc,2,lift,office lift lobby
+elements_mall,ritz_carlton,2,lift,hotel lobby
+elements_mall,the_arch,4,lift,resident lift lobby
+elements_mall,sorrento,4,lift,resident lift lobby
+elements_mall,the_waterfront,4,lift,resident lift lobby
+elements_mall,the_harbourside,4,lift,resident lift lobby
+elements_mall,the_cullinan,4,lift,resident lift lobby
 austin_concourse,west_kowloon_station,2,internal,Exit C to Hong Kong West Kowloon Station,uni
 west_kowloon_station,austin_concourse,2,internal,Exit A to Austin Station,uni
 west_kowloon_station,igc,2,internal,Exit L
@@ -713,23 +737,23 @@ olympic_concourse,olympian_city_one,3,bridge,Exits A2 or E
 olympian_city_one,island_harbourview,2,bridge,bridge
 olympian_city_one,bank_of_china_centre,2,internal,internal mall connection
 olympic_concourse,hsbc_centre,3,bridge,Exits B or C
-hsbc_centre,olympic_pti,2,internal,escalator
+hsbc_centre,olympic_pti,2,escalator,escalator
 hsbc_centre,harbour_green,4,bridge,bridge
 olympian_city_one,harbour_green,5,bridge,bridge
 olympic_concourse,west9zone,3,bridge,Exit C5
-west9zone,florient_rise,2,internal,resident lift lobby
+west9zone,florient_rise,2,lift,resident lift lobby
 olympic_concourse,olympian_city_two,2,internal,Exit D3
 olympian_city_two,olympian_city_three,2,bridge,bridge
-olympian_city_three,the_hermitage,2,internal,resident lift lobby
-olympian_city_two,central_park,2,internal,resident lift lobby
+olympian_city_three,the_hermitage,2,lift,resident lift lobby
+olympian_city_two,central_park,2,lift,resident lift lobby
 olympian_city_two,hoi_fu_court,4,internal,bridge
-olympian_city_two,park_avenue,3,internal,resident lift lobby
+olympian_city_two,park_avenue,3,lift,resident lift lobby
 central_park,park_avenue,2,internal,covered walkway
 
 // --- NAM CHEONG HUB ---
 nam_cheong_concourse,v_walk,2,internal,Exits A2 or D2
 v_walk,fu_cheong_estate,2,bridge,bridge
-v_walk,cullinan_west,2,internal,resident lift lobby
+v_walk,cullinan_west,2,lift,resident lift lobby
 v_walk,hoi_tat_estate,6,bridge,bridge
 hoi_tat_estate,sham_shui_po_lcst_building,2,internal,podium
 sham_shui_po_lcst_building,hoi_ying_estate,3,bridge,bridge
@@ -737,7 +761,7 @@ sham_shui_po_lcst_building,aqua_marine,3,bridge,bridge through Aeon (accessible 
 
 // --- TSING YI HUB ---
 tsing_yi_concourse,maritime_square_1,2,internal,Exits A2, B (both 1/F), F (3/F) or G (2/F)
-maritime_square_1,tierra_verde,2,internal,resident lift lobby
+maritime_square_1,tierra_verde,2,lift,resident lift lobby
 maritime_square_1,villa_esplanada,4,bridge,bridges
 tsing_yi_concourse,maritime_square_2,2,bridge,Exit A1
 maritime_square_1,maritime_square_2,2,bridge,bridge
@@ -838,7 +862,7 @@ sheung_shui_platform_sb,fanling_platform,4,paid_train,East Rail Line (MTR),uni
 exhibition_centre_platform,exhibition_centre_concourse,2,fare_gate,fare gates
 exhibition_centre_concourse,wcn_junction,3,bridge,Exit A3 Escalator
 exhibition_centre_concourse,great_eagle_ctr,4,bridge,Exit B3 Escalator
-exhibition_centre_concourse,hkcec,6,bridge,Exit B3 Escalator and Bridge
+exhibition_centre_concourse,hkcec,6,bridge,Exit B3 escalator and bridge
 
 // --- HUNG HOM HUB ---
 hung_hom_platform_erl,hung_hom_concourse,2,fare_gate,fare gates
@@ -923,7 +947,7 @@ fanling_station_road,luen_wo_hui_pti,15,paid_bus,KMB 278K
 apm,luen_wo_hui_pti,95,paid_bus,KMB 277X,uni
 lam_tin_pti,luen_wo_hui_pti,105,paid_bus,KMB 277X
 tsing_yi_pti,luen_wo_hui_pti,100,paid_bus,KMB 279X
-luen_wo_hui_pti,regentville,2,internal,escalator
+luen_wo_hui_pti,regentville,2,escalator,escalator
 regentville,grand_regentville,2,bridge,bridge over Wo Mun Street
 regentville,wing_fai_centre,2,bridge,bridge over Wo Tai Street
 regentville,belair_monte,2,bridge,bridge over Wo Mun Street
@@ -932,14 +956,14 @@ wing_fai_centre,belair_monte,2,bridge,bridge over Wo Tai Street
 grand_regentville,belair_monte,2,bridge,bridge
 grand_regentville,green_code,2,bridge,bridge
 wing_fai_centre,green_code,2,bridge,bridge
-one_innovale,wing_fai_centre,2,bridge,bridge over Ma Sik Road
+one_innovale,wing_fai_centre,3,bridge,bridge over Ma Sik Road
 one_innovale,belair_monte,2,bridge,bridge over Ma Sik Road
 
 // --- SHEUNG SHUI HUB ---
 sheung_shui_concourse,landmark_north,2,bridge,Exit A4
 landmark_north,spot,2,bridge,bridge
 landmark_north,metropolis_plaza,2,bridge,bridge
-sheung_shui_bus_terminus,landmark_north,2,internal,escalator
+sheung_shui_bus_terminus,landmark_north,2,escalator,escalator
 nina_tower_bus_terminus,sheung_shui_bus_terminus,100,paid_bus,KMB 278X
 metropolis_plaza,lung_fung_garden,2,bridge,bridge
 lung_fung_garden,shek_wu_hui_municipal_services_building,2,bridge,bridge
