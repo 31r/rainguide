@@ -341,6 +341,21 @@
 					"sceneway_plaza": "Sceneway Plaza / 匯景廣場",
 					"tak_tin_estate": "Tak Tin Estate / 德田邨"
 				},
+				"Yau Tong (油塘)": {
+					"domain_mall": "Domain Mall / 大本型",
+					"ko_cheung_court": "Ko Cheung Court / 高翔苑",
+					"ko_chun_court": "Ko Chun Court / 高俊苑",
+					"ko_wang_court": "Ko Wang Court / 高宏苑",
+					"ko_yee_estate": "Ko Yee Estate / 高怡邨",
+					"lei_yue_mun_estate": "Lei Yue Mun Estate / 鯉魚門邨",
+					"lei_yue_mun_plaza": "Lei Yue Mun Plaza / 鯉魚門廣場",
+					"yau_chui_court": "Yau Chui Court / 油翠苑",
+					"yau_lai_estate": "Yau Lai Estate / 油麗邨",
+					"yau_lai_shopping_centre": "Yau Lai Shopping Centre / 油麗商場",
+					"yau_mei_court": "Yau Mei Court / 油美苑",
+					"yau_tong_estate_north": "Yau Tong Estate (Mei/Wah/Wing Tong House) / 油塘邨 (美/華/榮塘樓)",
+					"yau_tong_estate_south": "Yau Tong Estate (Fu/Kwai Tong House) / 油塘邨 (富/貴塘樓)"
+				},
 			},
 			"Tsuen Wan District (荃灣區)": {
 				"Lei Muk Shue (梨木樹)": {

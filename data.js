@@ -462,6 +462,24 @@ hong_nga_court,tak_tin_estate,2,covered_walkway,covered walkway
 hong_nga_court,kwong_tin_estate,2,covered_walkway,covered walkway
 kwong_tin_estate,hong_pak_court,2,bridge,bridge or underpass
 
+// --- YAU TONG HUB ---
+yau_tong_concourse,yau_lai_shopping_centre,2,covered_walkway,Exit B1
+yau_lai_shopping_centre,yau_lai_estate,2,covered_walkway,covered walkway
+yau_lai_estate,yau_tong_estate_north,3,bridge,bridge over Yau Tong Lane
+yau_tong_estate_north,yau_chui_court,3,covered_walkway,covered walkway
+yau_tong_estate_north,yau_tong_estate_south,4,covered_walkway,covered walkway
+yau_tong_concourse,yau_tong_estate_south,3,escalator,Exit A1
+yau_tong_estate_south,lei_yue_mun_plaza,2,bridge,bridge
+lei_yue_mun_plaza,yau_mei_court,2,lift,resident lift lobby
+yau_tong_concourse,domain_mall,2,internal,Exit A1
+domain_mall,yau_tong_estate_south,2,covered_walkway,covered walkway
+domain_mall,lei_yue_mun_plaza,2,bridge,bridge
+lei_yue_mun_plaza,ko_cheung_court,2,bridge,bridge over Lei Yue Mun Road
+ko_cheung_court,ko_yee_estate,2,lift,covered walkway and lift
+ko_yee_estate,ko_chun_court,3,lift,bridge over Ko Chiu Road and lift
+lei_yue_mun_plaza,lei_yue_mun_estate,3,bridge,bridge over Ko Chiu Road
+lei_yue_mun_plaza,ko_wang_court,2,lift,covered walkway and lift
+
 // --- ISLAND LINE (TRAIN TRACKS) ---
 kennedy_town_platform,hku_platform,4,paid_train,Island Line (MTR)
 hku_platform,sai_ying_pun_platform,4,paid_train,Island Line (MTR)
