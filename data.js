@@ -610,18 +610,18 @@ pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
 
 // --- CENTRAL TO HONG KONG PAID TUNNEL ---
-central_platform_isl,hong_kong_platform,11,paid_tunnel,Paid tunnel with moving walkways
+central_platform_isl,hong_kong_platform,8,paid_tunnel,Paid tunnel with moving walkways
 hong_kong_platform,hong_kong_concourse,2,fare_gate,fare gates to HK Station Exits
 
 // --- SHEUNG WAN TO ADMIRALTY MTR PLATFORMS & FARE GATES ---
 sheung_wan_platform,sheung_wan_concourse_mid,2,fare_gate,fare gates to Exits A-D
 sheung_wan_platform,sheung_wan_concourse_east,4,fare_gate,fare gates to Exit E
-central_platform_isl,central_concourse_west,6,fare_gate,fare gates to Exits A-D
-central_platform_isl,central_concourse_mid,6,fare_gate,fare gates to Exits E-H
-central_platform_isl,central_concourse_east,7,fare_gate,fare gates to Exits J-L
-central_platform_twl,central_concourse_west,7,fare_gate,fare gates to Exits A-D
-central_platform_twl,central_concourse_mid,7,fare_gate,fare gates to Exits E-H
-central_platform_twl,central_concourse_east,6,fare_gate,fare gates to Exits J-L
+central_platform_isl,central_concourse_west,5,fare_gate,fare gates to Exits A-D
+central_platform_isl,central_concourse_mid,5,fare_gate,fare gates to Exits E-H
+central_platform_isl,central_concourse_east,6,fare_gate,fare gates to Exits J-L
+central_platform_twl,central_concourse_west,6,fare_gate,fare gates to Exits A-D
+central_platform_twl,central_concourse_mid,6,fare_gate,fare gates to Exits E-H
+central_platform_twl,central_concourse_east,5,fare_gate,fare gates to Exits J-L
 admiralty_platform_isl,admiralty_concourse,2,fare_gate,fare gates to/from Island Line platforms
 admiralty_platform_twl,admiralty_concourse,2,fare_gate,fare gates to/from Tsuen Wan Line platforms
 admiralty_platform_erl,admiralty_concourse,4,fare_gate,fare gates to/from East Rail and South Island Line platforms
