@@ -778,7 +778,7 @@ sham_shui_po_lcst_building,hoi_ying_estate,3,bridge,bridge
 sham_shui_po_lcst_building,aqua_marine,3,bridge,bridge through Aeon (accessible 08:30 - 22:30 only)
 
 // --- TSING YI HUB ---
-tsing_yi_concourse,maritime_square_1,2,internal,Exits A2, B (both 1/F), F (3/F) or G (2/F)
+tsing_yi_concourse,maritime_square_1,2,internal,Exits A2/B (both 1/F) / F (3/F) / G (2/F)
 maritime_square_1,tierra_verde,2,lift,resident lift lobby
 maritime_square_1,villa_esplanada,4,bridge,bridges
 tsing_yi_concourse,maritime_square_2,2,bridge,Exit A1
