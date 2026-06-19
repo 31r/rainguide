@@ -226,18 +226,23 @@
                 for (let edge of graph[currNode]) {
                     // Identify if the next edge is a vehicle ride
                     const isVehicle = edge.type.includes('train') || edge.type.includes('bus') || edge.type.includes('rail');
-                    const nextLine = isVehicle ? edge.desc : '';
+                    
+                    // FIX 1: Change 'const' to 'let' so it can be dynamically modified!
+                    let nextLine = isVehicle ? edge.desc : '';
 
                     // APPLY THE PENALTY: If we are on a vehicle, jump to a new vehicle, and the descriptions don't match
                     let penalty = 0;
                     if (currLine !== '' && nextLine !== '') {
                         
-                        // NEW: If the multi-bus edge contains the bus we are already on, stay on it!
+                        // FIX 2: Bi-directional overlap checking
                         if (nextLine.includes(currLine)) {
+                            // We are on a specific bus, entering a merged segment. Stay specific.
                             nextLine = currLine; 
-                        } 
-                        // Otherwise, apply the penalty for changing routes
-                        else if (currLine !== nextLine) {
+                        } else if (currLine.includes(nextLine)) {
+                            // We started on a merged segment, and are now entering a specific route.
+                            // Narrow it down to the specific route. No penalty!
+                        } else {
+                            // Otherwise, apply the penalty for changing routes
                             penalty = TRANSFER_PENALTY; 
                         }
                     }
