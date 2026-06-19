@@ -129,39 +129,54 @@
             lines.forEach(line => {
                 const parts = line.split(',');
                 if (parts.length < 5) return;
-                const [start, end, weightStr, type, desc, dir] = parts;
-                const u = start ? start.trim() : '';
-                const v = end ? end.trim() : '';
-                if (!u || !v) return;
-
-                const edgeType = type ? type.trim() : '';
                 
-                // 1. Core check: If no paid rides allowed, kill everything paid
+                // 1. Properly extract the first four fixed columns
+                const start = parts[0].trim();
+                const end = parts[1].trim();
+                const weightStr = parts[2].trim();
+                const edgeType = parts[3].trim();
+                
+                const u = start;
+                const v = end;
+                if (!u || !v) return;
+                
+                // Core check: If no paid rides allowed, kill everything paid
                 if (!allowPaid && (edgeType.includes('paid') || edgeType === 'premium_train' || edgeType === 'fare_gate' || edgeType === 'residents_bus')) {
                     return; 
                 }
                 
-                // 2. Premium check: If paid is allowed but premium is unchecked, kill premium trains
+                // Premium check: If paid is allowed but premium is unchecked, kill premium trains
                 if (!allowPremium && edgeType === 'premium_train') {
                     return;
                 }
                 
-                const w = parseInt(weightStr.trim());
+                const w = parseInt(weightStr);
+
+                // 2. Handle the optional 'uni' flag at the very end
+                let dir = '';
+                if (parts[parts.length - 1].trim() === 'uni') {
+                    dir = 'uni';
+                    parts.pop(); // Remove 'uni' so it doesn't get glued into the description
+                }
+                
+                // 3. Glue the remaining parts back together as the description string
+                let descStr = parts.slice(4).join(',').trim();
+                
+                // (Optional) Remove wrapping quotes if you used them in the CSV
+                if (descStr.startsWith('"') && descStr.endsWith('"')) {
+                    descStr = descStr.substring(1, descStr.length - 1);
+                }
 
                 if (!graph[u]) graph[u] = [];
                 if (!graph[v]) graph[v] = [];
 
                 const addEdge = (from, to, weight, eType, description) => {
-                    // Look for an identical parallel edge
                     let existingEdge = graph[from].find(e => e.node === to && e.weight === weight && e.type === eType);
-                    
                     if (existingEdge) {
-                        // If it exists, just append the new bus/route name to the description!
                         if (!existingEdge.desc.includes(description)) {
                             existingEdge.desc += ' / ' + description;
                         }
                     } else {
-                        // Otherwise, create a normal new edge
                         graph[from].push({ node: to, weight: weight, type: eType, desc: description });
                     }
                 };
