@@ -234,15 +234,17 @@
                     let penalty = 0;
                     if (currLine !== '' && nextLine !== '') {
                         
-                        // FIX 2: Bi-directional overlap checking
-                        if (nextLine.includes(currLine)) {
-                            // We are on a specific bus, entering a merged segment. Stay specific.
-                            nextLine = currLine; 
-                        } else if (currLine.includes(nextLine)) {
-                            // We started on a merged segment, and are now entering a specific route.
-                            // Narrow it down to the specific route. No penalty!
+                        const currRoutes = currLine.split(' / ');
+                        const nextRoutes = nextLine.split(' / ');
+                        
+                        // Find if there is an exact matching route between the two edges
+                        const intersection = currRoutes.find(r => nextRoutes.includes(r));
+
+                        if (intersection) {
+                            // Collapse the state down to the specific common route
+                            nextLine = intersection; 
                         } else {
-                            // Otherwise, apply the penalty for changing routes
+                            // Apply the penalty for changing routes
                             penalty = TRANSFER_PENALTY; 
                         }
                     }
@@ -539,8 +541,16 @@
                         const nextEdge = route.edges[i+1]; // Look ahead
                         const isNextRide = (nextEdge && (nextEdge.type === 'paid_train' || nextEdge.type === 'premium_train' || nextEdge.type === 'paid_bus'));
                         
-                        // 1. Collapse the UI if staying on the exact same route
-                        if (isNextRide && nextEdge.desc === edge.desc) {
+                        // Determine if the current merged route shares a specific vehicle with the next edge
+                        let sharesRoute = false;
+                        if (isNextRide) {
+                            const currRoutes = edge.desc.split(' / ');
+                            const nextRoutes = nextEdge.desc.split(' / ');
+                            sharesRoute = currRoutes.some(r => nextRoutes.includes(r));
+                        }
+                        
+                        // 1. Collapse the UI if staying on the same continuous route
+                        if (isNextRide && sharesRoute) {
                             continue; 
                         }
                         
@@ -552,7 +562,7 @@
                             rideLabel = '✈️ Board premium train to';
                             borderClass = 'border-teal-500 bg-teal-50/50 rounded-r-lg';
                         } else if (edge.type === 'paid_bus') {
-                            rideLabel = '🚌 Ride bus to'; // Changed to "Ride" for better flow
+                            rideLabel = '🚌 Ride bus to'; 
                             borderClass = 'border-green-500';
                         }
 
@@ -562,8 +572,8 @@
                             <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
                         </li>`;
 
-                        // 3. INJECT THE TRANSFER: If changing to a different route at the same node
-                        if (isNextRide && nextEdge.desc !== edge.desc) {
+                        // 3. INJECT THE TRANSFER: If changing to a completely different route
+                        if (isNextRide && !sharesRoute) {
                             routeList.innerHTML += `
                             <li class="pl-4 border-l-4 border-purple-400 ml-2 py-2 bg-purple-50/50 rounded-r-lg">
                                 🔄 Transfer at <span class="font-semibold">${getNodeName(v)}</span> 
