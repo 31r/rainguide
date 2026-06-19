@@ -150,10 +150,25 @@
 
                 if (!graph[u]) graph[u] = [];
                 if (!graph[v]) graph[v] = [];
-                
-                graph[u].push({ node: v, weight: w, type: edgeType, desc: desc ? desc.trim() : 'Walkway' });
+
+                const addEdge = (from, to, weight, eType, description) => {
+                    // Look for an identical parallel edge
+                    let existingEdge = graph[from].find(e => e.node === to && e.weight === weight && e.type === eType);
+                    
+                    if (existingEdge) {
+                        // If it exists, just append the new bus/route name to the description!
+                        if (!existingEdge.desc.includes(description)) {
+                            existingEdge.desc += ' / ' + description;
+                        }
+                    } else {
+                        // Otherwise, create a normal new edge
+                        graph[from].push({ node: to, weight: weight, type: eType, desc: description });
+                    }
+                };
+
+                addEdge(u, v, w, edgeType, descStr);
                 if (dir !== 'uni') {
-                    graph[v].push({ node: u, weight: w, type: edgeType, desc: desc ? desc.trim() : 'Walkway' });
+                    addEdge(v, u, w, edgeType, descStr);
                 }
             });
         }
@@ -200,8 +215,16 @@
 
                     // APPLY THE PENALTY: If we are on a vehicle, jump to a new vehicle, and the descriptions don't match
                     let penalty = 0;
-                    if (currLine !== '' && nextLine !== '' && currLine !== nextLine) {
-                        penalty = TRANSFER_PENALTY; 
+                    if (currLine !== '' && nextLine !== '') {
+                        
+                        // NEW: If the multi-bus edge contains the bus we are already on, stay on it!
+                        if (nextLine.includes(currLine)) {
+                            nextLine = currLine; 
+                        } 
+                        // Otherwise, apply the penalty for changing routes
+                        else if (currLine !== nextLine) {
+                            penalty = TRANSFER_PENALTY; 
+                        }
                     }
 
                     let alt = currDist + edge.weight + penalty;

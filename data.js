@@ -158,28 +158,28 @@ tsuen_wan_west_station_pti,kwai_chung_estate,33,paid_bus,KMB 43,uni
 kwai_chung_estate,cheung_hong_estate,33,paid_bus,KMB 43,uni
 
 // --- KWAI SHING ---
-kwai_hing_station_bus_terminus,kwai_shing_east_bus_terminus,15,paid_bus,KMB 37M,uni
-kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 37M,uni
-kwai_shing_central_bus_terminus,kwai_hing_station_bus_terminus,17,paid_bus,KMB 37M,uni
-kwai_shing_east_bus_terminus,kwai_shing_east_shopping_centre,2,internal,covered walkway
-kwai_shing_east_shopping_centre,kwai_shing_east_estate,2,lift,lifts and walkways
-kwai_shing_east_bus_terminus,kwai_luen_estate,6,covered_walkway,covered walkway
-kwai_shing_central_bus_terminus,kwai_shing_west_estate,2,covered_walkway,covered walkway
 kwai_shing_central_bus_terminus,tsuen_wan_west_station_pti,65,paid_bus,KMB 34,uni
 tsuen_wan_west_station_pti,kwai_shing_east_bus_terminus,67,paid_bus,KMB 34,uni
 kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 34,uni
 kwai_shing_central_bus_terminus,olympic_pti,84,paid_bus,KMB 37,uni
 olympic_pti,kwai_shing_east_bus_terminus,88,paid_bus,KMB 37,uni
 kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 37,uni
+kwai_hing_station_bus_terminus,kwai_shing_east_bus_terminus,15,paid_bus,KMB 37M,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 37M,uni
+kwai_shing_central_bus_terminus,kwai_hing_station_bus_terminus,17,paid_bus,KMB 37M,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 38,uni
+kwai_shing_central_bus_terminus,lam_tin_station_bus_terminus,95,paid_bus,KMB 38,uni
+lam_tin_station_bus_terminus,ping_tin_bus_terminus,20,paid_bus,KMB 38,uni
+ping_tin_bus_terminus,kwai_shing_east_bus_terminus,118,paid_bus,KMB 38,uni
+kwai_shing_east_bus_terminus,kwai_shing_east_shopping_centre,2,internal,covered walkway
+kwai_shing_east_shopping_centre,kwai_shing_east_estate,2,lift,lifts and walkways
+kwai_shing_east_bus_terminus,kwai_luen_estate,6,covered_walkway,covered walkway
+kwai_shing_central_bus_terminus,kwai_shing_west_estate,2,covered_walkway,covered walkway
 kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X,uni
 kwai_shing_central_bus_terminus,kwai_fong_station_bus_terminus,16,paid_bus,KMB 47X,uni
 sha_tin_central_pti,kwai_shing_east_bus_terminus,64,paid_bus,KMB 47X,uni
 kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X,uni
 kwai_shing_central_bus_terminus,kwai_shing_east_bus_terminus,10,paid_bus,KMB 47X,uni
-kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 38,uni
-kwai_shing_central_bus_terminus,lam_tin_station_bus_terminus,95,paid_bus,KMB 38,uni
-lam_tin_station_bus_terminus,ping_tin_bus_terminus,20,paid_bus,KMB 38,uni
-ping_tin_bus_terminus,kwai_shing_east_bus_terminus,118,paid_bus,KMB 38,uni
 
 // --- SHEK LEI HUB ---
 shek_lei_tai_loong_street_bus_terminus,olympic_pti,60,paid_bus,KMB 31B/32,uni
