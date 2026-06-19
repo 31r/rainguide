@@ -144,8 +144,12 @@ kwai_hing_concourse,kwai_hing_station_bus_terminus,2,internal,Exit B
 kwai_hing_station_bus_terminus,sun_kwai_hing_plaza,3,escalator,Escalator
 sun_kwai_hing_plaza,kwai_hing_government_offices,2,lift,internal lift lobby
 sun_kwai_hing_plaza,kwai_chung_centre,2,bridge,bridge
+sun_kwai_hing_plaza,mtc,3,bridge,bridge over Kwai Chung Road
+kwai_chung_centre,mtc,3,bridge,bridge over Kwai Chung Road
 sun_kwai_hing_plaza,sun_kwai_hing_gardens,3,bridge,bridge and lift
+kwai_hing_concourse,life_kcc,2,bridge,Exit E
 kwai_hing_concourse,kowloon_commerce_centre,3,bridge,Exit E
+life_kcc,kowloon_commerce_centre,2,bridge,bridge
 kwai_hing_station_bus_terminus,shek_lei_tai_loong_street_bus_terminus,23,paid_bus,KMB 43A,uni
 cheung_hong_estate,kwai_hing_station_bus_terminus,30,paid_bus,KMB 43,uni
 kwai_hing_station_bus_terminus,tsuen_wan_west_station_pti,40,paid_bus,KMB 43,uni

@@ -313,7 +313,7 @@
 					"telford_plaza": "Telford Plaza / 德福廣場"
 				},
 				"Kwun Tong (觀塘)": {
-					"apm": "apm / apm",
+					"apm": "apm / 創紀之城5期",
 					"kwun_tong_plaza": "Kwun Tong Plaza / 觀塘廣場",
 					"po_tat_estate": "Po Tat Estate / 寶達邨",
 					"sau_mau_ping_estate": "Sau Mau Ping Estate / 秀茂坪邨",
@@ -530,6 +530,8 @@
 					"kowloon_commerce_centre": "Kowloon Commerce Centre / 九龍貿易中心",
 					"kwai_hing_government_offices": "Kwai Hing Government Offices / 葵興政府合署",
 					"kwai_hing_station_bus_terminus": "Kwai Hing Station Bus Terminus / 葵興站巴士總站",
+					"life_kcc": "Life@KCC / 活@KCC",
+					"mtc": "Millennium Trade Centre / 貿易之都",
 					"sun_kwai_hing_gardens": "Sun Kwai Hing Gardens / 新葵興花園",
 					"sun_kwai_hing_plaza": "Sun Kwai Hing Plaza / 新葵興廣場"
 				},
