@@ -485,6 +485,18 @@ ko_yee_estate,ko_chun_court,3,lift,bridge over Ko Chiu Road and lift
 lei_yue_mun_plaza,lei_yue_mun_estate,3,bridge,bridge over Ko Chiu Road
 lei_yue_mun_plaza,ko_wang_court,2,lift,covered walkway and lift
 
+// --- TIU KENG LENG HUB ---
+tiu_keng_leng_concourse,metro_town,2,internal,Exit B
+metro_town,ocean_shores,2,bridge,bridge over Chui Ling Road
+metro_town,choi_ming_shopping_centre,3,bridge,bridge over Choi Ming Street
+choi_ming_shopping_centre,kin_ming_estate,2,covered_walkway,covered walkway
+choi_ming_shopping_centre,choi_ming_court,2,covered_walkway,covered walkway
+metro_town,hong_kong_design_institute,2,bridge,bridge over King Ling Road
+hong_kong_design_institute,ive_lee_wai_lee,2,bridge,bridge
+ive_lee_wai_lee,tiu_keng_leng_sports_centre,2,bridge,bridge
+tiu_keng_leng_sports_centre,tiu_keng_leng_public_library,1,internal,internal walkway
+metro_town,shin_ming_estate,3,covered_walkway,covered walkway
+
 // --- ISLAND LINE (TRAIN TRACKS) ---
 kennedy_town_platform,hku_platform,4,paid_train,Island Line (MTR)
 hku_platform,sai_ying_pun_platform,4,paid_train,Island Line (MTR)
@@ -596,6 +608,7 @@ one_ifc,hong_kong_concourse,4,escalator,Hong Kong Exit E
 two_ifc,hong_kong_concourse,4,escalator,Hong Kong Exit A
 ifc_mall,hong_kong_concourse,4,escalator,Hong Kong Exits A/E/F
 world_wide_house,central_concourse_west,5,escalator,Central Exits A/B
+central_concourse_west,wheelock_house,4,internal,Exit C via Citibank (🕒 Mon-Fri 09:30-17:00)
 chater_house,central_concourse_mid,4,staircase,Central Exit E
 alexandra_house,central_concourse_mid,4,internal,Central Exit H
 landmark_mall,central_concourse_mid,4,internal,Central Exit G
@@ -780,7 +793,7 @@ v_walk,cullinan_west,2,lift,resident lift lobby
 v_walk,hoi_tat_estate,6,bridge,bridge
 hoi_tat_estate,sham_shui_po_lcst_building,2,internal,podium
 sham_shui_po_lcst_building,hoi_ying_estate,3,bridge,bridge
-sham_shui_po_lcst_building,aqua_marine,3,bridge,bridge through Aeon (accessible 08:30 - 22:30 only)
+sham_shui_po_lcst_building,aqua_marine,3,bridge,bridge through Aeon (🕒 08:30 - 22:30)
 
 // --- TSING YI HUB ---
 tsing_yi_concourse,maritime_square_1,2,internal,Exits A2/B (both 1/F) / F (3/F) / G (2/F)

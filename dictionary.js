@@ -56,6 +56,7 @@
 					"the_henderson": "The Henderson",
 					"the_murray": "The Murray / 美利酒店",
 					"three_garden_road": "Three Garden Road / 花園道三號",
+					"wheelock_house": "Wheelock House / 會德豐大廈",
 					"world_wide_house": "World-Wide House / 環球大廈",
 					"landmark_york": "York House / 約克大廈"
 				},
@@ -470,6 +471,20 @@
 					"tai_wo_bus_terminus": "Tai Wo Bus Terminus / 太和巴士總站",
 					"tai_wo_plaza_east": "Tai Wo Plaza East / 太和廣場（東翼）",
 					"tai_wo_plaza_west": "Tai Wo Plaza West / 太和廣場（西翼）"
+				}
+			},
+			"Sai Kung District/Tseung Kwan O (西貢區/將軍澳)": {
+				"Tiu Keng Leng (調景嶺)": {
+					"choi_ming_court": "Choi Ming Court / 彩明苑",
+					"choi_ming_shopping_centre": "Choi Ming Shopping Centre / 彩明商場",
+					"hong_kong_design_institute": "Hong Kong Design Institute / 香港知專設計學院",
+					"ive_lee_wai_lee": "IVE (Lee Wai Lee) / 香港專業教育學院 (李惠利)",
+					"kin_ming_estate": "Kin Ming Estate / 健明邨",
+					"metro_town": "Metro Town / 都會駅",
+					"ocean_shores": "Ocean Shores / 維景灣畔",
+					"shin_ming_estate": "Shin Ming Estate / 善明邨",
+					"tiu_keng_leng_public_library": "Tiu Keng Leng Public Library / 調景嶺公共圖書館",
+					"tiu_keng_leng_sports_centre": "Tiu Keng Leng Sports Centre / 調景嶺體育館"
 				}
 			},
             "Sha Tin District (沙田區)": {
