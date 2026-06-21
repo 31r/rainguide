@@ -6,7 +6,8 @@
 				"Western District (西區)": {
 					"eco_tree_hotel": "Eco Tree Hotel / 頤庭酒店",
 					"hku_campus": "The University of Hong Kong / 香港大學",
-					"hku_campus_c": "HKU Centennial Campus / 香港大學百周年校園"
+					"hku_campus_c": "HKU Centennial Campus / 香港大學百周年校園",
+					"kennedy_town_station_minibus_terminus": "堅尼地城站總站 / Kennedy Town Station Green Minibus Terminus"
 				},
 				"Sheung Wan (上環)": {
 					"golden_centre": "Golden Centre / 金龍中心",
@@ -27,6 +28,7 @@
 					"bea_bldg": "Bank of East Asia Building / 東亞銀行大廈",
 					"ccb_tower": "CCB Tower / 中國建設銀行大廈",
 					"central_bldg": "Central Building / 中建大廈",
+					"central_bus_terminus": "Central Bus Terminus / 中環巴士總站",
 					"central_market": "Central Market / 中環街市",
 					"mid_levels_escalator": "Central-Mid-Levels Escalator / 中環至半山自動扶手電梯系統",
 					"central_pier_3": "Central Pier No. 3 / 中環3號碼頭",
@@ -61,6 +63,7 @@
 					"landmark_york": "York House / 約克大廈"
 				},
 				"Admiralty (金鐘)": {
+					"admiralty_east_bus_terminus": "Admiralty Station (East) Bus Terminus / 金鐘 (東) 總站",
 					"admiralty_centre": "Admiralty Centre / 海富中心",
 					"bank_of_america": "Bank of America Tower / 美國銀行中心",
 					"central_gov_offices": "Central Government Offices / 政府總部",
@@ -72,7 +75,7 @@
 					"pacific_place_lg1": "Pacific Place (LG1 - Exit F) / 太古廣場 (地庫一樓)",
 					"pacific_place_l2": "Pacific Place (L2 - Bridges) / 太古廣場 (二樓天橋)",
 					"three_pacific_place": "Three Pacific Place / 太古廣場三座",
-					"queensway_gov_offices": "Queensway Gov Offices / 金鐘道政府合署",
+					"queensway_gov_offices": "Queensway Government Offices / 金鐘道政府合署",
 					"queensway_plaza": "Queensway Plaza / 金鐘廊",
 					"united_centre": "United Centre / 統一中心"
 				}
@@ -98,8 +101,11 @@
 				},
 				"Causeway Bay (銅鑼灣)": {
 					"cwb_plaza": "Causeway Bay Plaza 1 / 銅鑼灣廣場一期",
+					"east_point_centre": "East Point Centre / 東角中心",
 					"hysan_place": "Hysan Place / 希慎廣場",
+					"macau_yat_yuen_centre": "Macau Yat Yuen Centre / 澳門逸園中心",
 					"sogo_cwb": "SOGO (Causeway Bay) / 崇光百貨 (銅鑼灣)",
+					"the_goldmark": "The Goldmark / 黃金廣場",
 					"times_square": "Times Square / 時代廣場"
 				}
 			},
@@ -142,7 +148,12 @@
 					"youth_square": "Youth Square / 青年廣場"
 				}
 			},
-			
+			"Southern District (南區)": {
+				"Pok Fu Lam (薄扶林)": {
+					"cyberport": "Cyberport / 數碼港",
+					"queen_mary_hospital": "Queen Mary Hospital / 瑪麗醫院"
+				}
+			},
 			"Yau Tsim Mong District (油尖旺區)": {
                 "Tsim Sha Tsui (尖沙咀)": {
 					"hong_kong_cultural_centre": "Hong Kong Cultural Centre / 香港文化中心",
@@ -237,6 +248,10 @@
 					"hoi_ying_estate": "Hoi Ying Estate / 海盈邨",
 					"sham_shui_po_lcst_building": "Sham Shui Po Leisure and Cultural Building / 深水埗康樂文化大樓",
 					"v_walk": "V Walk"
+				},
+				"Shek Kip Mei (石硤尾)": {
+					"shek_kip_mei_estate_phase_1": "Shek Kip Mei Estate Phase 1 / 石硤尾邨第1期",
+					"shek_kip_mei_estate_phases_256": "Shek Kip Mei Estate Phases 2, 5, and 6 / 石硤尾邨第2、5及6期"
 				},
 			},
 			"Kowloon City District (九龍城區)": {
@@ -415,7 +430,7 @@
                     "tsuen_wan_public_library": "Tsuen Wan Public Library / 荃灣公共圖書館",
 					"tsuen_wan_station_pti": "Tsuen Wan Station PTI / 荃灣站公共運輸交匯處",
                     "tsuen_wan_town_hall": "Tsuen Wan Town Hall / 荃灣大會堂",
-					"tsuen_wan_station_bus_stop": "Tsuen Wan Station (Sai Lau Kok Road) / 荃灣站 (西樓角路)",
+					"tsuen_wan_station_bus_stop": "Tsuen Wan Station (Sai Lau Kok Road) Bus Stop / 荃灣站(西樓角路)巴士站",
                     "tsuen_wan_west_station_pti": "Tsuen Wan West Station PTI / 荃灣西站公共運輸交匯處",
                     "tw_carpark_building": "Tsuen Wan Multi-storey Carpark Building / 荃灣多層停車場大廈",
 					"victory_court": "Victory Court / 荃勝大廈",
@@ -485,6 +500,27 @@
 					"shin_ming_estate": "Shin Ming Estate / 善明邨",
 					"tiu_keng_leng_public_library": "Tiu Keng Leng Public Library / 調景嶺公共圖書館",
 					"tiu_keng_leng_sports_centre": "Tiu Keng Leng Sports Centre / 調景嶺體育館"
+				},
+				"Tseung Kwan O (將軍澳)": {
+					"beverly_garden": "Beverly Garden / 富康花園",
+					"bauhinia_garden": "Bauhinia Garden / 寶盈花園",
+					"hong_kong_velodrome": "Hong Kong Velodrome / 香港單車館",
+					"immigration_headquarters": "Immigration Headquarters / 入境事務處總部",
+					"kwong_ming_court": "Kwong Ming Court / 廣明苑",
+					"park_central": "Park Central / 將軍澳中心",
+					"popcorn": "PopCorn / PopCorn 商場",
+					"popcorn_2": "PopCorn 2 / PopCorn 2 商場",
+					"popwalk": "PopWalk / PopWalk 商場",
+					"popwalk_2": "PopWalk 2 / PopWalk 2 商場",
+					"sheung_tak_estate": "Sheung Tak Estate / 尚德邨",
+					"the_grandiose": "The Grandiose / 君傲灣",
+					"the_wings": "The Wings / 天晉",
+					"the_wings_ii": "The Wings II / 天晉 II",
+					"the_wings_iii": "The Wings III / 天晉 III",
+					"tko_spot": "TKO Spot / 尚德廣場",
+					"tseung_kwan_o_government_offices": "Tseung Kwan O Government Offices / 將軍澳政府合署",
+					"tseung_kwan_o_plaza": "Tseung Kwan O Plaza / 將軍澳廣場",
+					"tseung_kwan_o_sports_ground": "Tseung Kwan O Sports Ground / 將軍澳運動場",
 				}
 			},
             "Sha Tin District (沙田區)": {

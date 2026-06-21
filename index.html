@@ -341,9 +341,154 @@
                         seenNodes.add(nodeId); 
                         
                         let prefix = "🏢 "; 
-                        if (regionName === "MTR Platforms (付費區)") prefix = "🚆 ";
-                        else if (regionName === "MTR Concourses (港鐵大堂)") prefix = "🎫 ";
-                        else if (regionName === "Border Crossings (出入境管制站)") prefix = "🛂 ";
+                        if (regionName === "MTR Platforms (付費區)") {
+                            prefix = "🚆 ";
+                        } else if (regionName === "MTR Concourses (港鐵大堂)") {
+                            prefix = "🎫 ";
+                        } else if (regionName === "Border Crossings (出入境管制站)") {
+                            prefix = "🛂 ";
+                        } else {
+                            const lowerName = rawDisplayName.toLowerCase();
+                            
+                            // 1. The Sniper Override (Hardcoded Exceptions)
+                            if (nodeId === 'chater_garden' || nodeId === 'sai_lau_kok_garden') {
+                                prefix = "🌳 "; // Parks
+                            } else if (nodeId === 'central_plaza' || nodeId === 'grand_city_plaza' || nodeId === '1&2_exchange_square' || nodeId === '3_exchange_square') {
+                                prefix = "🏢 "; // Office Building
+                            } else if (
+                                nodeId === 'immigration_headquarters' || 
+                                nodeId === 'youth_square' || 
+                                nodeId === 'hkcec' || 
+                                nodeId === 'high_court' ||
+                                nodeId === 'housing_authority_csc') {
+                                prefix = "🏛️ "; // Civic / Institution
+                            } else if (
+                                nodeId === 'hong_kong_velodrome') {
+                                prefix = "🏸 "; // Sports
+                            } else if (nodeId === 'mid_levels_escalator') {
+                                prefix = "🛗 "; // Infrastructure
+                            } else if (
+                                nodeId === 'aeon_style_whampoa' ||
+                                nodeId === 'apm' ||
+                                nodeId === 'argyle_centre' ||
+                                nodeId === 'cdw_building' ||
+                                nodeId === 'central_market' ||
+                                nodeId === 'citygate_outlets' ||
+                                nodeId === 'citywalk_1' ||
+                                nodeId === 'citywalk_2' ||
+                                nodeId === 'discovery_park' ||
+                                nodeId === 'elements_mall' ||
+                                nodeId === 'fanling_centre' ||
+                                nodeId === 'fanling_town_center' ||
+                                nodeId === 'fashion_world' ||
+                                nodeId === 'festival_walk' ||
+                                nodeId === 'foodplus' ||
+                                nodeId === 'infinity_8' ||
+                                nodeId === 'k11_musea' ||
+                                nodeId === 'kolour_tsuen_wan_1' ||
+                                nodeId === 'kolour_tsuen_wan_2' ||
+                                nodeId === 'langham_place' ||
+                                nodeId === 'lee_tung_avenue' ||
+                                nodeId === 'life_kcc' ||
+                                nodeId === 'luk_yeung_galleria' ||
+                                nodeId === 'panda_place' ||
+                                nodeId === 'shatin_centre' ||
+                                nodeId === 'sheung_shui_centre' ||
+                                nodeId === 'sheung_shui_town_centre' ||
+                                nodeId === 'shun_tak_centre' ||
+                                nodeId === 'sogo_cwb' ||
+                                nodeId === 'spot' ||
+                                nodeId === 'the_wai' ||
+                                nodeId === 'top_mall' ||
+                                nodeId === 'tsuen_cheong_centre' ||
+                                nodeId === 'tsuen_fung_centre' ||
+                                nodeId === 'tsuen_kam_centre' ||
+                                nodeId === 'v_walk' ||
+                                nodeId === 'wai_wah_centre' ||
+                                nodeId === 'west9zone' ||
+                                nodeId === 'yue_hwa'
+                            ) {
+                                prefix = "🛍️ "; // Mall
+                            } else if (
+                                nodeId === 'aqua_marine' ||
+                                nodeId === 'aurora' ||
+                                nodeId === 'belair_monte' ||
+                                nodeId === 'caribbean_coast' ||
+                                nodeId === 'central_park' || 
+                                nodeId === 'coastal_skyline' ||
+                                nodeId === 'cullinan_west' ||
+                                nodeId === 'dragons_range' ||
+                                nodeId === 'festival_city' ||
+                                nodeId === 'foo_yu_building' || 
+                                nodeId === 'grand_regentville' ||
+                                nodeId === 'green_code' ||
+                                nodeId === 'h_cube' ||
+                                nodeId === 'harbour_glory' ||
+                                nodeId === 'harbour_place' ||
+                                nodeId === 'indi_home' ||
+                                nodeId === 'kam_din_terrace' ||
+                                nodeId === 'kao_shan_terrace' ||
+                                nodeId === 'le_bleu_deux' ||
+                                nodeId === 'liberte' ||
+                                nodeId === 'ocean_pride' ||
+                                nodeId === 'ocean_shores' ||
+                                nodeId === 'one_innovale' ||
+                                nodeId === 'palazzo' ||
+                                nodeId === 'parc_city' ||
+                                nodeId === 'park_island' ||
+                                nodeId === 'regentville' ||
+                                nodeId === 'royal_peninsula' ||
+                                nodeId === 'seaview_crescent' ||
+                                nodeId === 'sing_fai_terrace' ||
+                                nodeId === 'sorrento' ||
+                                nodeId === 'stars_by_the_harbour' ||
+                                nodeId === 'the_arch' ||
+                                nodeId === 'the_cullinan' ||
+                                nodeId === 'the_dynasty' ||
+                                nodeId === 'the_grandiose' ||
+                                nodeId === 'the_harbourside' ||
+                                nodeId === 'the_pacifica' ||
+                                nodeId === 'the_pavilia_farm' ||
+                                nodeId === 'the_visionary' ||
+                                nodeId === 'the_waterfront' ||
+                                nodeId === 'the_wings' ||
+                                nodeId === 'the_wings_ii' ||
+                                nodeId === 'the_wings_iii' ||
+                                nodeId === 'tierra_verde' ||
+                                nodeId === 'villa_esplanada' ||
+                                nodeId === 'vision_city'
+                            ) {
+                                prefix = "🏘️ "; // Residential
+                            }
+                            // 2. The Shotgun (Broad Keyword Matching)
+                            else if (lowerName.includes('pti') || lowerName.includes('bus terminus') || lowerName.includes('bus stop') || lowerName.includes('交匯處') || lowerName.includes('巴士總站')) {
+                                prefix = "🚌 ";
+                            } else if (lowerName.includes('estate') || lowerName.includes('court') || lowerName.includes('邨') || lowerName.includes('苑') || lowerName.includes('garden') || lowerName.includes('花園')) {
+                                prefix = "🏘️ ";
+                            } else if (lowerName.includes('mall') || lowerName.includes('plaza') || lowerName.includes('square') || lowerName.includes('商場') || lowerName.includes('廣場')) {
+                                prefix = "🛍️ ";
+                            } else if (lowerName.includes('hotel') || lowerName.includes('酒店')) {
+                                prefix = "🏨 ";
+                            } else if (lowerName.includes('hospital') || lowerName.includes('醫院')) {
+                                prefix = "🏥 ";
+                            } else if (lowerName.includes('library') || lowerName.includes('圖書館')) {
+                                prefix = "📚 ";
+                            } else if (lowerName.includes('university') || lowerName.includes('campus') || lowerName.includes('ive') || lowerName.includes('大學')) {
+                                prefix = "🎓 ";
+                            } else if (lowerName.includes('sports') || lowerName.includes('stadium') || lowerName.includes('體育') || lowerName.includes('運動')) {
+                                prefix = "🏸 ";
+                            } else if (lowerName.includes('carpark') || lowerName.includes('停車場')) {
+                                prefix = "🅿️ ";
+                            } else if (lowerName.includes('government') || lowerName.includes('museum') || lowerName.includes('cultural') || lowerName.includes('政府')) {
+                                prefix = "🏛️ ";
+                            } else if (
+                                (lowerName.includes('market') || lowerName.includes('街市') || lowerName.includes('municipal services') || lowerName.includes('msb') || lowerName.includes('市政大廈')) && 
+                                !lowerName.includes('tai po') && 
+                                !lowerName.includes('大埔墟')
+                            ) {
+                                prefix = "🐟 ";
+                            }
+                        }
                         
                         allLocationsArray.push({ searchName: prefix + rawDisplayName, nodeId, regionName });
                     }
@@ -534,6 +679,16 @@
                         continue;
                     }
 
+                    // --- SMART PREFIX LOGIC ---
+                    // Determine if the description is a custom instruction or a standard noun
+                    let viaPrefix = "via ";
+                    const lowerDesc = edge.desc.toLowerCase();
+                    if (lowerDesc.startsWith('follow') || lowerDesc.startsWith('walk') || lowerDesc.startsWith('take') || lowerDesc.startsWith('exit') || lowerDesc.startsWith('towards') || lowerDesc.startsWith('signs')) {
+                        viaPrefix = ""; // Drop the 'via' for custom instructions
+                    }
+                    const displayDesc = viaPrefix + edge.desc;
+                    // --------------------------
+
                     // Handle Continuous Rides (Paid Trains, Premium Trains, and Paid Buses)
                     const isRide = (edge.type === 'paid_train' || edge.type === 'premium_train' || edge.type === 'paid_bus');
                     
@@ -569,7 +724,7 @@
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-4 ${borderClass} ml-2 py-2">
                             ${rideLabel} <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
 
                         // 3. INJECT THE TRANSFER: If changing to a completely different route
@@ -590,13 +745,13 @@
                             routeList.innerHTML += `
                             <li class="pl-4 border-l-4 border-orange-400 ml-2 py-2 bg-orange-50/50 rounded-r-lg">
                                 🎫 Enter paid area at <span class="font-semibold">${getNodeName(v)}</span> 
-                                <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                                <br><span class="text-xs text-slate-500">${displayDesc}</span>
                             </li>`;
                         } else {
                             routeList.innerHTML += `
                             <li class="pl-4 border-l-4 border-orange-400 ml-2 py-2 bg-orange-50/50 rounded-r-lg">
                                 🎫 Exit paid area to <span class="font-semibold">${getNodeName(v)}</span> 
-                                <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                                <br><span class="text-xs text-slate-500">${displayDesc}</span>
                             </li>`;
                         }
                     }
@@ -605,23 +760,23 @@
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-4 border-blue-400 ml-2 py-2 bg-blue-50/50 rounded-r-lg">
                             🚶 Walk through paid tunnel to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }
-					// Handle Internal Station Transfers (e.g., Admiralty Island Line to East Rail Line)
-					else if (edge.type === 'paid_transfer') {
-						routeList.innerHTML += `
-						<li class="pl-4 border-l-4 border-purple-400 ml-2 py-2 bg-purple-50/50 rounded-r-lg">
-							🔄 Transfer within paid area to <span class="font-semibold">${getNodeName(v)}</span> 
-							<br><span class="text-xs text-slate-500">via ${edge.desc}</span>
-						</li>`;
-					}
+                    // Handle Internal Station Transfers (e.g., Admiralty Island Line to East Rail Line)
+                    else if (edge.type === 'paid_transfer') {
+                        routeList.innerHTML += `
+                        <li class="pl-4 border-l-4 border-purple-400 ml-2 py-2 bg-purple-50/50 rounded-r-lg">
+                            🔄 Transfer within paid area to <span class="font-semibold">${getNodeName(v)}</span> 
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
+                        </li>`;
+                    }
                     // Handle Franchised Buses & Minibuses
                     else if (edge.type === 'paid_bus') {
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-4 border-green-500 ml-2 py-2">
                             🚌 Board bus to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }
                     // Handle Free Estate/Mall Shuttles
@@ -629,7 +784,7 @@
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-4 border-teal-500 ml-2 py-2">
                             🚐 Take free shuttle to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }
                     // Handle Paid Residents' Shuttles
@@ -637,7 +792,7 @@
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-4 border-emerald-500 ml-2 py-2">
                             🏘️ Board residents' bus to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }
                     // Handle Lifts
@@ -645,7 +800,7 @@
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-2 border-blue-300 ml-2 py-1">
                             🛗 Take lift to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }
                     // Handle Escalators
@@ -653,14 +808,14 @@
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-2 border-silver-300 ml-2 py-1">
                             🚶 Take escalator to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }// Handle Free Tunnels
                     else if (edge.type === 'tunnel') {
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-2 border-blue-300 ml-2 py-1">
                             🚶 Walk through pedestrian tunnel to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }
                     // Handle Normal Walking
@@ -668,7 +823,7 @@
                         routeList.innerHTML += `
                         <li class="pl-4 border-l-2 border-slate-300 ml-2 py-1">
                             🚶 Walk to <span class="font-semibold">${getNodeName(v)}</span> 
-                            <br><span class="text-xs text-slate-500">via ${edge.desc}</span>
+                            <br><span class="text-xs text-slate-500">${displayDesc}</span>
                         </li>`;
                     }
                 }

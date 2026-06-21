@@ -62,8 +62,8 @@ tsim_sha_tsui_platform,tsim_sha_tsui_concourse,2,fare_gate,fare gates
 // --- TSIM SHA TSUI HUB ---
 tsim_sha_tsui_concourse,isquare,6,internal,Exits H/R
 tsim_sha_tsui_concourse,k11_art_mall,8,internal,Exit D3
-east_tst_concourse,k11_art_mall,5,internal,Exits N3/N4
-east_tst_concourse,k11_musea,10,internal,Exit J
+east_tst_concourse,k11_art_mall,7,internal,Exits N3/N4
+east_tst_concourse,k11_musea,3,internal,Exit J
 k11_musea,k11_atelier,3,lift,office lift lobby
 k11_musea,regent_hotel,2,internal,Internal Walkway
 k11_musea,rosewood_hotel,2,internal,covered walkway
@@ -217,7 +217,7 @@ tsuen_wan_government_offices,tsuen_kam_centre,4,bridge,bridge
 tsuen_kam_centre,grand_city_plaza,2,bridge,bridge over Sai Lau Kok Road
 tsuen_kam_centre,fuk_loi_estate,3,bridge,bridge over Castle Peak Road - Tsuen Wan
 tsuen_wan_concourse,sai_lau_kok_garden,2,bridge,Exit B1
-sai_lau_kok_garden,fou_wah_centre,2,covered_walkway,ground-level covered walkway
+sai_lau_kok_garden,fou_wah_centre,2,covered_walkway,ground-level covered walkway (enter shops from Yoshinoya)
 sai_lau_kok_garden,tw_carpark_building,2,bridge,bridge
 sai_lau_kok_garden,victory_court,2,bridge,bridge over Castle Peak Road - Tsuen Wan and lift
 victory_court,park_tsuen,2,covered_walkway,covered walkway
@@ -256,7 +256,7 @@ discovery_park,discovery_park_pti,2,escalator,escalator
 tkc_sports_centre,discovery_park_pti,2,escalator,escalator
 
 // --- EAST EXTENSIONS (SAI LAU KOK ROAD) ---
-fou_wah_centre,tw_carpark_building,2,bridge,bridge
+luk_yeung_galleria,tw_carpark_building,2,bridge,bridge over Sai Lau Kok Road
 tw_carpark_building,tsuen_wan_east_junction,2,bridge,bridge
 tsuen_wan_east_junction,kolour_tsuen_wan_2,3,bridge,bridge over Castle Peak Road - Tsuen Wan
 kolour_tsuen_wan_1,kolour_tsuen_wan_2,2,bridge,bridge over Tsuen Wan Market Street
@@ -271,8 +271,10 @@ panda_hotel,panda_place,1,escalator,escalator
 
 // --- SOUTH EXTENSIONS ---
 citywalk_1,vision_city,2,lift,resident lift lobby
-citywalk_1,nina_mall_1,2,bridge,bridge over Yeung Uk Road
-nina_mall_1,citywalk_2,2,bridge,bridge
+citywalk_1,nina_mall_1,2,bridge,follow signs for Citywalk 2,uni
+nina_mall_1,citywalk_1,2,bridge,follow signs for Tsuen Wan Town Hall,uni
+nina_mall_1,citywalk_2,2,bridge,follow signs for Citywalk 2,uni
+citywalk_2,nina_mall_1,2,bridge,follow signs for Citywalk,uni
 nina_mall_1,nina_tower,2,lift,office lift lobby
 nina_mall_1,nina_hotel,2,lift,hotel lobby
 nina_mall_1,nina_tower_bus_terminus,2,escalator,escalator
@@ -294,7 +296,8 @@ nina_mall_2,clague_garden_estate,3,bridge,bridge over Hoi Kwai Road
 clague_garden_estate,tsuen_wan_plaza,2,bridge,bridge over Hoi Shing Road
 tsuen_wan_plaza,tsuen_wan_town_hall,3,bridge,bridge
 tsuen_wan_town_hall,citywalk_1,2,bridge,bridge
-tsuen_wan_plaza,citywalk_1,4,bridge,bridge
+citywalk_1,tsuen_wan_plaza,4,bridge,follow signs for Town Hall,uni
+tsuen_wan_plaza,citywalk_1,4,bridge,follow signs for Town Hall,uni
 
 // --- KWUN TONG LINE (TRAIN TRACKS) ---
 whampoa_platform,ho_man_tin_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
@@ -320,7 +323,7 @@ tiu_keng_leng_platform_ktl,tiu_keng_leng_platform_tkl,2,paid_transfer,cross-plat
 
 // --- KWUN TONG LINE CONCOURSES ---
 whampoa_platform,whampoa_concourse,2,fare_gate,fare gates
-ho_man_tin_platform_ktl,ho_man_tin_concourse,2,fare_gate,fare gates
+ho_man_tin_platform_ktl,ho_man_tin_concourse,5,fare_gate,fare gates
 yaumatei_platform_ktl,yau_ma_tei_concourse,2,fare_gate,fare gates
 mong_kok_platform_ktl,mong_kok_concourse,2,fare_gate,fare gates
 prince_edward_platform_ktl,prince_edward_concourse,2,fare_gate,fare gates
@@ -346,6 +349,7 @@ ho_man_tin_concourse,in_one,2,internal,Exit C
 
 // --- SHEK KIP MEI ---
 shek_kip_mei_concourse,shek_kip_mei_estate_phase_1,2,covered_walkway,Exit C
+shek_kip_mei_concourse,shek_kip_mei_estate_phases_256,2,covered_walkway,Exit A
 
 // --- KOWLOON TONG HUB ---
 kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_transfer,pedestrian subway (paid area)
@@ -519,13 +523,14 @@ heng_fa_chuen_platform,chai_wan_platform,4,paid_train,Island Line (MTR)
 north_point_platform_isl,north_point_platform_tkl,2,paid_transfer,cross-platform transfer
 quarry_bay_platform_isl,quarry_bay_platform_tkl,8,paid_transfer,vertical escalator transfer
 
-// --- SAI YING PUN / HKU ---
+// --- WESTERN DISTRICT ---
 sai_ying_pun_platform,syp_concourse,4,fare_gate,fare gates
 syp_concourse,eco_tree_hotel,2,internal,Exit A2 to Eco Tree Hotel
 hku_platform,hku_concourse,4,fare_gate,fare gates
-hku_concourse,hku_campus,4,lift,Exit A2 Lifts to HKU Main Campus
-hku_concourse,hku_campus_c,4,lift,Exit C1 Lifts to HKU Centennial Campus
-hku_campus,hku_campus_c,4,internal,HKU Internal Walkway
+hku_concourse,hku_campus,4,lift,Exit A2 lifts to HKU Main Campus
+hku_concourse,hku_campus_c,4,lift,Exit C1 lifts to HKU Centennial Campus
+hku_campus,hku_campus_c,4,internal,HKU internal walkway
+kennedy_town_station_minibus_terminus,kennedy_town_concourse,2,escalator,Exit A escalators or lifts
 
 // --- CENTRAL & ADMIRALTY ---
 shun_tak_centre,west_spine_west,4,bridge,bridge along Connaught Road Central
@@ -542,6 +547,8 @@ one_ifc,3_exchange_square,2,bridge,bridge
 hang_seng_hq,one_ifc,4,bridge,bridge over Connaught Road Central
 hang_seng_hq,3_exchange_square,4,bridge,bridge over Connaught Road Central
 3_exchange_square,1&2_exchange_square,6,bridge,bridge
+central_bus_terminus,1&2_exchange_square,2,escalator,escalator
+central_bus_terminus,3_exchange_square,2,escalator,escalator
 ifc_mall,1&2_exchange_square,4,bridge,bridge
 yue_thai_bldg,sheung_wan_concourse_mid,4,internal,Sheung Wan Exit C
 kam_sang_bldg,sheung_wan_concourse_mid,4,internal,Sheung Wan Exit B
@@ -601,6 +608,7 @@ queensway_plaza,lippo_centre,2,bridge,bridge
 admiralty_centre,central_gov_offices,6,bridge,bridge over Harcourt Road
 citic_tower,admiralty_exit_e2,6,bridge,bridge over Harcourt Road
 citic_tower,central_gov_offices,6,bridge,bridge over Tim Mei Avenue
+admiralty_east_bus_terminus,admiralty_concourse,2,Admiralty Exit D
 united_centre,admiralty_exit_e2,6,bridge,bridge to MTR
 high_court,lippo_centre,6,bridge,bridge over Queensway
 high_court,queensway_gov_offices,2,bridge,short bridge
@@ -628,7 +636,7 @@ pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
 
 // --- CENTRAL TO HONG KONG PAID TUNNEL ---
-central_platform_isl,hong_kong_platform,8,paid_tunnel,Paid tunnel with moving walkways
+central_platform_isl,hong_kong_platform,8,paid_tunnel,paid tunnel with moving walkways
 hong_kong_platform,hong_kong_concourse,2,fare_gate,fare gates to HK Station Exits
 
 // --- SHEUNG WAN TO ADMIRALTY MTR PLATFORMS & FARE GATES ---
@@ -672,7 +680,13 @@ causeway_bay_platform,causeway_bay_concourse_d_f,2,fare_gate,fare gates to Exits
 causeway_bay_concourse_a,times_square,2,internal,Exit A to Times Square
 causeway_bay_concourse_b_c,cwb_plaza,2,internal,Exit B to Causeway Bay Plaza 1
 causeway_bay_concourse_d_f,hysan_place,2,internal,Exit F2 to Hysan Place
-causeway_bay_concourse_d_f,sogo_cwb,2,internal,Exit D2 to SOGO Basement
+causeway_bay_concourse_d_f,the_goldmark,2,internal,Exit F1 to The Goldmark
+causeway_bay_concourse_d_f,sogo_cwb,2,internal,Exits D3 or D4 to SOGO Basement
+causeway_bay_concourse_d_f,macau_yat_yuen_centre,2,staircase,Exit D2
+macau_yat_yuen_centre,sogo_cwb,2,covered_walkway,covered walkway on Hennessy Road
+causeway_bay_concourse_d_f,east_point_centre,2,staircase,Exit D2
+sogo_cwb,east_point_centre,2,lift,office lift lobby
+east_point_centre,macau_yat_yuen_centre,2,covered_walkway,covered walkway on Hennessy Road
 
 // --- FORTRESS HILL HUB ---
 fortress_hill_platform,fortress_hill_concourse,2,fare_gate,fare gates
@@ -867,6 +881,30 @@ hang_hau_platform,hang_hau_concourse,2,fare_gate,fare gates
 po_lam_platform,po_lam_concourse,2,fare_gate,fare gates
 lohas_park_platform,lohas_park_concourse,2,fare_gate,fare gates
 
+// --- TSEUNG KWAN O HUB ---
+tseung_kwan_o_concourse,popcorn,2,internal,Exit C
+popcorn,the_wings,2,lift,resident lift lobby
+popcorn,popwalk,3,bridge,bridge over Po Yap Road
+popwalk,the_wings_ii,2,lift,resident lift lobby
+popcorn,popwalk_2,3,bridge,bridge over Po Yap Road
+popwalk_2,the_wings_iii,2,lift,resident lift lobby
+popcorn,park_central,2,bridge,bridge over Tong Yin Street
+park_central,tiu_keng_leng_sports_centre,2,bridge,bridge over Po Shun Road
+tiu_keng_leng_sports_centre,immigration_headquarters,3,bridge,bridge over Chui Ling Road
+tiu_keng_leng_sports_centre,tseung_kwan_o_government_offices,3,bridge,bridge over Chui Ling Road
+immigration_headquarters,tseung_kwan_o_government_offices,2,bridge,bridge
+popcorn,tko_spot,4,bridge,bridge over Tong Ming Street Park
+tko_spot,sheung_tak_estate,2,covered_walkway,covered walkway
+sheung_tak_estate,kwong_ming_court,2,covered_walkway,covered walkway
+sheung_tak_estate,tong_ming_court,2,bridge,bridge over Tong Ming Street
+sheung_tak_estate,beverly_garden,2,bridge,bridge over Tong Ming Street
+sheung_tak_estate,hong_kong_velodrome,2,bridge,bridge over Po Hong Road
+hong_kong_velodrome,tseung_kwan_o_sports_ground,2,bridge,bridge
+popcorn,popcorn_2,2,bridge,bridge over Tong Chun Street
+popcorn_2,the_grandiose,2,lift,resident lift lobby
+popcorn_2,tseung_kwan_o_plaza,2,bridge,bridge
+popcorn_2,bauhinia_garden,3,bridge,bridge over Po Yap Road
+
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
 admiralty_platform_isl,admiralty_platform_twl,3,paid_transfer,cross-platform transfer
 admiralty_platform_isl,admiralty_platform_erl,5,paid_transfer,platform level transfer (escalators)
@@ -1044,6 +1082,11 @@ wong_chuk_hang_platform,wong_chuk_hang_concourse,2,fare_gate,fare gates
 lei_tung_platform,lei_tung_concourse,2,fare_gate,fare gates
 south_horizons_platform,south_horizons_concourse,2,fare_gate,fare gates
 
+// --- POK FU LAM ---
+queen_mary_hospital,kennedy_town_station_minibus_terminus,25,paid_bus,Green Minibus 54M
+cyberport,admiralty_east_bus_terminus,60,paid_bus,Citybus 30X
+cyberport,central_bus_terminus,50,paid_bus,Citybus 30X,uni
+
 // --- TUEN MA LINE (TRAIN TRACKS) ---
 tuen_mun_platform,siu_hong_platform,5,paid_train,Tuen Ma Line (MTR)
 siu_hong_platform,tin_shui_wai_platform,10,paid_train,Tuen Ma Line (MTR)
@@ -1094,7 +1137,7 @@ nam_cheong_platform_tml,nam_cheong_concourse,2,fare_gate,fare gates
 austin_platform,austin_concourse,2,fare_gate,fare gates
 east_tst_platform,east_tst_concourse,2,fare_gate,fare gates
 hung_hom_platform_tml,hung_hom_concourse,2,fare_gate,fare gates
-ho_man_tin_platform_tml,ho_man_tin_concourse,2,fare_gate,fare gates
+ho_man_tin_platform_tml,ho_man_tin_concourse,4,fare_gate,fare gates
 to_kwa_wan_platform,to_kwa_wan_concourse,2,fare_gate,fare gates
 sung_wong_toi_platform,sung_wong_toi_concourse,2,fare_gate,fare gates
 kai_tak_platform,kai_tak_concourse,2,fare_gate,fare gates
