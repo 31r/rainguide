@@ -905,6 +905,23 @@ popcorn_2,the_grandiose,2,lift,resident lift lobby
 popcorn_2,tseung_kwan_o_plaza,2,bridge,bridge
 popcorn_2,bauhinia_garden,3,bridge,bridge over Po Yap Road
 
+// --- HANG HAU HUB ---
+hang_hau_concourse,the_lane,2,internal,Exit A1 or B1
+the_lane,residence_oasis,2,lift,resident lift lobby
+the_lane,east_point_city,2,bridge,bridge across Ming Shing Street
+east_point_city,tko_gateway,3,bridge,bridge
+tko_gateway,hau_tak_estate,2,covered_walkway,covered walkway
+tko_gateway,chung_ming_court,2,covered_walkway,covered walkway
+chung_ming_court,hau_tak_estate,2,covered_walkway,covered walkway
+yu_ming_court,hau_tak_estate,2,covered_walkway,covered walkway
+east_point_city,wo_ming_court,2,bridge,bridge over Pui Shing Road
+wo_ming_court,yuk_ming_court,2,covered_walkway,covered walkway
+wo_ming_court,ming_tak_estate,2,covered_walkway,covered walkway
+ming_tak_estate,hin_ming_court,2,covered_walkway,covered walkway
+the_lane,nan_fung_plaza,2,bridge,bridge over Pui Shing Road
+the_lane,maritime_bay,2,bridge,bridge over Pui Shing Road
+maritime_bay,la_cite_noble,2,internal,internal mall connection
+
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
 admiralty_platform_isl,admiralty_platform_twl,3,paid_transfer,cross-platform transfer
 admiralty_platform_isl,admiralty_platform_erl,5,paid_transfer,platform level transfer (escalators)
