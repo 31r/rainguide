@@ -872,7 +872,7 @@ tseung_kwan_o_platform_wb,tseung_kwan_o_platform_eb,2,paid_transfer,cross-platfo
 
 // --- TSEUNG KWAN O LINE CONCOURSES ---
 north_point_platform_tkl,north_point_concourse,2,fare_gate,fare gates
-quarry_bay_platform_tkl,quarry_bay_concourse,2,fare_gate,fare gates
+quarry_bay_platform_tkl,quarry_bay_concourse,10,fare_gate,fare gates
 yau_tong_platform_tkl,yau_tong_concourse,2,fare_gate,fare gates
 tiu_keng_leng_platform_tkl,tiu_keng_leng_concourse,2,fare_gate,fare gates
 tseung_kwan_o_platform_eb,tseung_kwan_o_concourse,2,fare_gate,fare gates
