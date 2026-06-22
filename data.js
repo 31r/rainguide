@@ -898,8 +898,9 @@ tko_spot,sheung_tak_estate,2,covered_walkway,covered walkway
 sheung_tak_estate,kwong_ming_court,2,covered_walkway,covered walkway
 sheung_tak_estate,tong_ming_court,2,bridge,bridge over Tong Ming Street
 sheung_tak_estate,beverly_garden,2,bridge,bridge over Tong Ming Street
-sheung_tak_estate,hong_kong_velodrome,2,bridge,bridge over Po Hong Road
-hong_kong_velodrome,tseung_kwan_o_sports_ground,2,bridge,bridge
+sheung_tak_estate,hong_kong_velodrome,2,bridge,bridge over Po Hong Road and covered walkway
+sheung_tak_estate,tseung_kwan_o_sports_ground,2,bridge,bridge over Po Hong Road and covered walkway
+hong_kong_velodrome,tseung_kwan_o_sports_ground,2,covered_walkway,covered walkway
 popcorn,popcorn_2,2,bridge,bridge over Tong Chun Street
 popcorn_2,the_grandiose,2,lift,resident lift lobby
 popcorn_2,tseung_kwan_o_plaza,2,bridge,bridge
