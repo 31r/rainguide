@@ -571,10 +571,8 @@
 				},
 				"Fo Tan (火炭)": {
 					"chun_yeung_estate": "Chun Yeung Estate / 駿洋邨",
+					"dragons_range": "Dragons Range / 玖瓏山",
 					"palazzo": "The Palazzo / 御龍山"
-				},
-				"Kau To Shan (九肚山)": {
-					"dragons_range": "Dragons Range / 玖瓏山"
 				},
 				"CUHK (中文大學)": {
 					"cyt_building": "Cheng Yu Tung Building / 鄭裕彤樓"
