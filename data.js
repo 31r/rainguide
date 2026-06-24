@@ -65,8 +65,8 @@ tsim_sha_tsui_concourse,k11_art_mall,8,internal,Exit D3
 east_tst_concourse,k11_art_mall,7,internal,Exits N3/N4
 east_tst_concourse,k11_musea,3,internal,Exit J
 k11_musea,k11_atelier,3,lift,office lift lobby
-k11_musea,regent_hotel,2,internal,Internal Walkway
-k11_musea,rosewood_hotel,2,internal,covered walkway
+k11_musea,regent_hotel,2,internal,internal walkway
+k11_musea,rosewood_hotel,2,lift,hotel lobby
 east_tst_concourse,sheraton_hotel,3,internal,Exit J
 east_tst_concourse,kowloon_hotel,3,internal,Exit L4
 east_tst_concourse,one_peking,4,internal,Exit L5
@@ -175,7 +175,7 @@ kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 38,u
 kwai_shing_central_bus_terminus,lam_tin_station_bus_terminus,95,paid_bus,KMB 38,uni
 lam_tin_station_bus_terminus,ping_tin_bus_terminus,20,paid_bus,KMB 38,uni
 ping_tin_bus_terminus,kwai_shing_east_bus_terminus,118,paid_bus,KMB 38,uni
-kwai_shing_east_bus_terminus,kwai_shing_east_shopping_centre,2,internal,covered walkway
+kwai_shing_east_bus_terminus,kwai_shing_east_shopping_centre,2,covered_walkway,covered walkway
 kwai_shing_east_shopping_centre,kwai_shing_east_estate,2,lift,lifts and walkways
 kwai_shing_east_bus_terminus,kwai_luen_estate,6,covered_walkway,covered walkway
 kwai_shing_central_bus_terminus,kwai_shing_west_estate,2,covered_walkway,covered walkway
@@ -278,7 +278,7 @@ citywalk_2,nina_mall_1,2,bridge,follow signs for Citywalk,uni
 nina_mall_1,nina_tower,2,lift,office lift lobby
 nina_mall_1,nina_hotel,2,lift,hotel lobby
 nina_mall_1,nina_tower_bus_terminus,2,escalator,escalator
-nina_tower,nina_tower_bus_terminus,2,internal,covered walkway
+nina_tower,nina_tower_bus_terminus,2,covered_walkway,covered walkway
 nina_mall_1,yurmsb,2,bridge,bridge
 citywalk_2,yurmsb,2,bridge,bridge
 citywalk_2,aurora,2,bridge,bridge
@@ -384,9 +384,9 @@ lok_fu_place_zone_b,lok_fu_estate_south,2,tunnel,tunnel
 
 // --- WONG TAI SIN HUB ---
 wong_tai_sin_concourse,temple_mall_north,2,internal,Exit B3
-temple_mall_north,upper_wong_tai_sin_estate,2,internal,covered walkway
+temple_mall_north,upper_wong_tai_sin_estate,2,covered_walkway,covered walkway
 wong_tai_sin_concourse,temple_mall_south,2,internal,Exit D3
-temple_mall_south,lower_wong_tai_sin_estate,2,internal,covered walkway (some blocks only)
+temple_mall_south,lower_wong_tai_sin_estate,2,covered_walkway,covered walkway (some blocks only)
 temple_mall_south,wong_tai_sin_bus_terminus,2,bridge,bridge
 temple_mall_north,temple_mall_south,2,bridge,bridge
 
@@ -558,7 +558,7 @@ infinitus_plaza,sheung_wan_concourse_east,4,internal,Sheung Wan Exit E5
 golden_centre,sheung_wan_concourse_east,4,internal,Sheung Wan Exit E1
 ifc_mall,central_pier_3,6,bridge,bridge
 central_yards,central_pier_7,6,bridge,bridge
-central_pier_3,central_pier_7,6,internal,covered walkway
+central_pier_3,central_pier_7,6,covered_walkway,covered walkway
 spine_north,central_yards,1,bridge,bridge
 spine_north,ifc_mall,1,bridge,bridge
 spine_north,spine_mid,3,bridge,bridge
@@ -707,7 +707,7 @@ tai_koo_concourse,cityplaza_gf,4,internal,Exit D2 to Cityplaza G/F
 tai_koo_concourse,cityplaza_2f,4,internal,Exit E1 to Cityplaza 2/F
 cityplaza_gf,cityplaza_1f,3,escalator,internal escalators
 cityplaza_1f,cityplaza_2f,2,escalator,internal escalators
-cityplaza_gf,horizon_gardens,2,internal,covered walkway
+cityplaza_gf,horizon_gardens,2,covered_walkway,covered walkway
 cityplaza_1f,kam_din_terrace,2,bridge,bridge over Tai Mou Avenue
 cityplaza_1f,sing_fai_terrace,2,bridge,bridge over Tai Fung Avenue
 cityplaza_2f,east_hk,2,bridge,bridge
@@ -796,9 +796,10 @@ olympic_concourse,olympian_city_two,2,internal,Exit D3
 olympian_city_two,olympian_city_three,2,bridge,bridge
 olympian_city_three,the_hermitage,2,lift,resident lift lobby
 olympian_city_two,central_park,2,lift,resident lift lobby
-olympian_city_two,hoi_fu_court,4,internal,bridge
+olympian_city_two,hoi_fu_shopping_centre,4,bridge,bridge
+hoi_fu_shopping_centre,hoi_fu_court,4,covered_walkway,covered walkway
 olympian_city_two,park_avenue,3,lift,resident lift lobby
-central_park,park_avenue,2,internal,covered walkway
+central_park,park_avenue,2,covered_walkway,covered walkway
 
 // --- NAM CHEONG HUB ---
 nam_cheong_concourse,v_walk,2,internal,Exits A2 or D2
@@ -844,8 +845,8 @@ cheung_hong_estate,cheung_on_bus_terminus,24,paid_bus,KMB 43B/243M,uni
 
 // --- TUNG CHUNG HUB ---
 tung_chung_concourse,fu_tung_plaza,2,internal,Exit A
-fu_tung_plaza,fu_tung_estate,2,internal,covered walkway
-fu_tung_plaza,yu_tung_court,2,internal,covered walkway
+fu_tung_plaza,fu_tung_estate,2,covered_walkway,covered walkway
+fu_tung_plaza,yu_tung_court,2,covered_walkway,covered walkway
 fu_tung_plaza,tung_chung_health_centre,2,bridge,bridge
 tung_chung_concourse,citygate_outlets,2,internal,Exit C
 citygate_outlets,tung_chung_junction,2,bridge,bridge
@@ -974,7 +975,7 @@ tai_wai_concourse,tai_wai_pti,2,internal,Exit B to Public Transport Interchange
 tai_wai_pti,dragons_range,30,residents_bus,NR839 Residents' Bus
 tai_wai_pti,heung_yuen_wai_port,50,paid_bus,Citybus B8
 tai_wai_concourse,grandway_garden,2,internal,Exit D to Grandway Garden
-the_pavilia_farm,the_wai,2,internal,covered walkway
+the_pavilia_farm,the_wai,2,covered_walkway,covered walkway
 the_wai,festival_city,4,bridge,bridge
 
 // --- SHA TIN HUB ---
