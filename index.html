@@ -193,7 +193,7 @@
             const distances = {};
             const prev = {};
             const queue = new Set();
-            const TRANSFER_PENALTY = 1; // The mathematical weight added for changing routes
+            const TRANSFER_PENALTY = 5; // The mathematical weight added for changing routes
 
             // State is stored as "NodeID|VehicleDescription"
             distances[`${start}|`] = 0;
