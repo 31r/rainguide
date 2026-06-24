@@ -18,17 +18,17 @@ tsing_yi_platform_ael,tsing_yi_concourse,2,fare_gate,Airport Express fare gates
 expo_platform,expo_concourse,2,fare_gate,Airport Express fare gates
 
 // --- TSUEN WAN LINE (TRAIN TRACKS) ---
-tsuen_wan_platform,tai_wo_hau_platform,4,paid_train,Tsuen Wan Line (MTR)
+tsuen_wan_platform,tai_wo_hau_platform,3,paid_train,Tsuen Wan Line (MTR)
 tai_wo_hau_platform,kwai_hing_platform,4,paid_train,Tsuen Wan Line (MTR)
-kwai_hing_platform,kwai_fong_platform,4,paid_train,Tsuen Wan Line (MTR)
+kwai_hing_platform,kwai_fong_platform,3,paid_train,Tsuen Wan Line (MTR)
 kwai_fong_platform,lai_king_platform_twl_sb,4,paid_train,Tsuen Wan Line (MTR),uni
 lai_king_platform_twl_sb,mei_foo_platform_twl,4,paid_train,Tsuen Wan Line (MTR),uni
 mei_foo_platform_twl,lai_king_platform_twl_nb,4,paid_train,Tsuen Wan Line (MTR),uni
 lai_king_platform_twl_nb,kwai_fong_platform,4,paid_train,Tsuen Wan Line (MTR),uni
 mei_foo_platform_twl,lai_chi_kok_platform,4,paid_train,Tsuen Wan Line (MTR)
-lai_chi_kok_platform,cheung_sha_wan_platform,4,paid_train,Tsuen Wan Line (MTR)
+lai_chi_kok_platform,cheung_sha_wan_platform,3,paid_train,Tsuen Wan Line (MTR)
 cheung_sha_wan_platform,sham_shui_po_platform,4,paid_train,Tsuen Wan Line (MTR)
-sham_shui_po_platform,prince_edward_platform_twl,4,paid_train,Tsuen Wan Line (MTR)
+sham_shui_po_platform,prince_edward_platform_twl,3,paid_train,Tsuen Wan Line (MTR)
 prince_edward_platform_twl,mong_kok_platform_twl,3,paid_train,Tsuen Wan Line (MTR)
 mong_kok_platform_twl,yaumatei_platform_twl,4,paid_train,Tsuen Wan Line (MTR)
 yaumatei_platform_twl,jordan_platform,4,paid_train,Tsuen Wan Line (MTR)
@@ -309,13 +309,13 @@ skm_platform,kowloon_tong_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
 kowloon_tong_platform_ktl,lok_fu_platform,4,paid_train,Kwun Tong Line (MTR)
 lok_fu_platform,wong_tai_sin_platform,4,paid_train,Kwun Tong Line (MTR)
 wong_tai_sin_platform,diamond_hill_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
-diamond_hill_platform_ktl,choi_hung_platform,4,paid_train,Kwun Tong Line (MTR)
-choi_hung_platform,kowloon_bay_platform,4,paid_train,Kwun Tong Line (MTR)
-kowloon_bay_platform,ngau_tau_kok_platform,4,paid_train,Kwun Tong Line (MTR)
-ngau_tau_kok_platform,kwun_tong_platform,4,paid_train,Kwun Tong Line (MTR)
-kwun_tong_platform,lam_tin_platform,4,paid_train,Kwun Tong Line (MTR)
+diamond_hill_platform_ktl,choi_hung_platform,3,paid_train,Kwun Tong Line (MTR)
+choi_hung_platform,kowloon_bay_platform,3,paid_train,Kwun Tong Line (MTR)
+kowloon_bay_platform,ngau_tau_kok_platform,3,paid_train,Kwun Tong Line (MTR)
+ngau_tau_kok_platform,kwun_tong_platform,3,paid_train,Kwun Tong Line (MTR)
+kwun_tong_platform,lam_tin_platform,3,paid_train,Kwun Tong Line (MTR)
 lam_tin_platform,yau_tong_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
-yau_tong_platform_ktl,tiu_keng_leng_platform_ktl,6,paid_train,Kwun Tong Line (MTR)
+yau_tong_platform_ktl,tiu_keng_leng_platform_ktl,4,paid_train,Kwun Tong Line (MTR)
 
 // --- TRANSFERS (KTL <-> TKL) ---
 yau_tong_platform_ktl,yau_tong_platform_tkl,3,paid_transfer,cross-platform transfer
@@ -745,9 +745,9 @@ quarry_bay_platform_isl,quarry_bay_concourse,2,fare_gate,fare gates
 shau_kei_wan_platform,shau_kei_wan_concourse,2,fare_gate,fare gates
 
 // --- TUNG CHUNG LINE (TRAIN TRACKS) ---
-hong_kong_platform,kowloon_platform,6,paid_train,Tung Chung Line (MTR)
-kowloon_platform,olympic_platform,4,paid_train,Tung Chung Line (MTR)
-olympic_platform,nam_cheong_platform_tcl,4,paid_train,Tung Chung Line (MTR)
+hong_kong_platform,kowloon_platform,8,paid_train,Tung Chung Line (MTR)
+kowloon_platform,olympic_platform,5,paid_train,Tung Chung Line (MTR)
+olympic_platform,nam_cheong_platform_tcl,5,paid_train,Tung Chung Line (MTR)
 nam_cheong_platform_tcl,lai_king_platform_tcl_nb,10,paid_train,Tung Chung Line (MTR),uni
 lai_king_platform_tcl_nb,tsing_yi_platform_tcl,8,paid_train,Tung Chung Line (MTR),uni
 tsing_yi_platform_tcl,lai_king_platform_tcl_sb,8,paid_train,Tung Chung Line (MTR),uni
@@ -861,7 +861,7 @@ tung_chung_station_bus_terminus,yat_tung_estate,15,paid_bus,NLB 38
 // --- TSEUNG KWAN O LINE (TRAIN TRACKS) ---
 north_point_platform_tkl,quarry_bay_platform_tkl,4,paid_train,Tseung Kwan O Line (MTR)
 quarry_bay_platform_tkl,yau_tong_platform_tkl,8,paid_train,Tseung Kwan O Line (MTR)
-yau_tong_platform_tkl,tiu_keng_leng_platform_tkl,6,paid_train,Tseung Kwan O Line (MTR)
+yau_tong_platform_tkl,tiu_keng_leng_platform_tkl,4,paid_train,Tseung Kwan O Line (MTR)
 tiu_keng_leng_platform_tkl,tseung_kwan_o_platform_eb,4,paid_train,Tseung Kwan O Line (MTR),uni
 tseung_kwan_o_platform_eb,hang_hau_platform,4,paid_train,Tseung Kwan O Line (MTR),uni
 hang_hau_platform,po_lam_platform,4,paid_train,Tseung Kwan O Line (MTR)
@@ -1117,12 +1117,12 @@ tsuen_wan_west_platform,mei_foo_platform_tml,8,paid_train,Tuen Ma Line (MTR)
 mei_foo_platform_tml,nam_cheong_platform_tml,7,paid_train,Tuen Ma Line (MTR)
 nam_cheong_platform_tml,austin_platform,6,paid_train,Tuen Ma Line (MTR)
 austin_platform,east_tst_platform,6,paid_train,Tuen Ma Line (MTR)
-east_tst_platform,hung_hom_platform_tml,5,paid_train,Tuen Ma Line (MTR)
-hung_hom_platform_tml,ho_man_tin_platform_tml,4,paid_train,Tuen Ma Line (MTR)
+east_tst_platform,hung_hom_platform_tml,4,paid_train,Tuen Ma Line (MTR)
+hung_hom_platform_tml,ho_man_tin_platform_tml,3,paid_train,Tuen Ma Line (MTR)
 ho_man_tin_platform_tml,to_kwa_wan_platform,4,paid_train,Tuen Ma Line (MTR)
-to_kwa_wan_platform,sung_wong_toi_platform,4,paid_train,Tuen Ma Line (MTR)
-sung_wong_toi_platform,kai_tak_platform,4,paid_train,Tuen Ma Line (MTR)
-kai_tak_platform,diamond_hill_platform_tml,5,paid_train,Tuen Ma Line (MTR)
+to_kwa_wan_platform,sung_wong_toi_platform,3,paid_train,Tuen Ma Line (MTR)
+sung_wong_toi_platform,kai_tak_platform,3,paid_train,Tuen Ma Line (MTR)
+kai_tak_platform,diamond_hill_platform_tml,4,paid_train,Tuen Ma Line (MTR)
 diamond_hill_platform_tml,hin_keng_platform,9,paid_train,Tuen Ma Line (MTR)
 hin_keng_platform,tai_wai_platform_tml,5,paid_train,Tuen Ma Line (MTR)
 tai_wai_platform_tml,che_kung_temple_platform,4,paid_train,Tuen Ma Line (MTR)
