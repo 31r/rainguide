@@ -856,6 +856,7 @@ tung_chung_junction,coastal_skyline,2,bridge,bridge
 coastal_skyline,caribbean_coast,8,covered_walkway,covered walkway
 caribbean_coast,the_visionary,6,bridge,bridge
 citygate_outlets,tung_chung_station_bus_terminus,2,internal,internal walkway
+tung_chung_station_bus_terminus,cheung_tung_estate,25,paid_bus,NLB 37A
 tung_chung_station_bus_terminus,yat_tung_estate,15,paid_bus,NLB 38
 
 // --- TSEUNG KWAN O LINE (TRAIN TRACKS) ---

@@ -651,6 +651,7 @@
 			"Islands District (離島區)": {
 				"Tung Chung (東涌)": {
 					"caribbean_coast": "Caribbean Coast / 映灣園",
+					"cheung_tung_estate": "Cheung Tung Estate / 翔東邨",
 					"citygate_outlets": "Citygate Outlets / 東薈城名店倉",
 					"coastal_skyline": "Coastal Skyline / 藍天海岸",
 					"fu_tung_estate": "Fu Tung Estate / 富東邨",
