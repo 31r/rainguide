@@ -7,7 +7,7 @@
 hong_kong_platform_ael,airport_platform,48,premium_train,Airport Express (MTR)
 kowloon_platform_ael,airport_platform,44,premium_train,Airport Express (MTR)
 tsing_yi_platform_ael,airport_platform,28,premium_train,Airport Express (MTR)
-tsing_yi_platform_ael,hong_kong_platform_ael,30,premium_train,Airport Express (MTR)
+tsing_yi_platform_ael,hong_kong_platform_ael,30,premium_train,Airport Express (MTR),uni
 airport_platform,expo_platform,4,premium_train,Airport Express (MTR)
 airport_platform,expo_platform,5,paid_train,Airport Express (MTR)
 
