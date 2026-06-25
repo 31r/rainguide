@@ -539,6 +539,20 @@
 					"yu_ming_court": "Yu Ming Court / 裕明苑",
 					"yuk_ming_court": "Yuk Ming Court / 煜明苑"
 				},
+				"Po Lam (寶琳)": {
+					"mcp_central": "MCP Central / 新都城中心二期",
+					"mcp_discovery": "MCP Discovery / 新都城中心三期",
+					"mcp_one": "MCP One / 新都城中心一期",
+					"metro_city_phase_1": "Metro City Phase 1 / 新都城一期",
+					"metro_city_phase_2": "Metro City Phase 2 / 新都城二期",
+					"po_lam_commercial_complex": "Po Lam Commercial Complex / 寶林商場",
+					"po_lam_estate": "Po Lam Estate / 寶林邨",
+					"po_lam_sports_centre": "Po Lam Sports Centre / 寶林體育館",
+					"metro_city_phase_3": "The Metropolis / 都會豪庭",
+					"the_pinnacle": "The Pinnacle / 叠翠軒",
+					"verbena_heights": "Verbena Heights / 茵怡花園",
+					"ying_ming_court": "Ying Ming Court / 英明苑"
+				},
 			},
             "Sha Tin District (沙田區)": {
                 "Tai Wai (大圍)": {

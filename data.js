@@ -925,6 +925,23 @@ the_lane,nan_fung_plaza,2,bridge,bridge over Pui Shing Road
 the_lane,maritime_bay,2,bridge,bridge over Pui Shing Road
 maritime_bay,la_cite_noble,2,internal,internal mall connection
 
+// --- PO LAM HUB ---
+po_lam_concourse,mcp_one,2,bridge,Exit B2
+po_lam_concourse,mcp_central,2,bridge,Exits A2 or B1
+po_lam_concourse,mcp_discovery,2,bridge,Exit A1
+metro_city_phase_1,mcp_one,2,lift,resident lift lobby
+metro_city_phase_2,mcp_central,2,lift,resident lift lobby
+metro_city_phase_3,mcp_discovery,2,lift,resident lift lobby
+po_lam_concourse,the_pinnacle,3,bridge,Exit B3
+mcp_one,the_pinnacle,2,bridge,bridge over Wan Hang Road
+mcp_central,po_lam_estate,4,bridge,bridge over Po Fung Road
+po_lam_estate,po_lam_commercial_complex,2,covered_walkway,covered walkway
+po_lam_estate,po_lam_sports_centre,2,covered_walkway,covered walkway
+po_lam_commercial_complex,po_lam_sports_centre,2,covered_walkway,covered walkway
+po_lam_estate,ying_ming_court,2,covered_walkway,covered walkway
+mcp_one,mcp_discovery,2,bridge,bridge over Mau Tai Road
+mcp_discovery,verbena_heights,2,bridge,bridge over Mau Tai Road
+
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
 admiralty_platform_isl,admiralty_platform_twl,3,paid_transfer,cross-platform transfer
 admiralty_platform_isl,admiralty_platform_erl,5,paid_transfer,platform level transfer (escalators)
