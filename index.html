@@ -226,26 +226,30 @@
                 for (let edge of graph[currNode]) {
                     // Identify if the next edge is a vehicle ride
                     const isVehicle = edge.type.includes('train') || edge.type.includes('bus') || edge.type.includes('rail');
-                    
-                    // FIX 1: Change 'const' to 'let' so it can be dynamically modified!
                     let nextLine = isVehicle ? edge.desc : '';
-
-                    // APPLY THE PENALTY: If we are on a vehicle, jump to a new vehicle, and the descriptions don't match
                     let penalty = 0;
-                    if (currLine !== '' && nextLine !== '') {
-                        
-                        const currRoutes = currLine.split(' / ');
-                        const nextRoutes = nextLine.split(' / ');
-                        
-                        // Find if there is an exact matching route between the two edges
-                        const intersection = currRoutes.find(r => nextRoutes.includes(r));
 
-                        if (intersection) {
-                            // Collapse the state down to the specific common route
-                            nextLine = intersection; 
+                    // 如果下一條邊需要搭乘交通工具
+                    if (nextLine !== '') {
+                        if (currLine === '') {
+                            // 情境 1：從「步行狀態」上車
+                            // 這會完美防堵「去商場洗底」的漏洞，因為只要上新車就要付等車成本 (TRANSFER_PENALTY)
+                            penalty = TRANSFER_PENALTY;
                         } else {
-                            // Apply the penalty for changing routes
-                            penalty = TRANSFER_PENALTY; 
+                            // 情境 2：連續搭乘交通工具（車轉車）
+                            const currRoutes = currLine.split(' / ');
+                            const nextRoutes = nextLine.split(' / ');
+                            
+                            // 檢查是否為同一條路線（例如一直坐在荃灣綫上）
+                            const intersection = currRoutes.find(r => nextRoutes.includes(r));
+
+                            if (intersection) {
+                                // 繼續留在同一次車上，無懲罰
+                                nextLine = intersection; 
+                            } else {
+                                // 直接轉乘另一台不同路線的車，加上等車懲罰
+                                penalty = TRANSFER_PENALTY; 
+                            }
                         }
                     }
 
