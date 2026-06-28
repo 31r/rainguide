@@ -608,7 +608,7 @@ queensway_plaza,lippo_centre,2,bridge,bridge
 admiralty_centre,central_gov_offices,6,bridge,bridge over Harcourt Road
 citic_tower,admiralty_exit_e2,6,bridge,bridge over Harcourt Road
 citic_tower,central_gov_offices,6,bridge,bridge over Tim Mei Avenue
-admiralty_east_bus_terminus,admiralty_concourse,2,Admiralty Exit D
+admiralty_east_bus_terminus,admiralty_concourse,2,staircase,Exit D
 united_centre,admiralty_exit_e2,6,bridge,bridge to MTR
 high_court,lippo_centre,6,bridge,bridge over Queensway
 high_court,queensway_gov_offices,2,bridge,short bridge
