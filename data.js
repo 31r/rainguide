@@ -495,7 +495,7 @@ metro_town,ocean_shores,2,bridge,bridge over Chui Ling Road
 metro_town,choi_ming_shopping_centre,3,bridge,bridge over Choi Ming Street
 choi_ming_shopping_centre,kin_ming_estate,2,covered_walkway,covered walkway
 choi_ming_shopping_centre,choi_ming_court,2,covered_walkway,covered walkway
-metro_town,hong_kong_design_institute,2,bridge,bridge over King Ling Road
+metro_town,hong_kong_design_institute,4,bridge,bridge over King Ling Road
 hong_kong_design_institute,ive_lee_wai_lee,2,bridge,bridge
 ive_lee_wai_lee,tiu_keng_leng_sports_centre,2,bridge,bridge
 tiu_keng_leng_sports_centre,tiu_keng_leng_public_library,1,internal,internal walkway
@@ -890,10 +890,10 @@ popcorn,popwalk,3,bridge,bridge over Po Yap Road
 popwalk,the_wings_ii,2,lift,resident lift lobby
 popcorn,popwalk_2,3,bridge,bridge over Po Yap Road
 popwalk_2,the_wings_iii,2,lift,resident lift lobby
-popcorn,park_central,2,bridge,bridge over Tong Yin Street
-park_central,tiu_keng_leng_sports_centre,2,bridge,bridge over Po Shun Road
-tiu_keng_leng_sports_centre,immigration_headquarters,3,bridge,bridge over Chui Ling Road
-tiu_keng_leng_sports_centre,tseung_kwan_o_government_offices,3,bridge,bridge over Chui Ling Road
+popcorn,park_central,3,bridge,bridge over Tong Yin Street
+park_central,tiu_keng_leng_sports_centre,4,bridge,bridge over Po Shun Road
+tiu_keng_leng_sports_centre,immigration_headquarters,4,bridge,bridge over Chui Ling Road
+tiu_keng_leng_sports_centre,tseung_kwan_o_government_offices,4,bridge,bridge over Chui Ling Road
 immigration_headquarters,tseung_kwan_o_government_offices,2,bridge,bridge
 popcorn,tko_spot,4,bridge,bridge over Tong Ming Street Park
 tko_spot,sheung_tak_estate,2,covered_walkway,covered walkway
