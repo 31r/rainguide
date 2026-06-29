@@ -890,12 +890,12 @@ popcorn,popwalk,3,bridge,bridge over Po Yap Road
 popwalk,the_wings_ii,2,lift,resident lift lobby
 popcorn,popwalk_2,3,bridge,bridge over Po Yap Road
 popwalk_2,the_wings_iii,2,lift,resident lift lobby
-popcorn,park_central,3,bridge,bridge over Tong Yin Street
+popcorn,park_central,4,bridge,bridge over Tong Yin Street
 park_central,tiu_keng_leng_sports_centre,4,bridge,bridge over Po Shun Road
 tiu_keng_leng_sports_centre,immigration_headquarters,4,bridge,bridge over Chui Ling Road
 tiu_keng_leng_sports_centre,tseung_kwan_o_government_offices,4,bridge,bridge over Chui Ling Road
 immigration_headquarters,tseung_kwan_o_government_offices,2,bridge,bridge
-popcorn,tko_spot,4,bridge,bridge over Tong Ming Street Park
+popcorn,tko_spot,10,bridge,bridge over Tong Ming Street Park
 tko_spot,sheung_tak_estate,2,covered_walkway,covered walkway
 sheung_tak_estate,kwong_ming_court,2,covered_walkway,covered walkway
 sheung_tak_estate,tong_ming_court,2,bridge,bridge over Tong Ming Street
@@ -903,7 +903,7 @@ sheung_tak_estate,beverly_garden,2,bridge,bridge over Tong Ming Street
 sheung_tak_estate,hong_kong_velodrome,2,bridge,bridge over Po Hong Road and covered walkway
 sheung_tak_estate,tseung_kwan_o_sports_ground,2,bridge,bridge over Po Hong Road and covered walkway
 hong_kong_velodrome,tseung_kwan_o_sports_ground,2,covered_walkway,covered walkway
-popcorn,popcorn_2,2,bridge,bridge over Tong Chun Street
+popcorn,popcorn_2,3,bridge,bridge over Tong Chun Street
 popcorn_2,the_grandiose,2,lift,resident lift lobby
 popcorn_2,tseung_kwan_o_plaza,2,bridge,bridge
 popcorn_2,bauhinia_garden,3,bridge,bridge over Po Yap Road
