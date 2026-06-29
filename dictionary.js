@@ -55,6 +55,7 @@
 					"nexxus_bldg": "Nexxus Building / 盈置大廈",
 					"princes_bldg": "Prince's Building / 太子大廈",
 					"scb_bldg": "Standard Chartered Bank / 渣打銀行大廈",
+					"the_forum": "The Forum / 富臨閣",
 					"the_henderson": "The Henderson",
 					"the_murray": "The Murray / 美利酒店",
 					"three_garden_road": "Three Garden Road / 花園道三號",
@@ -217,7 +218,8 @@
                     "the_austin": "The Austin",
                     "grand_austin": "Grand Austin",
 					"igc": "International Gateway Centre (IGC)",
-					"west_kowloon_station": "Hong Kong West Kowloon Station / 香港西九龍站"
+					"west_kowloon_station": "Hong Kong West Kowloon Station / 香港西九龍站",
+					"xiqu_centre": "Xiqu Centre / 戲曲中心"
 				},
 			},
 			"Sham Shui Po District (深水埗區)": {

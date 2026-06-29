@@ -546,7 +546,9 @@ two_ifc,ifc_mall,4,internal,Internal IFC Connection
 one_ifc,3_exchange_square,2,bridge,bridge
 hang_seng_hq,one_ifc,4,bridge,bridge over Connaught Road Central
 hang_seng_hq,3_exchange_square,4,bridge,bridge over Connaught Road Central
-3_exchange_square,1&2_exchange_square,6,bridge,bridge
+3_exchange_square,1&2_exchange_square,6,covered_walkway,covered walkway
+the_forum,1&2_exchange_square,4,covered_walkway,covered walkway
+the_forum,3_exchange_square,4,covered_walkway,covered walkway
 central_bus_terminus,1&2_exchange_square,2,escalator,escalator
 central_bus_terminus,3_exchange_square,2,escalator,escalator
 ifc_mall,1&2_exchange_square,4,bridge,bridge
@@ -591,16 +593,16 @@ princes_bldg,9qrc,4,bridge,bridge over Des Voeux Road Central
 princes_bldg,scb_bldg,4,bridge,bridge over Des Voeux Road Central
 9qrc,scb_bldg,2,bridge,Short Bridge
 scb_bldg,hsbc_bldg,2,bridge,Short Bridge
-chater_garden,aia_central,6,bridge,bridge over Chater Road
-chater_garden,the_henderson,6,bridge,bridge over Murray Road
+chater_garden,aia_central,7,bridge,bridge over Chater Road
+chater_garden,the_henderson,8,bridge,bridge over Murray Road
 the_henderson,aia_central,4,bridge,bridge over Cotton Tree Drive
 the_henderson,cheung_kong_centre,6,bridge,bridge over Queen's Road Central
 cheung_kong_centre,three_garden_road,4,bridge,bridge over Garden Road
 three_garden_road,the_murray,2,bridge,bridge
 the_henderson,central_east_node,2,bridge,bridge
 bank_of_america,central_east_node,2,bridge,bridge over Lambeth Walk
-fairmont_house,central_east_node,2,bridge,bridge
-queensway_plaza,central_east_node,6,bridge,bridge over Cotton Tree Drive
+fairmont_house,central_east_node,1,bridge,bridge
+queensway_plaza,central_east_node,8,bridge,bridge over Cotton Tree Drive
 queensway_plaza,admiralty_centre,2,bridge,bridge
 queensway_plaza,far_east_finance,2,bridge,bridge
 queensway_plaza,united_centre,2,internal,internal mall walkway
@@ -781,6 +783,7 @@ west_kowloon_station,austin_concourse,2,internal,Exit A to Austin Station,uni
 west_kowloon_station,igc,2,internal,Exit L
 austin_concourse,the_austin,2,internal,Exit B3
 austin_concourse,grand_austin,2,internal,Exit D3
+austin_concourse,xiqu_centre,2,escalator,Exit E
 
 // --- OLYMPIC HUB ---
 olympic_concourse,olympian_city_one,3,bridge,Exits A2 or E

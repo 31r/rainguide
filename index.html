@@ -232,23 +232,27 @@
                     // 如果下一條邊需要搭乘交通工具
                     if (nextLine !== '') {
                         if (currLine === '') {
-                            // 情境 1：從「步行狀態」上車
-                            // 這會完美防堵「去商場洗底」的漏洞，因為只要上新車就要付等車成本 (TRANSFER_PENALTY)
+                            // 從「步行狀態」上車，付全額等車成本
                             penalty = TRANSFER_PENALTY;
                         } else {
                             // 情境 2：連續搭乘交通工具（車轉車）
                             const currRoutes = currLine.split(' / ');
                             const nextRoutes = nextLine.split(' / ');
                             
-                            // 檢查是否為同一條路線（例如一直坐在荃灣綫上）
+                            // 檢查是否為同一條路線
                             const intersection = currRoutes.find(r => nextRoutes.includes(r));
 
                             if (intersection) {
                                 // 繼續留在同一次車上，無懲罰
                                 nextLine = intersection; 
                             } else {
-                                // 直接轉乘另一台不同路線的車，加上等車懲罰
-                                penalty = TRANSFER_PENALTY; 
+                                // 轉乘另一台車
+                                // ---> 加入跨月台轉乘優惠 <---
+                                if (edge.desc.toLowerCase().includes('cross-platform')) {
+                                    penalty = 1; // 跨月台只要過個對面，懲罰降到 1 分
+                                } else {
+                                    penalty = TRANSFER_PENALTY; // 一般轉乘維持 5 分
+                                }
                             }
                         }
                     }
