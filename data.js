@@ -946,6 +946,10 @@ po_lam_estate,ying_ming_court,2,covered_walkway,covered walkway
 mcp_one,mcp_discovery,2,bridge,bridge over Mau Tai Road
 mcp_discovery,verbena_heights,2,bridge,bridge over Mau Tai Road
 
+// --- DISNEYLAND RESORT LINE TRACKS ---
+sunny_bay_platform,disneyland_resort_platform,6,paid_train,Disneyland Resort Line (MTR)
+disneyland_resort_platform,disneyland_resort_concourse,2,fare_gate,fare gates
+
 // --- ADMIRALTY INTERCHANGE & EAST RAIL LINE ---
 admiralty_platform_isl,admiralty_platform_twl,3,paid_transfer,cross-platform transfer
 admiralty_platform_isl,admiralty_platform_erl,5,paid_transfer,platform level transfer (escalators)
@@ -1222,5 +1226,7 @@ mostown_phase_1,sunshine_city_phase_1,2,lift,resident lift lobby
 mostown_phase_2,sunshine_city_phase_2,2,lift,resident lift lobby
 mostown_phase_3,sunshine_city_phase_3,2,lift,resident lift lobby
 
+// --- TAI SHUI HANG ---
+tai_shui_hang_concourse,kam_tai_shopping_centre,4,covered_walkway,Exit A
+kam_tai_shopping_centre,kam_tai_court,2,covered_walkway,covered walkway
 `;
-

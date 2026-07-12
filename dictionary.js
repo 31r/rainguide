@@ -598,6 +598,10 @@
 				"CUHK (中文大學)": {
 					"cyt_building": "Cheng Yu Tung Building / 鄭裕彤樓"
 				},
+				"Tai Shui Hang (大水坑)": {
+					"kam_tai_shopping_centre": "Kam Tai Shopping Centre / 錦泰商場",
+					"kam_tai_court": "Kam Tai Court / 錦泰苑",
+				},
 				"Ma On Shan (馬鞍山)": {
 					"fu_fai_garden": "Fu Fai Garden / 富輝花園",
 					"fok_on_garden": "Fok On Garden / 福安花園",
@@ -810,6 +814,10 @@
 					"po_lam_concourse": "Po Lam / 寶琳站",
 					"lohas_park_concourse": "LOHAS Park / 日出康城站"
 				},
+				"Disneyland Resort Line (迪士尼綫)": {
+					"sunny_bay_concourse": "Sunny Bay / 欣澳站",
+					"disneyland_resort_concourse": "Disneyland Resort / 迪士尼站"
+				},
 				"East Rail Line (東鐵綫)": {
                     "admiralty_concourse": "Admiralty / 金鐘站",
                     "exhibition_centre_concourse": "Exhibition Centre / 會展站",
@@ -950,6 +958,10 @@
 					"hang_hau_platform": "Hang Hau / 坑口站",
 					"po_lam_platform": "Po Lam / 寶琳站",
 					"lohas_park_platform": "LOHAS Park / 康城站"
+				},
+				"Disneyland Resort Line (迪士尼綫)": {
+					"sunny_bay_platform": "Sunny Bay / 欣澳站",
+					"disneyland_resort_platform": "Disneyland Resort / 迪士尼站"
 				},
 				"East Rail Line (東鐵綫)": {
                     "admiralty_platform_erl": "Admiralty (East Rail Line) / 金鐘站 (東鐵綫)",
