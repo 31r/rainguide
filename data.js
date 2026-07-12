@@ -279,6 +279,7 @@ nina_mall_1,nina_tower,2,lift,office lift lobby
 nina_mall_1,nina_hotel,2,lift,hotel lobby
 nina_mall_1,nina_tower_bus_terminus,2,escalator,escalator
 nina_tower,nina_tower_bus_terminus,2,covered_walkway,covered walkway
+nina_tower_bus_terminus,heung_yuen_wai_port,100,paid_bus,Eternal East Bus (永東巴士)
 nina_mall_1,yurmsb,2,bridge,bridge
 citywalk_2,yurmsb,2,bridge,bridge
 citywalk_2,aurora,2,bridge,bridge
@@ -495,7 +496,7 @@ metro_town,ocean_shores,2,bridge,bridge over Chui Ling Road
 metro_town,choi_ming_shopping_centre,3,bridge,bridge over Choi Ming Street
 choi_ming_shopping_centre,kin_ming_estate,2,covered_walkway,covered walkway
 choi_ming_shopping_centre,choi_ming_court,2,covered_walkway,covered walkway
-metro_town,hong_kong_design_institute,4,bridge,bridge over King Ling Road
+metro_town,hong_kong_design_institute,8,bridge,bridge over King Ling Road
 hong_kong_design_institute,ive_lee_wai_lee,2,bridge,bridge
 ive_lee_wai_lee,tiu_keng_leng_sports_centre,2,bridge,bridge
 tiu_keng_leng_sports_centre,tiu_keng_leng_public_library,1,internal,internal walkway
@@ -893,8 +894,8 @@ popcorn,popwalk,3,bridge,bridge over Po Yap Road
 popwalk,the_wings_ii,2,lift,resident lift lobby
 popcorn,popwalk_2,3,bridge,bridge over Po Yap Road
 popwalk_2,the_wings_iii,2,lift,resident lift lobby
-popcorn,park_central,4,bridge,bridge over Tong Yin Street
-park_central,tiu_keng_leng_sports_centre,4,bridge,bridge over Po Shun Road
+popcorn,park_central,3,bridge,bridge over Tong Yin Street
+park_central,tiu_keng_leng_sports_centre,6,bridge,bridge over Po Shun Road
 tiu_keng_leng_sports_centre,immigration_headquarters,4,bridge,bridge over Chui Ling Road
 tiu_keng_leng_sports_centre,tseung_kwan_o_government_offices,4,bridge,bridge over Chui Ling Road
 immigration_headquarters,tseung_kwan_o_government_offices,2,bridge,bridge
@@ -1190,5 +1191,36 @@ shek_mun_platform,shek_mun_concourse,2,fare_gate,fare gates
 tai_shui_hang_platform,tai_shui_hang_concourse,2,fare_gate,fare gates
 heng_on_platform,heng_on_concourse,2,fare_gate,fare gates
 ma_on_shan_platform,ma_on_shan_concourse,2,fare_gate,fare gates
-wu_kai_sha_platform,wu_kai_sha_concourse,2,fare_gate,fare gates`;
+wu_kai_sha_platform,wu_kai_sha_concourse,2,fare_gate,fare gates
+
+// --- WU KAI SHA HUB ---
+wu_kai_sha_concourse,wu_kai_sha_station_pti,2,internal,Exit B
+wu_kai_sha_concourse,double_cove_place,2,internal,Exit A1
+double_cove_place,double_cove,2,lift,resident lift lobby
+wu_kai_sha_station_pti,lake_silver,2,lift,resident lift lobby
+
+// --- SAI SHA ---
+wu_kai_sha_station_pti,sai_sha_residences_pti,15,paid_bus,Citybus 581
+sai_sha_residences_pti,sierra_sea,2,lift,resident lift lobby
+
+// --- MA ON SHAN HUB ---
+ma_on_shan_concourse,ma_on_shan_plaza,2,internal,Exit A
+ma_on_shan_concourse,mostown,2,internal,Exit B
+mostown,sunshine_city_phase_4,2,lift,resident lift lobby
+mostown,mostown_phase_1,2,bridge,bridge
+mostown,mostown_phase_2,2,bridge,bridge
+mostown,mostown_phase_3,2,bridge,bridge
+mostown,mostown_phase_5,2,bridge,bridge
+mostown_phase_1,mostown_phase_3,2,bridge,bridge
+mostown,ma_on_shan_plaza,2,bridge,bridge
+mostown,fu_fai_garden,2,bridge,bridge
+fu_fai_garden,ma_on_shan_centre,2,bridge,bridge
+ma_on_shan_centre,villa_oceania,2,bridge,bridge
+mostown_phase_5,the_tolo_place,2,lift,resident lift lobby
+mostown_phase_5,fok_on_garden,2,bridge,bridge
+mostown_phase_1,sunshine_city_phase_1,2,lift,resident lift lobby
+mostown_phase_2,sunshine_city_phase_2,2,lift,resident lift lobby
+mostown_phase_3,sunshine_city_phase_3,2,lift,resident lift lobby
+
+`;
 

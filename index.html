@@ -361,7 +361,13 @@
                             // 1. The Sniper Override (Hardcoded Exceptions)
                             if (nodeId === 'chater_garden' || nodeId === 'sai_lau_kok_garden') {
                                 prefix = "🌳 "; // Parks
-                            } else if (nodeId === 'central_plaza' || nodeId === 'grand_city_plaza' || nodeId === '1&2_exchange_square' || nodeId === '3_exchange_square') {
+                            } else if (
+                                nodeId === 'central_plaza' || 
+                                nodeId === 'grand_city_plaza' || 
+                                nodeId === '1&2_exchange_square' || 
+                                nodeId === '3_exchange_square' ||
+                                nodeId === 'nina_tower'
+                            ) {
                                 prefix = "🏢 "; // Office Building
                             } else if (
                                 nodeId === 'immigration_headquarters' || 

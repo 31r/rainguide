@@ -489,6 +489,10 @@
 					"tai_wo_bus_terminus": "Tai Wo Bus Terminus / 太和巴士總站",
 					"tai_wo_plaza_east": "Tai Wo Plaza East / 太和廣場（東翼）",
 					"tai_wo_plaza_west": "Tai Wo Plaza West / 太和廣場（西翼）"
+				},
+				"Shap Sze Heung (十四鄉)": {
+					"sai_sha_residences_pti": "Sai Sha Residences PTI / 西沙灣交通交匯處",
+					"sierra_sea": "Sierra Sea"
 				}
 			},
 			"Sai Kung District/Tseung Kwan O (西貢區/將軍澳)": {
@@ -593,6 +597,29 @@
 				},
 				"CUHK (中文大學)": {
 					"cyt_building": "Cheng Yu Tung Building / 鄭裕彤樓"
+				},
+				"Ma On Shan (馬鞍山)": {
+					"fu_fai_garden": "Fu Fai Garden / 富輝花園",
+					"fok_on_garden": "Fok On Garden / 福安花園",
+					"ma_on_shan_centre": "Ma On Shan Centre / 馬鞍山中心",
+					"ma_on_shan_plaza": "Ma On Shan Plaza / 馬鞍山廣場",
+					"mostown": "MOSTown / 新港城中心",
+					"mostown_phase_1": "MOSTown Phase 1 / 新港城中心1期",
+					"mostown_phase_2": "MOSTown Phase 2 / 新港城中心2期",
+					"mostown_phase_3": "MOSTown Phase 3 / 新港城中心3期",
+					"mostown_phase_5": "MOSTown Phase 5 / 新港城中心5期",
+					"sunshine_city_phase_1": "Sunshine City Phase 1 / 新港城一期",
+					"sunshine_city_phase_2": "Sunshine City Phase 2 / 新港城二期",
+					"sunshine_city_phase_3": "Sunshine City Phase 3 / 新港城三期",
+					"sunshine_city_phase_4": "Sunshine City Phase 4 / 新港城四期",
+					"the_tolo_place": "The Tolo Place / 海濤居",
+					"villa_oceania": "Villa Oceania / 海典居",
+				},
+				"Wu Kai Sha (烏溪沙)": {
+					"double_cove": "Double Cove / 迎海",
+					"double_cove_place": "Double Cove Place / 迎海薈",
+					"lake_silver": "Lake Silver / 銀湖‧天峰",
+					"wu_kai_sha_station_pti": "Wu Kai Sha Station PTI / 烏溪沙站公共運輸交匯處"
 				}
             },
 			"Kwai Tsing District (葵青區)": {
