@@ -411,7 +411,8 @@ tsz_oi_court_stage_1_2,tsz_ching_estate,2,bridge,bridge over Tsz Wan Shan Road
 tsz_oi_court_stage_3,tsz_ching_estate,2,bridge,bridge over Fung Wah Street
 tsz_wan_shan_shopping_centre,tsz_lok_estate_phase_2,2,covered_walkway,covered walkway
 tsz_wan_shan_shopping_centre,tsz_lok_estate_phase_1,2,bridge,bridge over Wan Wah Street
-diamond_hill_concourse,kai_chuen_court,2,internal,Exit A2
+diamond_hill_concourse,kai_chuen_shopping_centre,2,internal,Exit D
+kai_chuen_shopping_centre,kai_chuen_court,2,covered_walkway,covered walkway
 
 // --- CHOI HUNG HUB ---
 choi_hung_concourse,choi_hung_estate,2,internal,Exit C4

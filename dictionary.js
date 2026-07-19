@@ -299,6 +299,7 @@
 					"fung_tak_estate": "Fung Tak Estate / 鳳德邨",
 					"galaxia": "Galaxia / 星河明居",
 					"kai_chuen_court": "Kai Chuen Court / 啟鑽苑",
+					"kai_chuen_shopping_centre": "Kai Chuen Shopping Centre / 啟鑽商場",
 					"plaza_hollywood": "Plaza Hollywood / 荷里活廣場"
 				},
 				"Tsz Wan Shan (慈雲山)": {
