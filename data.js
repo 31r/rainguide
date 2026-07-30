@@ -259,7 +259,7 @@ tkc_sports_centre,discovery_park_pti,2,escalator,escalator
 luk_yeung_galleria,tw_carpark_building,2,bridge,bridge over Sai Lau Kok Road
 tw_carpark_building,tsuen_wan_east_junction,2,bridge,bridge
 tsuen_wan_east_junction,kolour_tsuen_wan_2,3,bridge,bridge over Castle Peak Road - Tsuen Wan
-kolour_tsuen_wan_1,kolour_tsuen_wan_2,2,bridge,bridge over Tsuen Wan Market Street
+kolour_tsuen_wan_1,kolour_tsuen_wan_2,2,bridge,bridge on 2/F
 tsuen_wan_east_junction,tsuen_fung_centre,0,bridge,bridge
 tsuen_fung_centre,waldorf_centre,2,bridge,bridge
 waldorf_centre,tsuen_cheong_centre,2,bridge,bridge
