@@ -1138,6 +1138,8 @@ cyberport,central_bus_terminus,50,paid_bus,Citybus 30X,uni
 // --- WONG CHUK HANG ---
 wong_chuk_hang_concourse,the_southside,2,internal,Exit C
 wong_chuk_hang_concourse,metro_south,4,bridge,Exit B and bridge
+wong_chuk_hang_concourse,nlsr_cooked_food_market,2,bridge,Exit B and bridge
+metro_south,nlsr_cooked_food_market,4,bridge,bridge
 the_southside,blue_coast,2,lift,resident lift lobby
 the_southside,deep_water_pavilia,2,lift,resident lift lobby
 the_southside,deep_water_south,2,lift,resident lift lobby

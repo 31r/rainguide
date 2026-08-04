@@ -162,6 +162,7 @@
 					"la_marina": "La Marina / 揚海",
 					"la_montagne": "La Montagne / 海盈山",
 					"metro_south": "Metro South / 都會中心",
+					"nlsr_cooked_food_market": "Nam Long Shan Road Cooked Food Market / 南朗山道熟食市場",
 					"southland": "Southland / 晉環",
 					"the_southside": "The Southside / 港島南岸"
 				}
