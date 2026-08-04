@@ -83,6 +83,7 @@
 			},
     		"Wan Chai District (灣仔區)": {				
 				"Wan Chai (灣仔)": {
+					"151_lockhart_road": "151 Lockhart Road / 駱克道151號",
 					"capital_ctr": "Capital Centre / 資本中心",
 					"causeway_ctr": "Causeway Centre / 灣景中心大廈",
 					"central_plaza": "Central Plaza / 中環廣場",
@@ -153,6 +154,16 @@
 				"Pok Fu Lam (薄扶林)": {
 					"cyberport": "Cyberport / 數碼港",
 					"queen_mary_hospital": "Queen Mary Hospital / 瑪麗醫院"
+				},
+				"Wong Chuk Hang (黃竹坑)": {
+					"blue_coast": "Blue Coast",
+					"deep_water_pavilia": "Deep Water Pavilia / 滶晨",
+					"deep_water_south": "Deep Water South",
+					"la_marina": "La Marina / 揚海",
+					"la_montagne": "La Montagne / 海盈山",
+					"metro_south": "Metro South / 都會中心",
+					"southland": "Southland / 晉環",
+					"the_southside": "The Southside / 港島南岸"
 				}
 			},
 			"Yau Tsim Mong District (油尖旺區)": {

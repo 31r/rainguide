@@ -660,6 +660,8 @@ admiralty_platform_erl,admiralty_concourse,4,fare_gate,fare gates to/from East R
 wan_chai_platform,wan_chai_concourse,2,fare_gate,fare gates
 wan_chai_concourse,china_overseas_bldg,2,internal,Exit C
 wan_chai_concourse,immigration_tower,6,bridge,Exit A5 Footbridge
+wan_chai_concourse,151_lockhart_road,3,bridge,Exit A5 Footbridge
+151_lockhart_road,immigration_tower,4,bridge,Footbridge
 immigration_tower,central_plaza,2,bridge,bridge to Central Plaza
 immigration_tower,revenue_tower,2,escalator,covered walkway
 central_plaza,hkcec,2,bridge,bridge to HKCEC
@@ -1133,6 +1135,16 @@ queen_mary_hospital,kennedy_town_station_minibus_terminus,25,paid_bus,Green Mini
 cyberport,admiralty_east_bus_terminus,60,paid_bus,Citybus 30X
 cyberport,central_bus_terminus,50,paid_bus,Citybus 30X,uni
 
+// --- WONG CHUK HANG ---
+wong_chuk_hang_concourse,the_southside,2,internal,Exit C
+wong_chuk_hang_concourse,metro_south,4,bridge,Exit B and bridge
+the_southside,blue_coast,2,lift,resident lift lobby
+the_southside,deep_water_pavilia,2,lift,resident lift lobby
+the_southside,deep_water_south,2,lift,resident lift lobby
+the_southside,la_marina,2,lift,resident lift lobby
+the_southside,la_montagne,2,lift,resident lift lobby
+the_southside,southland,2,lift,resident lift lobby
+
 // --- TUEN MA LINE (TRAIN TRACKS) ---
 tuen_mun_platform,siu_hong_platform,5,paid_train,Tuen Ma Line (MTR)
 siu_hong_platform,tin_shui_wai_platform,10,paid_train,Tuen Ma Line (MTR)
@@ -1205,6 +1217,7 @@ double_cove_place,double_cove,2,lift,resident lift lobby
 wu_kai_sha_station_pti,lake_silver,2,lift,resident lift lobby
 
 // --- SAI SHA ---
+sha_tin_central_pti,sai_sha_residences_pti,45,paid_bus,Citybus 580
 wu_kai_sha_station_pti,sai_sha_residences_pti,15,paid_bus,Citybus 581
 sai_sha_residences_pti,sierra_sea,2,lift,resident lift lobby
 
