@@ -129,7 +129,7 @@
 					"cityplaza_gf": "Cityplaza G/F / 太古城中心地下",
 					"cityplaza_1f": "Cityplaza 1/F / 太古城中心一樓",
 					"cityplaza_2f": "Cityplaza 2/F / 太古城中心二樓",
-					"east_hk": "East Hong Kong / 東隅",
+					"east_hk": "East Hong Kong / 東隅酒店",
 					"horizon_gardens": "Horizon Gardens / 海天花園",
 					"kam_din_terrace": "Kam Din Terrace / 金殿臺",
 					"kao_shan_terrace": "Kao Shan Terrace / 高山臺",
@@ -151,6 +151,9 @@
 				}
 			},
 			"Southern District (南區)": {
+				"Ap Lei Chau (鴨脷洲)": {
+					"larvotto": "Larvotto / 南灣"
+				},
 				"Pok Fu Lam (薄扶林)": {
 					"cyberport": "Cyberport / 數碼港",
 					"queen_mary_hospital": "Queen Mary Hospital / 瑪麗醫院"

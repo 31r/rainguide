@@ -1146,6 +1146,7 @@ the_southside,deep_water_south,2,lift,resident lift lobby
 the_southside,la_marina,2,lift,resident lift lobby
 the_southside,la_montagne,2,lift,resident lift lobby
 the_southside,southland,2,lift,resident lift lobby
+the_southside,larvotto,30,residents_bus,HR87 Residents' Bus (Registered Residents Only)
 
 // --- TUEN MA LINE (TRAIN TRACKS) ---
 tuen_mun_platform,siu_hong_platform,5,paid_train,Tuen Ma Line (MTR)
