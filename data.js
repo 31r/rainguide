@@ -579,7 +579,6 @@ central_market,100qrc,4,bridge,bridge over Queen's Road Central
 central_market,mid_levels_escalator,4,bridge,bridge over Queen's Road Central
 100qrc,mid_levels_escalator,2,bridge,bridge
 hang_seng_hq,nexxus_bldg,2,bridge,bridge over Queen Victoria Street
-landmark_gloucester,alexandra_house,2,bridge,bridge over Des Voeux Road Central
 landmark_mall,alexandra_house,2,bridge,bridge over Des Voeux Road Central
 landmark_mall,bea_bldg,2,internal,internal Landmark connection
 landmark_mall,central_bldg,2,internal,internal Landmark connection
@@ -588,6 +587,7 @@ central_tower,entertainment_bldg,2,bridge,bridge over Wyndham Street
 landmark_mall,9qrc,6,bridge,bridge over Ice House Street
 landmark_gloucester,landmark_mall,2,lift,office lift lobby
 landmark_edinburgh,landmark_mall,2,lift,office lift lobby
+landmark_mo,landmark_mall,2,lift,hotel lobby
 landmark_york,landmark_mall,2,lift,office lift lobby
 alexandra_house,princes_bldg,2,bridge,bridge over Ice House Street
 princes_bldg,mandarin_oriental,2,bridge,bridge over Chater Road
@@ -633,11 +633,16 @@ central_concourse_west,central_concourse_mid,4,tunnel,Central MTR unpaid link
 central_concourse_mid,central_concourse_east,4,tunnel,Central MTR unpaid link
 pacific_place_lg1,pacific_place_l2,8,escalator,internal escalators
 pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
-pacific_place_lg1,three_pacific_place,4,tunnel,tunnel
-pacific_place_l2,queensway_gov_offices,2,bridge,short bridge
+pacific_place_lg1,three_pacific_place,4,tunnel,tunnel (suspended until summer 2027)
+pacific_place_l2,one_pacific_place,2,escalator,internal escalators
+pacific_place_l2,two_pacific_place,2,escalator,internal escalators
+pacific_place_l2,conrad_hotel,2,lift,hotel lobby
+pacific_place_l2,jw_marriott,2,lift,hotel lobby
+pacific_place_l2,shangrila_hk,2,lift,hotel lobby
 pacific_place_l2,united_centre,6,bridge,bridge over Queensway
 pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
+jw_marriott,upper_house,2,covered_walkway,covered walkway via 4/F hotel lobby
 
 // --- CENTRAL TO HONG KONG PAID TUNNEL ---
 central_platform_isl,hong_kong_platform,8,paid_tunnel,paid tunnel with moving walkways
@@ -709,6 +714,7 @@ north_point_concourse,roca_centre,2,internal,Exit B to Roca Centre
 
 // --- TAI KOO HUB ---
 tai_koo_platform,tai_koo_concourse,2,fare_gate,fare gates
+tai_koo_concourse,east_hk,5,internal,Exit D1 to East Hotel G/F
 tai_koo_concourse,cityplaza_gf,4,internal,Exit D2 to Cityplaza G/F
 tai_koo_concourse,cityplaza_2f,4,internal,Exit E1 to Cityplaza 2/F
 cityplaza_gf,cityplaza_1f,3,escalator,internal escalators
@@ -902,7 +908,8 @@ park_central,tiu_keng_leng_sports_centre,6,bridge,bridge over Po Shun Road
 tiu_keng_leng_sports_centre,immigration_headquarters,4,bridge,bridge over Chui Ling Road
 tiu_keng_leng_sports_centre,tseung_kwan_o_government_offices,4,bridge,bridge over Chui Ling Road
 immigration_headquarters,tseung_kwan_o_government_offices,2,bridge,bridge
-popcorn,tko_spot,10,bridge,bridge over Tong Ming Street Park
+popcorn,tko_spot,10,bridge,follow signs for Civic Square to reach footbridge,uni
+tko_spot,popcorn,10,bridge,follow signs for MTR to reach footbridge,uni
 tko_spot,sheung_tak_estate,2,covered_walkway,covered walkway
 sheung_tak_estate,kwong_ming_court,2,covered_walkway,covered walkway
 sheung_tak_estate,tong_ming_court,2,bridge,bridge over Tong Ming Street
