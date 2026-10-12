@@ -636,9 +636,10 @@ pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
 pacific_place_lg1,three_pacific_place,4,tunnel,tunnel (suspended until summer 2027)
 pacific_place_l2,one_pacific_place,2,escalator,internal escalators
 pacific_place_l2,two_pacific_place,2,escalator,internal escalators
-pacific_place_l2,conrad_hotel,2,lift,hotel lobby
-pacific_place_l2,jw_marriott,2,lift,hotel lobby
-pacific_place_l2,shangrila_hk,2,lift,hotel lobby
+pacific_place_l2,conrad_hotel,2,escalator,Entrances at 3/F and 4/F
+pacific_place_l2,jw_marriott,2,escalator,Entrance at 3/F
+pacific_place_l2,shangrila_hk,2,escalator,Entrance at 4/F
+pacific_place_l2,pacific_place_apts,2,escalator,Entrance at 4/F
 pacific_place_l2,united_centre,6,bridge,bridge over Queensway
 pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
@@ -733,6 +734,8 @@ kornhill_plaza_n,kornhill_plaza_s,2,bridge,bridge over Kornhill Road
 kornhill_plaza_s,kornhill_a-h,8,escalator,escalator and bridge
 kornhill_plaza_s,kornhill_j-m,6,escalator,escalator and bridge
 kornhill_a-h,kornhill_j-m,4,staircase,staircase
+kornhill_plaza_s,kornhill_apartments,2,internal,"During Aeon department store hours (10:00-22:30), enter from Aeon 2/F. Outside Aeon opening hours, take escalators to 4/F then take the lift down to 3/F.",uni
+kornhill_apartments,kornhill_plaza_s,2,internal,"Direct access to Aeon 2/F during department store hours (10:00-22:30). Outside Aeon opening hours, take the lift next to the Chinese restaurant to 4/F then take escalators down to ground floor to access MTR.",uni
 
 // --- SAI WAN HO HUB ---
 sai_wan_ho_platform,sai_wan_ho_concourse,2,fare_gate,fare gates
