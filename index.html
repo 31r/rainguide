@@ -703,7 +703,20 @@
                     // Determine if the description is a custom instruction or a standard noun
                     let viaPrefix = "via ";
                     const lowerDesc = edge.desc.toLowerCase();
-                    if (lowerDesc.startsWith('follow') || lowerDesc.startsWith('walk') || lowerDesc.startsWith('take') || lowerDesc.startsWith('exit') || lowerDesc.startsWith('towards') || lowerDesc.startsWith('signs')) {
+                    if (
+                        lowerDesc.startsWith('follow') || 
+                        lowerDesc.startsWith('walk') || 
+                        lowerDesc.startsWith('take') || 
+                        lowerDesc.startsWith('exit') || 
+                        lowerDesc.startsWith('towards') || 
+                        lowerDesc.startsWith('signs') ||
+                        lowerDesc.startsWith('during') ||
+                        lowerDesc.startsWith('direct') ||
+                        lowerDesc.startsWith('entrance') || 
+                        lowerDesc.startsWith('enter') ||
+                        lowerDesc.startsWith('access') ||
+                        lowerDesc.startsWith('use')
+                    ) {
                         viaPrefix = ""; // Drop the 'via' for custom instructions
                     }
                     const displayDesc = viaPrefix + edge.desc;
