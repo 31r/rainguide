@@ -255,6 +255,7 @@
 					"yee_kok_court": "Yee Kok Court / 怡閣苑"
 				},
 				"Lai Chi Kok (荔枝角)": {
+                    "aeon_lck": "Aeon Style Lai Chi Kok / 永旺百貨 (荔枝角)",
 					"aqua_marine": "Aqua Marine / 碧海藍天",
 					"banyan_garden": "Banyan Garden / 泓景臺",
 					"cheung_sha_wan_plaza": "Cheung Sha Wan Plaza / 長沙灣廣場",

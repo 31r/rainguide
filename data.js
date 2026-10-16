@@ -824,7 +824,8 @@ v_walk,cullinan_west,2,lift,resident lift lobby
 v_walk,hoi_tat_estate,6,bridge,bridge
 hoi_tat_estate,sham_shui_po_lcst_building,2,internal,podium
 sham_shui_po_lcst_building,hoi_ying_estate,3,bridge,bridge
-sham_shui_po_lcst_building,aqua_marine,3,bridge,bridge through Aeon (🕒 08:30 - 22:30)
+sham_shui_po_lcst_building,aeon_lck,3,bridge,bridge (G/F 08:30-22:30 via lift; 1/F 10:00-22:30)
+aeon_lck,aqua_marine,2,covered_walkway,covered walkway (Aeon opening hours only)
 
 // --- TSING YI HUB ---
 tsing_yi_concourse,maritime_square_1,2,internal,Exits A2/B (both 1/F) / F (3/F) / G (2/F)
