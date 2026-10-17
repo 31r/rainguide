@@ -58,7 +58,6 @@
 					"scb_bldg": "Standard Chartered Bank / 渣打銀行大廈",
 					"the_forum": "The Forum / 富臨閣",
 					"the_henderson": "The Henderson",
-					"the_murray": "The Murray / 美利酒店",
 					"three_garden_road": "Three Garden Road / 花園道三號",
 					"wheelock_house": "Wheelock House / 會德豐大廈",
 					"world_wide_house": "World-Wide House / 環球大廈",
@@ -86,7 +85,6 @@
 					"queensway_plaza": "Queensway Plaza / 金鐘廊",
 					"shangrila_hk": "Island Shangri-La Hotel / 港島香格里拉大酒店",
 					"united_centre": "United Centre / 統一中心",
-					"upper_house": "Upper House / 香港居舍酒店"
 				}
 			},
     		"Wan Chai District (灣仔區)": {				

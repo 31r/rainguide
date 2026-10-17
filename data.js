@@ -600,7 +600,6 @@ chater_garden,the_henderson,8,bridge,bridge over Murray Road
 the_henderson,aia_central,4,bridge,bridge over Cotton Tree Drive
 the_henderson,cheung_kong_centre,6,bridge,bridge over Queen's Road Central
 cheung_kong_centre,three_garden_road,4,bridge,bridge over Garden Road
-three_garden_road,the_murray,2,bridge,bridge
 the_henderson,central_east_node,2,bridge,bridge
 bank_of_america,central_east_node,2,bridge,bridge over Lambeth Walk
 fairmont_house,central_east_node,1,bridge,bridge
@@ -643,7 +642,6 @@ pacific_place_l2,pacific_place_apts,2,escalator,Entrance at 4/F
 pacific_place_l2,united_centre,6,bridge,bridge over Queensway
 pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
-jw_marriott,upper_house,2,covered_walkway,covered walkway via 4/F hotel lobby
 
 // --- CENTRAL TO HONG KONG PAID TUNNEL ---
 central_platform_isl,hong_kong_platform,8,paid_tunnel,paid tunnel with moving walkways
