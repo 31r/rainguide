@@ -1141,6 +1141,10 @@ wong_chuk_hang_platform,wong_chuk_hang_concourse,2,fare_gate,fare gates
 lei_tung_platform,lei_tung_concourse,2,fare_gate,fare gates
 south_horizons_platform,south_horizons_concourse,2,fare_gate,fare gates
 
+// --- AP LEI CHAU ---
+lei_tung_concourse,lei_tung_commercial_ctr,2,covered_walkway,Exit B
+lei_tung_commercial_ctr,lei_tung_estate,2,bridge,bridge
+
 // --- POK FU LAM ---
 queen_mary_hospital,kennedy_town_station_minibus_terminus,25,paid_bus,Green Minibus 54M
 cyberport,admiralty_east_bus_terminus,60,paid_bus,Citybus 30X

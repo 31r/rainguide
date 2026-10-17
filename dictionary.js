@@ -162,6 +162,8 @@
 			"Southern District (南區)": {
 				"Ap Lei Chau (鴨脷洲)": {
 					"larvotto": "Larvotto / 南灣"
+					"lei_tung_commercial_ctr": "Lei Tung Commercial Centre / 利東商場",
+					"lei_tung_estate": "Lei Tung Estate / 利東邨",
 				},
 				"Pok Fu Lam (薄扶林)": {
 					"cyberport": "Cyberport / 數碼港",
