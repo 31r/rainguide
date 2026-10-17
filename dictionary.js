@@ -111,6 +111,8 @@
 					"cwb_plaza": "Causeway Bay Plaza 1 / 銅鑼灣廣場一期",
 					"east_point_centre": "East Point Centre / 東角中心",
 					"hysan_place": "Hysan Place / 希慎廣場",
+					"lee_garden_one": "Lee Garden One / 利園一期",
+					"lee_garden_two": "Lee Garden Two / 利園二期",
 					"macau_yat_yuen_centre": "Macau Yat Yuen Centre / 澳門逸園中心",
 					"sogo_cwb": "SOGO (Causeway Bay) / 崇光百貨 (銅鑼灣)",
 					"the_goldmark": "The Goldmark / 黃金廣場",

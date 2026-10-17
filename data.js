@@ -693,6 +693,8 @@ causeway_bay_concourse_d_f,hysan_place,2,internal,Exit F2 to Hysan Place
 causeway_bay_concourse_d_f,the_goldmark,2,internal,Exit F1 to The Goldmark
 causeway_bay_concourse_d_f,sogo_cwb,2,internal,Exits D3 or D4 to SOGO Basement
 causeway_bay_concourse_d_f,macau_yat_yuen_centre,2,staircase,Exit D2
+hysan_place,lee_garden_two,4,covered_walkway,covered walkway on Yun Ping Road
+lee_garden_one,lee_garden_two,2,bridge,bridge
 macau_yat_yuen_centre,sogo_cwb,2,covered_walkway,covered walkway on Hennessy Road
 causeway_bay_concourse_d_f,east_point_centre,2,staircase,Exit D2
 sogo_cwb,east_point_centre,2,lift,office lift lobby
