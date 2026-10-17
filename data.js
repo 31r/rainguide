@@ -599,7 +599,8 @@ chater_garden,aia_central,7,bridge,bridge over Chater Road
 chater_garden,the_henderson,8,bridge,bridge over Murray Road
 the_henderson,aia_central,4,bridge,bridge over Cotton Tree Drive
 the_henderson,cheung_kong_centre,6,bridge,bridge over Queen's Road Central
-cheung_kong_centre,three_garden_road,4,bridge,bridge over Garden Road
+cheung_kong_centre,three_garden_road,4,bridge,follow signs for Champion Tower and ICBC Tower,uni
+three_garden_road,cheung_kong_centre,4,bridge,follow signs for MTR,uni
 the_henderson,central_east_node,2,bridge,bridge
 bank_of_america,central_east_node,2,bridge,bridge over Lambeth Walk
 fairmont_house,central_east_node,1,bridge,bridge
@@ -1144,6 +1145,7 @@ south_horizons_platform,south_horizons_concourse,2,fare_gate,fare gates
 // --- AP LEI CHAU ---
 lei_tung_concourse,lei_tung_commercial_ctr,2,covered_walkway,Exit B
 lei_tung_commercial_ctr,lei_tung_estate,2,bridge,bridge
+lei_tung_estate,yue_on_court,2,bridge,bridge
 
 // --- POK FU LAM ---
 queen_mary_hospital,kennedy_town_station_minibus_terminus,25,paid_bus,Green Minibus 54M
