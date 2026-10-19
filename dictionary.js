@@ -589,6 +589,10 @@
 					"verbena_heights": "Verbena Heights / 茵怡花園",
 					"ying_ming_court": "Ying Ming Court / 英明苑"
 				},
+				"LOHAS Park (康城)": {
+					"lohas_park": "LOHAS Park / 日出康城",
+					"the_lohas": "The LOHAS / 康城商場"
+				},
 			},
             "Sha Tin District (沙田區)": {
                 "Tai Wai (大圍)": {
@@ -842,7 +846,7 @@
 					"tseung_kwan_o_concourse": "Tseung Kwan O / 將軍澳站",
 					"hang_hau_concourse": "Hang Hau / 坑口站",
 					"po_lam_concourse": "Po Lam / 寶琳站",
-					"lohas_park_concourse": "LOHAS Park / 日出康城站"
+					"lohas_park_concourse": "LOHAS Park / 康城站"
 				},
 				"Disneyland Resort Line (迪士尼綫)": {
 					"sunny_bay_concourse": "Sunny Bay / 欣澳站",

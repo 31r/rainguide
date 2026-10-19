@@ -964,6 +964,10 @@ po_lam_estate,ying_ming_court,2,covered_walkway,covered walkway
 mcp_one,mcp_discovery,2,bridge,bridge over Mau Tai Road
 mcp_discovery,verbena_heights,2,bridge,bridge over Mau Tai Road
 
+// --- LOHAS PARK HUB ---
+lohas_park_concourse,the_lohas,2,internal,Exit B
+the_lohas,lohas_park,2,internal,internal walkway
+
 // --- DISNEYLAND RESORT LINE TRACKS ---
 sunny_bay_platform,disneyland_resort_platform,6,paid_train,Disneyland Resort Line (MTR)
 disneyland_resort_platform,disneyland_resort_concourse,2,fare_gate,fare gates
