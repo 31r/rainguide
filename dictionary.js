@@ -64,8 +64,9 @@
 					"landmark_york": "York House / 約克大廈"
 				},
 				"Admiralty (金鐘)": {
-					"admiralty_east_bus_terminus": "Admiralty Station (East) Bus Terminus / 金鐘 (東) 總站",
+					"admiralty_car_park": "Admiralty Car Park / 金鐘停車場",
 					"admiralty_centre": "Admiralty Centre / 海富中心",
+					"admiralty_east_bus_terminus": "Admiralty Station (East) Bus Terminus / 金鐘 (東) 總站",
 					"bank_of_america": "Bank of America Tower / 美國銀行中心",
 					"central_gov_offices": "Central Government Offices / 政府總部",
 					"citic_tower": "CITIC Tower / 中信大廈",

@@ -633,6 +633,8 @@ central_concourse_west,central_concourse_mid,4,tunnel,Central MTR unpaid link
 central_concourse_mid,central_concourse_east,4,tunnel,Central MTR unpaid link
 pacific_place_lg1,pacific_place_l2,8,escalator,internal escalators
 pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
+admiralty_car_park,admiralty_concourse,3,tunnel,Admiralty Exit F
+pacific_place_lg1,admiralty_car_park,3,tunnel,Admiralty Exit F tunnel
 pacific_place_lg1,three_pacific_place,4,tunnel,tunnel (suspended until summer 2027)
 pacific_place_l2,one_pacific_place,2,escalator,internal escalators
 pacific_place_l2,two_pacific_place,2,escalator,internal escalators
