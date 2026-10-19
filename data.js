@@ -626,20 +626,21 @@ alexandra_house,central_concourse_mid,4,internal,Central Exit H
 landmark_mall,central_concourse_mid,4,internal,Central Exit G
 chater_garden,central_concourse_east,4,internal,Central Exit J2
 ccb_tower,central_concourse_east,4,escalator,Central Exit L
-queensway_plaza,admiralty_concourse,2,internal,Admiralty Exits B/C
+queensway_plaza,admiralty_concourse,4,escalator,Admiralty Exits B/C
 admiralty_centre,admiralty_concourse,2,internal,Admiralty Exit A
 admiralty_exit_e2,admiralty_concourse,6,escalator,Admiralty Exit E2 escalator
 central_concourse_west,central_concourse_mid,4,tunnel,Central MTR unpaid link
 central_concourse_mid,central_concourse_east,4,tunnel,Central MTR unpaid link
-pacific_place_lg1,pacific_place_l2,8,escalator,internal escalators
-pacific_place_lg1,admiralty_concourse,4,tunnel,Admiralty Exit F
+pacific_place_lg1,pacific_place_l2,4,escalator,internal escalators
+pacific_place_lg1,admiralty_concourse,3,tunnel,Admiralty Exit F
 admiralty_car_park,admiralty_concourse,3,tunnel,Admiralty Exit F
-pacific_place_lg1,admiralty_car_park,3,tunnel,Admiralty Exit F tunnel
+pacific_place_lg1,admiralty_car_park,2,tunnel,Admiralty Exit F tunnel
 pacific_place_lg1,three_pacific_place,4,tunnel,tunnel (suspended until summer 2027)
 pacific_place_l2,one_pacific_place,2,escalator,internal escalators
 pacific_place_l2,two_pacific_place,2,escalator,internal escalators
 pacific_place_l2,conrad_hotel,2,escalator,Entrances at 3/F and 4/F
 pacific_place_l2,jw_marriott,2,escalator,Entrance at 3/F
+pacific_place_lg1,jw_marriott,2,internal,Entrance at LG1/F
 pacific_place_l2,shangrila_hk,2,escalator,Entrance at 4/F
 pacific_place_l2,pacific_place_apts,2,escalator,Entrance at 4/F
 pacific_place_l2,united_centre,6,bridge,bridge over Queensway
