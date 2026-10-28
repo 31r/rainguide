@@ -863,6 +863,7 @@ tsing_yi_estate,tsuen_wan_station_pti,35,paid_bus,KMB 41M
 cheung_on_bus_terminus,tsing_yi_estate,20,paid_bus,KMB 44,uni
 tsing_yi_concourse,tsing_yi_exit_c,2,internal,Exit C
 maritime_square_2,tsing_yi_pti,1,internal,internal mall walkway
+tsing_yi_pti,huanggang_port,70,paid_bus,KMB B10
 tsing_yi_exit_c,park_island,30,residents_bus,NR330 Residents' Bus
 cheung_hong_estate,cheung_on_bus_terminus,24,paid_bus,KMB 43B/243M,uni
 
@@ -1285,4 +1286,8 @@ mostown_phase_3,sunshine_city_phase_3,2,lift,resident lift lobby
 // --- TAI SHUI HANG ---
 tai_shui_hang_concourse,kam_tai_shopping_centre,4,covered_walkway,Exit A
 kam_tai_shopping_centre,kam_tai_court,2,covered_walkway,covered walkway
+
+// --- SHA TIN WAI ---
+sha_tin_wai_concourse,sha_kok_estate,5,bridge,Exit A to lift to footbridge
+sha_kok_estate,jat_min_chuen,5,bridge,bridge
 `;

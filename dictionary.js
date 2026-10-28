@@ -638,6 +638,10 @@
 					"wai_wah_centre": "Wai Wah Centre / 偉華中心",
 					"wo_che_estate": "Wo Che Estate / 禾輋邨"
 				},
+				"Sha Tin Wai (沙田圍)": {
+					"jat_min_chuen": "Jat Min Chuen / 乙明邨",
+					"sha_kok_estate": "Sha Kok Estate / 沙角邨"
+				}
 				"Fo Tan (火炭)": {
 					"chun_yeung_estate": "Chun Yeung Estate / 駿洋邨",
 					"dragons_range": "Dragons Range / 玖瓏山",
@@ -767,6 +771,7 @@
 				"Shenzhen (深圳)": {
 					"futian_port": "Futian Port / 福田口岸",
 					"heung_yuen_wai_port": "Heung Yuen Wai Control Point / 香園圍口岸",
+					"huanggang_port": "Huanggang Port / 皇崗口岸",
 					"liantang_port": "Liantang Port / 蓮塘口岸",
 					"lo_wu_port": "Luohu Port / 羅湖口岸"
 				}
