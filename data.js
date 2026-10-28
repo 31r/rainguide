@@ -736,7 +736,7 @@ tai_koo_concourse,kornhill_plaza_n,4,internal,Exit A2 to Kornhill Plaza (North)
 tai_koo_concourse,kornhill_plaza_s,4,internal,Exit C to Kornhill Plaza (South)
 kornhill_plaza_n,kornhill_plaza_s,2,bridge,bridge over Kornhill Road
 kornhill_plaza_n,kornhill_plaza_office,3,lift,office lift lobby
-kornhill_plaza_n,kornhill_garden,3,covered_walkway,covered walkway
+kornhill_plaza_n,kornhill_garden,3,covered_walkway,covered walkway to 1/F of Kornhill Plaza (North)
 kornhill_plaza_s,kornhill_a-h,8,escalator,escalator and bridge
 kornhill_plaza_s,kornhill_j-m,6,escalator,escalator and bridge
 kornhill_a-h,kornhill_j-m,4,staircase,staircase
