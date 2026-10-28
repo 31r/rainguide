@@ -139,15 +139,17 @@
 					"cityplaza_1f": "Cityplaza 1/F / 太古城中心一樓",
 					"cityplaza_2f": "Cityplaza 2/F / 太古城中心二樓",
 					"east_hk": "East Hotel / 東隅酒店",
-					"horizon_gardens": "Horizon Gardens / 海天花園",
-					"kam_din_terrace": "Kam Din Terrace / 金殿臺",
-					"kao_shan_terrace": "Kao Shan Terrace / 高山臺",
+					"horizon_gardens": "Horizon Gardens, Taikoo Shing / 太古城海天花園",
+					"kam_din_terrace": "Kam Din Terrace, Taikoo Shing / 太古城金殿臺",
+					"kao_shan_terrace": "Kao Shan Terrace, Taikoo Shing / 太古城高山臺",
 					"kornhill_apartments": "Kornhill Apartments / 康蘭居",
 					"kornhill_a-h": "Kornhill Blocks A-H / 康怡花園A-H座",
 					"kornhill_j-m": "Kornhill Blocks J-M / 康怡花園J-M座",
+					"kornhill_garden": "Kornhill Garden / 康山花園",
 					"kornhill_plaza_n": "Kornhill Plaza (North) / 康怡廣場(北)",
 					"kornhill_plaza_s": "Kornhill Plaza (South) / 康怡廣場(南)",
-					"sing_fai_terrace": "Sing Fai Terrace / 星輝臺"
+					"kornhill_plaza_office": "Kornhill Plaza Office Tower / 康怡廣場辦公大樓",
+					"sing_fai_terrace": "Sing Fai Terrace, Taikoo Shing / 太古城星輝臺"
 				},
 				"Sai Wan Ho (西灣河)": {
 					"felicity_garden": "Felicity Garden / 欣景花園"
