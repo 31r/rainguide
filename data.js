@@ -7,7 +7,7 @@
 hong_kong_platform_ael,airport_platform,48,premium_train,Airport Express (MTR)
 kowloon_platform_ael,airport_platform,44,premium_train,Airport Express (MTR)
 tsing_yi_platform_ael,airport_platform,28,premium_train,Airport Express (MTR)
-tsing_yi_platform_ael,hong_kong_platform_ael,30,premium_train,Airport Express (MTR),uni
+tsing_yi_platform_ael,hong_kong_platform_ael,33,premium_train,Airport Express (MTR),uni
 airport_platform,expo_platform,4,premium_train,Airport Express (MTR)
 airport_platform,expo_platform,5,paid_train,Airport Express (MTR)
 
@@ -966,7 +966,20 @@ mcp_discovery,verbena_heights,2,bridge,bridge over Mau Tai Road
 
 // --- LOHAS PARK HUB ---
 lohas_park_concourse,the_lohas,2,internal,Exit B
-the_lohas,lohas_park,2,internal,internal walkway
+the_lohas,the_capitol,3,internal,internal walkway
+the_lohas,le_prestige,3,internal,internal walkway
+the_lohas,hemera,3,internal,internal walkway
+the_lohas,wings_at_sea,3,internal,internal walkway
+the_lohas,malibu,3,internal,internal walkway
+the_lohas,lp6,3,internal,internal walkway
+the_lohas,montara,3,internal,internal walkway
+the_lohas,sea_to_sky,3,internal,internal walkway
+the_lohas,marini,3,internal,internal walkway
+the_lohas,lp10,3,internal,internal walkway
+the_lohas,villa_garda,3,internal,internal walkway
+the_lohas,seasons_place,3,internal,internal walkway
+the_lohas,la_mirabelle,3,internal,internal walkway
+lohas_park_concourse,hemera,3,covered_walkway,Exit C
 
 // --- DISNEYLAND RESORT LINE TRACKS ---
 sunny_bay_platform,disneyland_resort_platform,6,paid_train,Disneyland Resort Line (MTR)

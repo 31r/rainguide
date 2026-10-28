@@ -590,8 +590,20 @@
 					"ying_ming_court": "Ying Ming Court / 英明苑"
 				},
 				"LOHAS Park (康城)": {
-					"lohas_park": "LOHAS Park / 日出康城",
-					"the_lohas": "The LOHAS / 康城商場"
+					"the_lohas": "The LOHAS / 康城商場",
+					"the_capitol": "The Capitol / 首都 (LOHAS Park Phase 1 / 日出康城1期)",
+					"le_prestige": "Le Prestige / 領都 (LOHAS Park Phase 2 / 日出康城2期)",
+					"hemera": "Hemera / 緻藍天 (LOHAS Park Phase 3 / 日出康城3期)",
+					"wings_at_sea": "Wings at Sea / 晉海 (LOHAS Park Phase 4 / 日出康城4期)",
+					"malibu": "Malibu (LOHAS Park Phase 5 / 日出康城5期)",
+					"lp6": "LP6 (LOHAS Park Phase 6 / 日出康城6期)",
+					"montara": "Montara (LOHAS Park Phase 7 / 日出康城7期)",
+					"sea_to_sky": "Sea to Sky (LOHAS Park Phase 8 / 日出康城8期)",
+					"marini": "Marini (LOHAS Park Phase 9 / 日出康城9期)",
+					"lp10": "LP10 (LOHAS Park Phase 10 / 日出康城10期)",
+					"villa_garda": "Villa Garda / 凱柏峰 (LOHAS Park Phase 11 / 日出康城11期)",
+					"seasons_place": "Seasons Place (LOHAS Park Phase 12 / 日出康城12期)",
+					"la_mirabelle": "La Mirabelle / 海瑅灣 (LOHAS Park Phase 13 / 日出康城13期)"
 				},
 			},
             "Sha Tin District (沙田區)": {
