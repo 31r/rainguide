@@ -618,6 +618,9 @@
 					"tai_wai_pti": "Tai Wai Station PTI / 大圍站公共運輸交匯處",
 					"the_wai": "The Wai / 圍方"
                 },
+				"Che Kung Temple (車公廟)": {
+					"the_riverpark": "The Riverpark / 溱岸8號"
+				},
 				"Sha Tin Central (沙田市中心)": {
 					"citylink_mall": "Citylink Mall / 連城廣場",
 					"fung_wo_estate": "Fung Wo Estate / 豐和邨",

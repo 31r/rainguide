@@ -1288,7 +1288,8 @@ mostown_phase_3,sunshine_city_phase_3,2,lift,resident lift lobby
 tai_shui_hang_concourse,kam_tai_shopping_centre,4,covered_walkway,Exit A
 kam_tai_shopping_centre,kam_tai_court,2,covered_walkway,covered walkway
 
-// --- SHA TIN WAI ---
+// --- CHE KUNG TEMPLE AND SHA TIN WAI ---
+che_kung_temple_concourse,the_riverpark,2,covered_walkway,Exit E (residents only) / Exit C (visitors)
 sha_tin_wai_concourse,sha_kok_estate,5,bridge,Exit A to lift to footbridge
 sha_kok_estate,jat_min_chuen,5,bridge,bridge
 `;
