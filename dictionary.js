@@ -641,7 +641,7 @@
 				"Sha Tin Wai (沙田圍)": {
 					"jat_min_chuen": "Jat Min Chuen / 乙明邨",
 					"sha_kok_estate": "Sha Kok Estate / 沙角邨"
-				}
+				},
 				"Fo Tan (火炭)": {
 					"chun_yeung_estate": "Chun Yeung Estate / 駿洋邨",
 					"dragons_range": "Dragons Range / 玖瓏山",
