@@ -181,6 +181,7 @@
 					"la_montagne": "La Montagne / 海盈山",
 					"metro_south": "Metro South / 都會中心",
 					"nlsr_cooked_food_market": "Nam Long Shan Road Cooked Food Market / 南朗山道熟食市場",
+					"shama_metro_south": "Shama Hub Metro South / 莎瑪匯港島南",
 					"southland": "Southland / 晉環",
 					"the_southside": "The Southside / 港島南岸"
 				}
