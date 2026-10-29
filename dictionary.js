@@ -523,8 +523,8 @@
 					"yoho_midtown": "Yoho Midtown",
 					"yoho_mix": "Yoho Mix / 元點",
 					"yoho_town": "Yoho Town",
-					"yuen_long_plaza": "Yuen Long Plaza / 元朗廣場"
-					"yuen_long_station_pti": "Yuen Long Station Transport Interchange / 元朗站公共運輸交匯處",
+					"yuen_long_plaza": "Yuen Long Plaza / 元朗廣場",
+					"yuen_long_station_pti": "Yuen Long Station Transport Interchange / 元朗站公共運輸交匯處"
 				}
 			},
 			"North District (北區)": {
