@@ -248,7 +248,7 @@
 				"Austin Station (柯士甸站)": {
                     "the_austin": "The Austin",
                     "grand_austin": "Grand Austin",
-					"igc": "International Gateway Centre (IGC)",
+					"igc": "International Gateway Centre (IGC) / 環球匯",
 					"west_kowloon_station": "Hong Kong West Kowloon Station / 香港西九龍站",
 					"xiqu_centre": "Xiqu Centre / 戲曲中心"
 				},
@@ -290,7 +290,11 @@
 				},
 			},
 			"Kowloon City District (九龍城區)": {
-                "Hung Hom (紅磡)": {
+                "Ho Man Tin (何文田)": {
+                    "in_one": "In One / 瑜一",
+                    "onmantin": "Onmantin / 朗賢峯"
+                },
+				"Hung Hom (紅磡)": {
                     "aeon_style_whampoa": "Aeon Style Whampoa / 永旺百貨 (黃埔)",
                     "fashion_world": "Fashion World (Whampoa) / 黃埔天地時尚坊",
                     "harbour_place": "Harbour Place / 海濱南岸",
@@ -301,8 +305,8 @@
                 },
 				"Kai Tak (啟德)": {
 					"airside": "Airside",
-					"ching_long_shopping_centre_zone_a": "Ching Long Shopping Centre (Zone A) / 晴朗商場 (A區)",
-					"ching_long_shopping_centre_zone_b": "Ching Long Shopping Centre (Zone B) / 晴朗商場 (B區)",
+					"ching_long_shopping_centre_zone_a": "Ching Long Shopping Centre Zone A / 晴朗商場A區",
+					"ching_long_shopping_centre_zone_b": "Ching Long Shopping Centre Zone B / 晴朗商場B區",
 					"cullinan_sky_mall": "Cullinan Sky Mall / 天璽•天商場",
 					"cullinan_sky": "Cullinan Sky / 天璽•天",
 					"kai_ching_estate": "Kai Ching Estate / 啟晴邨",
@@ -489,6 +493,39 @@
                     "waldorf_centre": "Waldorf Centre / 華都中心",
 					"yurmsb": "Yeung Uk Road Municipal Services Building / 楊屋道市政大廈"
                 }
+			},
+			"Yuen Long District (元朗區)": {
+				"Kam Tin (錦田)": {
+					"grand_mayfair": "Grand Mayfair / 柏瓏"
+				},
+				"Tin Shui Wai (天水圍)": {
+					"kingswood_richly_plaza": "Kingswood Richly Plaza / 嘉湖新北江商場",
+					"locwood_court": "Kingswood Villas (Locwood Court) / 嘉湖山莊樂湖居",
+					"pstswlcb": "Ping Shan Tin Shui Wai Leisure and Cultural Building / 屏山天水圍文化康樂大樓",
+					"ping_yan_court": "Ping Yan Court / 屏欣苑",
+					"tin_shing_court": "Tin Shing Court / 天盛苑",
+					"tin_shing_shopping_centre": "Tin Shing Shopping Centre / 天盛商場",
+					"tin_yiu_estate": "Tin Yiu Estate / 天耀邨",
+					"tin_yiu_plaza": "Tin Yiu Plaza / 天耀廣場",
+				},
+				"Yuen Long (元朗)": {
+					"grand_yoho": "Grand Yoho",
+					"long_ping_commercial_centre": "Long Ping Commercial Centre / 朗屏商場",
+					"long_ping_estate": "Long Ping Estate / 朗屏邨",
+					"park_yoho": "Park Yoho / 峻巒",
+					"sol_city": "Sol City / 朗城滙",
+					"the_spectra": "The Spectra / 朗屏8號",
+					"the_yoho_hub_ii": "The Yoho Hub II (Blocks 6 & 8 / 第6及8座)",
+					"the_yoho_hub": "The Yoho Hub (Blocks 1-5 / 第1至5座)",
+					"yoho_mall_i": "Yoho Mall I / 形點 I",
+					"yoho_mall_ii": "Yoho Mall II / 形點 II",
+					"yoho_mall_pti": "Yoho Mall Transport Interchange / 形點交通交匯處",
+					"yoho_midtown": "Yoho Midtown",
+					"yoho_mix": "Yoho Mix / 元點",
+					"yoho_town": "Yoho Town",
+					"yuen_long_plaza": "Yuen Long Plaza / 元朗廣場"
+					"yuen_long_station_pti": "Yuen Long Station Transport Interchange / 元朗站公共運輸交匯處",
+				}
 			},
 			"North District (北區)": {
 				"Fanling (粉嶺)": {

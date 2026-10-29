@@ -427,7 +427,7 @@ ping_shek_pti,ping_shek_estate,2,covered_walkway,covered walkway
 infinity_8,ping_shek_estate,2,bridge,bridge
 
 // --- KOWLOON BAY HUB ---
-kowloon_bay_concourse,telford_plaza,2,internal,Exits A or C
+kowloon_bay_concourse,telford_plaza,2,internal,Exits A/C
 telford_plaza,megabox,15,free_shuttle,free shuttle
 kowloon_bay_concourse,east_kowloon_cultural_centre,4,internal,Exit B
 east_kowloon_cultural_centre,amoy_plaza,5,bridge,bridge over Ngau Tau Kok Road
@@ -1308,4 +1308,41 @@ airside,trade_industry_tower,3,bridge,bridge
 trade_industry_tower,kai_tak_community_hall,2,lift,internal lifts
 trade_industry_tower,mikiki,3,bridge,bridge
 mikiki,the_latitude,2,lift,resident lift lobby
+
+// --- KAM SHEUNG ROAD ---
+kam_sheung_road_concourse,grand_mayfair,2,internal,Exits A/D
+
+// --- YUEN LONG HUB ---
+yuen_long_concourse,yoho_mall_i,2,internal,Exit K
+yuen_long_concourse,yoho_mall_ii,2,internal,Exit F
+yuen_long_concourse,yoho_mix,2,internal,Exit C
+yuen_long_concourse,yuen_long_station_pti,2,escalator,Exit G1
+yoho_mall_i,yoho_mall_ii,3,internal,internal mall connection
+yoho_mix,yoho_mall_ii,3,bridge,bridge
+yoho_mall_i,grand_yoho,2,lift,resident lift lobby
+yoho_mall_i,yoho_town,3,bridge,bridge
+yoho_mall_ii,yoho_midtown,2,lift,resident lift lobby
+yuen_long_station_pti,the_yoho_hub,2,lift,resident lift lobby
+yoho_mix,the_yoho_hub_ii,2,lift,resident lift lobby
+yoho_mall_i,yoho_mall_pti,2,escalator,escalator
+yoho_mall_pti,park_yoho,20,paid_bus,KMB 68/68F,uni
+park_yoho,yoho_mall_pti,20,paid_bus,KMB 68,uni
+
+// --- LONG PING HUB ---
+long_ping_concourse,the_spectra,2,bridge,Exit F
+long_ping_concourse,sol_city,2,internal,Exit C
+long_ping_concourse,long_ping_estate,3,bridge,Exit B2
+long_ping_commercial_centre,long_ping_estate,2,covered_walkway,covered walkway
+long_ping_commercial_centre,yuen_long_plaza,4,bridge,Exit B2 and bridge
+
+// --- TIN SHUI WAI HUB ---
+tin_shui_wai_concourse,ping_yan_court,3,bridge,Exit A
+tin_shui_wai_concourse,pstswlcb,2,bridge,Exit C
+tin_shui_wai_concourse,tin_shing_shopping_centre,2,bridge,Exit C
+tin_shui_wai_concourse,tin_yiu_plaza,5,covered_walkway,Exit C and covered walkway
+tin_shing_shopping_centre,tin_yiu_plaza,3,bridge,bridge over Tin Yiu Road
+tin_shing_shopping_centre,tin_shing_court,2,covered_walkway,covered walkway
+tin_yiu_plaza,tin_yiu_estate,2,covered_walkway,covered walkway
+tin_yiu_plaza,kingswood_richly_plaza,4,bridge,bridge over Tin Wu Road
+kingswood_richly_plaza,locwood_court,2,covered_walkway,covered walkway
 `;
