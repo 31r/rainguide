@@ -1302,6 +1302,7 @@ ching_long_shopping_centre_zone_a,ching_long_shopping_centre_zone_b,2,bridge,bri
 kai_tak_concourse,ching_long_shopping_centre_zone_a,6,covered_walkway,Exit A via Station Square covered walkway
 kai_tak_concourse,cullinan_sky_mall,2,internal,Exit B2
 cullinan_sky_mall,cullinan_sky,2,lift,resident lift lobby
+cullinan_sky_mall,airside,2,internal,internal walkway
 kai_tak_concourse,airside,2,internal,Exit C
 airside,trade_industry_tower,3,bridge,bridge
 trade_industry_tower,kai_tak_community_hall,2,lift,internal lifts
