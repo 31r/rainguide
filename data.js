@@ -1292,4 +1292,19 @@ kam_tai_shopping_centre,kam_tai_court,2,covered_walkway,covered walkway
 che_kung_temple_concourse,the_riverpark,2,covered_walkway,Exit E (residents only) / Exit C (visitors)
 sha_tin_wai_concourse,sha_kok_estate,5,bridge,Exit A to lift to footbridge
 sha_kok_estate,jat_min_chuen,5,bridge,bridge
+
+// --- KAI TAK HUB ---
+kai_tak_concourse,ching_long_shopping_centre_zone_a,6,covered_walkway,Exit A via Station Square covered walkway
+kai_tak_concourse,ching_long_shopping_centre_zone_b,6,covered_walkway,Exit A via Station Square covered walkway
+ching_long_shopping_centre_zone_a,kai_ching_estate,2,covered_walkway,covered walkway
+ching_long_shopping_centre_zone_b,tak_long_estate,2,covered_walkway,covered walkway
+ching_long_shopping_centre_zone_a,ching_long_shopping_centre_zone_b,2,bridge,bridge
+kai_tak_concourse,ching_long_shopping_centre_zone_a,6,covered_walkway,Exit A via Station Square covered walkway
+kai_tak_concourse,cullinan_sky_mall,2,internal,Exit B2
+cullinan_sky_mall,cullinan_sky,2,lift,resident lift lobby
+kai_tak_concourse,airside,2,internal,Exit C
+airside,trade_industry_tower,3,bridge,bridge
+trade_industry_tower,kai_tak_community_hall,2,lift,internal lifts
+trade_industry_tower,mikiki,3,bridge,bridge
+mikiki,the_latitude,2,lift,resident lift lobby
 `;

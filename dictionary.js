@@ -271,7 +271,7 @@
 					"the_pacifica": "The Pacifica / 宇晴軒"
 				},
 				"Mei Foo (美孚)": {
-					"ching_lai_court": "Ching Lai Court / 慶荔苑",
+					"ching_lai_court": "Ching Lai Court / 清麗苑",
 					"mei_foo_sun_chuen_stages_1_4_8": "Mei Foo Sun Chuen Stages 1-4 and 8 / 美孚新邨第1-4及8期",
 					"mei_foo_sun_chuen_stages_5_7": "Mei Foo Sun Chuen Stages 5 and 7 / 美孚新邨第5及7期",
 					"mei_foo_sun_chuen_stage_6": "Mei Foo Sun Chuen Stage 6 / 美孚新邨第6期"
@@ -299,6 +299,17 @@
                     "royal_peninsula": "Royal Peninsula / 半島豪庭",
                     "stars_by_the_harbour": "Stars by the Harbour / 維港·星岸"
                 },
+				"Kai Tak (啟德)": {
+					"airside": "Airside",
+					"ching_long_shopping_centre_zone_a": "Ching Long Shopping Centre (Zone A) / 晴朗商場 (A區)",
+					"ching_long_shopping_centre_zone_b": "Ching Long Shopping Centre (Zone B) / 晴朗商場 (B區)",
+					"cullinan_sky_mall": "Cullinan Sky Mall / 天璽•天商場",
+					"cullinan_sky": "Cullinan Sky / 天璽•天",
+					"kai_ching_estate": "Kai Ching Estate / 啟晴邨",
+					"kai_tak_community_hall": "Kai Tak Community Hall / 啟德社區會堂",
+					"tak_long_estate": "Tak Long Estate / 德朗邨",
+					"trade_industry_tower": "Trade and Industry Tower / 工業貿易大樓"
+				},
                 "Kowloon Tong (九龍塘)": {
 					"cityu": "CityU / 城市大學",
 					"kltesc": "EDB Kowloon Tong Education Services Centre / 教育局九龍塘教育服務中心",
@@ -333,6 +344,10 @@
 					"kai_chuen_court": "Kai Chuen Court / 啟鑽苑",
 					"kai_chuen_shopping_centre": "Kai Chuen Shopping Centre / 啟鑽商場",
 					"plaza_hollywood": "Plaza Hollywood / 荷里活廣場"
+				},
+				"San Po Kong (新蒲崗)": {
+					"mikiki": "Mikiki",
+					"the_latitude": "The Latitude / 譽•港灣"
 				},
 				"Tsz Wan Shan (慈雲山)": {
 					"tsz_ching_estate": "Tsz Ching Estate / 慈正邨",
