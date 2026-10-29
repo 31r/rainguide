@@ -1338,7 +1338,6 @@ long_ping_commercial_centre,yuen_long_plaza,4,bridge,Exit B2 and bridge
 // --- TIN SHUI WAI HUB ---
 tin_shui_wai_concourse,ping_yan_court,3,bridge,Exit A
 tin_shui_wai_concourse,pstswlcb,2,bridge,Exit C
-tin_shui_wai_concourse,tin_shing_shopping_centre,2,bridge,Exit C
 tin_shui_wai_concourse,tin_yiu_plaza,5,covered_walkway,Exit C and covered walkway
 tin_shing_shopping_centre,tin_yiu_plaza,3,bridge,bridge over Tin Yiu Road
 tin_shing_shopping_centre,tin_shing_court,2,covered_walkway,covered walkway
