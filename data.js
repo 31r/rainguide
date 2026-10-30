@@ -1362,8 +1362,8 @@ tin_shui_wai_concourse,tin_shui_wai_lrt,2,fare_gate,Exit E escalators to Light R
 tin_shui_wai_lrt,chung_fu_lrt,20,paid_lrt,Light Rail 706,uni
 chung_fu_lrt,tin_shui_wai_lrt,20,paid_lrt,Light Rail 705,uni
 chung_fu_lrt,tin_wing_lrt,10,paid_lrt,Light Rail 751
-tin_shui_wai_lrt,tin_wing_lrt,15,paid_lrt,Light Rail 705/751
-tin_wing_lrt,tin_shui_wai_lrt,15,paid_lrt,Light Rail 706/751
+tin_shui_wai_lrt,tin_wing_lrt,15,paid_lrt,Light Rail 705/751,uni
+tin_wing_lrt,tin_shui_wai_lrt,15,paid_lrt,Light Rail 706/751,uni
 
 // --- CHUNG FU HUB (T TOWN) ---
 chung_fu_lrt,t_town_south,2,bridge,bridge
