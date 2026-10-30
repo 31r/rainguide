@@ -44,7 +44,7 @@
 					"3_exchange_square": "Three Exchange Square / 交易廣場三期",
 					"gpo": "General Post Office / 郵政總局",
 					"landmark_gloucester": "Gloucester Tower / 告羅士打大廈",
-					"hang_seng_hq": "Hang Seng HQ / 恒生銀行總行",
+					"hang_seng_hq": "Hang Seng Bank Headquarters Building / 恒生銀行總行大廈",
 					"hsbc_bldg": "HSBC Main Building / 滙豐總行大廈",
 					"ifc_mall": "IFC Mall / 國際金融中心商場",
 					"one_ifc": "One IFC / 國際金融中心一期",
