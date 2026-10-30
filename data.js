@@ -1358,7 +1358,7 @@ tin_yiu_plaza,kingswood_richly_plaza,4,bridge,bridge over Tin Wu Road
 kingswood_richly_plaza,locwood_court,2,covered_walkway,covered walkway
 
 // --- LIGHT RAIL TRANSIT (TIN SHUI WAI COVERED NETWORK) ---
-tin_shui_wai_concourse,tin_shui_wai_lrt,2,fare_gate,Exit E escalators to Light Rail
+tin_shui_wai_concourse,tin_shui_wai_lrt,2,escalator,Exit E escalators to Light Rail
 tin_shui_wai_lrt,chung_fu_lrt,20,paid_lrt,Light Rail 706,uni
 chung_fu_lrt,tin_shui_wai_lrt,20,paid_lrt,Light Rail 705,uni
 chung_fu_lrt,tin_wing_lrt,10,paid_lrt,Light Rail 751
