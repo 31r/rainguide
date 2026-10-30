@@ -81,6 +81,7 @@ jordan_concourse,yue_hwa,4,internal,Exit A
 jordan_concourse,fourseas_building,2,internal,Exit D
 jordan_concourse,far_east_consortium_building_jordan,2,internal,Exit D
 jordan_concourse,prudential_centre,3,internal,Exit E
+prudential_centre,prudential_hotel,2,lift,hotel lobby
 
 // --- MONG KOK HUB ---
 mong_kok_east_platform,mong_kok_east_concourse,2,fare_gate,fare gates
@@ -560,9 +561,17 @@ tung_hip_bldg,sheung_wan_concourse_mid,4,internal,Sheung Wan Exit A1
 shun_tak_centre,sheung_wan_concourse_mid,6,internal,Sheung Wan Exit D
 infinitus_plaza,sheung_wan_concourse_east,4,internal,Sheung Wan Exit E5
 golden_centre,sheung_wan_concourse_east,4,internal,Sheung Wan Exit E1
-ifc_mall,central_pier_3,6,bridge,bridge
+ifc_mall,central_pier_3,8,bridge,bridge
 central_yards,central_pier_7,6,bridge,bridge
-central_pier_3,central_pier_7,6,covered_walkway,covered walkway
+central_pier_2,central_pier_3,1,covered_walkway,covered walkway
+central_pier_3,central_pier_4,1,covered_walkway,covered walkway
+central_pier_4,central_pier_5,1,covered_walkway,covered walkway
+central_pier_5,central_pier_6,1,covered_walkway,covered walkway
+central_pier_6,central_pier_7,1,covered_walkway,covered walkway
+central_pier_7,central_pier_8,1,covered_walkway,covered walkway
+central_pier_8,central_pier_9,1,covered_walkway,covered walkway
+central_pier_9,central_pier_10,1,covered_walkway,covered walkway
+central_pier_8,hong_kong_maritime_museum,1,internal,internal walkway
 spine_north,central_yards,1,bridge,bridge
 spine_north,ifc_mall,1,bridge,bridge
 spine_north,spine_mid,3,bridge,bridge
@@ -710,6 +719,7 @@ fortress_hill_concourse,fortress_metro_tower,2,escalator,Exit B to Fortress Metr
 fortress_metro_tower,fortress_hill_t_junction,4,bridge,bridge
 electric_road_msb,fortress_hill_t_junction,2,bridge,bridge
 harbour_glory,fortress_hill_t_junction,6,bridge,bridge
+harbour_glory,hotel_alexandra,2,escalator,escalators
 
 // --- NORTH POINT HUB ---
 north_point_platform_isl,north_point_concourse,2,fare_gate,fare gates
@@ -740,8 +750,8 @@ kornhill_plaza_n,kornhill_garden,3,covered_walkway,covered walkway to 1/F of Kor
 kornhill_plaza_s,kornhill_a-h,8,escalator,escalator and bridge
 kornhill_plaza_s,kornhill_j-m,6,escalator,escalator and bridge
 kornhill_a-h,kornhill_j-m,4,staircase,staircase
-kornhill_plaza_s,kornhill_apartments,2,internal,"During Aeon department store hours (10:00-22:30), enter from Aeon 2/F. Outside Aeon opening hours, take escalators to 4/F then take the lift down to 3/F.",uni
-kornhill_apartments,kornhill_plaza_s,2,internal,"Direct access to Aeon 2/F during department store hours (10:00-22:30). Outside Aeon opening hours, take the lift next to the Chinese restaurant to 4/F then take escalators down to ground floor to access MTR.",uni
+kornhill_plaza_s,kornhill_apartments,2,internal,"10:00-22:30: Enter from Aeon 2/F; 07:00-10:00 and 22:30-00:00: Take escalators to 4/F then take the lift down to 3/F",uni
+kornhill_apartments,kornhill_plaza_s,2,internal,"10:00-22:30: Direct access to Aeon 2/F; 07:00-10:00 and 22:30-00:00: Take lift next to Chinese restaurant to 4/F",uni
 
 // --- SAI WAN HO HUB ---
 sai_wan_ho_platform,sai_wan_ho_concourse,2,fare_gate,fare gates
@@ -753,10 +763,12 @@ heng_fa_chuen_concourse,paradise_mall,2,internal,Exit A
 
 // --- CHAI WAN HUB ---
 chai_wan_platform,chai_wan_concourse,2,fare_gate,fare gates
-chai_wan_concourse,new_jade_garden,2,internal,Exit A to New Jade Garden
-hing_wah_1_estate,new_jade_garden,4,bridge,bridge
-new_jade_garden,chai_wan_y_junction,2,bridge,bridge
-wan_tsui_estate,chai_wan_y_junction,4,bridge,bridge
+chai_wan_concourse,new_jade_shopping_arcade,2,internal,Exit A to New Jade Garden
+new_jade_shopping_arcade,new_jade_garden,2,lift,resident lift lobby
+hing_wah_1_estate,new_jade_shopping_arcade,4,bridge,bridge
+new_jade_shopping_arcade,chai_wan_y_junction,2,bridge,bridge
+wan_tsui_shopping_ctr,chai_wan_y_junction,4,bridge,bridge
+wan_tsui_estate,wan_tsui_shopping_ctr,2,covered_walkway,covered walkway
 youth_square,chai_wan_y_junction,2,bridge,bridge
 
 // --- REMAINING ISLAND LINE CONCOURSES ---
@@ -1318,10 +1330,10 @@ yuen_long_concourse,yoho_mall_ii,2,internal,Exit F
 yuen_long_concourse,yoho_mix,2,internal,Exit C
 yuen_long_concourse,yuen_long_station_pti,2,escalator,Exit G1
 yoho_mall_i,yoho_mall_ii,3,internal,internal mall connection
-yoho_mix,yoho_mall_ii,3,bridge,bridge
+yoho_mix,yoho_mall_ii,2,bridge,bridge
 yoho_mall_i,grand_yoho,2,lift,resident lift lobby
 yoho_mall_i,yoho_town,3,bridge,bridge
-yoho_mall_ii,yoho_midtown,2,lift,resident lift lobby
+yoho_mall_i,yoho_midtown,2,lift,resident lift lobby
 yuen_long_station_pti,the_yoho_hub,2,lift,resident lift lobby
 yoho_mix,the_yoho_hub_ii,2,lift,resident lift lobby
 yoho_mall_i,yoho_mall_pti,2,escalator,escalator

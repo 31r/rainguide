@@ -25,14 +25,21 @@
 					"9qrc": "🏢 9 Queen's Road Central / 皇后大道中九號",
 					"aia_central": "🏢 AIA Central / 友邦金融中心",
 					"alexandra_house": "🏢 Alexandra House / 歷山大廈",
-					"bea_bldg": "🏢 Bank of East Asia Building / 東亞銀行大廈",
-					"ccb_tower": "🏢 CCB Tower / 中國建設銀行大廈",
+					"bea_bldg": "🏦 Bank of East Asia Building / 東亞銀行大廈",
+					"ccb_tower": "🏦 CCB Tower / 中國建設銀行大廈",
 					"central_bldg": "🏢 Central Building / 中建大廈",
 					"central_bus_terminus": "🚌 Central Bus Terminus / 中環巴士總站",
 					"central_market": "🛍️ Central Market / 中環街市",
-					"mid_levels_escalator": "🛗 Central-Mid-Levels Escalator / 中環至半山自動扶手電梯系統",
-					"central_pier_3": "🏢 Central Pier No. 3 / 中環3號碼頭",
-					"central_pier_7": "🏢 Central Pier No. 7 (Star Ferry) / 中環7號碼頭",
+					"mid_levels_escalator": "🪜 Central—Mid-Levels Escalator / 中環至半山自動扶手電梯系統",
+					"central_pier_2": "⛴️ Central Pier No. 2 (Park Island) / 中環2號碼頭 (往珀麗灣)",
+					"central_pier_3": "⛴️ Central Pier No. 3 (Discovery Bay) / 中環3號碼頭 (往愉景灣)",
+					"central_pier_4": "⛴️ Central Pier No. 4 (Lamma Island) / 中環4號碼頭 (往南丫島)",
+					"central_pier_5": "⛴️ Central Pier No. 5 (Cheung Chau) / 中環5號碼頭 (往長洲)",
+					"central_pier_6": "⛴️ Central Pier No. 6 (Mui Wo & Peng Chau) / 中環6號碼頭 (往梅窩/坪洲)",
+					"central_pier_7": "⛴️ Central Pier No. 7 (Star Ferry to Tsim Sha Tsui) / 中環7號碼頭 (天星小輪往尖沙咀)",
+					"central_pier_8": "⛴️ Central Pier No. 8 (Hung Hom) / 中環8號碼頭 (往紅磡)",
+					"central_pier_9": "⛴️ Central Pier No. 9 (WestK Ferry) / 中環9號碼頭 (往西九文化區)",
+					"central_pier_10": "⛴️ Central Pier No. 10 / 中環10號碼頭",
 					"central_tower": "🏢 Central Tower / 中匯大廈",
 					"central_yards": "🏢 Central Yards",
 					"chater_garden": "🌳 Chater Garden / 遮打花園",
@@ -42,10 +49,11 @@
 					"entertainment_bldg": "🏢 Entertainment Building / 娛樂行",
 					"1&2_exchange_square": "🏢 One & Two Exchange Square / 交易廣場一及二期",
 					"3_exchange_square": "🏢 Three Exchange Square / 交易廣場三期",
-					"gpo": "🏢 General Post Office / 郵政總局",
+					"gpo": "📮 General Post Office / 郵政總局",
 					"landmark_gloucester": "🏢 Gloucester Tower / 告羅士打大廈",
-					"hang_seng_hq": "🏢 Hang Seng Bank Headquarters Building / 恒生銀行總行大廈",
-					"hsbc_bldg": "🏢 HSBC Main Building / 滙豐總行大廈",
+					"hang_seng_hq": "🏦 Hang Seng Bank Headquarters Building / 恒生銀行總行大廈",
+					"hong_kong_maritime_museum": "🏛️ Hong Kong Maritime Museum / 香港海事博物館",
+					"hsbc_bldg": "🏦 HSBC Main Building / 滙豐總行大廈",
 					"ifc_mall": "🛍️ IFC Mall / 國際金融中心商場",
 					"one_ifc": "🏢 One IFC / 國際金融中心一期",
 					"two_ifc": "🏢 Two IFC / 國際金融中心二期",
@@ -55,10 +63,10 @@
 					"landmark_mo": "🏨 Mandarin Oriental The Landmark / 置地文華東方酒店",
 					"nexxus_bldg": "🏢 Nexxus Building / 盈置大廈",
 					"princes_bldg": "🏢 Prince's Building / 太子大廈",
-					"scb_bldg": "🏢 Standard Chartered Bank / 渣打銀行大廈",
+					"scb_bldg": "🏦 Standard Chartered Bank / 渣打銀行大廈",
 					"the_forum": "🏢 The Forum / 富臨閣",
 					"the_henderson": "🏢 The Henderson",
-					"three_garden_road": "🏘️ Three Garden Road / 花園道三號",
+					"three_garden_road": "🏢 Three Garden Road / 花園道三號",
 					"wheelock_house": "🏢 Wheelock House / 會德豐大廈",
 					"world_wide_house": "🏢 World-Wide House / 環球大廈",
 					"landmark_york": "🏢 York House / 約克大廈"
@@ -90,9 +98,9 @@
 			},
     		"Wan Chai District (灣仔區)": {				
 				"Wan Chai (灣仔)": {
-					"151_lockhart_road": "🏢 151 Lockhart Road / 駱克道151號",
+					"151_lockhart_road": "🛍️ 151 Lockhart Road / 駱克道151號",
 					"capital_ctr": "🏢 Capital Centre / 資本中心",
-					"causeway_ctr": "🏢 Causeway Centre / 灣景中心大廈",
+					"causeway_ctr": "🏘️ Causeway Centre / 灣景中心大廈",
 					"central_plaza": "🏢 Central Plaza / 中環廣場",
 					"china_overseas_bldg": "🏢 China Overseas Building / 中國海外大廈",
 					"cr_bldg": "🏢 China Resources Building / 華潤大廈",
@@ -100,21 +108,21 @@
 					"harbour_ctr": "🏢 Harbour Centre / 海港中心",
 					"hrsc": "🏸 Harbour Road Sports Centre / 港灣道體育館",
 					"hkcec": "🏛️ HKCEC / 香港會議展覽中心",
-					"immigration_tower": "🏢 Immigration Tower / 入境事務大樓",
+					"immigration_tower": "🏛️ Immigration Tower / 入境事務大樓",
 					"lee_tung_avenue": "🛍️ Lee Tung Avenue / 利東街",
-					"revenue_tower": "🏢 Revenue Tower / 稅務大樓",
+					"revenue_tower": "🏛️ Revenue Tower / 稅務大樓",
 					"southorn_stadium": "🏸 Southorn Stadium / 修頓體育館",
 					"st_regis": "🏨 St. Regis Hong Kong / 香港瑞吉酒店",
 					"shk_ctr": "🏢 Sun Hung Kai Centre / 新鴻基中心",
-					"wcsp": "🏢 Wan Chai Swimming Pool / 灣仔游泳池"
+					"wcsp": "🏊 Wan Chai Swimming Pool / 灣仔游泳池"
 				},
 				"Causeway Bay (銅鑼灣)": {
 					"cwb_plaza": "🛍️ Causeway Bay Plaza 1 / 銅鑼灣廣場一期",
 					"east_point_centre": "🏢 East Point Centre / 東角中心",
 					"hysan_place": "🛍️ Hysan Place / 希慎廣場",
-					"lee_garden_one": "🏘️ Lee Garden One / 利園一期",
-					"lee_garden_two": "🏘️ Lee Garden Two / 利園二期",
-					"macau_yat_yuen_centre": "🏢 Macau Yat Yuen Centre / 澳門逸園中心",
+					"lee_garden_one": "🛍️ Lee Garden One / 利園一期",
+					"lee_garden_two": "🛍️ Lee Garden Two / 利園二期",
+					"macau_yat_yuen_centre": "🛍️ Macau Yat Yuen Centre / 澳門逸園中心",
 					"sogo_cwb": "🛍️ SOGO (Causeway Bay) / 崇光百貨 (銅鑼灣)",
 					"the_goldmark": "🛍️ The Goldmark / 黃金廣場",
 					"times_square": "🛍️ Times Square / 時代廣場"
@@ -124,12 +132,13 @@
 				"Fortress Hill (炮台山)": {
 					"fortress_metro_tower": "🏘️ Fortress Metro Tower / 康澤花園",
 					"electric_road_msb": "🐟 Electric Rd Municipal Services Bldg / 電氣道市政大廈",
-					"harbour_glory": "🏘️ Harbour Glory / 維港頌"
+					"harbour_glory": "🏘️ Harbour Glory / 維港頌",
+					"hotel_alexandra": "🏨 Hotel Alexandra / 歷山酒店"
 				},
 				"North Point (北角)": {
 					"china_united_centre": "🏢 China United Centre / 華滙中心",
 					"odeon_building": "🏢 Odeon Building / 國賓大廈",
-					"roca_centre": "🏢 Roca Centre / 樂嘉中心"
+					"roca_centre": "🏘️ Roca Centre / 樂嘉中心"
 				},
 				"Tai Koo (太古)": {
 					"1111_kings": "🏢 1111 King's Road / 英皇道1111號",
@@ -139,9 +148,6 @@
 					"cityplaza_1f": "🛍️ Cityplaza 1/F / 太古城中心一樓",
 					"cityplaza_2f": "🛍️ Cityplaza 2/F / 太古城中心二樓",
 					"east_hk": "🏨 East Hotel / 東隅酒店",
-					"horizon_gardens": "🏘️ Horizon Gardens, Taikoo Shing / 太古城海天花園",
-					"kam_din_terrace": "🏘️ Kam Din Terrace, Taikoo Shing / 太古城金殿臺",
-					"kao_shan_terrace": "🏘️ Kao Shan Terrace, Taikoo Shing / 太古城高山臺",
 					"kornhill_apartments": "🏘️ Kornhill Apartments / 康蘭居",
 					"kornhill_a-h": "🏘️ Kornhill Blocks A-H / 康怡花園A-H座",
 					"kornhill_j-m": "🏘️ Kornhill Blocks J-M / 康怡花園J-M座",
@@ -149,7 +155,10 @@
 					"kornhill_plaza_n": "🛍️ Kornhill Plaza (North) / 康怡廣場(北)",
 					"kornhill_plaza_s": "🛍️ Kornhill Plaza (South) / 康怡廣場(南)",
 					"kornhill_plaza_office": "🛍️ Kornhill Plaza Office Tower / 康怡廣場辦公大樓",
-					"sing_fai_terrace": "🏘️ Sing Fai Terrace, Taikoo Shing / 太古城星輝臺"
+					"horizon_gardens": "🏘️ Taikoo Shing (Horizon Gardens) / 太古城海天花園",
+					"kam_din_terrace": "🏘️ Taikoo Shing (Kam Din Terrace) / 太古城金殿臺",
+					"kao_shan_terrace": "🏘️ Taikoo Shing (Kao Shan Terrace) / 太古城高山臺",
+					"sing_fai_terrace": "🏘️ Taikoo Shing (Sing Fai Terrace) / 太古城星輝臺"
 				},
 				"Sai Wan Ho (西灣河)": {
 					"felicity_garden": "🏘️ Felicity Garden / 欣景花園"
@@ -157,14 +166,16 @@
 				"Chai Wan (柴灣)": {
 					"hing_wah_1_estate": "🏘️ Hing Wah (I) Estate / 興華(一)邨",
 					"new_jade_garden": "🏘️ New Jade Garden / 新翠花園",
+					"new_jade_shopping_arcade": "🛍️ New Jade Shopping Arcade / 新翠商場",
 					"paradise_mall": "🛍️ Paradise Mall / 杏花新城",
 					"wan_tsui_estate": "🏘️ Wan Tsui Estate / 環翠邨",
+					"wan_tsui_shopping_ctr": "🛍️ Wan Tsui Shopping Centre / 環翠商場",
 					"youth_square": "🏛️ Youth Square / 青年廣場"
 				}
 			},
 			"Southern District (南區)": {
 				"Ap Lei Chau (鴨脷洲)": {
-					"larvotto": "🏢 Larvotto / 南灣",
+					"larvotto": "🏘️ Larvotto / 南灣",
 					"lei_tung_commercial_ctr": "🛍️ Lei Tung Commercial Centre / 利東商場",
 					"lei_tung_estate": "🏘️ Lei Tung Estate / 利東邨",
 					"yue_on_court": "🏘️ Yue On Court / 漁安苑"
@@ -180,15 +191,15 @@
 					"la_marina": "🏘️ La Marina / 揚海",
 					"la_montagne": "🏘️ La Montagne / 海盈山",
 					"metro_south": "🏢 Metro South / 都會中心",
-					"nlsr_cooked_food_market": "🐟 Nam Long Shan Road Cooked Food Market / 南朗山道熟食市場",
+					"nlsr_cooked_food_market": "🍜 Nam Long Shan Road Cooked Food Market / 南朗山道熟食市場",
 					"shama_metro_south": "🏨 Shama Hub Metro South / 莎瑪匯港島南",
 					"southland": "🏘️ Southland / 晉環",
-					"the_southside": "🏢 The Southside / 港島南岸"
+					"the_southside": "🛍️ The Southside / 港島南岸"
 				}
 			},
 			"Yau Tsim Mong District (油尖旺區)": {
                 "Tsim Sha Tsui (尖沙咀)": {
-					"hong_kong_cultural_centre": "🏛️ Hong Kong Cultural Centre / 香港文化中心",
+					"hong_kong_cultural_centre": "🎶 Hong Kong Cultural Centre / 香港文化中心",
 					"hong_kong_space_museum": "🏛️ Hong Kong Space Museum / 香港太空館",
 					"isquare": "🛍️ iSQUARE / 國際廣場",
 					"k11_art_mall": "🛍️ K11 Art Mall / K11購物藝術館",
@@ -198,7 +209,7 @@
 					"langham_hotel": "🏨 The Langham Hong Kong / 香港朗廷酒店",
 					"lippo_sun_plaza": "🛍️ Lippo Sun Plaza / 力寶太陽廣場",
                     "new_east_ocean_centre": "🏢 New East Ocean Centre / 新東海商業中心",
-					"one_peking": "🏢 One Peking / 北京道一號",
+					"one_peking": "🛍️ One Peking / 北京道一號",
 					"regent_hotel": "🏨 Regent Hong Kong / 香港麗晶酒店",
 					"rosewood_hotel": "🏨 Rosewood Hong Kong / 香港瑰麗酒店",
 					"sheraton_hotel": "🏨 Sheraton Hong Kong Hotel & Towers / 香港喜來登酒店"
@@ -208,7 +219,8 @@
 					"yue_hwa": "🛍️ Yue Hwa Chinese Products / 裕華國貨",
 					"fourseas_building": "🏢 Fourseas Building / 四海大廈",
 					"far_east_consortium_building_jordan": "🏢 Far East Consortium Building (Jordan) / 遠東發展大廈 (佐敦)",
-					"prudential_centre": "🏢 Prudential Centre / 恆豐中心"
+					"prudential_centre": "🛍️ Prudential Centre / 恆豐中心",
+					"prudential_hotel": "🏨 Prudential Hotel / 恆豐酒店"
 				},
                 "Mong Kok (旺角)": {
                     "700_nathan_road": "🏢 700 Nathan Road / 彌敦道700號",
@@ -223,7 +235,7 @@
 					"the_arch": "🏘️ The Arch / 凱旋門",
 					"the_cullinan": "🏘️ The Cullinan / 天璽",
 					"the_harbourside": "🏘️ The Harbourside / 君臨天下",
-					"icc": "🛍️ ICC / 環球貿易廣場",
+					"icc": "🏢 ICC / 環球貿易廣場",
 					"ritz_carlton": "🏨 Ritz-Carlton Hotel / 香港麗思卡爾頓酒店",
 					"sorrento": "🏘️ Sorrento / 擎天半島",
 					"the_waterfront": "🏘️ The Waterfront / 漾日居"
@@ -231,26 +243,26 @@
                 "Olympic Station (奧運站)": {
                     "bank_of_china_centre": "🏢 Bank of China Centre / 中銀中心",
                     "central_park": "🏘️ Central Park / 帝柏海灣",
-                    "florient_rise": "🏢 Florient Rise / 海桃灣",
-                    "harbour_green": "🏢 Harbour Green / 君匯港",
+                    "florient_rise": "🏘️ Florient Rise / 海桃灣",
+                    "harbour_green": "🏘️ Harbour Green / 君匯港",
                     "hoi_fu_court": "🏘️ Hoi Fu Court / 海富苑",
 					"hoi_fu_shopping_centre": "🛍️ Hoi Fu Shopping Centre / 海富商場",
                     "hsbc_centre": "🏢 HSBC Centre / 滙豐中心",
                     "island_harbourview": "🏢 Island Harbourview / 維港灣",
-                    "olympian_city_one": "🏢 Olympian City One / 奧海城一期",
-                    "olympian_city_two": "🏢 Olympian City Two / 奧海城二期",
-                    "olympian_city_three": "🏢 Olympian City Three / 奧海城三期",
+                    "olympian_city_one": "🛍️ Olympian City One / 奧海城一期",
+                    "olympian_city_two": "🛍️ Olympian City Two / 奧海城二期",
+                    "olympian_city_three": "🛍️ Olympian City Three / 奧海城三期",
 					"olympic_pti": "🚌 Olympic Station Bus Terminus / 奧運站巴士總站",
-                    "park_avenue": "🏢 Park Avenue / 柏景灣",
-                    "the_hermitage": "🏢 The Hermitage / 帝峯‧皇殿",
+                    "park_avenue": "🏘️ Park Avenue / 柏景灣",
+                    "the_hermitage": "🏘️ The Hermitage / 帝峯‧皇殿",
                     "west9zone": "🛍️ West 9 Zone / 西九匯",
 				},
 				"Austin Station (柯士甸站)": {
-                    "the_austin": "🏢 The Austin",
-                    "grand_austin": "🏢 Grand Austin",
-					"igc": "🏢 International Gateway Centre (IGC) / 環球匯",
-					"west_kowloon_station": "🏢 Hong Kong West Kowloon Station / 香港西九龍站",
-					"xiqu_centre": "🏢 Xiqu Centre / 戲曲中心"
+                    "the_austin": "🏘️ The Austin",
+                    "grand_austin": "🏘️ Grand Austin",
+					"igc": "🛍️ International Gateway Centre (IGC) / 環球匯",
+					"west_kowloon_station": "🚅 Hong Kong West Kowloon Station / 香港西九龍站",
+					"xiqu_centre": "🎶 Xiqu Centre / 戲曲中心"
 				},
 			},
 			"Sham Shui Po District (深水埗區)": {
@@ -262,7 +274,7 @@
 					"yee_kok_court": "🏘️ Yee Kok Court / 怡閣苑"
 				},
 				"Lai Chi Kok (荔枝角)": {
-                    "aeon_lck": "🏢 Aeon Style Lai Chi Kok / 永旺百貨 (荔枝角)",
+                    "aeon_lck": "🛍️ Aeon Style Lai Chi Kok / 永旺百貨 (荔枝角)",
 					"aqua_marine": "🏘️ Aqua Marine / 碧海藍天",
 					"banyan_garden": "🏘️ Banyan Garden / 泓景臺",
 					"cheung_sha_wan_plaza": "🛍️ Cheung Sha Wan Plaza / 長沙灣廣場",
@@ -299,7 +311,7 @@
                     "fashion_world": "🛍️ Fashion World (Whampoa) / 黃埔天地時尚坊",
                     "harbour_place": "🏘️ Harbour Place / 海濱南岸",
                     "one_harbour_gate": "🏢 One HarbourGate",
-                    "polyu": "🎓 PolyU / 理工大學",
+                    "polyu": "🎓 Polytechnic University / 理工大學",
                     "royal_peninsula": "🏘️ Royal Peninsula / 半島豪庭",
                     "stars_by_the_harbour": "🏘️ Stars by the Harbour / 維港·星岸"
                 },
@@ -315,7 +327,7 @@
 					"trade_industry_tower": "🏛️ Trade and Industry Tower / 工業貿易大樓"
 				},
                 "Kowloon Tong (九龍塘)": {
-					"cityu": "🎓 CityU / 城市大學",
+					"cityu": "🎓 City University / 城市大學",
 					"kltesc": "🏢 EDB Kowloon Tong Education Services Centre / 教育局九龍塘教育服務中心",
                     "festival_walk": "🛍️ Festival Walk / 又一城"
                 },
@@ -344,7 +356,7 @@
 				"Diamond Hill (鑽石山)": {
 					"fung_lai_court": "🏘️ Fung Lai Court / 鳳禮苑",
 					"fung_tak_estate": "🏘️ Fung Tak Estate / 鳳德邨",
-					"galaxia": "🏢 Galaxia / 星河明居",
+					"galaxia": "🏘️ Galaxia / 星河明居",
 					"kai_chuen_court": "🏘️ Kai Chuen Court / 啟鑽苑",
 					"kai_chuen_shopping_centre": "🛍️ Kai Chuen Shopping Centre / 啟鑽商場",
 					"plaza_hollywood": "🛍️ Plaza Hollywood / 荷里活廣場"
@@ -366,10 +378,10 @@
 					"tsz_wan_shan_shopping_centre": "🛍️ Tsz Wan Shan Shopping Centre / 慈雲山中心"
 				},
 				"Choi Hung (彩虹)": {
-					"8_clear_water_bay_road": "🏢 8 Clear Water Bay Road / 清水灣道8號",
+					"8_clear_water_bay_road": "🏘️ 8 Clear Water Bay Road / 清水灣道8號",
 					"choi_hung_estate": "🏘️ Choi Hung Estate / 彩虹邨",
 					"infinity_8": "🛍️ Infinity 8 / 匯八坊",
-					"ngau_chi_wan_civic_centre": "🏢 Ngau Chi Wan Civic Centre / 牛池灣文娛中心",
+					"ngau_chi_wan_civic_centre": "🏛️ Ngau Chi Wan Civic Centre / 牛池灣文娛中心",
 					"ngau_chi_wan_market": "🐟 Ngau Chi Wan Market / 牛池灣街市",
 					"ping_shek_estate": "🏘️ Ping Shek Estate / 坪石邨",
 					"ping_shek_pti": "🚌 Ping Shek PTI / 坪石公共運輸交匯處"
@@ -379,7 +391,7 @@
 				"Kowloon Bay (九龍灣)": {
 					"amoy_plaza": "🛍️ Amoy Plaza / 淘大商場",
 					"choi_ying_estate": "🏘️ Choi Ying Estate / 彩盈邨",
-					"east_kowloon_cultural_centre": "🏛️ East Kowloon Cultural Centre / 東九文化中心",
+					"east_kowloon_cultural_centre": "🎶 East Kowloon Cultural Centre / 東九文化中心",
 					"megabox": "🛍️ MegaBox / 企業廣場5期",
 					"telford_plaza": "🛍️ Telford Plaza / 德福廣場"
 				},
@@ -402,7 +414,7 @@
 					"kai_tin_estate": "🏘️ Kai Tin Estate / 啟田邨",
 					"kai_tin_shopping_centre": "🛍️ Kai Tin Shopping Centre / 啟田商場",
 					"kwong_tin_estate": "🏘️ Kwong Tin Estate / 廣田邨",
-					"laguna_city": "🏢 Laguna City / 麗港城",
+					"laguna_city": "🏘️ Laguna City / 麗港城",
 					"lam_tin_estate": "🏘️ Lam Tin Estate / 藍田邨",
 					"lam_tin_pti": "🚌 Lam Tin PTI / 藍田公共運輸交匯處",
 					"on_tin_estate": "🏘️ On Tin Estate / 安田邨",
@@ -446,19 +458,19 @@
                     "discovery_park": "🛍️ Discovery Park / 愉景新城 (D·PARK)",
 					"discovery_park_pti": "🚌 Discovery Park PTI / 愉景新城交通交匯處",
 					"foo_yu_building": "🏘️ Foo Yu Building / 富裕樓",
-                    "fou_wah_centre": "🏢 Fou Wah Centre / 富華中心",
+                    "fou_wah_centre": "🛍️ Fou Wah Centre / 富華中心",
 					"fuk_loi_estate": "🏘️ Fuk Loi Estate / 福來邨",
                     "grand_city_plaza": "🏢 Grand City Plaza / 新領域廣場",
                     "h_cube": "🏘️ H Cube / 立坊",
-                    "ho_fai_commercial_centre_1": "🏢 Ho Fai Commercial Centre 1 / 豪輝商業中心一座",
-                    "ho_fai_commercial_centre_2": "🏢 Ho Fai Commercial Centre 2 / 豪輝商業中心二座",
+                    "ho_fai_commercial_centre_1": "🛍️ Ho Fai Commercial Centre 1 / 豪輝商業中心一座",
+                    "ho_fai_commercial_centre_2": "🛍️ Ho Fai Commercial Centre 2 / 豪輝商業中心二座",
 					"hoi_kwai_road_pti": "🚌 Hoi Kwai Road PTI / 海貴路公共運輸交匯處",
                     "indi_home": "🏘️ Indi Home / 樂悠居",
                     "kolour_tsuen_wan_1": "🛍️ Kolour Tsuen Wan 1 / 荃灣千色匯 I",
                     "kolour_tsuen_wan_2": "🛍️ Kolour Tsuen Wan 2 / 荃灣千色匯 II",
 					"lik_sang_plaza": "🛍️ Lik Sang Plaza / 力生廣場",
                     "luk_yeung_galleria": "🛍️ Luk Yeung Galleria / 綠楊坊",
-                    "nan_fung_centre": "🏢 Nan Fung Centre / 南豐中心",
+                    "nan_fung_centre": "🛍️ Nan Fung Centre / 南豐中心",
 					"nina_hotel": "🏨 Nina Hotel Tsuen Wan West / 荃灣西如心酒店",
                     "nina_mall_1": "🛍️ Nina Mall 1 / 如心廣場一期",
                     "nina_mall_2": "🛍️ Nina Mall 2 / 如心廣場二期",
@@ -484,13 +496,13 @@
                     "tsuen_wan_plaza": "🛍️ Tsuen Wan Plaza / 荃灣廣場",
                     "tsuen_wan_public_library": "📚 Tsuen Wan Public Library / 荃灣公共圖書館",
 					"tsuen_wan_station_pti": "🚌 Tsuen Wan Station PTI / 荃灣站公共運輸交匯處",
-                    "tsuen_wan_town_hall": "🏢 Tsuen Wan Town Hall / 荃灣大會堂",
+                    "tsuen_wan_town_hall": "🏛️ Tsuen Wan Town Hall / 荃灣大會堂",
 					"tsuen_wan_station_bus_stop": "🚌 Tsuen Wan Station (Sai Lau Kok Road) Bus Stop / 荃灣站(西樓角路)巴士站",
                     "tsuen_wan_west_station_pti": "🚌 Tsuen Wan West Station PTI / 荃灣西站公共運輸交匯處",
                     "tw_carpark_building": "🅿️ Tsuen Wan Multi-storey Carpark Building / 荃灣多層停車場大廈",
 					"victory_court": "🏘️ Victory Court / 荃勝大廈",
                     "vision_city": "🏘️ Vision City / 萬景峯",
-                    "waldorf_centre": "🏢 Waldorf Centre / 華都中心",
+                    "waldorf_centre": "🛍️ Waldorf Centre / 華都中心",
 					"yurmsb": "🐟 Yeung Uk Road Municipal Services Building / 楊屋道市政大廈"
                 }
 			},
@@ -522,7 +534,7 @@
 					"yoho_mall_pti": "🚌 Yoho Mall Transport Interchange / 形點交通交匯處",
 					"yoho_midtown": "🏘️ Yoho Midtown",
 					"yoho_mix": "🛍️ Yoho Mix / 元點",
-					"yoho_town": "🏘️ Yoho Town",
+					"yoho_town": "🏘️ Yoho Town / 新時代廣場",
 					"yuen_long_plaza": "🛍️ Yuen Long Plaza / 元朗廣場",
 					"yuen_long_station_pti": "🚌 Yuen Long Station Transport Interchange / 元朗站公共運輸交匯處"
 				}
@@ -577,17 +589,17 @@
 				},
 				"Shap Sze Heung (十四鄉)": {
 					"sai_sha_residences_pti": "🚌 Sai Sha Residences PTI / 西沙灣交通交匯處",
-					"sierra_sea": "🏢 Sierra Sea"
+					"sierra_sea": "🏘️ Sierra Sea / 西沙灣"
 				}
 			},
 			"Sai Kung District/Tseung Kwan O (西貢區/將軍澳)": {
 				"Tiu Keng Leng (調景嶺)": {
 					"choi_ming_court": "🏘️ Choi Ming Court / 彩明苑",
 					"choi_ming_shopping_centre": "🛍️ Choi Ming Shopping Centre / 彩明商場",
-					"hong_kong_design_institute": "🏢 Hong Kong Design Institute / 香港知專設計學院",
+					"hong_kong_design_institute": "🎓 Hong Kong Design Institute / 香港知專設計學院",
 					"ive_lee_wai_lee": "🎓 IVE (Lee Wai Lee) / 香港專業教育學院 (李惠利)",
 					"kin_ming_estate": "🏘️ Kin Ming Estate / 健明邨",
-					"metro_town": "🏢 Metro Town / 都會駅",
+					"metro_town": "🏘️ Metro Town / 都會駅",
 					"ocean_shores": "🏘️ Ocean Shores / 維景灣畔",
 					"shin_ming_estate": "🏘️ Shin Ming Estate / 善明邨",
 					"tiu_keng_leng_public_library": "📚 Tiu Keng Leng Public Library / 調景嶺公共圖書館",
@@ -599,11 +611,11 @@
 					"hong_kong_velodrome": "🚲 Hong Kong Velodrome / 香港單車館",
 					"immigration_headquarters": "🏛️ Immigration Headquarters / 入境事務處總部",
 					"kwong_ming_court": "🏘️ Kwong Ming Court / 廣明苑",
-					"park_central": "🏢 Park Central / 將軍澳中心",
-					"popcorn": "🏢 PopCorn",
-					"popcorn_2": "🏢 PopCorn 2",
-					"popwalk": "🏢 PopWalk / 天晉匯",
-					"popwalk_2": "🏢 PopWalk 2 / 天晉匯2期",
+					"park_central": "🛍️ Park Central / 將軍澳中心",
+					"popcorn": "🛍️ PopCorn",
+					"popcorn_2": "🛍️ PopCorn 2",
+					"popwalk": "🛍️ PopWalk / 天晉匯",
+					"popwalk_2": "🛍️ PopWalk 2 / 天晉匯2期",
 					"sheung_tak_estate": "🏘️ Sheung Tak Estate / 尚德邨",
 					"the_grandiose": "🏘️ The Grandiose / 君傲灣",
 					"the_wings": "🏘️ The Wings / 天晉",
@@ -616,31 +628,31 @@
 				},
 				"Hang Hau (坑口)": {
 					"chung_ming_court": "🏘️ Chung Ming Court / 頌明苑",
-					"east_point_city": "🏢 East Point City / 東港城",
+					"east_point_city": "🛍️ East Point City / 東港城",
 					"hau_tak_estate": "🏘️ Hau Tak Estate / 厚德邨",
 					"hin_ming_court": "🏘️ Hin Ming Court / 顯明苑",
-					"la_cite_noble": "🏢 La Cite Noble / 新寶城",
-					"maritime_bay": "🏢 Maritime Bay / 海悅豪園",
+					"la_cite_noble": "🏘️ La Cite Noble / 新寶城",
+					"maritime_bay": "🛍️ Maritime Bay / 海悅豪園",
 					"ming_tak_estate": "🏘️ Ming Tak Estate / 明德邨",
 					"nan_fung_plaza": "🛍️ Nan Fung Plaza / 南豐廣場",
-					"residence_oasis": "🏢 Residence Oasis / 蔚藍灣畔",
-					"the_lane": "🏢 The Lane / 連理街",
+					"residence_oasis": "🏘️ Residence Oasis / 蔚藍灣畔",
+					"the_lane": "🛍️ The Lane / 連理街",
 					"tko_gateway": "🛍️ TKO Gateway / 厚德商場",
 					"wo_ming_court": "🏘️ Wo Ming Court / 和明苑",
 					"yu_ming_court": "🏘️ Yu Ming Court / 裕明苑",
 					"yuk_ming_court": "🏘️ Yuk Ming Court / 煜明苑"
 				},
 				"Po Lam (寶琳)": {
-					"mcp_central": "🏢 MCP Central / 新都城中心二期",
-					"mcp_discovery": "🏢 MCP Discovery / 新都城中心三期",
-					"mcp_one": "🏢 MCP One / 新都城中心一期",
-					"metro_city_phase_1": "🏢 Metro City Phase 1 / 新都城一期",
-					"metro_city_phase_2": "🏢 Metro City Phase 2 / 新都城二期",
+					"mcp_central": "🛍️ MCP Central / 新都城中心二期",
+					"mcp_discovery": "🛍️ MCP Discovery / 新都城中心三期",
+					"mcp_one": "🛍️ MCP One / 新都城中心一期",
+					"metro_city_phase_1": "🏘️ Metro City Phase 1 / 新都城一期",
+					"metro_city_phase_2": "🏘️ Metro City Phase 2 / 新都城二期",
 					"po_lam_commercial_complex": "🛍️ Po Lam Commercial Complex / 寶林商場",
 					"po_lam_estate": "🏘️ Po Lam Estate / 寶林邨",
 					"po_lam_sports_centre": "🏸 Po Lam Sports Centre / 寶林體育館",
-					"metro_city_phase_3": "🏢 The Metropolis / 都會豪庭",
-					"the_pinnacle": "🏢 The Pinnacle / 叠翠軒",
+					"metro_city_phase_3": "🏘️ The Metropolis / 都會豪庭",
+					"the_pinnacle": "🏘️ The Pinnacle / 叠翠軒",
 					"verbena_heights": "🏘️ Verbena Heights / 茵怡花園",
 					"ying_ming_court": "🏘️ Ying Ming Court / 英明苑"
 				},
@@ -687,10 +699,10 @@
 					"sha_tin_central_pti": "🚌 Shatin Central Bus Terminus / 沙田市中心巴士總站",
 					"shatin_centre": "🛍️ Shatin Centre / 沙田中心",
 					"sha_tin_market": "🐟 Sha Tin Market / 沙田街市",
-					"sha_tin_marriage": "🏢 Sha Tin Marriage Registry / 沙田婚姻登記處",
+					"sha_tin_marriage": "💒 Sha Tin Marriage Registry / 沙田婚姻登記處",
 					"shatin_plaza": "🛍️ Shatin Plaza / 沙田廣場",
 					"sha_tin_library": "📚 Sha Tin Public Library / 沙田公共圖書館",
-					"sha_tin_town_hall": "🏢 Sha Tin Town Hall / 沙田大會堂",
+					"sha_tin_town_hall": "🏛️ Sha Tin Town Hall / 沙田大會堂",
 					"wai_wah_centre": "🛍️ Wai Wah Centre / 偉華中心",
 					"wo_che_estate": "🏘️ Wo Che Estate / 禾輋邨"
 				},
@@ -713,24 +725,24 @@
 				"Ma On Shan (馬鞍山)": {
 					"fu_fai_garden": "🏘️ Fu Fai Garden / 富輝花園",
 					"fok_on_garden": "🏘️ Fok On Garden / 福安花園",
-					"ma_on_shan_centre": "🏢 Ma On Shan Centre / 馬鞍山中心",
+					"ma_on_shan_centre": "🛍️ Ma On Shan Centre / 馬鞍山中心",
 					"ma_on_shan_plaza": "🛍️ Ma On Shan Plaza / 馬鞍山廣場",
-					"mostown": "🏢 MOSTown / 新港城中心",
-					"mostown_phase_1": "🏢 MOSTown Phase 1 / 新港城中心1期",
-					"mostown_phase_2": "🏢 MOSTown Phase 2 / 新港城中心2期",
-					"mostown_phase_3": "🏢 MOSTown Phase 3 / 新港城中心3期",
-					"mostown_phase_5": "🏢 MOSTown Phase 5 / 新港城中心5期",
-					"sunshine_city_phase_1": "🏢 Sunshine City Phase 1 / 新港城一期",
-					"sunshine_city_phase_2": "🏢 Sunshine City Phase 2 / 新港城二期",
-					"sunshine_city_phase_3": "🏢 Sunshine City Phase 3 / 新港城三期",
-					"sunshine_city_phase_4": "🏢 Sunshine City Phase 4 / 新港城四期",
-					"the_tolo_place": "🏢 The Tolo Place / 海濤居",
-					"villa_oceania": "🏢 Villa Oceania / 海典居",
+					"mostown_phase_1": "🛍️ MOSTown Phase 1 / 新港城中心1期",
+					"mostown_phase_2": "🛍️ MOSTown Phase 2 / 新港城中心2期",
+					"mostown_phase_3": "🛍️ MOSTown Phase 3 / 新港城中心3期",
+					"mostown": "🛍️ MOSTown Phase 4 / 新港城中心4期",
+					"mostown_phase_5": "🛍️ MOSTown Phase 5 / 新港城中心5期",
+					"sunshine_city_phase_1": "🏘️ Sunshine City Phase 1 / 新港城一期",
+					"sunshine_city_phase_2": "🏘️ Sunshine City Phase 2 / 新港城二期",
+					"sunshine_city_phase_3": "🏘️ Sunshine City Phase 3 / 新港城三期",
+					"sunshine_city_phase_4": "🏘️ Sunshine City Phase 4 / 新港城四期",
+					"the_tolo_place": "🏘️ The Tolo Place / 海濤居",
+					"villa_oceania": "🏘️ Villa Oceania / 海典居",
 				},
 				"Wu Kai Sha (烏溪沙)": {
-					"double_cove": "🏢 Double Cove / 迎海",
-					"double_cove_place": "🏢 Double Cove Place / 迎海薈",
-					"lake_silver": "🏢 Lake Silver / 銀湖‧天峰",
+					"double_cove": "🏘️ Double Cove / 迎海",
+					"double_cove_place": "🛍️ Double Cove Place / 迎海薈",
+					"lake_silver": "🏘️ Lake Silver / 銀湖‧天峰",
 					"wu_kai_sha_station_pti": "🚌 Wu Kai Sha Station PTI / 烏溪沙站公共運輸交匯處"
 				}
             },
@@ -814,7 +826,7 @@
 					"le_bleu_deux": "🏘️ Le Bleu Deux / 水藍天岸",
 					"seaview_crescent": "🏘️ Seaview Crescent / 藍天海岸",
 					"the_visionary": "🏘️ The Visionary / 昇薈",
-					"tung_chung_health_centre": "🏢 Tung Chung Health Centre / 東涌健康中心",
+					"tung_chung_health_centre": "🏥 Tung Chung Health Centre / 東涌健康中心",
 					"tung_chung_station_bus_terminus": "🚌 Tung Chung Station Bus Terminus / 東涌站巴士總站",
 					"yat_tung_estate": "🏘️ Yat Tung Estate / 逸東邨",
 					"yu_tung_court": "🏘️ Yu Tung Court / 裕東苑"
@@ -822,7 +834,7 @@
 			},
 			"Border Crossings (出入境管制站)": {
 				"High-Speed Rail (高速鐵路)": {
-					"west_kowloon_station": "🛂 Hong Kong West Kowloon Station / 香港西九龍站"
+					"west_kowloon_station": "🚅 Hong Kong West Kowloon Station / 香港西九龍站"
 				},
 				"Shenzhen (深圳)": {
 					"futian_port": "🛂 Futian Port / 福田口岸",
