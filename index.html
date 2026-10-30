@@ -560,12 +560,12 @@
                     const displayDesc = viaPrefix + edge.desc;
                     // --------------------------
 
-                    // Handle Continuous Rides (Paid Trains, Premium Trains, and Paid Buses)
-                    const isRide = (edge.type === 'paid_train' || edge.type === 'premium_train' || edge.type === 'paid_bus');
+                    // Handle Continuous Rides (Paid Trains, Premium Trains, Paid Light Rail and Paid Buses)
+                    const isRide = (edge.type === 'paid_train' || edge.type === 'premium_train' || edge.type === 'paid_lrt' || edge.type === 'paid_bus');
                     
                     if (isRide) {
                         const nextEdge = route.edges[i+1]; // Look ahead
-                        const isNextRide = (nextEdge && (nextEdge.type === 'paid_train' || nextEdge.type === 'premium_train' || nextEdge.type === 'paid_bus'));
+                        const isNextRide = (nextEdge && (nextEdge.type === 'paid_train' || nextEdge.type === 'premium_train' || edge.type === 'paid_lrt' || nextEdge.type === 'paid_bus'));
                         
                         // Determine if the current merged route shares a specific vehicle with the next edge
                         let sharesRoute = false;
@@ -587,6 +587,9 @@
                         if (edge.type === 'premium_train') {
                             rideLabel = '✈️ Board premium train to';
                             borderClass = 'border-teal-500 bg-teal-50/50 rounded-r-lg';
+                        } else if (edge.type === 'paid_lrt') {
+                            rideLabel = '🚈 Ride light rail to';
+                            borderClass = 'border-gold-600';
                         } else if (edge.type === 'paid_bus') {
                             rideLabel = '🚌 Ride bus to'; 
                             borderClass = 'border-green-500';

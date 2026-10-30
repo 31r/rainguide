@@ -1356,4 +1356,29 @@ tin_shing_shopping_centre,tin_shing_court,2,covered_walkway,covered walkway
 tin_yiu_plaza,tin_yiu_estate,2,covered_walkway,covered walkway
 tin_yiu_plaza,kingswood_richly_plaza,4,bridge,bridge over Tin Wu Road
 kingswood_richly_plaza,locwood_court,2,covered_walkway,covered walkway
+
+// --- LIGHT RAIL TRANSIT (TIN SHUI WAI COVERED NETWORK) ---
+tin_shui_wai_concourse,tin_shui_wai_lrt,2,fare_gate,Exit E escalators to Light Rail
+tin_shui_wai_lrt,chung_fu_lrt,20,paid_lrt,Light Rail 706,uni
+chung_fu_lrt,tin_shui_wai_lrt,20,paid_lrt,Light Rail 705,uni
+chung_fu_lrt,tin_wing_lrt,10,paid_lrt,Light Rail 751
+tin_shui_wai_lrt,tin_wing_lrt,15,paid_lrt,Light Rail 705/751
+tin_wing_lrt,tin_shui_wai_lrt,15,paid_lrt,Light Rail 706/751
+
+// --- CHUNG FU HUB (T TOWN) ---
+chung_fu_lrt,t_town_south,2,bridge,bridge
+chung_fu_lrt,t_town_north,2,bridge,bridge
+chung_fu_lrt,tin_yan_shopping_centre,2,bridge,bridge
+chung_fu_lrt,tin_wah_estate,2,bridge,bridge
+t_town_south,t_town_north,2,bridge,bridge
+t_town_south,tin_chung_court,2,covered_walkway,covered walkway
+t_town_north,tin_fu_court,2,covered_walkway,covered walkway
+t_town_north,tin_yuet_estate,2,covered_walkway,covered walkway
+tin_fu_court,tin_yuet_estate,2,covered_walkway,covered walkway
+tin_yan_shopping_centre,tin_yan_estate,2,covered_walkway,covered walkway
+
+// --- TIN WING HUB ---
+tin_wing_lrt,yoho_west,2,lift,resident lift lobby
+tin_wing_lrt,tin_shui_wai_town_centre_pti,4,bridge,bridge from Tin Wing Stop to PTI podium
+tin_shui_wai_town_centre_pti,central_park_towers,3,bridge,bridge from PTI podium
 `;
