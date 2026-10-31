@@ -565,7 +565,7 @@
                     
                     if (isRide) {
                         const nextEdge = route.edges[i+1]; // Look ahead
-                        const isNextRide = (nextEdge && (nextEdge.type === 'paid_train' || nextEdge.type === 'premium_train' || edge.type === 'paid_lrt' || nextEdge.type === 'paid_bus'));
+                        const isNextRide = (nextEdge && (nextEdge.type === 'paid_train' || nextEdge.type === 'premium_train' || nextEdge.type === 'paid_lrt' || nextEdge.type === 'paid_bus'));
                         
                         // Determine if the current merged route shares a specific vehicle with the next edge
                         let sharesRoute = false;
