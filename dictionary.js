@@ -508,7 +508,8 @@
 			},
 			"Yuen Long District (元朗區)": {
 				"Kam Tin (錦田)": {
-					"grand_mayfair": "🏘️ Grand Mayfair / 柏瓏"
+					"grand_mayfair": "🏘️ Grand Mayfair / 柏瓏",
+					"park_yoho": "🏘️ Park Yoho / 峻巒",
 				},
 				"Tin Shui Wai (天水圍)": {
 					"central_park_towers": "🏘️ Central Park Towers / 栢慧豪園",
@@ -531,13 +532,13 @@
 					"tin_yan_shopping_centre": "🛍️ Tin Yan Shopping Centre / 天恩商場",
 					"tin_yiu_estate": "🏘️ Tin Yiu Estate / 天耀邨",
 					"tin_yiu_plaza": "🛍️ Tin Yiu Plaza / 天耀廣場",
+					"tin_yuet_estate": "🏘️ Tin Yuet Estate / 天悅邨",
 					"yoho_west": "🏘️ Yoho West",
 				},
 				"Yuen Long (元朗)": {
 					"grand_yoho": "🏘️ Grand Yoho",
 					"long_ping_commercial_centre": "🛍️ Long Ping Commercial Centre / 朗屏商場",
 					"long_ping_estate": "🏘️ Long Ping Estate / 朗屏邨",
-					"park_yoho": "🏘️ Park Yoho / 峻巒",
 					"sol_city": "🏘️ Sol City / 朗城滙",
 					"the_spectra": "🏘️ The Spectra / 朗屏8號",
 					"the_yoho_hub_ii": "🏘️ The Yoho Hub II (Blocks 6 & 8 / 第6及8座)",
