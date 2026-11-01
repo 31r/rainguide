@@ -86,6 +86,7 @@ prudential_centre,prudential_hotel,2,lift,hotel lobby
 // --- MONG KOK HUB ---
 mong_kok_east_platform,mong_kok_east_concourse,2,fare_gate,fare gates
 mong_kok_east_concourse,moko,2,internal,Exit D
+mong_kok_east_pti,moko,2,covered_walkway,covered walkway
 mong_kok_concourse,moko,16,bridge,Exit B3 and Footbridge
 mong_kok_concourse,top_mall,2,internal,Exit B4
 mong_kok_concourse,langham_place,4,internal,Exit C3
@@ -134,9 +135,6 @@ kwai_fong_station_bus_terminus,new_kwai_fong_gardens,2,internal,Lifts
 new_kwai_fong_gardens,kwai_fong_multi_storey_car_park,2,bridge,bridge over Kwai Yi Road
 kwai_fong_station_bus_terminus,lei_muk_shue_estate,22,paid_bus,KMB 36M
 kwai_fong_station_bus_terminus,shek_lei_tai_loong_street_bus_terminus,26,paid_bus,KMB 31M,uni
-kwai_fong_station_bus_terminus,tmtplaza,80,paid_bus,KMB 58M,uni
-tmtplaza,leung_king_estate_bus_terminus,30,paid_bus,KMB 58M,uni
-leung_king_estate_bus_terminus,kwai_fong_station_bus_terminus,100,paid_bus,KMB 58M,uni
 kwai_fong_station_bus_terminus,tin_shui_wai_town_centre_pti,110,paid_bus,KMB 69M
 kwai_fong_station_bus_terminus,sha_tin_central_pti,45,paid_bus,KMB 47X,uni
 
@@ -1355,6 +1353,7 @@ tin_shui_wai_concourse,tin_yiu_plaza,5,covered_walkway,Exit C and covered walkwa
 tin_shing_shopping_centre,tin_yiu_plaza,3,bridge,bridge over Tin Yiu Road
 tin_shing_shopping_centre,tin_shing_court,2,covered_walkway,covered walkway
 tin_yiu_plaza,tin_yiu_estate,2,covered_walkway,covered walkway
+tin_yiu_estate,tin_yau_court,2,covered_walkway,covered walkway
 tin_yiu_plaza,kingswood_richly_plaza,4,bridge,bridge over Tin Wu Road
 kingswood_richly_plaza,locwood_court,2,covered_walkway,covered walkway
 
@@ -1382,4 +1381,48 @@ tin_yan_shopping_centre,tin_yan_estate,2,covered_walkway,covered walkway
 tin_wing_lrt,yoho_west,2,lift,resident lift lobby
 tin_wing_lrt,tin_shui_wai_town_centre_pti,4,bridge,bridge from Tin Wing Stop to PTI podium
 tin_shui_wai_town_centre_pti,central_park_towers,3,bridge,bridge from PTI podium
+
+// --- SIU HONG HUB ---
+siu_hong_concourse,siu_hong_court,3,bridge,Exit C2
+siu_hong_concourse,siu_hong_lrt,2,escalator,Exits B or C
+
+// --- KIN SANG TO PO TIN CORRIDOR ---
+kin_sang_lrt_eb,kin_sang_shopping_centre,2,covered_walkway,covered walkway
+kin_sang_shopping_centre,venice_gardens,2,bridge,bridge
+venice_gardens,blossom_garden,2,bridge,bridge
+blossom_garden,goodrich_garden,2,bridge,bridge
+goodrich_garden,po_tin_estate,3,bridge,bridge
+po_tin_estate,po_tin_bus_terminus,2,covered_walkway,covered walkway
+
+// --- LEUNG KING HUB ---
+leung_king_lrt,leung_king_plaza,2,covered_walkway,covered walkway
+leung_king_plaza,leung_king_estate_bus_terminus,2,covered_walkway,covered walkway
+leung_king_plaza,leung_king_estate,2,covered_walkway,covered walkway
+leung_king_plaza,tin_king_estate,2,covered_walkway,covered walkway
+
+// --- TUEN MUN NORTH LRT NETWORK ---
+siu_hong_lrt,leung_king_lrt,12,paid_lrt,Light Rail 505 towards Sam Shing,uni
+siu_hong_lrt,leung_king_lrt,12,paid_lrt,Light Rail 615/615P towards Tuen Mun Ferry Pier,uni
+leung_king_lrt,kin_sang_lrt_eb,6,paid_lrt,Light Rail 505/615P towards Siu Hong,uni
+leung_king_lrt,kin_sang_lrt_eb,7,paid_lrt,Light Rail 505 towards Siu Hong,uni
+leung_king_lrt,kin_sang_lrt_eb,6,paid_lrt,Light Rail 615 towards Yuen Long,uni
+kin_sang_lrt_eb,siu_hong_lrt,6,paid_lrt,Light Rail 505/615P towards Siu Hong,uni
+kin_sang_lrt_eb,siu_hong_lrt,7,paid_lrt,Light Rail 505 towards Siu Hong,uni
+kin_sang_lrt_eb,siu_hong_lrt,6,paid_lrt,Light Rail 615 towards Yuen Long,uni
+// 505 weighted higher to only show when through traveling from tuen_mun_lrt to kin_sang_lrt_eb, to force a direct route rather than transferring at leung_king_lrt
+
+// --- TUEN MUN NORTH BUS CONNECTIONS ---
+kwai_fong_station_bus_terminus,tmtplaza,80,paid_bus,KMB 58M towards Leung King,uni
+tmtplaza,leung_king_estate_bus_terminus,30,paid_bus,KMB 58M towards Leung King,uni
+leung_king_estate_bus_terminus,kwai_fong_station_bus_terminus,100,paid_bus,KMB 58M towards Kwai Fong,uni
+po_tin_bus_terminus,kwai_fong_station_bus_terminus,120,paid_bus,KMB 67M
+po_tin_bus_terminus,lam_tin_station_bus_terminus,140,paid_bus,KMB 258D
+leung_king_estate_bus_terminus,mong_kok_east_pti,120,paid_bus,KMB 58X
+
+// --- TUEN MUN LRT HUB ---
+tuen_mun_concourse,tuen_mun_lrt,2,internal,Exit B
+tuen_mun_lrt,leung_king_lrt,22,paid_lrt,Light Rail 505 towards Siu Hong,uni
+tuen_mun_lrt,leung_king_lrt,22,paid_lrt,Light Rail 507 towards Tin King,uni
+leung_king_lrt,tuen_mun_lrt,22,paid_lrt,Light Rail 505 towards Sam Shing,uni
+leung_king_lrt,tuen_mun_lrt,22,paid_lrt,Light Rail 507 towards Tuen Mun Ferry Pier,uni
 `;

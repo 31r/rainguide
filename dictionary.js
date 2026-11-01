@@ -228,6 +228,7 @@
 					"cordis_hotel": "🏨 Cordis Hotel / 康得思酒店",
 					"langham_place": "🛍️ Langham Place / 朗豪坊",
 					"moko": "🛍️ MOKO / 新世紀廣場",
+					"mong_kok_east_pti": "🚌 Mong Kok East Station PTI / 旺角東站公共運輸交匯處",
 					"top_mall": "🛍️ T.O.P This is Our Place"
                 },
 				"Kowloon Station (九龍站)": {
@@ -506,6 +507,28 @@
 					"yurmsb": "🐟 Yeung Uk Road Municipal Services Building / 楊屋道市政大廈"
                 }
 			},
+			"Tuen Mun District (屯門區)": {
+				"Tuen Mun Town Centre (屯門市中心)": {
+					"tuen_mun_lrt": "🚆 Tuen Mun (Light Rail) / 屯門 (輕鐵)"
+				},
+				"Tuen Mun Northwest (屯門西北)": {
+					"kin_sang_lrt_eb": "🚆 Kin Sang (Eastbound Light Rail) / 建生 (輕鐵東行)",
+					"kin_sang_shopping_centre": "🛍️ Kin Sang Shopping Centre / 建生商場",
+					"venice_gardens": "🏘️ Venice Gardens / 海麗花園",
+					"blossom_garden": "🏘️ Blossom Garden / 寶怡花園",
+					"goodrich_garden": "🏘️ Goodrich Garden / 盈豐園",
+					"po_tin_estate": "🏘️ Po Tin Estate / 寶田邨",
+					"po_tin_bus_terminus": "🚌 Po Tin Bus Terminus / 寶田巴士總站",
+					"leung_king_lrt": "🚆 Leung King (Light Rail) / 良景 (輕鐵)",
+					"leung_king_plaza": "🛍️ Leung King Plaza / 良景廣場",
+					"leung_king_estate": "🏘️ Leung King Estate / 良景邨",
+					"tin_king_estate": "🏘️ Tin King Estate / 田景邨",
+				},
+				"Siu Hong (兆康)": {
+					"siu_hong_lrt": "🚆 Siu Hong (Light Rail) / 兆康 (輕鐵)",
+					"siu_hong_court": "🏘️ Siu Hong Court / 兆康苑"
+				},
+			},
 			"Yuen Long District (元朗區)": {
 				"Kam Tin (錦田)": {
 					"grand_mayfair": "🏘️ Grand Mayfair / 柏瓏",
@@ -530,6 +553,7 @@
 					"tin_wing_lrt": "🚆 Tin Wing (Light Rail) / 天榮 (輕鐵)",
 					"tin_yan_estate": "🏘️ Tin Yan Estate / 天恩邨",
 					"tin_yan_shopping_centre": "🛍️ Tin Yan Shopping Centre / 天恩商場",
+					"tin_yau_court": "🏘️ Tin Yau Court / 天祐苑",
 					"tin_yiu_estate": "🏘️ Tin Yiu Estate / 天耀邨",
 					"tin_yiu_plaza": "🛍️ Tin Yiu Plaza / 天耀廣場",
 					"tin_yuet_estate": "🏘️ Tin Yuet Estate / 天悅邨",
