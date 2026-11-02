@@ -810,6 +810,7 @@ elements_mall,the_cullinan,4,lift,resident lift lobby
 austin_concourse,west_kowloon_station,2,internal,Exit C to Hong Kong West Kowloon Station,uni
 west_kowloon_station,austin_concourse,2,internal,Exit A to Austin Station,uni
 west_kowloon_station,igc,2,internal,Exit L
+elements_mall,igc,15,bridge,bridge
 austin_concourse,the_austin,2,internal,Exit B3
 austin_concourse,grand_austin,2,internal,Exit D3
 austin_concourse,xiqu_centre,2,escalator,Exit E
