@@ -510,6 +510,7 @@
 			"Tuen Mun District (屯門區)": {
 				"Tuen Mun Town Centre (屯門市中心)": {
 					"tuen_mun_lrt": "🚆 Tuen Mun (Light Rail) / 屯門 (輕鐵)",
+					"town_centre_lrt": "🚆 Town Centre (Light Rail) / 市中心 (輕鐵)",
 					"tuen_mun_station_pti": "🚌 Tuen Mun Station PTI / 屯門站公共運輸交匯處",
 					"tuen_mun_central_pti": "🚌 Tuen Mun Central PTI / 屯門市中心公共運輸交匯處",
 					"v_city": "🛍️ V City",
@@ -526,7 +527,7 @@
 					"tuen_mun_town_hall": "🏛️ Tuen Mun Town Hall / 屯門大會堂",
 					"tuen_mun_public_library": "📚 Tuen Mun Public Library / 屯門公共圖書館",
 					"tuen_mun_government_offices": "🏛️ Tuen Mun Government Offices / 屯門政府合署",
-					"tuen_mun_parklane_square": "🏢 Tuen Mun Parklane Square / 屯門柏麗廣場"
+					"tuen_mun_parklane_square": "🏢 Tuen Mun Parklane Square / 屯門栢麗廣場"
 				},
 				"On Ting & Sam Shing (安定及三聖)": {
 					"on_ting_lrt": "🚆 On Ting (Light Rail) / 安定 (輕鐵)",
