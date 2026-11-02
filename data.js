@@ -1414,9 +1414,9 @@ kin_sang_lrt_eb,siu_hong_lrt,6,paid_lrt,Light Rail 615 towards Yuen Long,uni
 // 505 weighted higher to only show when through traveling from tuen_mun_lrt to kin_sang_lrt_eb, to force a direct route rather than transferring at leung_king_lrt
 
 // --- TUEN MUN NORTH BUS CONNECTIONS ---
-kwai_fong_station_bus_terminus,tmtplaza,80,paid_bus,KMB 58M towards Leung King,uni
-tmtplaza,leung_king_estate_bus_terminus,30,paid_bus,KMB 58M towards Leung King,uni
-leung_king_estate_bus_terminus,kwai_fong_station_bus_terminus,100,paid_bus,KMB 58M towards Kwai Fong,uni
+kwai_fong_station_bus_terminus,tmtplaza,55,paid_bus,KMB 58M towards Leung King,uni
+tmtplaza,leung_king_estate_bus_terminus,25,paid_bus,KMB 58M towards Leung King,uni
+leung_king_estate_bus_terminus,kwai_fong_station_bus_terminus,80,paid_bus,KMB 58M towards Kwai Fong,uni
 po_tin_bus_terminus,kwai_fong_station_bus_terminus,120,paid_bus,KMB 67M
 po_tin_bus_terminus,lam_tin_station_bus_terminus,140,paid_bus,KMB 258D
 leung_king_estate_bus_terminus,mong_kok_east_pti,120,paid_bus,KMB 58X
