@@ -1437,6 +1437,7 @@ v_city,century_gateway,2,lift,resident lift lobby
 v_city,trend_plaza,4,bridge,bridge over Tuen Mun Heung Sze Wui Road
 trend_plaza,k_point,2,bridge,bridge
 k_point,tmtplaza_phase_2,2,bridge,bridge
+k_point,kam_wah_block_b,2,lift,resident lift lobby
 tmtplaza_phase_2,tmtplaza,2,internal,internal mall connection
 trend_plaza,tmtplaza,2,bridge,bridge
 tmtplaza,waldorf_avenue,3,bridge,bridge over Tuen Hing Road

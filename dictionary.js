@@ -516,6 +516,7 @@
 					"century_gateway": "🏘️ Century Gateway / 瓏門",
 					"trend_plaza": "🛍️ Trend Plaza / 時代廣場",
 					"k_point": "🛍️ K-Point / 錦薈坊",
+					"kam_wah_block_b": "🏘️ Kam Wah Garden Block B / 錦華花園B座",
 					"tmtplaza_phase_2": "🛍️ tmtplaza Phase 2 / 屯門市廣場2期",
 					"tmtplaza": "🛍️ tmtplaza / 屯門市廣場",
 					"waldorf_avenue": "🛍️ Waldorf Avenue / 華都大道",
