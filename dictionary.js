@@ -518,6 +518,7 @@
 					"blossom_garden": "🏘️ Blossom Garden / 寶怡花園",
 					"goodrich_garden": "🏘️ Goodrich Garden / 盈豐園",
 					"po_tin_estate": "🏘️ Po Tin Estate / 寶田邨",
+					"po_tin_shopping_centre": "🛍️ Po Tin Shopping Centre / 寶田商場",
 					"po_tin_bus_terminus": "🚌 Po Tin Bus Terminus / 寶田巴士總站",
 					"leung_king_lrt": "🚆 Leung King (Light Rail) / 良景 (輕鐵)",
 					"leung_king_plaza": "🛍️ Leung King Plaza / 良景廣場",

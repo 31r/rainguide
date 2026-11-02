@@ -1388,10 +1388,12 @@ siu_hong_concourse,siu_hong_lrt,2,escalator,Exits B or C
 
 // --- KIN SANG TO PO TIN CORRIDOR ---
 kin_sang_lrt_eb,kin_sang_shopping_centre,2,covered_walkway,covered walkway
-kin_sang_shopping_centre,venice_gardens,2,bridge,bridge
-venice_gardens,blossom_garden,2,bridge,bridge
-blossom_garden,goodrich_garden,2,bridge,bridge
-goodrich_garden,po_tin_estate,3,bridge,bridge
+kin_sang_shopping_centre,venice_gardens,4,bridge,bridge
+venice_gardens,blossom_garden,4,bridge,bridge
+blossom_garden,goodrich_garden,4,bridge,bridge
+goodrich_garden,po_tin_shopping_centre,5,bridge,bridge
+po_tin_shopping_centre,po_tin_estate,2,bridge,bridge
+po_tin_shopping_centre,po_tin_bus_terminus,2,escalator,escalator
 po_tin_estate,po_tin_bus_terminus,2,covered_walkway,covered walkway
 
 // --- LEUNG KING HUB ---
