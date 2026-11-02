@@ -509,7 +509,31 @@
 			},
 			"Tuen Mun District (屯門區)": {
 				"Tuen Mun Town Centre (屯門市中心)": {
-					"tuen_mun_lrt": "🚆 Tuen Mun (Light Rail) / 屯門 (輕鐵)"
+					"tuen_mun_lrt": "🚆 Tuen Mun (Light Rail) / 屯門 (輕鐵)",
+					"tuen_mun_station_pti": "🚌 Tuen Mun Station PTI / 屯門站公共運輸交匯處",
+					"tuen_mun_central_pti": "🚌 Tuen Mun Central PTI / 屯門市中心公共運輸交匯處",
+					"v_city": "🛍️ V City",
+					"century_gateway": "🏘️ Century Gateway / 瓏門",
+					"trend_plaza": "🛍️ Trend Plaza / 時代廣場",
+					"k_point": "🛍️ K-Point / 錦薈坊",
+					"tmtplaza_phase_2": "🛍️ tmtplaza Phase 2 / 屯門市廣場2期",
+					"tmtplaza": "🛍️ tmtplaza / 屯門市廣場",
+					"waldorf_avenue": "🛍️ Waldorf Avenue / 華都大道",
+					"waldorf_garden": "🏘️ Waldorf Garden / 華都花園",
+					"new_town_commercial_arcade": "🛍️ New Town Commercial Arcade / 新都商場",
+					"new_town_mansion": "🏘️ New Town Mansion / 新都大廈",
+					"tuen_mun_town_hall": "🏛️ Tuen Mun Town Hall / 屯門大會堂",
+					"tuen_mun_public_library": "📚 Tuen Mun Public Library / 屯門公共圖書館",
+					"tuen_mun_government_offices": "🏛️ Tuen Mun Government Offices / 屯門政府合署",
+					"tuen_mun_parklane_square": "🏢 Tuen Mun Parklane Square / 屯門柏麗廣場"
+				},
+				"On Ting & Sam Shing (安定及三聖)": {
+					"on_ting_lrt": "🚆 On Ting (Light Rail) / 安定 (輕鐵)",
+					"hands_mall": "🛍️ H.A.N.D.S / 愛定商場",
+					"on_ting_estate": "🏘️ On Ting Estate / 安定邨",
+					"yau_oi_estate": "🏘️ Yau Oi Estate / 友愛邨",
+					"sam_shing_lrt": "🚆 Sam Shing (Light Rail) / 三聖 (輕鐵)",
+					"hanford_garden": "🏘️ Hanford Garden / 恆福花園"
 				},
 				"Tuen Mun Northwest (屯門西北)": {
 					"kin_sang_lrt_eb": "🚆 Kin Sang (Eastbound Light Rail) / 建生 (輕鐵東行)",

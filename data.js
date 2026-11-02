@@ -1427,4 +1427,53 @@ tuen_mun_lrt,leung_king_lrt,22,paid_lrt,Light Rail 505 towards Siu Hong,uni
 tuen_mun_lrt,leung_king_lrt,22,paid_lrt,Light Rail 507 towards Tin King,uni
 leung_king_lrt,tuen_mun_lrt,22,paid_lrt,Light Rail 505 towards Sam Shing,uni
 leung_king_lrt,tuen_mun_lrt,22,paid_lrt,Light Rail 507 towards Tuen Mun Ferry Pier,uni
+
+// --- TUEN MUN MTR & V CITY HUB ---
+tuen_mun_concourse,v_city,2,internal,Exits C3/D/E
+tuen_mun_concourse,tuen_mun_station_pti,2,internal,Exit C2
+v_city,century_gateway,2,lift,resident lift lobby
+
+// --- TUEN MUN TOWN CENTRE SUPER-PODIUM ---
+v_city,trend_plaza,4,bridge,bridge over Tuen Mun Heung Sze Wui Road
+trend_plaza,k_point,2,bridge,bridge
+k_point,tmtplaza_phase_2,2,bridge,bridge
+tmtplaza_phase_2,tmtplaza,2,internal,internal mall connection
+trend_plaza,tmtplaza,2,bridge,bridge
+tmtplaza,waldorf_avenue,3,bridge,bridge over Tuen Hing Road
+waldorf_avenue,waldorf_garden,2,lift,resident lift lobby
+waldorf_avenue,new_town_commercial_arcade,2,bridge,bridge
+new_town_commercial_arcade,new_town_mansion,2,lift,resident lift lobby
+
+// --- TUEN MUN CULTURAL SQUARE ---
+trend_plaza,tuen_mun_town_hall,2,covered_walkway,Tuen Mun Cultural Square podium
+tuen_mun_town_hall,tuen_mun_public_library,2,covered_walkway,Tuen Mun Cultural Square podium
+tuen_mun_public_library,trend_plaza,2,covered_walkway,Tuen Mun Cultural Square podium
+tuen_mun_public_library,tuen_mun_government_offices,2,covered_walkway,covered walkway
+tuen_mun_government_offices,tuen_mun_parklane_square,2,covered_walkway,covered walkway
+
+// --- TUEN MUN CENTRAL PTI ---
+tuen_mun_central_pti,tuen_mun_town_hall,2,staircase,covered staircase to Cultural Square podium
+tuen_mun_central_pti,tuen_mun_public_library,2,staircase,covered staircase to Cultural Square podium
+
+// --- ON TING (H.A.N.D.S) HUB ---
+on_ting_lrt,hands_mall,2,escalator,escalators to mall
+hands_mall,on_ting_estate,2,covered_walkway,covered walkway
+hands_mall,yau_oi_estate,2,covered_walkway,covered walkway
+
+// --- SAM SHING HUB ---
+sam_shing_lrt,hanford_garden,2,escalator,escalator and resident lift lobby
+
+// --- TUEN MUN SOUTH LRT CONNECTIONS ---
+tuen_mun_lrt,on_ting_lrt,6,paid_lrt,Light Rail 505 towards Sam Shing,uni
+tuen_mun_lrt,on_ting_lrt,6,paid_lrt,Light Rail 507 towards Tuen Mun Ferry Pier,uni
+on_ting_lrt,tuen_mun_lrt,6,paid_lrt,Light Rail 505 towards Siu Hong,uni
+on_ting_lrt,tuen_mun_lrt,6,paid_lrt,Light Rail 507 towards Tin King,uni
+on_ting_lrt,tuen_mun_lrt,6,paid_lrt,Light Rail 751 towards Tin Yat,uni
+on_ting_lrt,sam_shing_lrt,6,paid_lrt,Light Rail 505 towards Sam Shing,uni
+sam_shing_lrt,on_ting_lrt,6,paid_lrt,Light Rail 505 towards Siu Hong,uni
+
+// --- TOWN CENTRE BUS CONNECTIONS ---
+tuen_mun_station_pti,tuen_mun_central_pti,10,paid_bus,KMB 60M towards Tsuen Wan,uni
+tuen_mun_central_pti,tsuen_wan_station_pti,60,paid_bus,KMB 60M towards Tsuen Wan,uni
+tsuen_wan_station_pti,tuen_mun_station_pti,65,paid_bus,KMB 60M towards Tuen Mun,uni
 `;
