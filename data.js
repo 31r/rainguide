@@ -1071,6 +1071,7 @@ the_wai,festival_city,4,bridge,bridge
 sha_tin_platform,sha_tin_concourse,2,fare_gate,fare gates
 sha_tin_concourse,citylink_mall,2,internal,Exit A2
 sha_tin_concourse,new_town_plaza1,2,internal,Exit A3
+sha_tin_concourse,sha_tin_station_pti,2,covered_walkway,Exit B
 citylink_mall,new_town_plaza1,2,internal,internal mall connection
 new_town_plaza1,sha_tin_central_pti,2,escalator,Escalator to PTI
 new_town_plaza1,new_town_plaza3,3,bridge,bridge
@@ -1353,6 +1354,8 @@ yoho_mall_i,yoho_mall_pti,2,escalator,escalator
 yoho_mall_pti,park_yoho,20,paid_bus,KMB 68/68F,uni
 park_yoho,yoho_mall_pti,20,paid_bus,KMB 68,uni
 yoho_mall_pti,huanggang_port,43,paid_bus,KMB B11,uni
+yoho_mall_pti,tsuen_wan_station_pti,40,paid_bus,KMB 68M towards Tsuen Wan,uni
+yoho_mall_pti,sha_tin_central_pti,60,paid_bus,KMB 269D towards Lek Yuen,uni
 
 // --- LONG PING HUB ---
 long_ping_concourse,the_spectra,2,bridge,Exit F
@@ -1499,4 +1502,7 @@ sam_shing_lrt,on_ting_lrt,6,paid_lrt,Light Rail 505 towards Siu Hong,uni
 tuen_mun_station_pti,tuen_mun_central_pti,10,paid_bus,KMB 60M towards Tsuen Wan,uni
 tuen_mun_central_pti,tsuen_wan_station_pti,60,paid_bus,KMB 60M towards Tsuen Wan,uni
 tsuen_wan_station_pti,tuen_mun_station_pti,65,paid_bus,KMB 60M towards Tuen Mun,uni
+tuen_mun_station_pti,tuen_mun_central_pti,10,paid_bus,KMB 263 towards Sha Tin,uni
+tuen_mun_central_pti,sha_tin_station_pti,65,paid_bus,KMB 263 towards Sha Tin,uni
+sha_tin_station_pti,tuen_mun_station_pti,75,paid_bus,KMB 263 towards Tuen Mun,uni
 `;
