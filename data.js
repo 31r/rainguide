@@ -704,10 +704,10 @@ causeway_bay_concourse_d_f,hysan_place,2,internal,Exit F2 to Hysan Place
 causeway_bay_concourse_d_f,the_goldmark,2,internal,Exit F1 to The Goldmark
 causeway_bay_concourse_d_f,sogo_cwb,2,internal,Exits D3 or D4 to SOGO Basement
 causeway_bay_concourse_d_f,macau_yat_yuen_centre,2,staircase,Exit D2
-hysan_place,yun_ping_road_walkway,2,covered_walkway,Yun Ping Road covered walkway
-fortune_centre,yun_ping_road_walkway,1,covered_walkway,Yun Ping Road covered walkway
-henry_house,yun_ping_road_walkway,1,covered_walkway,Yun Ping Road covered walkway
-lee_garden_two,yun_ping_road_walkway,2,covered_walkway,Yun Ping Road covered walkway
+hysan_place,yun_ping_road_spine,2,covered_walkway,Yun Ping Road covered walkway
+fortune_centre,yun_ping_road_spine,1,covered_walkway,Yun Ping Road covered walkway
+henry_house,yun_ping_road_spine,1,covered_walkway,Yun Ping Road covered walkway
+lee_garden_two,yun_ping_road_spine,2,covered_walkway,Yun Ping Road covered walkway
 lee_garden_one,lee_garden_two,2,bridge,bridge
 lee_garden_two,lee_garden_five,2,bridge,bridge
 lee_garden_three,lee_garden_five,2,bridge,bridge
