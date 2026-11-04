@@ -540,6 +540,10 @@ rumsey_carpark,west_spine_west,2,bridge,bridge along Connaught Road Central
 harbour_bldg,west_spine_central,2,bridge,bridge along Connaught Road Central
 two_chinachem,west_spine_east,2,bridge,bridge along Connaught Road Central
 one_ifc,west_spine_east,6,bridge,bridge along Connaught Road Central
+one_ifc,hong_kong_station_pti,10,bridge,bridge towards Four Seasons and escalator,uni
+west_spine_east,hong_kong_station_pti,10,escalator,bridge towards Four Seasons and escalator,uni
+hong_kong_station_pti,one_ifc,10,escalator,escalator and bridge,uni
+hong_kong_station_pti,west_spine_east,10,escalator,escalator and bridge,uni
 west_spine_west,west_spine_central,6,bridge,bridge along Connaught Road Central
 west_spine_central,west_spine_east,4,bridge,bridge along Connaught Road Central
 one_ifc,ifc_mall,4,internal,Internal IFC Connection
@@ -653,6 +657,10 @@ pacific_place_l2,pacific_place_apts,2,escalator,Entrance at 4/F
 pacific_place_l2,united_centre,6,bridge,bridge over Queensway
 pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
+
+// --- THE PEAK ---
+hong_kong_station_pti,peak_galleria,60,paid_bus,Green Minibus 1
+central_bus_terminus,peak_galleria,73,paid_bus,Citybus 15 towards The Peak,uni
 
 // --- CENTRAL TO HONG KONG PAID TUNNEL ---
 central_platform_isl,hong_kong_platform,8,paid_tunnel,paid tunnel with moving walkways
