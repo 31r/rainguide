@@ -872,6 +872,7 @@ cheung_on_bus_terminus,tsuen_wan_station_pti,25,paid_bus,KMB 41M
 cheung_on_bus_terminus,discovery_park_pti,30,paid_bus,KMB 42M/243M
 cheung_on_bus_terminus,tsuen_wan_west_station_pti,25,paid_bus,KMB 43B
 cheung_on_bus_terminus,sha_tin_central_pti,65,paid_bus,KMB 49X
+tsing_yi_pti,sha_tin_central_pti,65,paid_bus,KMB 249X,uni
 cheung_fat_estate,cheung_fat_plaza,2,covered_walkway,covered walkway
 cheung_fat_plaza,cheung_on_bus_terminus,2,covered_walkway,covered walkway
 cheung_fat_estate,ching_tai_court,4,covered_walkway,covered walkway
