@@ -1354,6 +1354,8 @@ yoho_mall_i,yoho_mall_pti,2,escalator,escalator
 yoho_mall_pti,park_yoho,20,paid_bus,KMB 68/68F,uni
 park_yoho,yoho_mall_pti,20,paid_bus,KMB 68,uni
 yoho_mall_pti,huanggang_port,43,paid_bus,KMB B11,uni
+yoho_mall_pti,heung_yuen_wai_port,50,paid_bus,KMB B9 towards Heung Yuen Wai,uni
+heung_yuen_wai_port,yoho_mall_pti,65,paid_bus,KMB B9 towards Tuen Mun,uni
 yoho_mall_pti,tsuen_wan_station_pti,40,paid_bus,KMB 68M towards Tsuen Wan,uni
 yoho_mall_pti,sha_tin_central_pti,60,paid_bus,KMB 269D towards Lek Yuen,uni
 
@@ -1505,4 +1507,5 @@ tsuen_wan_station_pti,tuen_mun_station_pti,65,paid_bus,KMB 60M towards Tuen Mun,
 tuen_mun_station_pti,tuen_mun_central_pti,10,paid_bus,KMB 263 towards Sha Tin,uni
 tuen_mun_central_pti,sha_tin_station_pti,65,paid_bus,KMB 263 towards Sha Tin,uni
 sha_tin_station_pti,tuen_mun_station_pti,75,paid_bus,KMB 263 towards Tuen Mun,uni
+tuen_mun_station_pti,heung_yuen_wai_port,90,paid_bus,KMB B9
 `;
