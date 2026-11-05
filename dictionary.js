@@ -53,7 +53,6 @@
 					"landmark_gloucester": "🏢 Gloucester Tower / 告羅士打大廈",
 					"hang_seng_hq": "🏦 Hang Seng Bank Headquarters Building / 恒生銀行總行大廈",
 					"hong_kong_maritime_museum": "🏛️ Hong Kong Maritime Museum / 香港海事博物館",
-					"hong_kong_station_pti": "🚌 Hong Kong Station PTI / 香港站公共運輸交匯處",
 					"hsbc_bldg": "🏦 HSBC Main Building / 滙豐總行大廈",
 					"ifc_mall": "🛍️ IFC Mall / 國際金融中心商場",
 					"one_ifc": "🏢 One IFC / 國際金融中心一期",
