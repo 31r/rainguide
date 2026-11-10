@@ -125,6 +125,7 @@
 					"cwb_plaza": "🛍️ Causeway Bay Plaza 1 / 銅鑼灣廣場一期",
 					"east_point_centre": "🏢 East Point Centre / 東角中心",
 					"fortune_centre": "🏢 Fortune Centre / 恩平中心",
+					"hennessy_apartments": "🛍️ Hennessy Apartments / 軒尼詩大廈"
 					"henry_house": "🏢 Henry House / 亨利中心",
 					"hysan_place": "🛍️ Hysan Place / 希慎廣場",
 					"lee_garden_one": "🛍️ Lee Garden One / 利園一期",
