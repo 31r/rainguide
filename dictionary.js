@@ -89,7 +89,7 @@
 					"pacific_place_l2": "🛍️ Pacific Place (L2 - Bridges) / 太古廣場 (二樓天橋)",
 					"one_pacific_place": "🛍️ One Pacific Place / 太古廣場一座",
 					"two_pacific_place": "🛍️ Two Pacific Place / 太古廣場二座",
-					"three_pacific_place": "🛍️ Three Pacific Place / 太古廣場三座",
+					"three_pacific_place": "🏢 Three Pacific Place / 太古廣場三座",
 					"queensway_gov_offices": "🏛️ Queensway Government Offices / 金鐘道政府合署",
 					"queensway_plaza": "🛍️ Queensway Plaza / 金鐘廊",
 					"shangrila_hk": "🏨 Island Shangri-La Hotel / 港島香格里拉大酒店",
@@ -107,6 +107,7 @@
 					"central_plaza": "🏢 Central Plaza / 中環廣場",
 					"china_overseas_bldg": "🏢 China Overseas Building / 中國海外大廈",
 					"cr_bldg": "🏢 China Resources Building / 華潤大廈",
+					"five_pacific_place": "🏢 Five Pacific Place / 太古廣場五座",
 					"great_eagle_ctr": "🏢 Great Eagle Centre / 鷹君中心",
 					"harbour_ctr": "🏢 Harbour Centre / 海港中心",
 					"hrsc": "🏸 Harbour Road Sports Centre / 港灣道體育館",
@@ -114,6 +115,7 @@
 					"immigration_tower": "🏛️ Immigration Tower / 入境事務大樓",
 					"lee_tung_avenue": "🛍️ Lee Tung Avenue / 利東街",
 					"revenue_tower": "🏛️ Revenue Tower / 稅務大樓",
+					"six_pacific_place": "🏢 Six Pacific Place / 太古廣場六座",
 					"southorn_stadium": "🏸 Southorn Stadium / 修頓體育館",
 					"st_regis": "🏨 St. Regis Hong Kong / 香港瑞吉酒店",
 					"shk_ctr": "🏢 Sun Hung Kai Centre / 新鴻基中心",
@@ -130,6 +132,7 @@
 					"lee_garden_three": "🛍️ Lee Garden Three / 利園三期",
 					"lee_garden_five": "🛍️ Lee Garden Five / 利園五期",
 					"lee_garden_six": "🛍️ Lee Garden Six / 利園六期",
+					"lee_garden_eight": "🛍️ Lee Garden Eight / 利園八期",
 					"macau_yat_yuen_centre": "🛍️ Macau Yat Yuen Centre / 澳門逸園中心",
 					"sogo_cwb": "🛍️ SOGO (Causeway Bay) / 崇光百貨 (銅鑼灣)",
 					"the_goldmark": "🛍️ The Goldmark / 黃金廣場",
@@ -781,7 +784,9 @@
 				},
 				"Sha Tin Wai (沙田圍)": {
 					"jat_min_chuen": "🏘️ Jat Min Chuen / 乙明邨",
-					"sha_kok_estate": "🏘️ Sha Kok Estate / 沙角邨"
+					"sha_kok_estate": "🏘️ Sha Kok Estate / 沙角邨",
+					"shui_chuen_o_estate": "🏘️ Shui Chuen O Estate / 水泉澳邨",
+					"shui_chuen_o_pti": "🚌 Shui Chuen O PTI / 水泉澳公共運輸交匯處",
 				},
 				"Fo Tan (火炭)": {
 					"chun_yeung_estate": "🏘️ Chun Yeung Estate / 駿洋邨",

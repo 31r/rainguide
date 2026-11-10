@@ -643,7 +643,7 @@ pacific_place_lg1,pacific_place_l2,4,escalator,internal escalators
 pacific_place_lg1,admiralty_concourse,3,tunnel,Admiralty Exit F
 admiralty_car_park,admiralty_concourse,3,tunnel,Admiralty Exit F
 pacific_place_lg1,admiralty_car_park,2,tunnel,Admiralty Exit F tunnel
-pacific_place_lg1,three_pacific_place,4,tunnel,tunnel (suspended until summer 2027)
+pacific_place_lg1,three_pacific_place,4,tunnel,tunnel (⚠️ suspended until summer 2027)
 pacific_place_l2,one_pacific_place,2,escalator,internal escalators
 pacific_place_l2,two_pacific_place,2,escalator,internal escalators
 pacific_place_l2,conrad_hotel,2,escalator,Entrances at 3/F and 4/F
@@ -654,6 +654,8 @@ pacific_place_l2,pacific_place_apts,2,escalator,Entrance at 4/F
 pacific_place_l2,united_centre,6,bridge,bridge over Queensway
 pacific_place_l2,queensway_plaza,4,bridge,bridge over Queensway
 pacific_place_l2,admiralty_exit_e2,6,bridge,bridge connection to Admiralty Exit E2
+three_pacific_place,six_pacific_place,4,tunnel,tunnel (⚠️ under construction until summer 2028)
+six_pacific_place,five_pacific_place,2,internal,internal walkway
 
 // --- THE PEAK ---
 central_bus_terminus,peak_galleria,73,paid_bus,Citybus 15 towards The Peak,uni
@@ -716,6 +718,7 @@ lee_garden_one,lee_garden_two,2,bridge,bridge
 lee_garden_two,lee_garden_five,2,bridge,bridge
 lee_garden_three,lee_garden_five,2,bridge,bridge
 lee_garden_three,lee_garden_six,2,bridge,bridge
+lee_garden_six,lee_garden_eight,2,bridge,bridge (⚠️ under construction)
 macau_yat_yuen_centre,sogo_cwb,2,covered_walkway,covered walkway on Hennessy Road
 causeway_bay_concourse_d_f,east_point_centre,2,staircase,Exit D2
 sogo_cwb,east_point_centre,2,lift,office lift lobby
@@ -1094,6 +1097,8 @@ lek_yuen_estate,wo_che_estate,8,bridge,bridge
 wo_che_estate,fung_wo_estate,2,bridge,bridge
 sha_tin_central_pti,mei_tin_estate,20,paid_bus,KMB 283
 sha_tin_central_pti,chun_yeung_estate,20,paid_bus,KMB 285
+new_town_plaza1,shui_chuen_o_pti,20,paid_bus,KMB 288
+shui_chuen_o_pti,shui_chuen_o_estate,5,covered walkway
 
 // --- TAI PO MARKET HUB ---
 tai_po_market_platform,tai_po_market_concourse,2,fare_gate,fare gates
