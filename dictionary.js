@@ -761,6 +761,9 @@
 				"Che Kung Temple (車公廟)": {
 					"the_riverpark": "🏘️ The Riverpark / 溱岸8號"
 				},
+				"City One (第一城)": {
+					"prima_villa": "🏘️ Prima Villa / 欣廷軒"
+				},
 				"Sha Tin Central (沙田市中心)": {
 					"citylink_mall": "🛍️ Citylink Mall / 連城廣場",
 					"fung_wo_estate": "🏘️ Fung Wo Estate / 豐和邨",

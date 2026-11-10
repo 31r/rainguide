@@ -1073,7 +1073,7 @@ sha_tin_concourse,citylink_mall,2,internal,Exit A2
 sha_tin_concourse,new_town_plaza1,2,internal,Exit A3
 sha_tin_concourse,sha_tin_station_pti,2,covered_walkway,Exit B
 citylink_mall,new_town_plaza1,2,internal,internal mall connection
-new_town_plaza1,sha_tin_central_pti,2,escalator,Escalator to PTI
+new_town_plaza1,sha_tin_central_pti,2,escalator,escalator to PTI
 new_town_plaza1,new_town_plaza3,3,bridge,bridge
 new_town_plaza1,wai_wah_centre,2,internal,internal mall connection
 wai_wah_centre,hilton_plaza,2,bridge,bridge
@@ -1316,10 +1316,11 @@ mostown_phase_3,sunshine_city_phase_3,2,lift,resident lift lobby
 tai_shui_hang_concourse,kam_tai_shopping_centre,4,covered_walkway,Exit A
 kam_tai_shopping_centre,kam_tai_court,2,covered_walkway,covered walkway
 
-// --- CHE KUNG TEMPLE AND SHA TIN WAI ---
+// --- SHING MUN RIVER EAST ---
 che_kung_temple_concourse,the_riverpark,2,covered_walkway,Exit E (residents only) / Exit C (visitors)
 sha_tin_wai_concourse,sha_kok_estate,5,bridge,Exit A to lift to footbridge
 sha_kok_estate,jat_min_chuen,5,bridge,bridge
+city_one_concourse,prima_villa,3,bridge,Exit B footbridge and resident lift lobby
 
 // --- KAI TAK HUB ---
 kai_tak_concourse,ching_long_shopping_centre_zone_a,6,covered_walkway,Exit A via Station Square covered walkway
