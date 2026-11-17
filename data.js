@@ -87,6 +87,7 @@ prudential_centre,prudential_hotel,2,lift,hotel lobby
 mong_kok_east_platform,mong_kok_east_concourse,2,fare_gate,fare gates
 mong_kok_east_concourse,moko,2,internal,Exit D
 mong_kok_east_pti,moko,2,covered_walkway,covered walkway
+moko,royal_plaza_hotel,2,internal,hotel lobby
 mong_kok_concourse,moko,16,bridge,Exit B3 and Footbridge
 mong_kok_concourse,top_mall,2,internal,Exit B4
 mong_kok_concourse,langham_place,4,internal,Exit C3
@@ -136,7 +137,6 @@ new_kwai_fong_gardens,kwai_fong_multi_storey_car_park,2,bridge,bridge over Kwai 
 kwai_fong_station_bus_terminus,lei_muk_shue_estate,22,paid_bus,KMB 36M
 kwai_fong_station_bus_terminus,shek_lei_tai_loong_street_bus_terminus,26,paid_bus,KMB 31M,uni
 kwai_fong_station_bus_terminus,tin_shui_wai_town_centre_pti,110,paid_bus,KMB 69M
-kwai_fong_station_bus_terminus,sha_tin_central_pti,45,paid_bus,KMB 47X,uni
 
 // --- KWAI HING HUB ---
 kwai_hing_concourse,kwai_hing_station_bus_terminus,2,internal,Exit B
@@ -171,18 +171,19 @@ kwai_hing_station_bus_terminus,kwai_shing_east_bus_terminus,15,paid_bus,KMB 37M,
 kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 37M,uni
 kwai_shing_central_bus_terminus,kwai_hing_station_bus_terminus,17,paid_bus,KMB 37M,uni
 kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 38,uni
-kwai_shing_central_bus_terminus,lam_tin_station_bus_terminus,95,paid_bus,KMB 38,uni
-lam_tin_station_bus_terminus,ping_tin_bus_terminus,20,paid_bus,KMB 38,uni
+kwai_shing_central_bus_terminus,lam_tin_pti,95,paid_bus,KMB 38,uni
+lam_tin_pti,ping_tin_bus_terminus,20,paid_bus,KMB 38,uni
 ping_tin_bus_terminus,kwai_shing_east_bus_terminus,118,paid_bus,KMB 38,uni
 kwai_shing_east_bus_terminus,kwai_shing_east_shopping_centre,2,covered_walkway,covered walkway
 kwai_shing_east_shopping_centre,kwai_shing_east_estate,2,lift,lifts and walkways
 kwai_shing_east_bus_terminus,kwai_luen_estate,6,covered_walkway,covered walkway
 kwai_shing_central_bus_terminus,kwai_shing_west_estate,2,covered_walkway,covered walkway
-kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X,uni
-kwai_shing_central_bus_terminus,kwai_fong_station_bus_terminus,16,paid_bus,KMB 47X,uni
-sha_tin_central_pti,kwai_shing_east_bus_terminus,64,paid_bus,KMB 47X,uni
-kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X,uni
-kwai_shing_central_bus_terminus,kwai_shing_east_bus_terminus,10,paid_bus,KMB 47X,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X to Chun Shek,uni
+kwai_shing_central_bus_terminus,kwai_fong_station_bus_terminus,16,paid_bus,KMB 47X to Chun Shek,uni
+kwai_fong_station_bus_terminus,sha_tin_central_pti,42,paid_bus,KMB 47X to Chun Shek,uni
+sha_tin_central_pti,kwai_shing_east_bus_terminus,64,paid_bus,KMB 47X to Kwai Shing,uni
+kwai_shing_east_bus_terminus,kwai_shing_central_bus_terminus,4,paid_bus,KMB 47X to Kwai Shing,uni
+kwai_shing_central_bus_terminus,kwai_shing_east_bus_terminus,10,paid_bus,KMB 47X to Kwai Shing,uni
 
 // --- SHEK LEI HUB ---
 shek_lei_tai_loong_street_bus_terminus,olympic_pti,60,paid_bus,KMB 31B/32,uni
@@ -330,7 +331,7 @@ prince_edward_platform_ktl,prince_edward_concourse,2,fare_gate,fare gates
 skm_platform,skm_concourse,2,fare_gate,fare gates
 lok_fu_platform,lok_fu_concourse,2,fare_gate,fare gates
 wong_tai_sin_platform,wong_tai_sin_concourse,2,fare_gate,fare gates
-diamond_hill_platform_ktl,diamond_hill_concourse_ktl,2,fare_gate,fare gates
+diamond_hill_platform_ktl,diamond_hill_concourse,2,fare_gate,fare gates
 choi_hung_platform,choi_hung_concourse,2,fare_gate,fare gates
 kowloon_bay_platform,kowloon_bay_concourse,2,fare_gate,fare gates
 ngau_tau_kok_platform,ngau_tau_kok_concourse,2,fare_gate,fare gates
@@ -348,8 +349,8 @@ ho_man_tin_concourse,onmantin,2,internal,Exit A4
 ho_man_tin_concourse,in_one,2,internal,Exit C
 
 // --- SHEK KIP MEI ---
-shek_kip_mei_concourse,shek_kip_mei_estate_phase_1,2,covered_walkway,Exit C
-shek_kip_mei_concourse,shek_kip_mei_estate_phases_256,2,covered_walkway,Exit A
+skm_concourse,shek_kip_mei_estate_phase_1,2,covered_walkway,Exit C
+skm_concourse,shek_kip_mei_estate_phases_256,2,covered_walkway,Exit A
 
 // --- KOWLOON TONG HUB ---
 kowloon_tong_platform_ktl,kowloon_tong_platform_erl,9,paid_transfer,pedestrian subway (paid area)
@@ -468,6 +469,7 @@ kai_tin_shopping_centre,on_tin_estate,2,lift,resident lift lobby
 kai_tin_shopping_centre,ping_tin_estate,2,covered_walkway,covered walkway
 ping_tin_estate,ping_tin_shopping_centre,2,covered_walkway,covered walkway
 ping_tin_shopping_centre,hong_nga_court,2,bridge,bridge
+ping_tin_bus_terminus,kai_tin_shopping_centre,2,covered_walkway,covered walkway
 hong_nga_court,tak_tin_estate,2,covered_walkway,covered walkway
 hong_nga_court,kwong_tin_estate,2,covered_walkway,covered walkway
 kwong_tin_estate,hong_pak_court,2,bridge,bridge or underpass
@@ -690,6 +692,7 @@ hkcec,great_eagle_ctr,4,bridge,bridge over Fleming Road
 great_eagle_ctr,harbour_ctr,2,internal,Podium
 great_eagle_ctr,st_regis,4,bridge,bridge over Fleming Road
 harbour_ctr,wcn_junction,1,bridge,bridge
+shk_ctr,hrsc,2,bridge,bridge
 wcsp,wcn_junction,1,bridge,bridge
 causeway_ctr,wcn_junction,3,bridge,bridge
 causeway_ctr,shk_ctr,4,escalator,covered walkway across Harbour Drive
@@ -816,6 +819,7 @@ elements_mall,austin_concourse,15,bridge,Exit B5
 elements_mall,west_kowloon_station,15,bridge,Exit M
 elements_mall,icc,2,lift,office lift lobby
 elements_mall,ritz_carlton,2,lift,hotel lobby
+elements_mall,w_hotel,2,lift,hotel lobby
 elements_mall,the_arch,4,lift,resident lift lobby
 elements_mall,sorrento,4,lift,resident lift lobby
 elements_mall,the_waterfront,4,lift,resident lift lobby
@@ -936,6 +940,8 @@ lohas_park_platform,lohas_park_concourse,2,fare_gate,fare gates
 // --- TSEUNG KWAN O HUB ---
 tseung_kwan_o_concourse,popcorn,2,internal,Exit C
 popcorn,the_wings,2,lift,resident lift lobby
+popcorn,vega_suites,2,internal,resident lift lobby
+popcorn,royal_garden_kowloon_east,2,internal,hotel lobby
 popcorn,popwalk,3,bridge,bridge over Po Yap Road
 popwalk,the_wings_ii,2,lift,resident lift lobby
 popcorn,popwalk_2,3,bridge,bridge over Po Yap Road
@@ -1099,7 +1105,7 @@ wo_che_estate,fung_wo_estate,2,bridge,bridge
 sha_tin_central_pti,mei_tin_estate,20,paid_bus,KMB 283
 sha_tin_central_pti,chun_yeung_estate,20,paid_bus,KMB 285
 new_town_plaza1,shui_chuen_o_pti,20,paid_bus,KMB 288
-shui_chuen_o_pti,shui_chuen_o_estate,5,covered walkway
+shui_chuen_o_pti,shui_chuen_o_estate,5,covered_walkway,covered walkway
 
 // --- TAI PO MARKET HUB ---
 tai_po_market_platform,tai_po_market_concourse,2,fare_gate,fare gates
@@ -1329,7 +1335,6 @@ kai_tak_concourse,ching_long_shopping_centre_zone_b,6,covered_walkway,Exit A via
 ching_long_shopping_centre_zone_a,kai_ching_estate,2,covered_walkway,covered walkway
 ching_long_shopping_centre_zone_b,tak_long_estate,2,covered_walkway,covered walkway
 ching_long_shopping_centre_zone_a,ching_long_shopping_centre_zone_b,2,bridge,bridge
-kai_tak_concourse,ching_long_shopping_centre_zone_a,6,covered_walkway,Exit A via Station Square covered walkway
 kai_tak_concourse,cullinan_sky_mall,2,internal,Exit B2
 cullinan_sky_mall,cullinan_sky,2,lift,resident lift lobby
 cullinan_sky_mall,airside,2,internal,internal walkway
@@ -1442,7 +1447,7 @@ kwai_fong_station_bus_terminus,tmtplaza,55,paid_bus,KMB 58M towards Leung King,u
 tmtplaza,leung_king_estate_bus_terminus,25,paid_bus,KMB 58M towards Leung King,uni
 leung_king_estate_bus_terminus,kwai_fong_station_bus_terminus,80,paid_bus,KMB 58M towards Kwai Fong,uni
 po_tin_bus_terminus,kwai_fong_station_bus_terminus,105,paid_bus,KMB 67M
-po_tin_bus_terminus,lam_tin_station_bus_terminus,120,paid_bus,KMB 258D
+po_tin_bus_terminus,lam_tin_pti,120,paid_bus,KMB 258D
 leung_king_estate_bus_terminus,mong_kok_east_pti,100,paid_bus,KMB 58X
 
 // --- TUEN MUN LRT HUB ---
