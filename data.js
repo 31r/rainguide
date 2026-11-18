@@ -1481,10 +1481,7 @@ tuen_mun_cultural_square,tuen_mun_public_library,2,covered_walkway,Tuen Mun Cult
 tuen_mun_cultural_square,town_centre_lrt,2,bridge,staircase and bridge (take the bridge closer to Trend Plaza)
 tuen_mun_public_library,tuen_mun_government_offices,2,covered_walkway,covered walkway
 tuen_mun_government_offices,tuen_mun_parklane_square,2,covered_walkway,covered walkway
-
-// --- TUEN MUN CENTRAL PTI ---
-tuen_mun_central_pti,tuen_mun_town_hall,2,staircase,covered staircase to Cultural Square podium
-tuen_mun_central_pti,tuen_mun_public_library,2,staircase,covered staircase to Cultural Square podium
+tuen_mun_central_pti,tuen_mun_cultural_square,2,staircase,covered staircase
 
 // --- ON TING (H.A.N.D.S) HUB ---
 on_ting_lrt,hands_mall,2,escalator,escalators to mall
